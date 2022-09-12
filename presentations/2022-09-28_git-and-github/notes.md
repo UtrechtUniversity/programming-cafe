@@ -15,14 +15,14 @@
 - Today we'll discuss Git & GitHub
 - Already introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)
 
-### Beginners: Introducing Git & GitHub
+### Beginners: Introducing Git & GitHub Neha
 
 - Start with a problem statement/case! -> version control & collaboration, reproducibility as well...
 - What is Git? Explain the software. 
 - What is GitHub (& GitLab and other services)?
 - Benefits of using Git & GitHub. -> btw, you can already start with the web browser!
 
-### Beginners: Getting Started (find a different section title)
+### Beginners: Getting Started (find a different section title) Jelle
 
 - What are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line
 - start the basic exercise here?
@@ -32,7 +32,7 @@
 
 - local vs. online work
 
-### Advanced: Basic Git/GitHub workflow
+### Advanced: Basic Git/GitHub workflow Jelle
 
 - add
 - commit
@@ -47,4 +47,4 @@
 - collaborating on github 
 - sharing openly on github -> licenses!
 - publishing code via Zenodo for a DOI / CITATION.cff files 
-- introduce Utrecht University GitHub
+- introduce Utrecht University GitHub Jelle
