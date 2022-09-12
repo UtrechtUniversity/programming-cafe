@@ -1,0 +1,48 @@
+---
+title: "Getting Started with Git & GitHub"
+author: "Jelle Treep & Neha Moopen <br> Research Data Management Support"
+format:
+  revealjs:
+    theme: default
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    multiplex: true
+---
+
+# Getting Started With Git & GitHub {background-color="#FFCD00"}
+
+<br>
+**Jelle Treep & Neha Moopen**
+<br>
+Research Data Management Support
+
+# First-level heading
+
+This is a sentence. FYI the first title slide is based on the YAML and the second is within the Markdown content. You can remove the YAML details of title and author to just have the main title slide.
+
+---
+
+## Second-level heading
+
+This is a sentence.
+
+---
+
+<center>
+
+**<u>THIS IS A TITLE</u>** <br>
+
+<br>
+
+This is some centered text.
+
+</center>
+
+---
+
+**<u>THIS IS A TITLE</u>** <br>
+
+<br>
+
+This is some uncentered text.
