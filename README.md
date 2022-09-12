@@ -15,4 +15,4 @@ University Library (Utrecht Science Park), Living Lab 1.02
 
 ## Presentations
 
-1. [Getting Started With Git & GitHub](https://utrechtuniversity.github.io/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
+1. [Getting Started With Git & GitHub](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
