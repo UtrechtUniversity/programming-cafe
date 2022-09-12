@@ -4,7 +4,8 @@ The Programming Cafe is a community event organized every last wednesday of the 
 
 This repository is used for creating and storing presentations, exercises and other materials related to the Programming Cafe sessions.
 
-## Next meeting:
+## Next Programming Cafe:
+
 28 September 2022 from 15:00 to 17:00
 University Library (Utrecht Science Park), Living Lab 1.02
 
