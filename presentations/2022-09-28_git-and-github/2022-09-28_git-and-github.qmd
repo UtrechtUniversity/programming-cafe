@@ -1,48 +1,148 @@
 ---
-title: "Getting Started with Git & GitHub"
-author: "Jelle Treep & Neha Moopen <br> Research Data Management Support"
 format:
   revealjs:
-    theme: default
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
     controls: true
     navigation-mode: linear
     slide-number: true
     multiplex: true
 ---
 
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Plan for today
+
+::: {style="text-align: left; margin-top: 2em"}
+
+|    |    |
+|------------------------------|-------------|
+| Intro programming cafe | 10 min |
+| Getting Started with Git and GitHub | 20 min |
+| Exercises or Work on your own code | 30 min |
+| Automating things with GitHub Actions | 20 min |
+| Exercises or Work on your own code | 30 min |
+| Wrap-up | 10 min |
+|    Drinks! |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Community event
+-    Themes
+-    Presentations
+-    Work on your own code
+-    Exercises
+-    Interaction
+:::
+
 # Getting Started With Git & GitHub {background-color="#FFCD00"}
 
-<br>
+
+
 **Jelle Treep & Neha Moopen**
-<br>
+
 Research Data Management Support
 
-# First-level heading
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
-This is a sentence. FYI the first title slide is based on the YAML and the second is within the Markdown content. You can remove the YAML details of title and author to just have the main title slide.
+## Why Git and GitHub?
 
----
+add problem (versioning? Open/fair science? Backups? portable project)
+model_v2_finalversion_new_last.R
 
-## Second-level heading
 
-This is a sentence.
+## What is Git? (1/2)
 
----
+::: {style="text-align: left; margin-top: 2em"}
 
-<center>
+-    Version control software
+-    Software development
+-    Increasingly popular for Research Projects (e.g. code, documents, presentations)
+:::
 
-**<u>THIS IS A TITLE</u>** <br>
 
-<br>
+## What is Git? (2/2)
 
-This is some centered text.
+::: {style="text-align: left; margin-top: 2em"}
 
-</center>
+Should we add some figs about concepts of git branching, git history, distributed working?
+:::
 
----
+## What is GitHub
 
-**<u>THIS IS A TITLE</u>** <br>
 
-<br>
+<ul>
+  <li>Online Hub/Repository for
+    <ul>
+      <li>storing</li>
+      <li>publishing</li>
+      <li>collaboration</li>
+      <li>and more</li>
+    </ul>
+  </li>
+  <li>Based on Git software</li>
+  <li>Alternatives
+    <ul>
+      <li>GitLab</li>
+      <li>Bitbucket</li>
+      <li>SourceForge</li>
+    </ul>    
+  </li>
+</ul>
 
-This is some uncentered text.
+
+## Benefits of using Git/GitHub in 
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Free
+-    Efficient
+-    Transparent
+-    Reliable
+-    Open source
+-    Collaboration
+-    Ease of sharing and reusing
+:::
+
+## A GitHub Repository
+
+::: {style="text-align: left; margin-top: 4em"}
+
+[GitHub Repository](https://github.com/UtrechtUniversity/programming-cafe){preview-link="true"}
+:::
+
+## How to get started 
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    GitHub Desktop
+-    Command line
+-    Rstudio integration
+-    Pycharm
+-    etc.
+-    etc.
+
+:::
+![](./images/GitHub-Desktop.png){.absolute .fragment top="50" right="-100"}
+![](./images/Rstudio.png){.absolute .fragment top="50" right="-100"}
+
+## Exercises
+
+::: {style="text-align: left; margin-top: 4em"}
+
+[https://skills.github.com/](https://skills.github.com/){preview-link="true"}
+:::
+
+
+## GitHub Actions
+
+etc
+
