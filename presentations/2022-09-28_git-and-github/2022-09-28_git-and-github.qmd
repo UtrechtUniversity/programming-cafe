@@ -146,3 +146,6 @@ Should we add some figs about concepts of git branching, git history, distribute
 
 etc
 
+# {data-background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB_payoff.png)
