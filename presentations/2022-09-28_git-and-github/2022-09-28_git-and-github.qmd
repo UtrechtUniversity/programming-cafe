@@ -99,7 +99,7 @@ Should we add some figs about concepts of git branching, git history, distribute
 </ul>
 
 
-## Benefits of using Git/GitHub in 
+## Benefits of using Git/GitHub in research projects
 
 ::: {style="text-align: left; margin-top: 2em"}
 
@@ -144,6 +144,81 @@ Should we add some figs about concepts of git branching, git history, distribute
 
 ## GitHub Actions
 
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Free service
+-    Perform tasks on the servers of GitHub
+-    Events/scheduled times
+
+:::
+
+## Usage
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Testing
+-    CI/CD
+-    Packaging
+-    Generating documentation
+-    Pages, parsing documents, documentation
+
+:::
+
+## Terminology{.smaller}
+
+::: {style="text-align: left; margin-top: 2em"}
+
+### Workflow
+A workflow is one (or a set of) **job(s)** that are defined in a script (YAML file) and triggered by **events**
+<br/>
+<br/>
+
+### Jobs
+A job is a set of steps in a workflow that execute on the same **runner** (or server). Each step is either a shell script that will be executed, or an **action** that will be run. Steps are executed in order and are dependent on each other.
+
+:::
+
+## Terminology{.smaller}
+
+::: {style="text-align: left; margin-top: 2em"}
+
+### Event
+An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow run on a schedule  
+<br/>
+<br/>
+
+### Runner
+A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.
+
+:::
+
+## Terminology{.smaller}
+
+<br/>
+
+### Action
+
+An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task. Use an action to help reduce the amount of repetitive code that you write in your workflow files.
+<br/>
+<br/>
+
+```
+name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v
+```
+
+
+## How does it work
 etc
 
 # {data-background-color="#FFCD00"}

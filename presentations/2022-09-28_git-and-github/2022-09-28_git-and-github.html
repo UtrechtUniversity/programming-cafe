@@ -445,8 +445,8 @@ SourceForge
 </li>
 </ul>
 </section>
-<section id="benefits-of-using-gitgithub-in" class="slide level2">
-<h2>Benefits of using Git/GitHub in</h2>
+<section id="benefits-of-using-gitgithub-in-research-projects" class="slide level2">
+<h2>Benefits of using Git/GitHub in research projects</h2>
 <div style="text-align: left; margin-top: 2em">
 <ul>
 <li>Free</li>
@@ -487,6 +487,65 @@ SourceForge
 </section>
 <section id="github-actions" class="slide level2">
 <h2>GitHub Actions</h2>
+<div style="text-align: left; margin-top: 2em">
+<ul>
+<li>Free service</li>
+<li>Perform tasks on the servers of GitHub</li>
+<li>Events/scheduled times</li>
+</ul>
+</div>
+</section>
+<section id="usage" class="slide level2">
+<h2>Usage</h2>
+<div style="text-align: left; margin-top: 2em">
+<ul>
+<li>Testing</li>
+<li>CI/CD</li>
+<li>Packaging</li>
+<li>Generating documentation</li>
+<li>Pages, parsing documents, documentation</li>
+</ul>
+</div>
+</section>
+<section id="terminology" class="slide level2 smaller">
+<h2>Terminology</h2>
+<div style="text-align: left; margin-top: 2em">
+<h3 id="workflow">Workflow</h3>
+<p>A workflow is one (or a set of) <strong>job(s)</strong> that are defined in a script (YAML file) and triggered by <strong>events</strong> <br> <br></p>
+<h3 id="jobs">Jobs</h3>
+<p>A job is a set of steps in a workflow that execute on the same <strong>runner</strong> (or server). Each step is either a shell script that will be executed, or an <strong>action</strong> that will be run. Steps are executed in order and are dependent on each other.</p>
+</div>
+</section>
+<section id="terminology-1" class="slide level2 smaller">
+<h2>Terminology</h2>
+<div style="text-align: left; margin-top: 2em">
+<h3 id="event">Event</h3>
+<p>An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow run on a schedule<br>
+<br> <br></p>
+<h3 id="runner">Runner</h3>
+<p>A runner is a server that runs your workflows when they’re triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.</p>
+</div>
+</section>
+<section id="terminology-2" class="slide level2 smaller">
+<h2>Terminology</h2>
+<p><br></p>
+<h3 id="action">Action</h3>
+<p>An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task. Use an action to help reduce the amount of repetitive code that you write in your workflow files. <br> <br></p>
+<pre><code>name: learn-github-actions
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install -g bats
+      - run: bats -v</code></pre>
+</section>
+<section id="how-does-it-work" class="slide level2">
+<h2>How does it work</h2>
 <p>etc</p>
 </section></section>
 <section id="section" class="title-slide slide level1 center" data-background-color="#FFCD00">
