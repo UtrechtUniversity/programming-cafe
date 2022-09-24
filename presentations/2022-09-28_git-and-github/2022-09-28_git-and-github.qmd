@@ -11,7 +11,6 @@ format:
 
 # Welcome to the Programming Cafe! {background-color="#FFCD00"}
 
-
 ![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
 ## Plan for today
@@ -141,18 +140,68 @@ Should we add some figs about concepts of git branching, git history, distribute
 [https://skills.github.com/](https://skills.github.com/){preview-link="true"}
 :::
 
+# GitHub @UtrechtUniversity {background-color="#FFCD00"}
 
-## GitHub Actions
+**https://github.com/UtrechtUniversity**
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+
+## Why use UU GitHub Organization?
+
+</br>
+**Benefits**
+
+-    Create Teams
+-    GitHub pages for private repositories
+-    Workflow options for private repositories
+-    Visibility
+
+
+## Preview
+[https://github.com/UtrechtUniversity](https://github.com/UtrechtUniversity){preview-link="true"}
+
+
+# Getting Started With GitHub Actions {background-color="#FFCD00"}
+
+**Jelle Treep & Neha Moopen**
+
+Research Data Management Support
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## What is GitHub Actions
 
 ::: {style="text-align: left; margin-top: 2em"}
 
--    Free service
+
+
+-    Free GitHub service
 -    Perform tasks on the servers of GitHub
 -    Events/scheduled times
 
 :::
 
-## Usage
+## Why using GitHub Actions?
+
+::: {style="text-align: left; margin-top: 2em"}
+
+<ul>
+  <li>Running test scripts</li>
+  <li>CI/CD</li>
+  <li>Packaging</li>
+  <li>Parsing/rendering
+    <ul>
+      <li>GitHub Pages</li>
+      <li>websites</li>
+      <li>documentation</li>
+    </ul>
+  </li>
+</ul>
+
+:::
+
+## Examples:
 
 ::: {style="text-align: left; margin-top: 2em"}
 
