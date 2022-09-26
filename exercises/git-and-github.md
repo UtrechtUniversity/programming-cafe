@@ -1,5 +1,5 @@
 # Exercises 
-The exercises below is a selection of suggested exercises from [https://skills.github.com/](https://skills.github.com/).
+The exercises below are a selection of exercises from [https://skills.github.com/](https://skills.github.com/).
 
 ## Getting started with GitHub (Beginner)
 - [Introduction to GitHub](https://github.com/skills/introduction-to-github)
