@@ -7,7 +7,7 @@
 <link href="2022-09-28_git-and-github_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="2022-09-28_git-and-github_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="2022-09-28_git-and-github_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.1.189">
+  <meta name="generator" content="quarto-1.0.36">
 
   <title>git-and-github</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,15 +18,10 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
   </style>
   <link rel="stylesheet" href="2022-09-28_git-and-github_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="2022-09-28_git-and-github_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -388,99 +383,125 @@
 </section>
 <section id="why-git-and-github" class="slide level2">
 <h2>Why Git and GitHub?</h2>
-<p>add problem (versioning? Open/fair science? Backups? portable project) model_v2_finalversion_new_last.R</p>
-</section>
-<section id="what-is-git-12" class="slide level2">
-<h2>What is Git? (1/2)</h2>
-<div style="text-align: left; margin-top: 2em">
-<ul>
-<li>Version control software</li>
-<li>Software development</li>
-<li>Increasingly popular for Research Projects (e.g.&nbsp;code, documents, presentations)</li>
-</ul>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/final-final-final.gif" height="500"></p>
+<p></p><figcaption>The final-final-final circle of hell.</figcaption><p></p>
+</figure>
+</div>
 </div>
 </section>
-<section id="what-is-git-22" class="slide level2">
-<h2>What is Git? (2/2)</h2>
-<div style="text-align: left; margin-top: 2em">
-<p>Should we add some figs about concepts of git branching, git history, distributed working?</p>
+<section id="why-git-and-github-1" class="slide level2">
+<h2>Why Git and GitHub?</h2>
+<p><br> Do you need to:</p>
+<div>
+<ul>
+<li class="fragment">backup your code?</li>
+<li class="fragment">better version control your code?</li>
+<li class="fragment">collaborate more easily?</li>
+<li class="fragment">share and publish your code?</li>
+<li class="fragment">work in line with open science and the FAIR principles?</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Then Git &amp; GitHub is something for you!</p>
+</div>
+</section>
+<section id="what-is-git" class="slide level2">
+<h2>What is Git?</h2>
+
+<img data-src="images/git-logo.jpg" class="r-stretch"><div style="text-align: left; margin-top: 2em">
+<ul>
+<li>VCS = Version Control Software.</li>
+<li>Free and open-source.</li>
+<li>Original Domain: Software Development.</li>
+<li>Nowadays Git is being ‘repurposed’ beyond software development.</li>
+</ul>
 </div>
 </section>
 <section id="what-is-github" class="slide level2">
-<h2>What is GitHub</h2>
+<h2>What is GitHub?</h2>
+
+<img data-src="images/github-logo.png" class="r-stretch"><div style="text-align: left; margin-top: 2em">
+<p>An online repository, based on Git software, for:</p>
 <ul>
-<li>
-Online Hub/Repository for
-<ul>
-<li>
-storing
-</li>
-<li>
-publishing
-</li>
-<li>
-collaboration
-</li>
-<li>
-and more
-</li>
+<li>storing with version control</li>
+<li>collaboration</li>
+<li>publishing</li>
+<li>project management</li>
+<li>and more!</li>
 </ul>
-</li>
-<li>
-Based on Git software
-</li>
-<li>
-Alternatives
-<ul>
-<li>
-GitLab
-</li>
-<li>
-Bitbucket
-</li>
-<li>
-SourceForge
-</li>
-</ul>
-</li>
-</ul>
+</div>
 </section>
-<section id="benefits-of-using-gitgithub-in-research-projects" class="slide level2">
-<h2>Benefits of using Git/GitHub in research projects</h2>
-<div style="text-align: left; margin-top: 2em">
+<section id="benefits-of-using-git-github-for-researchers" class="slide level2">
+<h2>Benefits of using Git &amp; GitHub for researchers</h2>
+
+<img data-src="images/git-and-github-combo.JPG" class="r-stretch"></section>
+<section id="benefits-of-using-git-github-for-researchers-14" class="slide level2">
+<h2>Benefits of using Git &amp; GitHub for researchers (1/4)</h2>
+<p>Rigid structure of git helps manage project evolution. Main/master copy on GitHub enables sane experimentation and collaboration.</p>
+
+<img data-src="images/git-structure.JPG" class="r-stretch"></section>
+<section id="benefits-of-using-git-github-for-researchers-24" class="slide level2">
+<h2>Benefits of using Git &amp; GitHub for researchers (2/4)</h2>
+<p>Manage your code (and other files) down the very last details. Experimentation is facilitated!</p>
+
+<img data-src="images/git-flow.JPG" class="r-stretch"></section>
+<section id="benefits-of-using-git-github-for-researchers-34" class="slide level2">
+<h2>Benefits of using Git &amp; GitHub for researchers (3/4)</h2>
+<p>Version Control &amp; Project History. Like track changes in your Word document, which is also backed up on OneDrive - but BETTER!</p>
+
+<img data-src="images/project-history.jpg" class="r-stretch"></section>
+<section id="benefits-of-using-git-github-44" class="slide level2">
+<h2>Benefits of using Git &amp; GitHub (4/4)</h2>
+<p>The software &amp; platform is built to facilitate for Collaboration.</p>
+
+<img data-src="images/first-pull-request.png" class="r-stretch"></section>
+<section id="benefits-of-using-git-github-for-researchers-1" class="slide level2">
+<h2>Benefits of using Git &amp; GitHub for researchers</h2>
+<p>In short:</p>
 <ul>
-<li>Free</li>
+<li>Free and open-source</li>
 <li>Efficient</li>
 <li>Transparent</li>
 <li>Reliable</li>
-<li>Open source</li>
+<li>Backups and Version Control</li>
 <li>Collaboration</li>
-<li>Ease of sharing and reusing</li>
+<li>Sharing and Reuse</li>
 </ul>
-</div>
 </section>
+<section id="the-git-github-dream" class="slide level2">
+<h2>The Git &amp; GitHub Dream</h2>
+
+<img data-src="images/researcher-git-workflow.JPG" class="r-stretch"></section>
 <section id="a-github-repository" class="slide level2">
 <h2>A GitHub Repository</h2>
+<p>Git takes snapshots of all the files in a folder. This folder is called a repository or repo.</p>
 <div style="text-align: left; margin-top: 4em">
-<p><a href="https://github.com/UtrechtUniversity/programming-cafe" data-preview-link="true">GitHub Repository</a></p>
+<p><a href="https://github.com/UtrechtUniversity/programming-cafe" data-preview-link="true">GitHub Repository for the Programming Cafe</a></p>
 </div>
 </section>
-<section id="how-to-get-started" class="slide level2">
-<h2>How to get started</h2>
-<div style="text-align: left; margin-top: 2em">
+<section id="a-github-repository-1" class="slide level2">
+<h2>A GitHub Repository</h2>
+<p>Git takes snapshots of all the files in a folder. This folder is called a repository or repo.</p>
+<p>Here’s the same repository, but locally on our computer.</p>
+
+<img data-src="images/local-copy.JPG" class="r-stretch"></section>
+<section id="how-do-i-get-started-with-git" class="slide level2">
+<h2>How do I get started with Git?</h2>
+<p>::: {style=“text-align: left; margin-top: 2em”}</p>
 <ul>
-<li>GitHub Desktop</li>
-<li>Command line</li>
-<li>Rstudio integration</li>
-<li>Pycharm</li>
-<li>etc.</li>
-<li>etc.</li>
+<li>Command Line</li>
+<li><a href="https://desktop.github.com/" data-preview-link="true">GitHub Desktop</a></li>
+<li><a href="https://happygitwithr.com/index.html" data-preview-link="true">RStudio integration</a></li>
+<li><a href="https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html" data-preview-link="true">Pycharm integration</a></li>
+<li>many more!</li>
 </ul>
-</div>
-<p><img data-src="./images/GitHub-Desktop.png" class="absolute fragment" style="top: 50px; right: -100px; "> <img data-src="./images/Rstudio.png" class="absolute fragment" style="top: 50px; right: -100px; "></p>
+<p>The simplest starting point, however, is GitHub in the web browser!</p>
 </section>
-<section id="exercises" class="slide level2">
-<h2>Exercises</h2>
+<section id="exercise" class="slide level2">
+<h2>Exercise!</h2>
 <div style="text-align: left; margin-top: 4em">
 <p><a href="https://skills.github.com/" data-preview-link="true">https://skills.github.com/</a></p>
 </div>
@@ -838,8 +859,7 @@ jobs:
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          let href = ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
