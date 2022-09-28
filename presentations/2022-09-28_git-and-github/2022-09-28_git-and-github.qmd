@@ -7,6 +7,7 @@ format:
     navigation-mode: linear
     slide-number: true
     multiplex: true
+    footer: "Jelle Treep & Neha Moopen"
 ---
 
 # Welcome to the Programming Cafe! {background-color="#FFCD00"}
@@ -42,11 +43,11 @@ format:
 -    Interaction
 :::
 
+
+
 # Getting Started With Git & GitHub {background-color="#FFCD00"}
 
 
-
-**Jelle Treep & Neha Moopen**
 
 Research Data Management Support
 
@@ -142,29 +143,11 @@ Should we add some figs about concepts of git branching, git history, distribute
 
 # GitHub @UtrechtUniversity {background-color="#FFCD00"}
 
-**https://github.com/UtrechtUniversity**
+**[https://github.com/UtrechtUniversity](https://github.com/UtrechtUniversity){preview-link="true"}**
 
 ![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
-
-## Why use UU GitHub Organization?
-
-</br>
-**Benefits**
-
--    Create Teams
--    GitHub pages for private repositories
--    Workflow options for private repositories
--    Visibility
-
-
-## Preview
-[https://github.com/UtrechtUniversity](https://github.com/UtrechtUniversity){preview-link="true"}
-
-
 # Getting Started With GitHub Actions {background-color="#FFCD00"}
-
-**Jelle Treep & Neha Moopen**
 
 Research Data Management Support
 
@@ -187,29 +170,28 @@ Research Data Management Support
 ::: {style="text-align: left; margin-top: 2em"}
 
 <ul>
-  <li>Running test scripts</li>
-  <li>CI/CD</li>
+  <li>Testing</li>
+  <li>Deployment</li>
   <li>Packaging</li>
   <li>Parsing/rendering
     <ul>
       <li>GitHub Pages</li>
-      <li>websites</li>
-      <li>documentation</li>
+      <li>Websites</li>
+      <li>Documentation</li>
     </ul>
   </li>
+  <li>Other</li>
 </ul>
 
 :::
 
-## Examples:
+## Cool features:
 
 ::: {style="text-align: left; margin-top: 2em"}
-
--    Testing
--    CI/CD
--    Packaging
--    Generating documentation
--    Pages, parsing documents, documentation
+-    Test on several Operating systems (e.g. Windows, macOS, Ubuntu)
+-    Simultaneous testing across multiple operating systems and versions 
+-    Multi-container testing (Docker-compose)
+-    Reusing actions from GitHub Marketplace
 
 :::
 
@@ -267,8 +249,10 @@ jobs:
 ```
 
 
-## How does it work
-etc
+## Exercises
+
+https://utrechtuniversity.github.io/programming-cafe/
+
 
 # {data-background-color="#FFCD00"}
 
