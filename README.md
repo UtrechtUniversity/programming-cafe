@@ -17,3 +17,6 @@ University Library (Utrecht Science Park), Living Lab 1.02
 
 1. [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
    - [Exercises](exercises/git-and-github.md)
+   
+2. Linters & Formatters in R & Python
+

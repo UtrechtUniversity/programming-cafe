@@ -52,95 +52,182 @@ format:
 Research Data Management Support
 
 ![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+---
 
 ## Why Git and GitHub?
 
-add problem (versioning? Open/fair science? Backups? portable project)
-model_v2_finalversion_new_last.R
+::: {.fragment}
 
+![The final-final-final circle of hell.](images/final-final-final.gif){height="500"} 
 
-## What is Git? (1/2)
-
-::: {style="text-align: left; margin-top: 2em"}
-
--    Version control software
--    Software development
--    Increasingly popular for Research Projects (e.g. code, documents, presentations)
 :::
 
+---
 
-## What is Git? (2/2)
+## Why Git and GitHub?
+<br>
+Do you need to:
 
-::: {style="text-align: left; margin-top: 2em"}
-
-Should we add some figs about concepts of git branching, git history, distributed working?
+::: {.incremental}
+-   backup your code?
+-   better version control your code?
+-   collaborate more easily?
+-   share and publish your code?
+-   work in line with open science and the FAIR principles?
 :::
 
-## What is GitHub
+::: {.fragment}
+Then Git & GitHub is something for you!
+:::
 
+---
 
-<ul>
-  <li>Online Hub/Repository for
-    <ul>
-      <li>storing</li>
-      <li>publishing</li>
-      <li>collaboration</li>
-      <li>and more</li>
-    </ul>
-  </li>
-  <li>Based on Git software</li>
-  <li>Alternatives
-    <ul>
-      <li>GitLab</li>
-      <li>Bitbucket</li>
-      <li>SourceForge</li>
-    </ul>    
-  </li>
-</ul>
+## What is Git?
 
-
-## Benefits of using Git/GitHub in research projects
+![](images/git-logo.jpg)
 
 ::: {style="text-align: left; margin-top: 2em"}
 
--    Free
+-    VCS = Version Control Software.
+-    Free and open-source.
+-    Original Domain: Software Development.
+-    Nowadays Git is being 'repurposed' beyond software development. 
+
+:::
+
+---
+
+## What is GitHub?
+
+![](images/github-logo.png)
+
+
+::: {style="text-align: left; margin-top: 2em"}
+
+An online repository, based on Git software, for:
+
+-   storing with version control
+-   collaboration
+-   publishing
+-   project management
+-   and more!
+
+:::
+
+---
+
+## Benefits of using Git & GitHub for researchers
+
+![](images/git-and-github-combo.JPG)
+
+---
+
+## Benefits of using Git & GitHub for researchers (1/4)
+
+Rigid structure of git helps manage project evolution.
+Main/master copy on GitHub enables sane experimentation and collaboration.
+
+![](images/git-structure.JPG)
+
+---
+
+## Benefits of using Git & GitHub for researchers (2/4)
+
+Manage your code (and other files) down the very last details.
+Experimentation is facilitated!
+
+![](images/git-flow.JPG)
+
+---
+
+## Benefits of using Git & GitHub for researchers (3/4)
+
+Version Control & Project History.
+Like track changes in your Word document, which is also backed up on OneDrive - but BETTER!
+
+![](images/project-history.jpg)
+
+---
+
+## Benefits of using Git & GitHub (4/4)
+
+The software & platform is built to facilitate for Collaboration.
+
+![](images/first-pull-request.png)
+---
+
+## Benefits of using Git & GitHub for researchers
+
+In short:
+
+-    Free and open-source
 -    Efficient
 -    Transparent
 -    Reliable
--    Open source
+-    Backups and Version Control
 -    Collaboration
--    Ease of sharing and reusing
-:::
+-    Sharing and Reuse
+
+---
+
+## The Git & GitHub Dream
+
+![](images/researcher-git-workflow.JPG)
+
+---
 
 ## A GitHub Repository
 
-::: {style="text-align: left; margin-top: 4em"}
+Git takes snapshots of all the files in a folder.
+This folder is called a repository or repo.
 
-[GitHub Repository](https://github.com/UtrechtUniversity/programming-cafe){preview-link="true"}
+::: {style="text-align: left; margin-top: 4em"}
+[GitHub Repository for the Programming Cafe](https://github.com/UtrechtUniversity/programming-cafe){preview-link="true"}
 :::
 
-## How to get started 
+---
+
+## A GitHub Repository
+
+Git takes snapshots of all the files in a folder.
+This folder is called a repository or repo.
+
+Here's the same repository, but locally on our computer.
+
+![](images/local-copy.JPG) 
+
+---
+
+## How do I get started with Git? 
 
 ::: {style="text-align: left; margin-top: 2em"}
 
--    GitHub Desktop
--    Command line
--    Rstudio integration
--    Pycharm
--    etc.
--    etc.
+-    Command Line
+-    [GitHub Desktop](https://desktop.github.com/){preview-link="true"}
+-    [RStudio integration](https://happygitwithr.com/index.html){preview-link="true"}
+-    [Pycharm integration](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html){preview-link="true"}
+-    many more!
 
-:::
-![](./images/GitHub-Desktop.png){.absolute .fragment top="50" right="-100"}
-![](./images/Rstudio.png){.absolute .fragment top="50" right="-100"}
+The simplest starting point, however, is GitHub in the web browser!
 
-## Exercises
+---
+
+## Exercise!
 
 ::: {style="text-align: left; margin-top: 4em"}
 
-[https://skills.github.com/](https://skills.github.com/){preview-link="true"}
+Check out [https://skills.github.com/](https://skills.github.com/){preview-link="true"}
+
+You can try out any of the exercises, we do have some recommendations based on today's presentation:
+
+-   For beginners, the [Introduction to GitHub](https://github.com/skills/introduction-to-github) exercise is a nice start. 
+    You'll make a short Markdown file you can use as your profile README and learn about repositories, branches, commits, and pull requests while doing so!
+
+-   For experienced users, the [Hello GitHub Actions](https://github.com/skills/hello-github-actions) exercise is a great introduction to the topic.
+
 :::
 
+---
 
 ## GitHub Actions
 
