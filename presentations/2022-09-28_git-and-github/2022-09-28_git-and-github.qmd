@@ -216,7 +216,15 @@ The simplest starting point, however, is GitHub in the web browser!
 
 ::: {style="text-align: left; margin-top: 4em"}
 
-[https://skills.github.com/](https://skills.github.com/){preview-link="true"}
+Check out [https://skills.github.com/](https://skills.github.com/){preview-link="true"}
+
+You can try out any of the exercises, we do have some recommendations based on today's presentation:
+
+-   For beginners, the [Introduction to GitHub](https://github.com/skills/introduction-to-github) exercise is a nice start. 
+    You'll make a short Markdown file you can use as your profile README and learn about repositories, branches, commits, and pull requests while doing so!
+
+-   For experienced users, the [Hello GitHub Actions](https://github.com/skills/hello-github-actions) exercise is a great introduction to the topic.
+
 :::
 
 ---
