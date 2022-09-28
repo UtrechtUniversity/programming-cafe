@@ -7,10 +7,10 @@ format:
     navigation-mode: linear
     slide-number: true
     multiplex: true
+    footer: "Jelle Treep & Neha Moopen"
 ---
 
 # Welcome to the Programming Cafe! {background-color="#FFCD00"}
-
 
 ![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
@@ -43,11 +43,11 @@ format:
 -    Interaction
 :::
 
+
+
 # Getting Started With Git & GitHub {background-color="#FFCD00"}
 
 
-
-**Jelle Treep & Neha Moopen**
 
 Research Data Management Support
 
@@ -210,13 +210,13 @@ Here's the same repository, but locally on our computer.
 
 The simplest starting point, however, is GitHub in the web browser!
 
----
+:::
 
 ## Exercise!
 
 ::: {style="text-align: left; margin-top: 4em"}
 
-Check out [https://skills.github.com/](https://skills.github.com/){preview-link="true"}
+Check out [utrechtuniversity.github.io/programming-cafe/](https://utrechtuniversity.github.io/programming-cafe/){preview-link="true"}
 
 You can try out any of the exercises, we do have some recommendations based on today's presentation:
 
@@ -227,86 +227,125 @@ You can try out any of the exercises, we do have some recommendations based on t
 
 :::
 
----
+# GitHub @UtrechtUniversity {background-color="#FFCD00"}
 
-## GitHub Actions
+**[https://github.com/UtrechtUniversity](https://github.com/UtrechtUniversity){preview-link="true"}**
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+# Getting Started With GitHub Actions {background-color="#FFCD00"}
+
+Research Data Management Support
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## What is GitHub Actions
 
 ::: {style="text-align: left; margin-top: 2em"}
 
--    Free service
+
+
+-    Free GitHub service
 -    Perform tasks on the servers of GitHub
 -    Events/scheduled times
 
 :::
 
-## Usage
+## Why using GitHub Actions?
+
+
+
+**Automation of:**
+
+<ul>
+  <li>Testing</li>
+  <li>Deploying</li>
+  <li>Packaging/publishing</li>
+  <li>Parsing/rendering
+    <ul>
+      <li>GitHub Pages</li>
+      <li>Websites</li>
+      <li>Documentation</li>
+    </ul>
+  </li>
+  <li>Other stuff</li>
+</ul>
+
+
+
+## Cool features:
 
 ::: {style="text-align: left; margin-top: 2em"}
-
--    Testing
--    CI/CD
--    Packaging
--    Generating documentation
--    Pages, parsing documents, documentation
+-    Test on several Operating systems (e.g. Windows, macOS, Ubuntu)
+-    Simultaneous testing across multiple operating systems and versions 
+-    Multi-container testing (Docker-compose)
+-    Creating and reusing actions from GitHub Marketplace
+-    Interact with GitHub API (e.g. comment on pull request, create issues)
 
 :::
+
+## Getting started
+
+<br/>
+<br/>
+
+[Example](https://github.com/jelletreep/actions-playground){preview-link="true"}
+
+
 
 ## Terminology{.smaller}
 
 ::: {style="text-align: left; margin-top: 2em"}
 
-### Workflow
-A workflow is one (or a set of) **job(s)** that are defined in a script (YAML file) and triggered by **events**
+### Action
+
+An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task (e.g. installing Python). Use an action to help reduce the amount of repetitive code that you write in your workflow files.
+
 <br/>
+<br/>
+
+### Event
+An event is a specific activity in a repository that triggers GitHub Actions to start. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger GitHub Actions on a schedule.  
+
+:::
+
+## Terminology{.smaller}
+
 <br/>
 
 ### Jobs
-A job is a set of steps in a workflow that execute on the same **runner** (or server). Each step is either a shell script that will be executed, or an **action** that will be run. Steps are executed in order and are dependent on each other.
+A job is a set of steps in a workflow that execute on the same **runner** (or server). Each step is either a shell script/command that will be executed, or an **Action** that will be run. Steps are executed in order and are dependent on each other.
 
-:::
+<br/>
+<br/>
+
+### Workflow
+A workflow is one (or a set of) **job(s)** that are defined in a script (YAML file) and triggered by **events**
+
 
 ## Terminology{.smaller}
 
-::: {style="text-align: left; margin-top: 2em"}
-
-### Event
-An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow run on a schedule  
-<br/>
 <br/>
 
 ### Runner
 A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.
 
-:::
-
-## Terminology{.smaller}
-
-<br/>
-
-### Action
-
-An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task. Use an action to help reduce the amount of repetitive code that you write in your workflow files.
 <br/>
 <br/>
 
-```
-name: learn-github-actions
-on: [push]
-jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v
-```
+[Further reading](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+
+## Summary
+
+![](images/actions-structure.png)
 
 
-## How does it work
-etc
+## Exercises
+
+<br/>
+<br/>
+
+[https://utrechtuniversity.github.io/programming-cafe/](https://utrechtuniversity.github.io/programming-cafe/){preview-link="true"}
+
 
 # {data-background-color="#FFCD00"}
 

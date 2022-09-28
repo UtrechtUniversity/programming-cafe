@@ -7,7 +7,7 @@
 <link href="2022-09-28_git-and-github_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="2022-09-28_git-and-github_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="2022-09-28_git-and-github_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.36">
+  <meta name="generator" content="quarto-1.1.189">
 
   <title>git-and-github</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,10 +18,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="2022-09-28_git-and-github_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="2022-09-28_git-and-github_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -377,7 +382,6 @@
 <section>
 <section id="getting-started-with-git-github" class="title-slide slide level1 center" data-background-color="#FFCD00">
 <h1>Getting Started With Git &amp; GitHub</h1>
-<p><strong>Jelle Treep &amp; Neha Moopen</strong></p>
 <p>Research Data Management Support</p>
 <p><img data-src="./templates/UU_logo_2021_EN_RGB.png" class="absolute" style="top: -200px; left: -240px; width: 300px; height: 120px; "></p>
 </section>
@@ -490,7 +494,7 @@
 <img data-src="images/local-copy.JPG" class="r-stretch"></section>
 <section id="how-do-i-get-started-with-git" class="slide level2">
 <h2>How do I get started with Git?</h2>
-<p>::: {style=“text-align: left; margin-top: 2em”}</p>
+<div style="text-align: left; margin-top: 2em">
 <ul>
 <li>Command Line</li>
 <li><a href="https://desktop.github.com/" data-preview-link="true">GitHub Desktop</a></li>
@@ -499,87 +503,131 @@
 <li>many more!</li>
 </ul>
 <p>The simplest starting point, however, is GitHub in the web browser!</p>
+</div>
 </section>
 <section id="exercise" class="slide level2">
 <h2>Exercise!</h2>
 <div style="text-align: left; margin-top: 4em">
-<p>Check out <a href="https://skills.github.com/" data-preview-link="true">https://skills.github.com/</a></p>
+<p>Check out <a href="https://utrechtuniversity.github.io/programming-cafe/" data-preview-link="true">utrechtuniversity.github.io/programming-cafe/</a></p>
 <p>You can try out any of the exercises, we do have some recommendations based on today’s presentation:</p>
 <ul>
 <li><p>For beginners, the <a href="https://github.com/skills/introduction-to-github">Introduction to GitHub</a> exercise is a nice start. You’ll make a short Markdown file you can use as your profile README and learn about repositories, branches, commits, and pull requests while doing so!</p></li>
 <li><p>For experienced users, the <a href="https://github.com/skills/hello-github-actions">Hello GitHub Actions</a> exercise is a great introduction to the topic.</p></li>
 </ul>
 </div>
+</section></section>
+<section id="github-utrechtuniversity" class="title-slide slide level1 center" data-background-color="#FFCD00">
+<h1>GitHub <span class="citation" data-cites="UtrechtUniversity">@UtrechtUniversity</span></h1>
+<p><strong><a href="https://github.com/UtrechtUniversity" data-preview-link="true">https://github.com/UtrechtUniversity</a></strong></p>
+<p><img data-src="./templates/UU_logo_2021_EN_RGB.png" class="absolute" style="top: -200px; left: -240px; width: 300px; height: 120px; "></p>
 </section>
-<section id="github-actions" class="slide level2">
-<h2>GitHub Actions</h2>
+
+<section>
+<section id="getting-started-with-github-actions" class="title-slide slide level1 center" data-background-color="#FFCD00">
+<h1>Getting Started With GitHub Actions</h1>
+<p>Research Data Management Support <img data-src="./templates/UU_logo_2021_EN_RGB.png" class="absolute" style="top: -200px; left: -240px; width: 300px; height: 120px; "></p>
+</section>
+<section id="what-is-github-actions" class="slide level2">
+<h2>What is GitHub Actions</h2>
 <div style="text-align: left; margin-top: 2em">
 <ul>
-<li>Free service</li>
+<li>Free GitHub service</li>
 <li>Perform tasks on the servers of GitHub</li>
 <li>Events/scheduled times</li>
 </ul>
 </div>
 </section>
-<section id="usage" class="slide level2">
-<h2>Usage</h2>
+<section id="why-using-github-actions" class="slide level2">
+<h2>Why using GitHub Actions?</h2>
+<p><strong>Automation of:</strong></p>
+<ul>
+<li>
+Testing
+</li>
+<li>
+Deploying
+</li>
+<li>
+Packaging/publishing
+</li>
+<li>
+Parsing/rendering
+<ul>
+<li>
+GitHub Pages
+</li>
+<li>
+Websites
+</li>
+<li>
+Documentation
+</li>
+</ul>
+</li>
+<li>
+Other stuff
+</li>
+</ul>
+</section>
+<section id="cool-features" class="slide level2">
+<h2>Cool features:</h2>
 <div style="text-align: left; margin-top: 2em">
 <ul>
-<li>Testing</li>
-<li>CI/CD</li>
-<li>Packaging</li>
-<li>Generating documentation</li>
-<li>Pages, parsing documents, documentation</li>
+<li>Test on several Operating systems (e.g.&nbsp;Windows, macOS, Ubuntu)</li>
+<li>Simultaneous testing across multiple operating systems and versions</li>
+<li>Multi-container testing (Docker-compose)</li>
+<li>Creating and reusing actions from GitHub Marketplace</li>
+<li>Interact with GitHub API (e.g.&nbsp;comment on pull request, create issues)</li>
 </ul>
 </div>
+</section>
+<section id="getting-started" class="slide level2">
+<h2>Getting started</h2>
+<p><br> <br></p>
+<p><a href="https://github.com/jelletreep/actions-playground" data-preview-link="true">Example</a></p>
 </section>
 <section id="terminology" class="slide level2 smaller">
 <h2>Terminology</h2>
 <div style="text-align: left; margin-top: 2em">
-<h3 id="workflow">Workflow</h3>
-<p>A workflow is one (or a set of) <strong>job(s)</strong> that are defined in a script (YAML file) and triggered by <strong>events</strong> <br> <br></p>
-<h3 id="jobs">Jobs</h3>
-<p>A job is a set of steps in a workflow that execute on the same <strong>runner</strong> (or server). Each step is either a shell script that will be executed, or an <strong>action</strong> that will be run. Steps are executed in order and are dependent on each other.</p>
+<h3 id="action">Action</h3>
+<p>An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task (e.g.&nbsp;installing Python). Use an action to help reduce the amount of repetitive code that you write in your workflow files.</p>
+<p><br> <br></p>
+<h3 id="event">Event</h3>
+<p>An event is a specific activity in a repository that triggers GitHub Actions to start. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger GitHub Actions on a schedule.</p>
 </div>
 </section>
 <section id="terminology-1" class="slide level2 smaller">
 <h2>Terminology</h2>
-<div style="text-align: left; margin-top: 2em">
-<h3 id="event">Event</h3>
-<p>An event is a specific activity in a repository that triggers a workflow run. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger a workflow run on a schedule<br>
-<br> <br></p>
-<h3 id="runner">Runner</h3>
-<p>A runner is a server that runs your workflows when they’re triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.</p>
-</div>
+<p><br></p>
+<h3 id="jobs">Jobs</h3>
+<p>A job is a set of steps in a workflow that execute on the same <strong>runner</strong> (or server). Each step is either a shell script/command that will be executed, or an <strong>Action</strong> that will be run. Steps are executed in order and are dependent on each other.</p>
+<p><br> <br></p>
+<h3 id="workflow">Workflow</h3>
+<p>A workflow is one (or a set of) <strong>job(s)</strong> that are defined in a script (YAML file) and triggered by <strong>events</strong></p>
 </section>
 <section id="terminology-2" class="slide level2 smaller">
 <h2>Terminology</h2>
 <p><br></p>
-<h3 id="action">Action</h3>
-<p>An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task. Use an action to help reduce the amount of repetitive code that you write in your workflow files. <br> <br></p>
-<pre><code>name: learn-github-actions
-on: [push]
-jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '14'
-      - run: npm install -g bats
-      - run: bats -v</code></pre>
+<h3 id="runner">Runner</h3>
+<p>A runner is a server that runs your workflows when they’re triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.</p>
+<p><br> <br></p>
+<p><a href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions">Further reading</a></p>
 </section>
-<section id="how-does-it-work" class="slide level2">
-<h2>How does it work</h2>
-<p>etc</p>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+
+<img data-src="images/actions-structure.png" class="r-stretch"></section>
+<section id="exercises" class="slide level2">
+<h2>Exercises</h2>
+<p><br> <br></p>
+<p><a href="https://utrechtuniversity.github.io/programming-cafe/" data-preview-link="true">https://utrechtuniversity.github.io/programming-cafe/</a></p>
 </section></section>
 <section id="section" class="title-slide slide level1 center" data-background-color="#FFCD00">
 <h1></h1>
 <p><img data-src="./templates/UU_logo_2021_EN_RGB_payoff.png"></p>
 <p><img src="./templates/UU_logo_2021_EN_RGB.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p>Jelle Treep &amp; Neha Moopen</p>
 </div>
 </section>
     </div>
@@ -864,7 +912,8 @@ jobs:
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);

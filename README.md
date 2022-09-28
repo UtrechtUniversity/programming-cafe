@@ -13,6 +13,8 @@ University Library (Utrecht Science Park), Living Lab 1.02
 
 - [R cafe](https://github.com/UtrechtUniversity/R-data-cafe)
 
+- [GitHub Page Programming Cafe](https://utrechtuniversity.github.io/programming-cafe/)
+
 ## Presentations
 
 1. [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
