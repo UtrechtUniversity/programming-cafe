@@ -19,3 +19,5 @@ The exercises below are a selection of exercises from [https://skills.github.com
 **Further reading**
 
 - [Build and test Python](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+
+- [Render Rmarkdown using GitHub actions](https://github.com/r-lib/actions/blob/v2/examples/render-rmarkdown.yaml)
