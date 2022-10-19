@@ -1,34 +1,56 @@
 --- 
-format: 
+format:
   revealjs:
-    theme: uu.scss
-    logo: templates/UU_logo_2021_EN_RGB.png
-    footer: "John Doe"
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    multiplex: true
+    footer: "Neha Moopen, Raoul Schram, Ken Krige"
 ---
 
-# Presentation title {data-background-color="#FFCD00"}
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
 
-![](templates/UU_logo_2021_EN_RGB.png){.absolute bottom=320 left=-240 width="300" height="120"}
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
-# {data-background-color="#FFCD00"}
+## Plan for today
 
-![](templates/UU_logo_2021_EN_RGB.png){.absolute bottom=-100 left=-240 width="300" height="120"}
+::: {style="text-align: left; margin-top: 2em"}
 
-:::::::::::::: {.columns}
-
-::: {.column width="40%"}
-
-::: {.subtitle}
-
-Title
+|    |    |
+|------------------------------|-------------|
+| Welcome | 10 min |
+| Introduction to Style Guides for Code | 10 min |
+| Introduction to Linters & (Auto)Formatters | 10 min |
+| Linters & FOrmatters in R & Python | 10 min |
+| Exercises or Work on your own code | 60 min |
+| Wrap-up | 10 min |
+| Drinks! |
 
 :::
-:::
-::: {.column width="60%"}
-![](image.jpg){fig-align="right" width="300"}
-:::
-::::::::::::::
 
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Community event
+-    Themes
+-    Presentations
+-    Work on your own code
+-    Exercises
+-    Interaction
+:::
+
+# Code Readability {background-color="#FFCD00"}
+
+
+
+Research Data Management Support
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+---
 
 ## Quarto
 ::: {style="text-align: left; margin-top: 2em"}
@@ -145,4 +167,4 @@ Learn more: [Multiple Columns](https://quarto.org/docs/presentations/revealjs/#m
 
 # {data-background-color="#FFCD00"}
 
-![](templates/UU_logo_2021_EN_RGB_payoff.png)
+![](./templates/UU_logo_2021_EN_RGB_payoff.png)
