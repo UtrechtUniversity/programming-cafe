@@ -10,6 +10,8 @@ This repository is used for creating and storing presentations, exercises and ot
 26 October 2022 from 15:00 to 17:00
 University Library (Utrecht Science Park), Bucheliuszaal 6.18
 
+**Software Licenses**
+
 ## Presentations
 
 1. September, 28th - [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
