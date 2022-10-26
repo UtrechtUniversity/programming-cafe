@@ -4,18 +4,13 @@ The Programming Cafe is a community event organized every last wednesday of the 
 
 This repository is used for creating and storing presentations, exercises and other materials related to the Programming Cafe sessions.
 
-## Next Programming Cafe:
-
-**Code Readability: Linters & Formatters in R & Python**  
-26 October 2022 from 15:00 to 17:00
-University Library (Utrecht Science Park), Bucheliuszaal 6.18
-
 ## Presentations
 
 1. September, 28th - [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
-   - [Exercises](exercises/git-and-github.md)
+   - [Exercises](exercises/git-and-github/git-and-github.md)
    
-2. October, 26th - Code Readability: Linters & Formatters in R & Python
+2. October, 26th - [Code Readability: Linters & Formatters in R & Python](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-10-26_code-readability/2022-10-26_code-readability.html)
+   - [Exercises](exercises/code-readability)
 
 3. November, 30th - Software Licenses
 
