@@ -7,7 +7,6 @@ format:
     navigation-mode: linear
     slide-number: true
     multiplex: true
-    footer: "Neha Moopen, Raoul Schram, Ken Krige"
 ---
 
 # Welcome to the Programming Cafe! {background-color="#FFCD00"}
@@ -56,12 +55,6 @@ format:
 -    Robust
 
 :::
-
----
-
-## What is a style guide and why should I follow one?
-
-![](images/code-readability-xkdc.png) 
 
 ---
 
@@ -128,6 +121,12 @@ In the second chunk, we start functions with a verb and make variable names _jus
 
 ---
 
+## What is a style guide and why should I follow one?
+
+![](images/code-readability-xkdc.png) 
+
+---
+
 ## How can I start working with a style guide?
 
 Most programming languages have style guides and these are followed by the community or enforced within organizations.
@@ -154,7 +153,7 @@ You can use a **linter** and **(auto)formatter** while coding!
 A linter is a **static** code analysis tool. 
 
 It will browse your code and flag/report issues (style, errors, bugs) as output. 
-Then it's up to the programming to go through the list and fix the issues. 
+Then it's up to the programmer to go through the list and fix the issues. 
 
 ---
 
@@ -216,9 +215,9 @@ Don't have your own code? You can use our exercise files:
 
 ::: {style="text-align: left"}
 
-- R: [bad.R]()
+- R: [bad.R](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/blob/main/exercises/code-readability/bad.R)
 
-- Python: [pep8.py]()
+- Python: [pep8.py](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/exercises/code-readability/pep8.py)
 
 :::
 
@@ -230,7 +229,7 @@ Replace `bad.R` with the relevant script name.
 
 Make sure you're in the same working directory as the script!
 
-```
+```r
 install.packages(c("lintr", "styler"))
 
 library(lintr)
@@ -255,7 +254,7 @@ Replace 'pep8.py' with the relevant script name if needed.
 
 Make sure you're in the same working directory as the script!
 
-```
+```python
 pip install flake8 black
 
 flake8 pep8.py
