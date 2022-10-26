@@ -215,9 +215,9 @@ Don't have your own code? You can use our exercise files:
 
 ::: {style="text-align: left"}
 
-- R: [bad.R](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/blob/main/exercises/code-readability/bad.R)
+- R: [bad.R](https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/code-readability/bad.R)
 
-- Python: [pep8.py](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/exercises/code-readability/pep8.py)
+- Python: [pep8.py](https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/code-readability/pep8.py)
 
 :::
 
