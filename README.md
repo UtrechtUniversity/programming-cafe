@@ -4,6 +4,15 @@ The Programming Cafe is a community event organized every last wednesday of the 
 
 This repository is used for creating and storing presentations, exercises and other materials related to the Programming Cafe sessions.
 
+## Next edition:
+
+| Demos | <br><ul><li>Goodbye Pandas, Hello Polars (Python)?</li><li>GitHub Copilot Demo (all languages)</li></ul> | 
+| :--- | :--- | 
+| __Date__ | 2023 January, 25th 15:00-17:00 | 
+| __Location__ | Bucheliuszaal 6.18, USP Library |
+
+
+
 ## Presentations
 
 1. September, 28th - [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
@@ -13,6 +22,8 @@ This repository is used for creating and storing presentations, exercises and ot
    - [Exercises](exercises/code-readability)
 
 3. November, 30th - Software Licenses
+
+4. January, 25th  - Goodbye Pandas, Hello Polars (Python) & GitHub Copilot Demo (all languages)
 
 ## Links
 
