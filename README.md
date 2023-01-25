@@ -6,7 +6,7 @@ This repository is used for creating and storing presentations, exercises and ot
 
 ## Next edition:
 
-| Demos | <br><ul><li>Goodbye Pandas, Hello Polars (Python)?</li><li>GitHub Copilot Demo (all languages)</li></ul> | 
+| Demos | <br><ul><li>Polars: fast DataFrames in Python</li><li>GitHub Copilot Demo (all languages)</li></ul> | 
 | :--- | :--- | 
 | __Date__ | 2023 January, 25th 15:00-17:00 | 
 | __Location__ | Bucheliuszaal 6.18, USP Library |
