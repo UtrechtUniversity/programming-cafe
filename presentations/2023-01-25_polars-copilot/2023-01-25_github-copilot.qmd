@@ -43,6 +43,16 @@ format:
 -    Interaction
 :::
 
+---
+
+## Resources
+
+::: {style="text-align: left; margin-top: 2em; font-size: 1.3em"}
+
+[https://github.com/UtrechtUniversity/programming-cafe](https://github.com/UtrechtUniversity/programming-cafe)
+
+:::
+
 # GitHub Copilot {background-color="#FFCD00"}
 
 ---
