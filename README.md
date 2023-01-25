@@ -23,7 +23,7 @@ This repository is used for creating and storing presentations, exercises and ot
 
 3. November, 30th - Software Licenses
 
-4. January, 25th  - Goodbye Pandas, Hello Polars (Python) & GitHub Copilot Demo (all languages)
+4. January, 25th  - Polars: fast DataFrames in Python & [GitHub Copilot Demo (all languages)](https://utrechtuniversity.github.io/programming-cafe/presentations/2023-01-25_polars-copilot/2023-01-25_github-copilot.html)
 
 ## Links
 
