@@ -66,7 +66,7 @@ and submit your ideas and :+1: in the Issues section :pray:
 -   Project design
 -   Code organization
 -   Data storage and organization
--   Workflow management
+-   Next steps
 
 :::
 
@@ -243,11 +243,16 @@ irsync -rKV i:myfolder "$TMPDIR"/input
 ```
 
 ## Advanced/future topics
+
+::: {style="text-align: left; margin-top: 2em"}
+
 - Makefiles
 - Workflow management tools
 - Continuous integration and testing
 - Containers
+- APIs
 
+:::
 
 ## Resources:
 
