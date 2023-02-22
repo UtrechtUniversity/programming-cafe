@@ -23,8 +23,9 @@ format:
 |------------------------------|-------------|
 | Welcome | 15 min |
 | Complex project management use case | 15 min |
-| Basics of project management | 10 min |
+| Discussion | 10 min |
 | Work on your own code | 30 min |
+| Basics of project management | 10 min |
 | HDF5 | 10 min |
 | Work on your own code | 30 min |
 | Drinks! |
