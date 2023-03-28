@@ -6,9 +6,9 @@ This repository is used for creating and storing presentations, exercises and ot
 
 ## Next edition:
 
-| Theme | Good Practices in Managing Your Code & Data Workflows | 
+| Theme | Programming Data Workflows in Yoda/iRODS | 
 | :--- | :--- | 
-| __Date__ | 2023 February, 22th 15:00-17:00 | 
+| __Date__ | 2023 March, 29th 15:00-17:00 | 
 | __Location__ | Bucheliuszaal 6.18, USP Library |
 
 
@@ -26,6 +26,8 @@ This repository is used for creating and storing presentations, exercises and ot
 4. 2023 January, 25th  - [Polars: fast DataFrames in Python](https://github.com/UtrechtUniversity/programming-cafe/blob/main/presentations/2023-01-25_polars-copilot/polars.pdf) & [GitHub Copilot Demo (all languages)](https://utrechtuniversity.github.io/programming-cafe/presentations/2023-01-25_polars-copilot/2023-01-25_github-copilot.html)
 
 5. 2023 February, 22th  - Good Practices in Managing Your Code & Data Workflows: [Project management](https://utrechtuniversity.github.io/programming-cafe/presentations/2023-02-22_projects-workflows/2023-02-22_project-management.html)
+
+6. 2023 March, 29th  - Programming Data Workflows in Yoda/iRODS
 
 ## Links
 
