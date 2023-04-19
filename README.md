@@ -27,7 +27,7 @@ This repository is used for creating and storing presentations, exercises and ot
 
 5. 2023 February, 22th  - Good Practices in Managing Your Code & Data Workflows: [Project management](https://utrechtuniversity.github.io/programming-cafe/presentations/2023-02-22_projects-workflows/2023-02-22_project-management.html)
 
-6. 2023 March, 29th  - Programming Data Workflows in Yoda/iRODS
+6. 2023 March, 29th  - [Programming Data Workflows in Yoda/iRODS](https://github.com/UtrechtUniversity/programming-cafe/blob/main/presentations/2023_03_29_YODA_Python.pdf)
 
 ## Links
 
