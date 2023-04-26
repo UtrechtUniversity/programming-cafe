@@ -1,1 +1,0 @@
-Sitemap: https://UtrechtUniversity.github.io/programming-cafe/sitemap.xml
