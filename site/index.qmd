@@ -2,4 +2,4 @@
 title: "Programming Cafe"
 ---
 
-Welcome to the website for the Programming Cafe!
+Welcome to the website for the Programming Cafe! This is a monthly event.
