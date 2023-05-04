@@ -29,6 +29,8 @@ This repository is used for creating and storing presentations, exercises and ot
 
 6. 2023 March, 29th  - [Programming Data Workflows in Yoda/iRODS](https://github.com/UtrechtUniversity/programming-cafe/blob/main/presentations/2023_03_29_YODA_Python.pdf)
 
+7. 2023 April, 26th  - [Quickstart Quarto](https://utrechtuniversity.github.io/programming-cafe/presentations/2023-04-26_quickstart-to-quarto/2023-04-26_quickstart-to-quarto.html)
+
 ## Links
 
 - [Programming cafe website](https://www.uu.nl/en/events/programming-cafe)
