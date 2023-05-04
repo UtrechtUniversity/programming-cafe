@@ -1,3 +1,19 @@
 # Agenda
 
-Here we will list all the Programming Cafes.
+Here we list all the upcoming Programming Cafes.
+
+## 2022-2023
+
+### May 2023
+
+- **Date:** Wednesday, 31st May
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** _coming soon_
+
+### April 2023
+
+- **Date:** Wednesday, 26th April
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** Introduction to and Creating Websites with Quarto [(slides)](https://github.com/UtrechtUniversity/programming-cafe/blob/main/presentations/2023-04-26_quickstart-to-quarto/2023-04-26_quickstart-to-quarto.html)
