@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": "Here we list all the upcoming Programming Cafes.\n\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: coming soon\n\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)"
+  },
+  {
+    "objectID": "agenda.html#section",
+    "href": "agenda.html#section",
+    "title": "Agenda",
+    "section": "",
+    "text": "Date: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: coming soon\n\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Programming Cafe",
+    "section": "",
+    "text": "Welcome to the website for the Programming Cafe at Utrecht University!"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -33,26 +54,5 @@
     "title": "About",
     "section": "More information",
     "text": "More information\nThe Programming Café will take place on a monthly basis, and it will last about two hours (usually towards the end of the workday). Registration is not required. To stay up to date on the planning and themes, please keep an eye on the website of Research Data Management Support and the agenda on the intranet. Or subscribe external linkto the newsletter to stay informed.\n\nWalk-in hours for research data and software\nFor hands-on support on all questions related to research data and/or software, we also have the Walk-In Hours for Data & Software external link which takes place every Monday from 15:00-17:00."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programming Cafe",
-    "section": "",
-    "text": "Welcome to the website for the Programming Cafe at Utrecht University!"
-  },
-  {
-    "objectID": "agenda.html",
-    "href": "agenda.html",
-    "title": "Agenda",
-    "section": "",
-    "text": "Here we list all the upcoming Programming Cafes.\n\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: coming soon\n\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)"
-  },
-  {
-    "objectID": "agenda.html#section",
-    "href": "agenda.html#section",
-    "title": "Agenda",
-    "section": "",
-    "text": "Date: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: coming soon\n\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)"
   }
 ]
