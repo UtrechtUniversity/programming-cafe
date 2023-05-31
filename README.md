@@ -8,7 +8,7 @@ This repository is used for creating and storing presentations, exercises and ot
 
 | Theme | Programming Data Workflows in Yoda/iRODS | 
 | :--- | :--- | 
-| __Date__ | 2023 March, 29th 15:00-17:00 | 
+| __Date__ | 2023 May, 31st 15:00-17:00 | 
 | __Location__ | Bucheliuszaal 6.18, USP Library |
 
 
