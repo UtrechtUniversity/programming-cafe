@@ -1,19 +1,76 @@
 # Agenda
 
-Here we list all the upcoming Programming Cafes.
+## Next Programming Cafe
 
-## 2022-2023
+### June 2023
+
+- **Date:** Wednesday, 28th June
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** _coming soon_
+
+## Past Programming Cafes
 
 ### May 2023
 
 - **Date:** Wednesday, 31st May
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** _coming soon_
+- **Demo/Presentation:** 
 
 ### April 2023
 
 - **Date:** Wednesday, 26th April
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Introduction to and Creating Websites with Quarto [(slides)](https://github.com/UtrechtUniversity/programming-cafe/blob/main/presentations/2023-04-26_quickstart-to-quarto/2023-04-26_quickstart-to-quarto.html)
+- **Demo/Presentation:** Introduction to and Creating Websites with Quarto [(slides)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2023-04-26_quickstart-to-quarto/2023-04-26_quickstart-to-quarto.html)
+
+### March 2023
+
+- **Date:** Wednesday, 29th March
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** [Programming Data Workflows in Yoda/iRODS](https://github.com/UtrechtUniversity/programming-cafe-presentations/blob/main/presentations/2023_03_29_YODA_Python.pdf)
+
+### February 2023
+
+- **Date:** Wednesday, 22th February
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** Good Practices in Managing Your Code & Data Workflows: [Project management](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2023-02-22_projects-workflows/2023-02-22_project-management.html)
+
+### January 2023
+
+- **Date:** Wednesday, 25th January
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** [Polars: fast DataFrames in Python](https://github.com/UtrechtUniversity/programming-cafe-presentations/blob/main/presentations/2023-01-25_polars-copilot/polars.pdf) & [GitHub Copilot Demo (all languages)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2023-01-25_polars-copilot/2023-01-25_github-copilot.html)
+
+### November 2022
+
+- **Date:** Wednesday, 30th November
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** Software Licenses
+
+### October 2022
+
+- **Date:** Wednesday, 26th October
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** [Code Readability: Linters & Formatters in R & Python](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2022-10-26_code-readability/2022-10-26_code-readability.html)
+
+
+### September 2022
+
+- **Date:** Wednesday, 28th September
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
+
+
+
+
+
+
+
