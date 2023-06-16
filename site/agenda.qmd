@@ -7,7 +7,11 @@
 - **Date:** Wednesday, 28th June
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** _coming soon_
+- **Demo/Presentation:**
+
+**GitHub Actions for absolute beginners and advanced GitHub users:**  
+-   What is it and why should you use it  
+-   How to create smart workflows to limit energy use & environmental impact  
 
 ## Past Programming Cafes
 
