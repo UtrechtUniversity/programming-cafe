@@ -6,10 +6,16 @@ This repository is used for managing the website and , exercises and other mater
 
 ## Next edition:
 
-| Theme | tbd |
+| Theme | GitHub Actions |
 | :--- | :--- |
 | __Date__ | 2023 June, 28th 15:00-17:00 |
 | __Location__ | Bucheliuszaal 6.18, USP Library |
+
+## Exercises
+
+[GitHub and GitHub Actions](exercises/github_actions/github_actions.md)
+
+## Links
 
 Check our [Programming Cafe website](https://utrechtuniversity.github.io/programming-cafe/) for the full agenda and other information.
 
