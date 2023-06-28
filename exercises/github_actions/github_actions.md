@@ -6,7 +6,7 @@ The exercises below are a selection of exercises from [https://skills.github.com
 - [Communicate using Markdown](https://github.com/skills/communicate-using-markdown)
 - [GitHub Pages](https://github.com/skills/github-pages)
 
-## GitHub Actions (Advanced)
+## GitHub Actions
 - [Quickstart](https://docs.github.com/en/actions/quickstart)
 - [Hello GitHub Actions](https://github.com/skills/hello-github-actions)
 - [Continuous Integration](https://github.com/skills/continuous-integration)
