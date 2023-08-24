@@ -1,0 +1,352 @@
+---
+format:
+  revealjs:
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    multiplex: true
+    footer: "Jelle Treep & Neha Moopen"
+---
+
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Plan for today
+
+::: {style="text-align: left; margin-top: 2em"}
+
+|    |    |
+|------------------------------|-------------|
+| Intro programming cafe | 10 min |
+| Getting Started with Git and GitHub | 20 min |
+| Exercises or Work on your own code | 30 min |
+| Automating things with GitHub Actions | 20 min |
+| Exercises or Work on your own code | 30 min |
+| Wrap-up | 10 min |
+|    Drinks! |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Community event
+-    Themes
+-    Presentations
+-    Work on your own code
+-    Exercises
+-    Interaction
+:::
+
+
+
+# Getting Started With Git & GitHub {background-color="#FFCD00"}
+
+
+
+Research Data Management Support
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+---
+
+## Why Git and GitHub?
+
+::: {.fragment}
+
+![The final-final-final circle of hell.](images/final-final-final.gif){height="500"} 
+
+:::
+
+---
+
+## Why Git and GitHub?
+<br>
+Do you need to:
+
+::: {.incremental}
+-   backup your code?
+-   better version control your code?
+-   collaborate more easily?
+-   share and publish your code?
+-   work in line with open science and the FAIR principles?
+:::
+
+::: {.fragment}
+Then Git & GitHub is something for you!
+:::
+
+---
+
+## What is Git?
+
+![](images/git-logo.jpg)
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    VCS = Version Control Software.
+-    Free and open-source.
+-    Original Domain: Software Development.
+-    Nowadays Git is being 'repurposed' beyond software development. 
+
+:::
+
+---
+
+## What is GitHub?
+
+![](images/github-logo.png)
+
+
+::: {style="text-align: left; margin-top: 2em"}
+
+An online repository, based on Git software, for:
+
+-   storing with version control
+-   collaboration
+-   publishing
+-   project management
+-   and more!
+
+:::
+
+---
+
+## Benefits of using Git & GitHub for researchers
+
+![](images/git-and-github-combo.JPG)
+
+---
+
+## Benefits of using Git & GitHub for researchers (1/4)
+
+Rigid structure of git helps manage project evolution.
+Main/master copy on GitHub enables sane experimentation and collaboration.
+
+![](images/git-structure.JPG)
+
+---
+
+## Benefits of using Git & GitHub for researchers (2/4)
+
+Manage your code (and other files) down the very last details.
+Experimentation is facilitated!
+
+![](images/git-flow.JPG)
+
+---
+
+## Benefits of using Git & GitHub for researchers (3/4)
+
+Version Control & Project History.
+Like track changes in your Word document, which is also backed up on OneDrive - but BETTER!
+
+![](images/project-history.jpg)
+
+---
+
+## Benefits of using Git & GitHub (4/4)
+
+The software & platform is built to facilitate for Collaboration.
+
+![](images/first-pull-request.png)
+---
+
+## Benefits of using Git & GitHub for researchers
+
+In short:
+
+-    Free and open-source
+-    Efficient
+-    Transparent
+-    Reliable
+-    Backups and Version Control
+-    Collaboration
+-    Sharing and Reuse
+
+---
+
+## The Git & GitHub Dream
+
+![](images/researcher-git-workflow.JPG)
+
+---
+
+## A GitHub Repository
+
+Git takes snapshots of all the files in a folder.
+This folder is called a repository or repo.
+
+::: {style="text-align: left; margin-top: 4em"}
+[GitHub Repository for the Programming Cafe](https://github.com/UtrechtUniversity/programming-cafe){preview-link="true"}
+:::
+
+---
+
+## A GitHub Repository
+
+Git takes snapshots of all the files in a folder.
+This folder is called a repository or repo.
+
+Here's the same repository, but locally on our computer.
+
+![](images/local-copy.JPG) 
+
+---
+
+## How do I get started with Git? 
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Command Line
+-    [GitHub Desktop](https://desktop.github.com/){preview-link="true"}
+-    [RStudio integration](https://happygitwithr.com/index.html){preview-link="true"}
+-    [Pycharm integration](https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html){preview-link="true"}
+-    many more!
+
+The simplest starting point, however, is GitHub in the web browser!
+
+:::
+
+## Exercise!
+
+::: {style="text-align: left; margin-top: 4em"}
+
+Check out [utrechtuniversity.github.io/programming-cafe/](https://utrechtuniversity.github.io/programming-cafe/){preview-link="true"}
+
+You can try out any of the exercises, we do have some recommendations based on today's presentation:
+
+-   For beginners, the [Introduction to GitHub](https://github.com/skills/introduction-to-github) exercise is a nice start. 
+    You'll make a short Markdown file you can use as your profile README and learn about repositories, branches, commits, and pull requests while doing so!
+
+-   For experienced users, the [Hello GitHub Actions](https://github.com/skills/hello-github-actions) exercise is a great introduction to the topic.
+
+:::
+
+# GitHub @UtrechtUniversity {background-color="#FFCD00"}
+
+**[https://github.com/UtrechtUniversity](https://github.com/UtrechtUniversity){preview-link="true"}**
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+# Getting Started With GitHub Actions {background-color="#FFCD00"}
+
+Research Data Management Support
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## What is GitHub Actions
+
+::: {style="text-align: left; margin-top: 2em"}
+
+
+
+-    Free GitHub service
+-    Perform tasks on the servers of GitHub
+-    Events/scheduled times
+
+:::
+
+## Why using GitHub Actions?
+
+
+
+**Automation of:**
+
+<ul>
+  <li>Testing</li>
+  <li>Deploying</li>
+  <li>Packaging/publishing</li>
+  <li>Parsing/rendering
+    <ul>
+      <li>GitHub Pages</li>
+      <li>Websites</li>
+      <li>Documentation</li>
+    </ul>
+  </li>
+  <li>Other stuff</li>
+</ul>
+
+
+
+## Cool features:
+
+::: {style="text-align: left; margin-top: 2em"}
+-    Test on several Operating systems (e.g. Windows, macOS, Ubuntu)
+-    Simultaneous testing across multiple operating systems and versions 
+-    Multi-container testing (Docker-compose)
+-    Creating and reusing actions from GitHub Marketplace
+-    Interact with GitHub API (e.g. comment on pull request, create issues)
+
+:::
+
+## Getting started
+
+<br/>
+<br/>
+
+[Example](https://github.com/jelletreep/actions-playground){preview-link="true"}
+
+
+
+## Terminology{.smaller}
+
+::: {style="text-align: left; margin-top: 2em"}
+
+### Action
+
+An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task (e.g. installing Python). Use an action to help reduce the amount of repetitive code that you write in your workflow files.
+
+<br/>
+<br/>
+
+### Event
+An event is a specific activity in a repository that triggers GitHub Actions to start. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger GitHub Actions on a schedule.  
+
+:::
+
+## Terminology{.smaller}
+
+<br/>
+
+### Jobs
+A job is a set of steps in a workflow that execute on the same **runner** (or server). Each step is either a shell script/command that will be executed, or an **Action** that will be run. Steps are executed in order and are dependent on each other.
+
+<br/>
+<br/>
+
+### Workflow
+A workflow is one (or a set of) **job(s)** that are defined in a script (YAML file) and triggered by **events**
+
+
+## Terminology{.smaller}
+
+<br/>
+
+### Runner
+A runner is a server that runs your workflows when they're triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.
+
+<br/>
+<br/>
+
+[Further reading](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+
+## Summary
+
+![](images/actions-structure.png)
+
+
+## Exercises
+
+<br/>
+<br/>
+
+[https://utrechtuniversity.github.io/programming-cafe/](https://utrechtuniversity.github.io/programming-cafe/){preview-link="true"}
+
+
+# {data-background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB_payoff.png)

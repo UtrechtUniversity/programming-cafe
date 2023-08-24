@@ -1,0 +1,14 @@
+{
+  "hash": "5a2da770e9c33c2ae24ead0ee76dff99",
+  "result": {
+    "markdown": "---\ntitle: \"Git & GitHub\"\n---\n\n\nHello\n\n\n```{=html}\n<iframe class=\"slide-deck\" src=\"../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html\"></iframe>\n```\n\n::: {.cell}\n\n```{.r .cell-code}\n  \"../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html\"\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] \"../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html\"\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
