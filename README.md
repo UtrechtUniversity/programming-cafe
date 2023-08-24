@@ -15,6 +15,9 @@ This repository is used for managing the website and , exercises and other mater
 
 [GitHub and GitHub Actions](exercises/github_actions/github_actions.md)
 
+## Contribute
+We are very happy with any input! We are interested in the stuff you would like to learn more about or nice tools that you use or have developed and you would like to present about. Let us know via the [Issues](https://github.com/UtrechtUniversity/programming-cafe/issues)
+
 ## Links
 
 Check our [Programming Cafe website](https://utrechtuniversity.github.io/programming-cafe/) for the full agenda and other information.
