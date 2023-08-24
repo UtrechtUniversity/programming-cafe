@@ -4,14 +4,14 @@ title: "Programming Cafe"
 
 Welcome to the website for the Programming Cafe at Utrecht University!
 
-The Programming Cafe is a community event organized every last wednesday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity.
+The Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity.
 
 ## Next edition:
 
-| Theme | tbd | 
+| Theme | [Literate Programming](https://entangled.github.io/) by Johan Hidding (eScienceCenter)| 
 | :--- | :--- | 
-| __Date__ | 2023 June, 28th 15:00-17:00 | 
-| __Location__ | Bucheliuszaal 6.18, USP Library |
+| __Date__ | 2023 September, 7th 15:00-17:00 | 
+| __Location__ | Living Lab, USP Library |
 
 
 ## [About](about.qmd)
