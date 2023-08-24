@@ -12,6 +12,8 @@ website:
         text: Home
       - about.qmd
       - agenda.qmd
+  repo-url: https://github.com/UtrechtUniversity/programming-cafe
+  repo-actions: [edit]
 
 format:
   html:

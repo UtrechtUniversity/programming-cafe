@@ -2,6 +2,16 @@
 
 ## Next Programming Cafe
 
+- **Date:** Thursday, 7th September
+- **Time:** 15:00-17:00
+- **Location:** Living Lab, University Library (Utrecht Science Park)
+- **Demo/Presentation:**
+
+**Literate Programming by Johan Hidding (eScienceCenter)**
+Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.
+
+## Past Programming Cafes
+
 ### June 2023
 
 - **Date:** Wednesday, 28th June
@@ -13,14 +23,15 @@
 -   What is it and why should you use it  
 -   How to create smart workflows to limit energy use & environmental impact  
 
-## Past Programming Cafes
-
 ### May 2023
 
 - **Date:** Wednesday, 31st May
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
 - **Demo/Presentation:** 
+
+**projectlog: An R package for improving project management and documentation**
+by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)
 
 ### April 2023
 

@@ -6,10 +6,10 @@ This repository is used for managing the website and , exercises and other mater
 
 ## Next edition:
 
-| Theme | GitHub Actions |
+| Theme | [Literate Programming](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
-| __Date__ | 2023 June, 28th 15:00-17:00 |
-| __Location__ | Bucheliuszaal 6.18, USP Library |
+| __Date__ | 2023 September, 7th 15:00-17:00 |
+| __Location__ | Living Lab, USP Library |
 
 ## Exercises
 
