@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "agenda.html",
-    "href": "agenda.html",
-    "title": "Agenda",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
     "section": "",
-    "text": "Date: Thursday, 7th September\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nLiterate Programming by Johan Hidding (eScienceCenter) Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.\n\n\n\n\n\n\nDate: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
-  },
-  {
-    "objectID": "agenda.html#next-programming-cafe",
-    "href": "agenda.html#next-programming-cafe",
-    "title": "Agenda",
-    "section": "",
-    "text": "Date: Thursday, 7th September\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nLiterate Programming by Johan Hidding (eScienceCenter) Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown."
-  },
-  {
-    "objectID": "agenda.html#past-programming-cafes",
-    "href": "agenda.html#past-programming-cafes",
-    "title": "Agenda",
-    "section": "",
-    "text": "Date: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programming Cafe",
-    "section": "",
-    "text": "Welcome to the website for the Programming Cafe at Utrecht University!\nThe Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity."
-  },
-  {
-    "objectID": "index.html#next-edition",
-    "href": "index.html#next-edition",
-    "title": "Programming Cafe",
-    "section": "Next edition:",
-    "text": "Next edition:\n\n\n\nTheme\nLiterate Programming by Johan Hidding (eScienceCenter)\n\n\n\n\nDate\n2023 September, 7th 15:00-17:00\n\n\nLocation\nLiving Lab, USP Library\n\n\n\nLiterate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Programming Cafe",
-    "section": "About",
-    "text": "About"
-  },
-  {
-    "objectID": "index.html#agenda-and-previous-editions",
-    "href": "index.html#agenda-and-previous-editions",
-    "title": "Programming Cafe",
-    "section": "Agenda and previous editions",
-    "text": "Agenda and previous editions"
+    "text": "Code Readability\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nGit & GitHub\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -82,5 +40,397 @@
     "title": "About",
     "section": "More information",
     "text": "More information\nThe Programming Café will take place on a monthly basis, and it will last about two hours (usually towards the end of the workday). Registration is not required. To stay up to date on the planning and themes, check or agenda or keep an eye on the website of Research Data Management Support and the agenda on the intranet.\n\nWalk-in hours for research data and software\nFor hands-on support on all questions related to research data and/or software, we also have the Walk-In Hours for Data & Software which takes place every Monday from 15:00-17:00."
+  },
+  {
+    "objectID": "posts/2022-10-26_code-readability/index.html",
+    "href": "posts/2022-10-26_code-readability/index.html",
+    "title": "Code Readability",
+    "section": "",
+    "text": "Hello this a post about code readability"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#plan-for-today",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#plan-for-today",
+    "title": "Programming Cafe",
+    "section": "Plan for today",
+    "text": "Plan for today\n\n\n\n\nIntro programming cafe\n10 min\n\n\nGetting Started with Git and GitHub\n20 min\n\n\nExercises or Work on your own code\n30 min\n\n\nAutomating things with GitHub Actions\n20 min\n\n\nExercises or Work on your own code\n30 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#programming-cafe",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#programming-cafe",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nR-Cafe\nCommunity event\nThemes\nPresentations\nWork on your own code\nExercises\nInteraction"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#why-git-and-github",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#why-git-and-github",
+    "title": "Programming Cafe",
+    "section": "Why Git and GitHub?",
+    "text": "Why Git and GitHub?\n\n\n\n\nThe final-final-final circle of hell."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#why-git-and-github-1",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#why-git-and-github-1",
+    "title": "Programming Cafe",
+    "section": "Why Git and GitHub?",
+    "text": "Why Git and GitHub?\n Do you need to:\n\n\nbackup your code?\nbetter version control your code?\ncollaborate more easily?\nshare and publish your code?\nwork in line with open science and the FAIR principles?\n\n\n\nThen Git & GitHub is something for you!"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#what-is-git",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#what-is-git",
+    "title": "Programming Cafe",
+    "section": "What is Git?",
+    "text": "What is Git?\n\n\n\nVCS = Version Control Software.\nFree and open-source.\nOriginal Domain: Software Development.\nNowadays Git is being ‘repurposed’ beyond software development."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#what-is-github",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#what-is-github",
+    "title": "Programming Cafe",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\n\nAn online repository, based on Git software, for:\n\nstoring with version control\ncollaboration\npublishing\nproject management\nand more!"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers",
+    "title": "Programming Cafe",
+    "section": "Benefits of using Git & GitHub for researchers",
+    "text": "Benefits of using Git & GitHub for researchers"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-14",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-14",
+    "title": "Programming Cafe",
+    "section": "Benefits of using Git & GitHub for researchers (1/4)",
+    "text": "Benefits of using Git & GitHub for researchers (1/4)\nRigid structure of git helps manage project evolution. Main/master copy on GitHub enables sane experimentation and collaboration."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-24",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-24",
+    "title": "Programming Cafe",
+    "section": "Benefits of using Git & GitHub for researchers (2/4)",
+    "text": "Benefits of using Git & GitHub for researchers (2/4)\nManage your code (and other files) down the very last details. Experimentation is facilitated!"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-34",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-34",
+    "title": "Programming Cafe",
+    "section": "Benefits of using Git & GitHub for researchers (3/4)",
+    "text": "Benefits of using Git & GitHub for researchers (3/4)\nVersion Control & Project History. Like track changes in your Word document, which is also backed up on OneDrive - but BETTER!"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-44",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-44",
+    "title": "Programming Cafe",
+    "section": "Benefits of using Git & GitHub (4/4)",
+    "text": "Benefits of using Git & GitHub (4/4)\nThe software & platform is built to facilitate for Collaboration."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-1",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#benefits-of-using-git-github-for-researchers-1",
+    "title": "Programming Cafe",
+    "section": "Benefits of using Git & GitHub for researchers",
+    "text": "Benefits of using Git & GitHub for researchers\nIn short:\n\nFree and open-source\nEfficient\nTransparent\nReliable\nBackups and Version Control\nCollaboration\nSharing and Reuse"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#the-git-github-dream",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#the-git-github-dream",
+    "title": "Programming Cafe",
+    "section": "The Git & GitHub Dream",
+    "text": "The Git & GitHub Dream"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#a-github-repository",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#a-github-repository",
+    "title": "Programming Cafe",
+    "section": "A GitHub Repository",
+    "text": "A GitHub Repository\nGit takes snapshots of all the files in a folder. This folder is called a repository or repo.\n\nGitHub Repository for the Programming Cafe"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#a-github-repository-1",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#a-github-repository-1",
+    "title": "Programming Cafe",
+    "section": "A GitHub Repository",
+    "text": "A GitHub Repository\nGit takes snapshots of all the files in a folder. This folder is called a repository or repo.\nHere’s the same repository, but locally on our computer."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#how-do-i-get-started-with-git",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#how-do-i-get-started-with-git",
+    "title": "Programming Cafe",
+    "section": "How do I get started with Git?",
+    "text": "How do I get started with Git?\n\n\nCommand Line\nGitHub Desktop\nRStudio integration\nPycharm integration\nmany more!\n\nThe simplest starting point, however, is GitHub in the web browser!"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#exercise",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#exercise",
+    "title": "Programming Cafe",
+    "section": "Exercise!",
+    "text": "Exercise!\n\nCheck out utrechtuniversity.github.io/programming-cafe/\nYou can try out any of the exercises, we do have some recommendations based on today’s presentation:\n\nFor beginners, the Introduction to GitHub exercise is a nice start. You’ll make a short Markdown file you can use as your profile README and learn about repositories, branches, commits, and pull requests while doing so!\nFor experienced users, the Hello GitHub Actions exercise is a great introduction to the topic."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#what-is-github-actions",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#what-is-github-actions",
+    "title": "Programming Cafe",
+    "section": "What is GitHub Actions",
+    "text": "What is GitHub Actions\n\n\nFree GitHub service\nPerform tasks on the servers of GitHub\nEvents/scheduled times"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#why-using-github-actions",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#why-using-github-actions",
+    "title": "Programming Cafe",
+    "section": "Why using GitHub Actions?",
+    "text": "Why using GitHub Actions?\nAutomation of:\n\n\nTesting\n\n\nDeploying\n\n\nPackaging/publishing\n\n\nParsing/rendering\n\n\nGitHub Pages\n\n\nWebsites\n\n\nDocumentation\n\n\n\n\nOther stuff"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#cool-features",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#cool-features",
+    "title": "Programming Cafe",
+    "section": "Cool features:",
+    "text": "Cool features:\n\n\nTest on several Operating systems (e.g. Windows, macOS, Ubuntu)\nSimultaneous testing across multiple operating systems and versions\nMulti-container testing (Docker-compose)\nCreating and reusing actions from GitHub Marketplace\nInteract with GitHub API (e.g. comment on pull request, create issues)"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#getting-started",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#getting-started",
+    "title": "Programming Cafe",
+    "section": "Getting started",
+    "text": "Getting started\n \nExample"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#terminology",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#terminology",
+    "title": "Programming Cafe",
+    "section": "Terminology",
+    "text": "Terminology\n\nAction\nAn action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task (e.g. installing Python). Use an action to help reduce the amount of repetitive code that you write in your workflow files.\n \nEvent\nAn event is a specific activity in a repository that triggers GitHub Actions to start. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger GitHub Actions on a schedule."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#terminology-1",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#terminology-1",
+    "title": "Programming Cafe",
+    "section": "Terminology",
+    "text": "Terminology\n\nJobs\nA job is a set of steps in a workflow that execute on the same runner (or server). Each step is either a shell script/command that will be executed, or an Action that will be run. Steps are executed in order and are dependent on each other.\n \nWorkflow\nA workflow is one (or a set of) job(s) that are defined in a script (YAML file) and triggered by events"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#terminology-2",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#terminology-2",
+    "title": "Programming Cafe",
+    "section": "Terminology",
+    "text": "Terminology\n\nRunner\nA runner is a server that runs your workflows when they’re triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.\n \nFurther reading"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#summary",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#summary",
+    "title": "Programming Cafe",
+    "section": "Summary",
+    "text": "Summary"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#exercises",
+    "href": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#exercises",
+    "title": "Programming Cafe",
+    "section": "Exercises",
+    "text": "Exercises\n \nhttps://utrechtuniversity.github.io/programming-cafe/"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Programming Cafe",
+    "section": "",
+    "text": "Welcome to the website for the Programming Cafe at Utrecht University!\nThe Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity."
+  },
+  {
+    "objectID": "index.html#next-edition",
+    "href": "index.html#next-edition",
+    "title": "Programming Cafe",
+    "section": "Next edition:",
+    "text": "Next edition:\n\n\n\nTheme\nLiterate Programming by Johan Hidding (eScienceCenter)\n\n\n\n\nDate\n2023 September, 7th 15:00-17:00\n\n\nLocation\nLiving Lab, USP Library\n\n\n\nLiterate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Programming Cafe",
+    "section": "About",
+    "text": "About"
+  },
+  {
+    "objectID": "index.html#agenda-and-previous-editions",
+    "href": "index.html#agenda-and-previous-editions",
+    "title": "Programming Cafe",
+    "section": "Agenda and previous editions",
+    "text": "Agenda and previous editions"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#plan-for-today",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#plan-for-today",
+    "title": "Programming Cafe",
+    "section": "Plan for today",
+    "text": "Plan for today\n\n\n\n\nWelcome\n10 min\n\n\nIntroduction to Code Readability\n15 min\n\n\nLinters & Formatters in R & Python\n15 min\n\n\nExercises or Work on your own code\n60 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#programming-cafe",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#programming-cafe",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nPreviously the R-Cafe\nAn informal, community event\nWork on your own code\nThemes with presentations and exercises\nInteraction"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#good-quality-code-is",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#good-quality-code-is",
+    "title": "Programming Cafe",
+    "section": "Good quality code is:",
+    "text": "Good quality code is:\n\n\nReadable\nReusable\nRobust"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one",
+    "title": "Programming Cafe",
+    "section": "What is a style guide and why should I follow one?",
+    "text": "What is a style guide and why should I follow one?\nA programming style guide consists of rules or guidelines on writing code. These can be seen as conventions or best practices for the community.\nFollowing a style guide will make your code more consistent and readable, both for you and anyone who will interact with your code. It also reduces the chances of errors."
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides",
+    "title": "Programming Cafe",
+    "section": "Some elements of style guides",
+    "text": "Some elements of style guides\nGuidance of strategic use of whitespace and new lines:\nCompare:\nthis &lt;- function(arg1,arg2) res&lt;-arg1*arg2;return(res)\nhurts &lt;- mean(c(this(3,4),this(3,1),this(9,9))); print(hurts)\n\nthis &lt;- function(arg1,arg2){\n  res &lt;- arg1 * arg2\n  return(res)\n}\n\nhurts &lt;- mean(\n  c(\n    this(3,4),\n    this(3,1),\n    this(9,9)\n    )\n  )\nprint(hurts)\nThe second chunk is longer, but more modular and readable."
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides-1",
+    "title": "Programming Cafe",
+    "section": "Some elements of style guides",
+    "text": "Some elements of style guides\nGuidance on descriptive naming of functions and variables\nCompare:\nfor i in my_shopping_basket:\n  if(test(i)) &gt; 10:\n    purch(i)\n  else:\n    disc(i)\n\nfor item in basket:\n  if(testNecessity(item)) &gt; 10:\n    purchase(item)\n  else:\n    discard(item)\nIn the second chunk, we start functions with a verb and make variable names just long enough to be meaningful"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one-1",
+    "title": "Programming Cafe",
+    "section": "What is a style guide and why should I follow one?",
+    "text": "What is a style guide and why should I follow one?"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide",
+    "title": "Programming Cafe",
+    "section": "How can I start working with a style guide?",
+    "text": "How can I start working with a style guide?\nMost programming languages have style guides and these are followed by the community or enforced within organizations.\n\n\nR: The tidyverse style guide\nPython: PEP-8"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide-1",
+    "title": "Programming Cafe",
+    "section": "How can I start working with a style guide?",
+    "text": "How can I start working with a style guide?\nThere are tools available to help you with this! You can use a linter and (auto)formatter while coding!"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\nA linter is a static code analysis tool.\nIt will browse your code and flag/report issues (style, errors, bugs) as output. Then it’s up to the programmer to go through the list and fix the issues."
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-1",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\n\n\nR: The lintr package\nPython: There are several libraries, today we’ll use flake8"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-2",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-2",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\nThe lintr package in R:"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-3",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-3",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\nThe lintr package in R:"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters",
+    "title": "Programming Cafe",
+    "section": "(Auto)formatters",
+    "text": "(Auto)formatters\nWhile linters provide a report of issues, (auto)formatters will browse the code and correct issues automatically/directly.\nThe corrections will depend on the rules encoded within the package/library.\n\n\nR: The styler package\nPython: There are several libraries, today we’ll use black"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters-1",
+    "title": "Programming Cafe",
+    "section": "(Auto)formatters",
+    "text": "(Auto)formatters\nThe styler package in R:"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#your-turn",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#your-turn",
+    "title": "Programming Cafe",
+    "section": "Your turn!",
+    "text": "Your turn!\nTry linting and formatting your own code!\nDon’t have your own code? You can use our exercise files:\n\n\nR: bad.R\nPython: pep8.py"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-r",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-r",
+    "title": "Programming Cafe",
+    "section": "Linters & Formatters in R",
+    "text": "Linters & Formatters in R\nReplace bad.R with the relevant script name.\nMake sure you’re in the same working directory as the script!\ninstall.packages(c(\"lintr\", \"styler\"))\n\nlibrary(lintr)\nlibrary(styler)\n\nlint(\"bad.R\")\n\n# you have two options for styler:\n\n# style using a function\n\nstyle_file(\"bad.R\")\n\n# or use the RStudio add-in (Addins drop-down menu -&gt; Style active file)"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-python",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-python",
+    "title": "Programming Cafe",
+    "section": "Linters & Formatters in Python",
+    "text": "Linters & Formatters in Python\nReplace ‘pep8.py’ with the relevant script name if needed.\nMake sure you’re in the same working directory as the script!\npip install flake8 black\n\nflake8 pep8.py\n\nblack pep8.py"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/notes.html",
+    "href": "static/2022-09-28_git-and-github/notes.html",
+    "title": "Git & GitHub",
+    "section": "",
+    "text": "Date: 28-09-2022\nTime: 15:00-17:00\nLocation: Living Lab, UB Uithof\nAudience: Mixed, from beginners to advanced users\n\n\n\n\n\n\n\nWelcome to the Programming Cafe!\nToday we’ll discuss Git & GitHub\nAlready introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)\n\n\n\n\n\nStart with a problem statement/case! -&gt; version control & collaboration, reproducibility as well…\nWhat is Git? Explain the software.\nWhat is GitHub (& GitLab and other services)?\nBenefits of using Git & GitHub. -&gt; btw, you can already start with the web browser!\n\n\n\n\n\nWhat are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line\nstart the basic exercise here?\nWhat makes a good GitHub repo? README, License, folder structure…\n\n\n\n\n\nlocal vs. online work\n\n\n\n\n\nadd\ncommit\npush\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\ncollaborating on github\nsharing openly on github -&gt; licenses!\npublishing code via Zenodo for a DOI / CITATION.cff files\nintroduce Utrecht University GitHub Jelle"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/notes.html#details",
+    "href": "static/2022-09-28_git-and-github/notes.html#details",
+    "title": "Git & GitHub",
+    "section": "",
+    "text": "Date: 28-09-2022\nTime: 15:00-17:00\nLocation: Living Lab, UB Uithof\nAudience: Mixed, from beginners to advanced users"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/notes.html#presentation-notes",
+    "href": "static/2022-09-28_git-and-github/notes.html#presentation-notes",
+    "title": "Git & GitHub",
+    "section": "",
+    "text": "Welcome to the Programming Cafe!\nToday we’ll discuss Git & GitHub\nAlready introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)\n\n\n\n\n\nStart with a problem statement/case! -&gt; version control & collaboration, reproducibility as well…\nWhat is Git? Explain the software.\nWhat is GitHub (& GitLab and other services)?\nBenefits of using Git & GitHub. -&gt; btw, you can already start with the web browser!\n\n\n\n\n\nWhat are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line\nstart the basic exercise here?\nWhat makes a good GitHub repo? README, License, folder structure…\n\n\n\n\n\nlocal vs. online work\n\n\n\n\n\nadd\ncommit\npush\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\ncollaborating on github\nsharing openly on github -&gt; licenses!\npublishing code via Zenodo for a DOI / CITATION.cff files\nintroduce Utrecht University GitHub Jelle"
+  },
+  {
+    "objectID": "posts/2022-09-28_git-and-github/index.html",
+    "href": "posts/2022-09-28_git-and-github/index.html",
+    "title": "Git & GitHub",
+    "section": "",
+    "text": "We greatly encourage using Git and GitHub for in research projects. The UU has published a video about the UU GitHub page:\n\nWe discussed the use of Git and GitHub during the first edition of the programming cafe.\nCheck out the slide below and do some exercises to get started."
+  },
+  {
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": "Date: Thursday, 7th September\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nLiterate Programming by Johan Hidding (eScienceCenter) Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.\n\n\n\n\n\n\nDate: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
+  },
+  {
+    "objectID": "agenda.html#next-programming-cafe",
+    "href": "agenda.html#next-programming-cafe",
+    "title": "Agenda",
+    "section": "",
+    "text": "Date: Thursday, 7th September\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nLiterate Programming by Johan Hidding (eScienceCenter) Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown."
+  },
+  {
+    "objectID": "agenda.html#past-programming-cafes",
+    "href": "agenda.html#past-programming-cafes",
+    "title": "Agenda",
+    "section": "",
+    "text": "Date: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
   }
 ]
