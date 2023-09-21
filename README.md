@@ -10,6 +10,9 @@ This repository is used for managing the website and , exercises and other mater
 | :--- | :--- |
 | __Date__ | 2023 October, 5th 15:00-17:00 |
 | __Location__ | Living Lab, USP Library |
+
+[![test][outlook/pcafe-okt2023.ics]]
+
 | <a href='outlook/pcafe-okt2023.ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add to calendar</button>
 </a> |
