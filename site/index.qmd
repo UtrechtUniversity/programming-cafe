@@ -6,15 +6,19 @@ Welcome to the website for the Programming Cafe at Utrecht University!
 
 The Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity.
 
-## Next edition:
+::: {.callout-note icon=false}
+## Next Edition
 
-| Theme | [Literate Programming](https://entangled.github.io/) by Johan Hidding (eScienceCenter)| 
-| :--- | :--- | 
-| __Date__ | 2023 September, 7th 15:00-17:00 | 
-| __Location__ | Living Lab, USP Library |
+- **Date:** Thursday, 5th October
+- **Time:** 15:00-17:00
+- **Location:** Living Lab, University Library (Utrecht Science Park)
+- **Demo/Presentation:** Hacktoberfest: Visualization Challenge
 
-Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.
+<a href='https://www.uu.nl/en/node/132753/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add October edition to calendar</button>
+</a>
 
+:::
 
 ## [About](about.qmd)
 

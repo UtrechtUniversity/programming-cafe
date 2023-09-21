@@ -1,9 +1,5 @@
 # Agenda
 
-<a href='../outlook/pcafe_dec2023.ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add all 2023-2024 editions to calendar</button>
-</a>
-
 ::: {.callout-note icon=false}
 ## Programming Cafe October 2023
 
@@ -12,7 +8,7 @@
 - **Location:** Living Lab, University Library (Utrecht Science Park)
 - **Demo/Presentation:** Hacktoberfest: Visualization Challenge
 
-<a href='../outlook/pcafe_okt2023.ics' download="Programming-Cafe">
+<a href='https://www.uu.nl/en/node/132753/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add October edition to calendar</button>
 </a>
 
@@ -26,7 +22,7 @@
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
 - **Demo/Presentation:** tbd
 
-<a href='../outlook/pcafe_nov2023.ics' download="Programming-Cafe">
+<a href='https://www.uu.nl/en/node/132839/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add November edition to calendar</button>
 </a>
 
@@ -40,7 +36,7 @@
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
 - **Demo/Presentation:** tbd
 
-<a href='../outlook/pcafe_dec2023.ics' download="Programming-Cafe">
+<a href='https://www.uu.nl/en/node/132841/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add December edition to calendar</button>
 </a>
 
@@ -51,12 +47,10 @@
 ## Past Programming Cafes
 
 ### September 2023
-
-- **Date:** Thursdag, 7th September
+- **Date:** Thursday, 7th June
 - **Time:** 15:00-17:00
 - **Location:** Living Lab, University Library (Utrecht Science Park)
-- **Demo/Presentation:**
-
+- **Demo/Presentation:** Literate Programming
 Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.
 
 
