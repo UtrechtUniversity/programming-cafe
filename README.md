@@ -6,10 +6,13 @@ This repository is used for managing the website and , exercises and other mater
 
 ## Next edition:
 
-| Theme | [Literate Programming](https://utrechtuniversity.github.io/programming-cafe/) |
+| Theme | [Hacktoberfest: Visualization challenges](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
-| __Date__ | 2023 September, 7th 15:00-17:00 |
+| __Date__ | 2023 October, 5th 15:00-17:00 |
 | __Location__ | Living Lab, USP Library |
+<a href='outlook/pcafe-okt2023.ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add to calendar</button>
+</a>
 
 ## Exercises
 
