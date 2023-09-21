@@ -12,7 +12,7 @@ This repository is used for managing the website and , exercises and other mater
 | __Location__ | Living Lab, USP Library |
 
 | <a href='outlook/pcafe_okt2023.ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add next edition to calendar</button>
+<button type="button" class="btn btn-primary btn-sm">Add october edition to calendar</button>
 </a> |
 
 | Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
@@ -21,7 +21,7 @@ This repository is used for managing the website and , exercises and other mater
 | __Location__ | Bucheliuszaal 6.18, USP Library |
 
 | <a href='outlook/pcafe_nov2023.ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add next edition to calendar</button>
+<button type="button" class="btn btn-primary btn-sm">Add november edition to calendar</button>
 </a> |
 
 | Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
@@ -30,7 +30,7 @@ This repository is used for managing the website and , exercises and other mater
 | __Location__ | Bucheliuszaal 6.18, USP Library |
 
 | <a href='outlook/pcafe_dec2023.ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add next edition to calendar</button>
+<button type="button" class="btn btn-primary btn-sm">Add december edition to calendar</button>
 </a> |
 
 | <a href='outlook/pcafe_2023_2024.ics' download="Programming-Cafe">
