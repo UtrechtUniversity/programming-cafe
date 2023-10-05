@@ -3,7 +3,7 @@ title: "Data Visualization"
 ---
 
 ```{=html}
-<iframe width="1050" height="700" src="../../../presentations/2023-08-05_dataviz/2023-10-05_dataviz.html"></iframe>
+<iframe width="900" height="600" src="../../static/2023-10-05_dataviz/2023-10-05_dataviz.html"></iframe>
 ```
 
 
@@ -112,21 +112,24 @@ reference: https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/
 
 Try to create a map (e.g. leaflet (R) or geopandas (python)) and plot a gps track on top of it
 
-![](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/583833330eb1c8c056e56c2d7005875422d46355/presentations/2023-08-05_dataviz/images/intermediate.png)
+![](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/intermediate.png)
 
 #### Advanced
 
 Try to create an animated gif or movie:
-![](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-08-05_dataviz/images/cats_uk_movevis.gif)
+![](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/cats_uk_movevis.gif)
 
 #### Example libraries to use
+
 R:
+
 - ggplot2
 - leaflet
 - move
 - moveVis
 
 Python:
+
 - matplotlib
 - geopandas
 - movingpandas
