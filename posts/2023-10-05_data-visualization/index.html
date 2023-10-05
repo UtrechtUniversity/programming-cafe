@@ -147,16 +147,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#pet-cats-uk" id="toc-pet-cats-uk" class="nav-link active" data-scroll-target="#pet-cats-uk">Pet Cats UK</a>
+  <li><a href="#how-this-will-go" id="toc-how-this-will-go" class="nav-link active" data-scroll-target="#how-this-will-go">How This Will Go</a>
   <ul class="collapse">
-  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here:</a></li>
+  <li><a href="#example-libraries-to-use" id="toc-example-libraries-to-use" class="nav-link" data-scroll-target="#example-libraries-to-use">Example libraries to use</a></li>
+  </ul></li>
+  <li><a href="#pet-cats-uk" id="toc-pet-cats-uk" class="nav-link" data-scroll-target="#pet-cats-uk">Pet Cats UK</a></li>
+  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a>
+  <ul class="collapse">
+  <li><a href="#r-1" id="toc-r-1" class="nav-link" data-scroll-target="#r-1">R</a></li>
+  <li><a href="#python-1" id="toc-python-1" class="nav-link" data-scroll-target="#python-1">Python</a></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
   </ul></li>
-  <li><a href="#cats_uk.csv" id="toc-cats_uk.csv" class="nav-link" data-scroll-target="#cats_uk.csv"><code>cats_uk.csv</code></a></li>
-  <li><a href="#cats_uk_reference.csv" id="toc-cats_uk_reference.csv" class="nav-link" data-scroll-target="#cats_uk_reference.csv"><code>cats_uk_reference.csv</code></a>
+  <li><a href="#example-data-visualizations" id="toc-example-data-visualizations" class="nav-link" data-scroll-target="#example-data-visualizations">Example Data Visualizations</a>
   <ul class="collapse">
-  <li><a href="#example-data-visualizations" id="toc-example-data-visualizations" class="nav-link" data-scroll-target="#example-data-visualizations">Example Data Visualizations</a></li>
+  <li><a href="#beginner" id="toc-beginner" class="nav-link" data-scroll-target="#beginner">Beginner</a></li>
+  <li><a href="#intermediate" id="toc-intermediate" class="nav-link" data-scroll-target="#intermediate">Intermediate</a></li>
+  <li><a href="#advanced" id="toc-advanced" class="nav-link" data-scroll-target="#advanced">Advanced</a></li>
   </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/posts/2023-10-05_data-visualization/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
@@ -180,13 +188,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
+<p>This week’s Programming Cafe is all about <em>Data Visualization</em>! We are borrowing from the <a href="https://github.com/rfordatascience/tidytuesday">#TidyTuesday</a> initiative and we’ll be analyzing data from <strong>Pet Cats UK</strong>.</p>
 <iframe width="900" height="600" src="../../static/2023-10-05_dataviz/2023-10-05_dataviz.html"></iframe>
-<p>This week’s Programming Cafe is all about <em>Data Visualization</em>! We are borrowing from the #TidyTuesday initiative and we’ll analyzing data from Pet Cats UK.</p>
-<p>Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we’ve gathered. You can use whatever programming language you like and we encourage you to work in pairs/groups - so you can learn together!</p>
-<p><strong>source for much of the text/code below: https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md</strong></p>
-<section id="pet-cats-uk" class="level1">
-<h1>Pet Cats UK</h1>
-<p>The data this week comes from the <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank for Animal Tracking Data</a> via <a href="https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013">Data is Plural</a>. Thanks <span class="citation" data-cites="jthomasmock">@jthomasmock</span> for the suggestion!</p>
+<section id="how-this-will-go" class="level2">
+<h2 class="anchored" data-anchor-id="how-this-will-go">How This Will Go</h2>
+<p>Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we’ve gathered below. You can use whatever programming language and packages/libraries you like and we encourage you to work in pairs/groups - so you can learn together!</p>
+<section id="example-libraries-to-use" class="level3">
+<h3 class="anchored" data-anchor-id="example-libraries-to-use">Example libraries to use</h3>
+<section id="r" class="level4">
+<h4 class="anchored" data-anchor-id="r">R:</h4>
+<ul>
+<li>ggplot2</li>
+<li>leaflet</li>
+<li>move</li>
+<li>moveVis</li>
+</ul>
+</section>
+<section id="python" class="level4">
+<h4 class="anchored" data-anchor-id="python">Python:</h4>
+<ul>
+<li>matplotlib</li>
+<li>geopandas</li>
+<li>movingpandas</li>
+<li>(pystac + rioxarray) (to read and visualize sentinel satellite data)</li>
+</ul>
+</section>
+<section id="inspiration" class="level4">
+<h4 class="anchored" data-anchor-id="inspiration">Inspiration:</h4>
+<p><a href="https://www.data-to-viz.com/">https://www.data-to-viz.com/</a></p>
+</section>
+</section>
+</section>
+<section id="pet-cats-uk" class="level2">
+<h2 class="anchored" data-anchor-id="pet-cats-uk">Pet Cats UK</h2>
+<p><strong>source for much of the text/code: <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md">https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md</a></strong></p>
+<p>The data comes from the <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank for Animal Tracking Data</a> via <a href="https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013">Data is Plural</a>.</p>
 <blockquote class="blockquote">
 <p>Between 2013 and 2017, Roland Kays et al.&nbsp;convinced hundreds of volunteers in the U.S., U.K., Australia, and New Zealand to strap GPS sensors on their pet cats. The aforelinked datasets include each cat’s characteristics (such as age, sex, neuter status, hunting habits) and time-stamped GPS pings.</p>
 </blockquote>
@@ -202,23 +238,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <blockquote class="blockquote">
 <p>McDonald JL, Cole H (2020) Data from: The small home ranges and large local ecological impacts of pet cats [United Kingdom]. Movebank Data Repository. <a href="http://dx.doi.org/10.5441/001/1.pf315732">doi:10.5441/001/1.pf315732</a></p>
 </blockquote>
-<p>Additional datasets for the <a href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>, <a href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>, and <a href="https://www.datarepository.movebank.org/handle/10255/move.879">New Zealand</a> are also available for download, but they were too large for us to include them directly.</p>
-<section id="get-the-data-here" class="level3">
-<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here:</h3>
+<p>Additional datasets for the <a href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>, <a href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>, and <a href="https://www.datarepository.movebank.org/handle/10255/move.879">New Zealand</a> are also available for download, but they are not included.</p>
+</section>
+<section id="get-the-data-here" class="level2">
+<h2 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h2>
+<section id="r-1" class="level3">
+<h3 class="anchored" data-anchor-id="r-1">R</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="python-1" class="level3">
+<h3 class="anchored" data-anchor-id="python-1">Python</h3>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="op">&lt;-</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="op">&lt;-</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="data-dictionary" class="level3">
 <h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
 <p>Full dictionaries are available on <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank</a></p>
-</section>
-</section>
-<section id="cats_uk.csv" class="level1">
-<h1><code>cats_uk.csv</code></h1>
+<section id="cats_uk.csv" class="level4">
+<h4 class="anchored" data-anchor-id="cats_uk.csv"><code>cats_uk.csv</code></h4>
 <table class="table">
 <colgroup>
 <col style="width: 41%">
@@ -291,8 +333,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tbody>
 </table>
 </section>
-<section id="cats_uk_reference.csv" class="level1">
-<h1><code>cats_uk_reference.csv</code></h1>
+<section id="cats_uk_reference.csv" class="level4">
+<h4 class="anchored" data-anchor-id="cats_uk_reference.csv"><code>cats_uk_reference.csv</code></h4>
 <table class="table">
 <colgroup>
 <col style="width: 42%">
@@ -389,52 +431,113 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<section id="example-data-visualizations" class="level3">
-<h3 class="anchored" data-anchor-id="example-data-visualizations">Example Data Visualizations</h3>
-<section id="beginner" class="level4">
-<h4 class="anchored" data-anchor-id="beginner">Beginner</h4>
-<p>Try:</p>
-<ul>
-<li>reading in the data</li>
-<li>plotting number of cats per household</li>
-<li>plotting prey caught per year</li>
-<li>plotting hours spent indoors</li>
-<li>plotting the gender of the cats in the dataset</li>
-<li>plotting the age of the cats</li>
-</ul>
-<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-2-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png" class="img-fluid"></p>
-<p>reference: https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md</p>
 </section>
-<section id="intermediate" class="level4">
-<h4 class="anchored" data-anchor-id="intermediate">Intermediate</h4>
+</section>
+</section>
+<section id="example-data-visualizations" class="level2">
+<h2 class="anchored" data-anchor-id="example-data-visualizations">Example Data Visualizations</h2>
+<section id="beginner" class="level3">
+<h3 class="anchored" data-anchor-id="beginner">Beginner</h3>
+<p>Beginners can try:</p>
+<ol type="1">
+<li><p>Reading in the data</p></li>
+<li><p>Plotting the number of cats per household</p></li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-2-1.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Plotting the number of prey caught per year</li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png" class="img-fluid"></p>
+<ol start="4" type="1">
+<li>Plotting the number of hours spent indoors</li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li>Plotting the gender of the cats in the dataset</li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png" class="img-fluid"></p>
+<ul>
+<li>Plotting the age of the cats</li>
+</ul>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png" class="img-fluid"></p>
+<p>The above plots are referenced from: <a href="https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md">https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md</a>. The author has code snippets in R showing how they obtained the plots.</p>
+<p>You can get tips on building bar plots in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/histogram.html">https://www.data-to-viz.com/graph/histogram.html</a></p>
+</section>
+<section id="intermediate" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate">Intermediate</h3>
+<p>Intermediate users have two options:</p>
+<section id="creating-a-treemap-of-the-data." class="level4">
+<h4 class="anchored" data-anchor-id="creating-a-treemap-of-the-data.">Creating a <code>treemap</code> of the data.</h4>
+<p><img src="https://github.com/poncest/tidytuesday/raw/main/2023/Week_05/2023_05.png" class="img-fluid"></p>
+<p>The above plot is referenced from: <a href="https://github.com/poncest/tidytuesday/tree/main/2023/Week_05">https://github.com/poncest/tidytuesday/tree/main/2023/Week_05</a>. The author has a script in R showing how they obtained the plot.</p>
+<p>You can get tips on building treemaps in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/treemap.html">https://www.data-to-viz.com/graph/treemap.html</a></p>
+<p>Here is a human-readable breakdown of the steps, provided by ChatGPT:</p>
+<ol type="1">
+<li><strong>Load Packages &amp; Setup:</strong>
+<ul>
+<li>Load necessary software packages using the pacman library.</li>
+<li>Set up the figure size and resolution for plotting.</li>
+</ul></li>
+<li><strong>Read in the Data:</strong>
+<ul>
+<li>Load data for the TidyTuesday challenge for 2023, week 05.</li>
+<li>Clean and organize the data.</li>
+</ul></li>
+<li><strong>Examine the Data:</strong>
+<ul>
+<li>Use glimpse to see the structure of the cats_uk and cats_uk_reference datasets.</li>
+<li>List unique values in the “tag_id” column of both datasets.</li>
+<li>Combine the data using a left join operation and save memory.</li>
+</ul></li>
+<li><strong>Tidy the Data:</strong>
+<ul>
+<li>Remove outliers from the data.</li>
+<li>Convert timestamp data to date format.</li>
+<li>Group and summarize the data based on specific columns.</li>
+<li>Clean and prepare the data for visualization.</li>
+</ul></li>
+<li><strong>Create Visualization:</strong>
+<ul>
+<li>Set up plot aesthetics including colors, titles, and captions.</li>
+<li>Define fonts for text elements.</li>
+<li>Build the main plot using the ggplot2 package with a treemap representation.</li>
+<li>Customize plot labels, colors, and themes to make it visually appealing.</li>
+</ul></li>
+</ol>
+</section>
+<section id="map" class="level4">
+<h4 class="anchored" data-anchor-id="map">Map</h4>
 <p>Try to create a map (e.g.&nbsp;leaflet (R) or geopandas (python)) and plot a gps track on top of it</p>
 <p><img src="https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/intermediate.png" class="img-fluid"></p>
 </section>
-<section id="advanced" class="level4">
-<h4 class="anchored" data-anchor-id="advanced">Advanced</h4>
-<p>Try to create an animated gif or movie: <img src="https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/cats_uk_movevis.gif" class="img-fluid"></p>
 </section>
-<section id="example-libraries-to-use" class="level4">
-<h4 class="anchored" data-anchor-id="example-libraries-to-use">Example libraries to use</h4>
-<p>R:</p>
-<ul>
-<li>ggplot2</li>
-<li>leaflet</li>
-<li>move</li>
-<li>moveVis</li>
-</ul>
-<p>Python:</p>
-<ul>
-<li>matplotlib</li>
-<li>geopandas</li>
-<li>movingpandas</li>
-<li>(pystac + rioxarray) (to read and visualize sentinel satellite data)</li>
-</ul>
-<p>Inspiration: <a href="https://www.data-to-viz.com/">https://www.data-to-viz.com/</a></p>
+<section id="advanced" class="level3">
+<h3 class="anchored" data-anchor-id="advanced">Advanced</h3>
+<p>Advanced users can try plotting the data onto a map and adding an animation element.</p>
+<p><img src="https://github.com/fblpalmeira/cats_uk/blob/main/data/cats_uk_movevis.gif?raw=true" class="img-fluid"></p>
+<p>The above plot is referenced from: <a href="https://github.com/fblpalmeira/cats_uk/blob/main/README.md">https://github.com/fblpalmeira/cats_uk/blob/main/README.md</a>. The author has a script in R showing how they obtained the plot.</p>
+<p>You can get tips on building maps in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/map.html">https://www.data-to-viz.com/graph/map.html</a></p>
+<p>Here is a human-readable breakdown of the steps, provided by ChatGPT:</p>
+<ol type="1">
+<li><p><strong>Read in the Data</strong>: Begin by reading two CSV files from the internet. You can do this using software like R. The files you need are named cats_uk.csv and cats_uk_reference.csv.</p></li>
+<li><p><strong>View the Data</strong>: After reading the data, use a tool or function (like the View function in R) to visually inspect the contents of both data files. This step helps you understand what’s in the data.</p></li>
+<li><p><strong>Load Libraries</strong>: Make sure you have certain software libraries installed and loaded. These libraries include dplyr, move, moveVis, maptools, magrittr, and ggplot2. They provide tools for data manipulation and visualization.</p></li>
+<li><p><strong>Combine and Filter Data</strong>: Use the dplyr library to combine the data from the two CSV files based on a common column called “tag_id.” After combining, filter the data to select only specific cat names like “Bear,” “Coco,” etc.</p></li>
+<li><p><strong>Convert Timestamps</strong>: Convert the timestamps in the filtered data from a text format to a date-time format. This makes it easier to work with time-based data.</p></li>
+<li><p><strong>Create a Move Object</strong>: Using the filtered and timestamp-converted data, create a “move object” that represents the movement of cats. This object specifies the columns for longitude, latitude, time, and track ID.</p></li>
+<li><p><strong>Align Data</strong>: Adjust the timestamps in the move object to align them at a specific resolution, such as daily intervals. This step aggregates the data for each day.</p></li>
+<li><p><strong>Generate Map Frames</strong>: Create map frames to visualize cat movements. You can customize these frames by adding things like labels, a north arrow, and a scale bar.</p></li>
+<li><p><strong>Add Text</strong>: Include text on the map frames, such as a Twitter handle, at a specific location.</p></li>
+<li><p><strong>Preview a Frame</strong>: Optionally, you can preview one of the map frames to see how it looks.</p></li>
+<li><p><strong>Generate an Animation</strong>: Finally, use a function or tool (like animate_frames) to turn the map frames into an animated GIF. This GIF will show the movements of the selected cats over time.</p></li>
+</ol>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Will be updated to be more neat, the authors of the data and code and resources retain all their copyright - they are awesome!</p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->
