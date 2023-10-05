@@ -1,0 +1,130 @@
+---
+format:
+  revealjs:
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    multiplex: true
+    footer: "Programming Cafe"
+---
+
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Plan for today
+
+::: {style="text-align: left; margin-top: 2em"}
+
+|    |    |
+|------------------------------|-------------|
+| Introduction to challenge | 5 min |
+| Work on challenge or your own project | 105 min |
+| Wrap-up | 10 min |
+| Drinks! |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Presentation, demo, exercise
+-    Community event
+-    Open to UU, HU, UMCU
+-    Researchers, students, support staff
+-    It is OK to work on your own code
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Ideas for topics? Let us know!
+-    Wanted: Core team members
+-    Feedback welcome! 
+
+Use the link below or talk to us
+
+[tinyurl.com/uucafe](https://tinyurl.com/uucafe)
+
+:::
+
+## Tidy Tuesday
+
+[https://github.com/rfordatascience/tidytuesday](https://github.com/rfordatascience/tidytuesday)
+
+![](images/tt_logo.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Pet cats UK
+
+Cat owners where convinced to strap GPS tracks on their cats.
+
+GPS tracks from 101 cats in the UK
+
+Additional info on: sex, hrs_indoors, reproductive condition, food, age, prey per month
+
+Dataset initially published on Movebank for Animal Tracking Data
+
+[Tidy Tuesday original challenge](https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md)
+
+## Examples Beginner
+![](images/beginner1.png){.absolute top=200 left=0 width="450" height="400"}
+![](images/beginner2.png){.absolute top=50 right=50 width="350" height="250"}
+![](images/beginner3.png){.absolute bottom=0 right=50 width="400" height="300"}
+
+## Example intermediate
+![](images/intermediate.png)
+
+## Example expert
+![](images/cats_uk_movevis.gif)
+
+## Getting Started
+
+[tinyurl.com/uucafeviz](https://tinyurl.com/uucafeviz)
+
+``` r
+library(readr)
+cats_uk <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')
+cats_uk_reference <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')
+```
+
+``` python
+import pandas as pd
+cats_uk = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')
+cats_uk_reference = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')
+```
+
+## Tips
+
+[tinyurl.com/uucafeviz](https://tinyurl.com/uucafeviz)
+
+:::: {.columns}
+::: {.column width="50%"}
+
+### R Packages
+- ggplot2
+- leaflet
+- move
+- moveVis
+
+:::
+
+::: {.column width="50%"}
+
+### Python Packages
+- matplotlib
+- geopandas
+- movingpandas
+- (pystac)
+
+:::
+::::
+
+
+
+## Success!! {background-color="black" background-image="https://placekitten.com/100/100" background-size="100px" background-repeat="repeat"}
