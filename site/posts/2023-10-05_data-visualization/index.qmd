@@ -4,13 +4,36 @@ title: "Data Visualization"
 
 This week's Programming Cafe is all about _Data Visualization_! We are borrowing from the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative and we'll be analyzing data from **Pet Cats UK**.
 
+```{=html}
+<iframe width="900" height="600" src="../../static/2023-10-05_dataviz/2023-10-05_dataviz.html"></iframe>
+```
+
 ## How This Will Go
 
 Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we've gathered below. You can use whatever programming language and packages/libraries you like and we encourage you to work in pairs/groups - so you can learn together! 
 
+### Example libraries to use
+
+#### R:
+
+- ggplot2
+- leaflet
+- move
+- moveVis
+
+#### Python:
+
+- matplotlib
+- geopandas
+- movingpandas
+- (pystac + rioxarray) (to read and visualize sentinel satellite data)
+
+#### Inspiration:
+[https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+
 ## Pet Cats UK
 
-**source for much of the text/code : https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md**
+**source for much of the text/code: [https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md](https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md)**
 
 The data comes from the [Movebank for Animal Tracking Data](https://www.datarepository.movebank.org/handle/10255/move.882) via [Data is Plural](https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013). 
 
@@ -30,7 +53,7 @@ Additional datasets for the [US](https://www.datarepository.movebank.org/handle/
 
 ### R
 
-```
+```{r}
 library(readr)
 
 cats_uk <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')
@@ -39,7 +62,7 @@ cats_uk_reference <- readr::read_csv('https://raw.githubusercontent.com/rfordata
 
 ### Python
 
-```
+```{python}
 import pandas as pd
 
 cats_uk <- pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')
@@ -122,7 +145,9 @@ You can get tips on building bar plots in both R & Python on the following page:
 
 ### Intermediate
 
-Intermediate users can try creating a `treemap` of the data.
+Intermediate users have two options: 
+
+#### Creating a `treemap` of the data.
 
 ![](https://github.com/poncest/tidytuesday/raw/main/2023/Week_05/2023_05.png)
 
@@ -156,6 +181,12 @@ Here is a human-readable breakdown of the steps, provided by ChatGPT:
     - Define fonts for text elements.
     - Build the main plot using the ggplot2 package with a treemap representation.
     - Customize plot labels, colors, and themes to make it visually appealing.
+
+#### Map
+
+Try to create a map (e.g. leaflet (R) or geopandas (python)) and plot a gps track on top of it
+
+![](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/intermediate.png)
 
 ### Advanced
 
@@ -194,3 +225,4 @@ Here is a human-readable breakdown of the steps, provided by ChatGPT:
 ## References
 
 Will be updated to be more neat, the authors of the data and code and resources retain all their copyright - they are awesome!
+
