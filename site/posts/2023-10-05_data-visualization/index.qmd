@@ -29,10 +29,7 @@ The data this week comes from the [Movebank for Animal Tracking Data](https://ww
 
 Additional datasets for the [US](https://www.datarepository.movebank.org/handle/10255/move.885), [Australia](https://www.datarepository.movebank.org/handle/10255/move.876), and [New Zealand](https://www.datarepository.movebank.org/handle/10255/move.879) are also available for download, but they were too large for us to include them directly.
 
-### Get the data here
-
-```
-# Get the Data
+### Get the data here:
 
 ``` r
 library(readr)
@@ -48,7 +45,6 @@ cats_uk_reference = pd.read_csv('https://raw.githubusercontent.com/rfordatascien
 
 
 
-```
 
 ### Data Dictionary
 
@@ -108,7 +104,7 @@ Try:
 ![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png)
 ![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png)
 ![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png)
-![](https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png)
+![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png)
 
 reference: https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md
 
@@ -135,3 +131,7 @@ Python:
 - geopandas
 - movingpandas
 - (pystac + rioxarray) (to read and visualize sentinel satellite data)
+
+Inspiration:
+[https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+
