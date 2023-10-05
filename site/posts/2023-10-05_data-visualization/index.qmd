@@ -1,0 +1,108 @@
+---
+title: "Data Visualization"
+---
+
+This week's Programming Cafe is all about _Data Visualization_! We are borrowing from the #TidyTuesday initiative and we'll analyzing data from Pet Cats UK.
+
+Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we've gathered. You can use whatever programming language you like and we encourage you to work in pairs/groups - so you can learn together! 
+
+**source for much of the text/code below: https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md**
+
+# Pet Cats UK
+
+The data this week comes from the [Movebank for Animal Tracking Data](https://www.datarepository.movebank.org/handle/10255/move.882) via [Data is Plural](https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013). Thanks @jthomasmock for the suggestion!
+
+> Between 2013 and 2017, Roland Kays et al. convinced hundreds of volunteers in the U.S., U.K., Australia, and New Zealand to strap GPS sensors on their pet cats. The aforelinked datasets include each cat's characteristics (such as age, sex, neuter status, hunting habits) and time-stamped GPS pings.
+
+> When using this dataset, please cite the original article.
+
+> Kays R, Dunn RR, Parsons AW, Mcdonald B, Perkins T, Powers S, Shell L, McDonald JL, Cole H, Kikillus H, Woods L, Tindle H, Roetman P (2020) The small home ranges and large local ecological impacts of pet cats. Animal Conservation. [doi:10.1111/acv.12563](http://dx.doi.org/10.1111/acv.12563)
+
+> Additionally, please cite the Movebank data package:
+
+> McDonald JL, Cole H (2020) Data from: The small home ranges and large local ecological impacts of pet cats [United Kingdom]. Movebank Data Repository. [doi:10.5441/001/1.pf315732](http://dx.doi.org/10.5441/001/1.pf315732)
+
+Additional datasets for the [US](https://www.datarepository.movebank.org/handle/10255/move.885), [Australia](https://www.datarepository.movebank.org/handle/10255/move.876), and [New Zealand](https://www.datarepository.movebank.org/handle/10255/move.879) are also available for download, but they were too large for us to include them directly.
+
+### Get the data here
+
+```
+# Get the Data
+
+## R
+
+cats_uk <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')
+cats_uk_reference <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')
+
+## Python
+
+
+```
+
+### Data Dictionary
+
+Full dictionaries are available on [Movebank](https://www.datarepository.movebank.org/handle/10255/move.882)
+
+# `cats_uk.csv`
+
+|variable                 |class     |description              |
+|:------------------------|:---------|:------------------------|
+|tag_id                   |character |A unique identifier for the tag, provided by the data owner. If the data owner does not provide a tag ID, an internal Movebank tag identifier may sometimes be shown.|
+|event_id                 |double    |An identifier for the set of values associated with each event, i.e. sensor measurement. A unique event ID is assigned to every time-location or other time-measurement record in Movebank. If multiple measurements are included within a single row of a data file, they will share an event ID. If users import the same sensor measurement to Movebank multiple times, a separate event ID will be assigned to each.|
+|visible                  |logical   |Determines whether an event is visible on the Movebank map. Values are calculated automatically, with TRUE indicating the event has not been flagged as an outlier by `algorithm_marked_outlier`, `import_marked_outlier` or `manually_marked_outlier`, or that the user has overridden the results of these outlier attributes using `manually_marked_valid` = TRUE. Allowed values are TRUE or FALSE.|
+|timestamp                       |double    |The date and time corresponding to a sensor measurement or an estimate derived from sensor measurements.|
+|location_long                   |double    |The geographic longitude of the location as estimated by the sensor. Positive values are east of the Greenwich Meridian, negative values are west of it.|
+|location_lat                    |double    |The geographic longitude of the location as estimated by the sensor. Positive values are east of the Greenwich Meridian, negative values are west of it.|
+|ground_speed                    |double    |The estimated ground speed provided by the sensor or calculated between consecutive locations. Units are reportedly m/s, which indicates that there is likely a problem with this data (either the units were reported erroneously or their is an issue with the sensor data).|
+|height_above_ellipsoid          |double    |The estimated height above the ellipsoid, typically estimated by the tag. Units: meters|
+|algorithm_marked_outlier        |logical   |Identifies events marked as outliers using a user-selected filter algorithm in Movebank. Outliers have the value TRUE.|
+|manually_marked_outlier         |logical   |Identifies events flagged manually as outliers, typically using the Event Editor in Movebank, and may also include outliers identified using other methods. Outliers have the value TRUE.|
+|study_name                      |character |The name of the study in Movebank.|
+
+# `cats_uk_reference.csv`
+
+|variable                      |class     |description                   |
+|:-----------------------------|:---------|:-----------------------------|
+|tag_id                        |character |A unique identifier for the tag, provided by the data owner. If the data owner does not provide a tag ID, an internal Movebank tag identifier may sometimes be shown. |
+|animal_id                     |character |An individual identifier for the animal, provided by the data owner. If the data owner does not provide an Animal ID, an internal Movebank animal identifier is sometimes shown. |
+|animal_taxon                  |character |The scientific name of the species on which the tag was deployed, as defined by the Integrated Taxonomic Information System (ITIS, www.itis.gov). If the species name can not be provided, this should be the lowest level taxonomic rank that can be determined and that is used in the ITIS taxonomy. |
+|deploy_on_date                |double    |The timestamp when the tag deployment started. |
+|deploy_off_date               |double    |The timestamp when the tag deployment ended. |
+|hunt                          |logical   |Whether the animal was allowed to hunt. |
+|prey_p_month                  |double    |Approximate number of prey caught by the animal per month. |
+|animal_reproductive_condition |character |The reproductive condition of the animal at the beginning of the deployment. |
+|animal_sex                    |character |The sex of the animal, as "m" or "f".|
+|hrs_indoors                   |double    |The average number of hours which the animal was indoors per day. |
+|n_cats                        |double    |The number of cats in the house.|
+|food_dry                      |logical   |Whether the cat was fed dry food.|
+|food_wet                      |logical   |Whether the cat was fed wet food.|
+|food_other                    |logical   |Whether the cat was fed other food.|
+|study_site                    |character |A location such as the deployment site or colony, or a location-related group such as the herd or pack name.|
+|age_years                     |double    |The age of the animal at the beginning of the deployment, in years. "0" indicates that the animal was < 1 year old.|
+
+### Example Data Visualizations
+
+#### Beginner
+
+Try:
+
+- reading in the data
+- plotting number of cats per household
+- plotting prey caught per year
+- plotting hours spent indoors
+- plotting the gender of the cats in the dataset
+- plotting the age of the cats
+
+![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-2-1.png)
+![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png)
+![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png)
+![](https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png)
+![](https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png)
+
+reference: https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md
+
+#### Intermediate
+
+
+
+#### Advanced
