@@ -149,7 +149,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#pet-cats-uk" id="toc-pet-cats-uk" class="nav-link active" data-scroll-target="#pet-cats-uk">Pet Cats UK</a>
   <ul class="collapse">
-  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a></li>
+  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here:</a></li>
   <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
   </ul></li>
   <li><a href="#cats_uk.csv" id="toc-cats_uk.csv" class="nav-link" data-scroll-target="#cats_uk.csv"><code>cats_uk.csv</code></a></li>
@@ -204,17 +204,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </blockquote>
 <p>Additional datasets for the <a href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>, <a href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>, and <a href="https://www.datarepository.movebank.org/handle/10255/move.879">New Zealand</a> are also available for download, but they were too large for us to include them directly.</p>
 <section id="get-the-data-here" class="level3">
-<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h3>
-<pre><code># Get the Data
-
-``` r
-library(readr)
-cats_uk &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')
-cats_uk_reference &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')</code></pre>
+<h3 class="anchored" data-anchor-id="get-the-data-here">Get the data here:</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>```</p>
 </section>
 <section id="data-dictionary" class="level3">
 <h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
@@ -406,7 +402,7 @@ cats_uk_reference &lt;- readr::read_csv('https://raw.githubusercontent.com/rford
 <li>plotting the gender of the cats in the dataset</li>
 <li>plotting the age of the cats</li>
 </ul>
-<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-2-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png" class="img-fluid"></p>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-2-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png" class="img-fluid"> <img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png" class="img-fluid"></p>
 <p>reference: https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md</p>
 </section>
 <section id="intermediate" class="level4">
@@ -422,6 +418,7 @@ cats_uk_reference &lt;- readr::read_csv('https://raw.githubusercontent.com/rford
 <h4 class="anchored" data-anchor-id="example-libraries-to-use">Example libraries to use</h4>
 <p>R: - ggplot2 - leaflet - move - moveVis</p>
 <p>Python: - matplotlib - geopandas - movingpandas - (pystac + rioxarray) (to read and visualize sentinel satellite data)</p>
+<p>Inspiration: <a href="https://www.data-to-viz.com/">https://www.data-to-viz.com/</a></p>
 
 
 </section>
