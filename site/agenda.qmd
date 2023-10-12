@@ -1,25 +1,11 @@
 # Agenda
 
 ::: {.callout-note icon=false}
-## Programming Cafe October 2023
-
-- **Date:** Thursday, 5th October
-- **Time:** 15:00-17:00
-- **Location:** Living Lab, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Hacktoberfest: Visualization Challenge
-
-<a href='https://www.uu.nl/en/node/132753/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add October edition to calendar</button>
-</a>
-
-:::
-
-::: {.callout-note icon=false}
 ## Programming Cafe November 2023
 
 - **Date:** Thursday, 2nd November
 - **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Location:** 0.33D, Adminstration Building (Bestuursgebouw) Heidelberglaan 8, Utrecht Science Park
 - **Demo/Presentation:** tbd
 
 <a href='https://www.uu.nl/en/node/132839/ics' download="Programming-Cafe">
