@@ -9,9 +9,9 @@ The Programming Cafe is a community event organized every first Thursday of the 
 ::: {.callout-note icon=false}
 ## Next Edition
 
-- **Date:** Thursday, 5th October
+- **Date:** Thursday, 2nd November
 - **Time:** 15:00-17:00
-- **Location:** Living Lab, University Library (Utrecht Science Park)
+- **Location:** 0.33D, Adminstration Building (Bestuursgebouw) Heidelberglaan 8, Utrecht Science Park
 - **Demo/Presentation:** Hacktoberfest: Visualization Challenge
 
 <a href='https://www.uu.nl/en/node/132753/ics' download="Programming-Cafe">
