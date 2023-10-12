@@ -6,19 +6,10 @@ This repository is used for managing the website and , exercises and other mater
 
 ## Next edition:
 
-| Theme | [Hacktoberfest: Visualization challenges](https://utrechtuniversity.github.io/programming-cafe/) |
-| :--- | :--- |
-| __Date__ | 2023 October, 5th 15:00-17:00 |
-| __Location__ | Living Lab, USP Library |
-
-| <a href='https://www.uu.nl/en/node/132753/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add October edition to calendar</button>
-</a> |
-
 | Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
 | __Date__ | 2023 November, 2nd 15:00-17:00 |
-| __Location__ | Bucheliuszaal 6.18, USP Library |
+| __Location__ | 0.33D, [Adminstration Building (Bestuursgebouw)](https://www.uu.nl/bestuursgebouw) Heidelberglaan 8, Utrecht Science Park |
 
 | <a href='https://www.uu.nl/en/node/132839/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add November edition to calendar</button>
