@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Programming Cafe - Code Readability</title>
+<title>Programming Cafe - Scheduling Scripts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,14 +108,26 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#exercise" id="toc-exercise" class="nav-link active" data-scroll-target="#exercise">Exercise</a>
+  <ul class="collapse">
+  <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows">Windows</a></li>
+  <li><a href="#macos" id="toc-macos" class="nav-link" data-scroll-target="#macos">MacOS</a></li>
+  <li><a href="#linux" id="toc-linux" class="nav-link" data-scroll-target="#linux">Linux</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/posts/2023-11-02_scheduling-scripts/index.qmd" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Code Readability</h1>
+<h1 class="title">Scheduling Scripts</h1>
 </div>
 
 
@@ -130,10 +142,91 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Hello this a post about code readability</p>
-<iframe width="1050" height="700" src="../../static/2022-10-26_code-readability/2022-10-26_code-readability.html"></iframe>
+<p>This week’s Programming Cafe is about <em>Scheduling Scripts</em>! We will learn how to automate some boring things using the <em>schedulers</em> available on our operating systems.</p>
+<iframe width="900" height="600" src="../../static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html"></iframe>
+<section id="exercise" class="level2">
+<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
+<p>After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R &amp; Python scripts that you can utilize for this. You can download the materials here: <a href="link">link</a></p>
+<section id="windows" class="level3">
+<h3 class="anchored" data-anchor-id="windows">Windows</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<ol type="1">
+<li><p>Go to <code>windows/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>Search for <em>Windows Task Scheduler</em> in your computer’s search bar.</p></li>
+<li><p>….</p></li>
+</ol>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ol type="1">
+<li><p>Go to <code>windows/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>Search for <em>Windows Task Scheduler</em> in your computer’s search bar.</p></li>
+<li><p>….</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="macos" class="level3">
+<h3 class="anchored" data-anchor-id="macos">MacOS</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<ol type="1">
+<li><p>Go to <code>macos/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<ol type="1">
+<li><p>Go to <code>macos/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="linux" class="level3">
+<h3 class="anchored" data-anchor-id="linux">Linux</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">R</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<ol type="1">
+<li><p>Go to <code>linux/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<ol type="1">
+<li><p>Go to <code>linux/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it!</p></li>
+<li><p>…</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -373,4 +466,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/posts/2022-10-26_code-readability/index.qmd" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
+</body></html>

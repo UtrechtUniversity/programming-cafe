@@ -10,7 +10,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>Programming Cafe – git-and-github</title>
+  <title>Programming Cafe – scheduling-scripts</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -335,30 +335,18 @@
 <table>
 <tbody>
 <tr class="odd">
-<td>Intro programming cafe</td>
-<td>10 min</td>
+<td>Work on your own project</td>
+<td>45 min</td>
 </tr>
 <tr class="even">
-<td>Getting Started with Git and GitHub</td>
-<td>20 min</td>
+<td>Scheduling Scripts</td>
+<td>45 min</td>
 </tr>
 <tr class="odd">
-<td>Exercises or Work on your own code</td>
-<td>30 min</td>
-</tr>
-<tr class="even">
-<td>Automating things with GitHub Actions</td>
-<td>20 min</td>
-</tr>
-<tr class="odd">
-<td>Exercises or Work on your own code</td>
-<td>30 min</td>
-</tr>
-<tr class="even">
 <td>Wrap-up</td>
 <td>10 min</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Drinks!</td>
 <td></td>
 </tr>
@@ -371,267 +359,98 @@
 <div style="text-align: left; margin-top: 2em">
 <ul>
 <li>R-Cafe</li>
+<li>Presentation, demo, exercise</li>
 <li>Community event</li>
-<li>Themes</li>
-<li>Presentations</li>
-<li>Work on your own code</li>
-<li>Exercises</li>
-<li>Interaction</li>
+<li>Open to UU, HU, UMCU</li>
+<li>Researchers, students, support staff</li>
+<li>It is OK to work on your own code</li>
 </ul>
+</div>
+</section>
+<section id="programming-cafe-1" class="slide level2">
+<h2>Programming Cafe</h2>
+<div style="text-align: left; margin-top: 2em">
+<ul>
+<li>Ideas for topics? Let us know!</li>
+<li>Wanted: Core team members</li>
+<li>Feedback welcome!</li>
+</ul>
+<p>Use the link below or talk to us</p>
+<p><a href="https://tinyurl.com/uucafe">tinyurl.com/uucafe</a></p>
 </div>
 </section></section>
 <section>
-<section id="getting-started-with-git-github" class="title-slide slide level1 center" data-background-color="#FFCD00">
-<h1>Getting Started With Git &amp; GitHub</h1>
-<p>Research Data Management Support</p>
-<p><img data-src="./templates/UU_logo_2021_EN_RGB.png" class="absolute" style="top: -200px; left: -240px; width: 300px; height: 120px; "></p>
+<section id="scheduling-scripts" class="title-slide slide level1 center" data-background-color="#FFCD00">
+<h1>Scheduling Scripts</h1>
+
 </section>
-<section id="why-git-and-github" class="slide level2">
-<h2>Why Git and GitHub?</h2>
-<div class="fragment">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/final-final-final.gif" height="500"></p>
-<figcaption>The final-final-final circle of hell.</figcaption>
-</figure>
-</div>
-</div>
+<section id="what-is-job-scheduling" class="slide level2">
+<h2>What Is Job Scheduling?</h2>
+<p>In programming, <em>job scheduling</em> involves automating the execution of scripts or programs at specified times or intervals.</p>
 </section>
-<section id="why-git-and-github-1" class="slide level2">
-<h2>Why Git and GitHub?</h2>
-<p><br> Do you need to:</p>
-<div>
+<section id="why-would-we-want-to-schedule-jobs" class="slide level2 smaller">
+<h2>Why Would We Want To Schedule Jobs?</h2>
 <ul>
-<li class="fragment">backup your code?</li>
-<li class="fragment">better version control your code?</li>
-<li class="fragment">collaborate more easily?</li>
-<li class="fragment">share and publish your code?</li>
-<li class="fragment">work in line with open science and the FAIR principles?</li>
-</ul>
-</div>
-<div class="fragment">
-<p>Then Git &amp; GitHub is something for you!</p>
-</div>
-</section>
-<section id="what-is-git" class="slide level2">
-<h2>What is Git?</h2>
-
-<img data-src="images/git-logo.jpg" class="r-stretch"><div style="text-align: left; margin-top: 2em">
-<ul>
-<li>VCS = Version Control Software.</li>
-<li>Free and open-source.</li>
-<li>Original Domain: Software Development.</li>
-<li>Nowadays Git is being ‘repurposed’ beyond software development.</li>
-</ul>
-</div>
-</section>
-<section id="what-is-github" class="slide level2">
-<h2>What is GitHub?</h2>
-
-<img data-src="images/github-logo.png" class="r-stretch"><div style="text-align: left; margin-top: 2em">
-<p>An online repository, based on Git software, for:</p>
-<ul>
-<li>storing with version control</li>
-<li>collaboration</li>
-<li>publishing</li>
-<li>project management</li>
-<li>and more!</li>
-</ul>
-</div>
-</section>
-<section id="benefits-of-using-git-github-for-researchers" class="slide level2">
-<h2>Benefits of using Git &amp; GitHub for researchers</h2>
-
-<img data-src="images/git-and-github-combo.JPG" class="r-stretch"></section>
-<section id="benefits-of-using-git-github-for-researchers-14" class="slide level2">
-<h2>Benefits of using Git &amp; GitHub for researchers (1/4)</h2>
-<p>Rigid structure of git helps manage project evolution. Main/master copy on GitHub enables sane experimentation and collaboration.</p>
-
-<img data-src="images/git-structure.JPG" class="r-stretch"></section>
-<section id="benefits-of-using-git-github-for-researchers-24" class="slide level2">
-<h2>Benefits of using Git &amp; GitHub for researchers (2/4)</h2>
-<p>Manage your code (and other files) down the very last details. Experimentation is facilitated!</p>
-
-<img data-src="images/git-flow.JPG" class="r-stretch"></section>
-<section id="benefits-of-using-git-github-for-researchers-34" class="slide level2">
-<h2>Benefits of using Git &amp; GitHub for researchers (3/4)</h2>
-<p>Version Control &amp; Project History. Like track changes in your Word document, which is also backed up on OneDrive - but BETTER!</p>
-
-<img data-src="images/project-history.jpg" class="r-stretch"></section>
-<section id="benefits-of-using-git-github-44" class="slide level2">
-<h2>Benefits of using Git &amp; GitHub (4/4)</h2>
-<p>The software &amp; platform is built to facilitate for Collaboration.</p>
-
-<img data-src="images/first-pull-request.png" class="r-stretch"></section>
-<section id="benefits-of-using-git-github-for-researchers-1" class="slide level2">
-<h2>Benefits of using Git &amp; GitHub for researchers</h2>
-<p>In short:</p>
-<ul>
-<li>Free and open-source</li>
-<li>Efficient</li>
-<li>Transparent</li>
-<li>Reliable</li>
-<li>Backups and Version Control</li>
-<li>Collaboration</li>
-<li>Sharing and Reuse</li>
+<li>Automation (of the boring things)</li>
+<li>Efficiency (of system performance)</li>
+<li>Consistency (same time, same place, human error minimized)</li>
+<li>Updating Things (fetching data, re-running models or manuscripts)</li>
+<li>Integration (works across multiple software etc. since it’s a command line utility at it’s core)</li>
+<li>Scalability (multiple scripts to run manually? schedule them with a batch/shell script)</li>
 </ul>
 </section>
-<section id="the-git-github-dream" class="slide level2">
-<h2>The Git &amp; GitHub Dream</h2>
-
-<img data-src="images/researcher-git-workflow.JPG" class="r-stretch"></section>
-<section id="a-github-repository" class="slide level2">
-<h2>A GitHub Repository</h2>
-<p>Git takes snapshots of all the files in a folder. This folder is called a repository or repo.</p>
-<div style="text-align: left; margin-top: 4em">
-<p><a href="https://github.com/UtrechtUniversity/programming-cafe" data-preview-link="true">GitHub Repository for the Programming Cafe</a></p>
-</div>
+<section id="how-can-we-schedule-jobs" class="slide level2">
+<h2>How Can We Schedule Jobs?</h2>
+<p>Using a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.</p>
+<p>They differ per operating system: - Windows: Windows Task Scheduler - MacOS &amp; Linux: <code>cron</code></p>
 </section>
-<section id="a-github-repository-1" class="slide level2">
-<h2>A GitHub Repository</h2>
-<p>Git takes snapshots of all the files in a folder. This folder is called a repository or repo.</p>
-<p>Here’s the same repository, but locally on our computer.</p>
-
-<img data-src="images/local-copy.JPG" class="r-stretch"></section>
-<section id="how-do-i-get-started-with-git" class="slide level2">
-<h2>How do I get started with Git?</h2>
-<div style="text-align: left; margin-top: 2em">
-<ul>
-<li>Command Line</li>
-<li><a href="https://desktop.github.com/" data-preview-link="true">GitHub Desktop</a></li>
-<li><a href="https://happygitwithr.com/index.html" data-preview-link="true">RStudio integration</a></li>
-<li><a href="https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html" data-preview-link="true">Pycharm integration</a></li>
-<li>many more!</li>
-</ul>
-<p>The simplest starting point, however, is GitHub in the web browser!</p>
-</div>
+<section id="windows-task-scheduler" class="slide level2">
+<h2>Windows Task Scheduler</h2>
+<p>Intro / Demo / Walkthrough</p>
 </section>
-<section id="exercise" class="slide level2">
-<h2>Exercise!</h2>
-<div style="text-align: left; margin-top: 4em">
-<p>Check out <a href="https://utrechtuniversity.github.io/programming-cafe/" data-preview-link="true">utrechtuniversity.github.io/programming-cafe/</a></p>
-<p>You can try out any of the exercises, we do have some recommendations based on today’s presentation:</p>
+<section id="cron" class="slide level2">
+<h2><code>cron</code></h2>
+<p>Intro / Demo / Walkthrough</p>
+</section>
+<section id="some-considerations-when-scheduling-jobs" class="slide level2">
+<h2>Some Considerations When Scheduling Jobs</h2>
 <ul>
-<li><p>For beginners, the <a href="https://github.com/skills/introduction-to-github">Introduction to GitHub</a> exercise is a nice start. You’ll make a short Markdown file you can use as your profile README and learn about repositories, branches, commits, and pull requests while doing so!</p></li>
-<li><p>For experienced users, the <a href="https://github.com/skills/hello-github-actions">Hello GitHub Actions</a> exercise is a great introduction to the topic.</p></li>
+<li><p>In Windows Task Scheduler (maybe also for <code>cron</code>), double-check the <em>Conditions</em> (things only run when logged on, only run on A/C power)</p></li>
+<li><p>Administrator Privileges</p></li>
+<li><p>Working Directories</p></li>
 </ul>
-</div>
+</section>
+<section id="the-big-picture" class="slide level2 smaller">
+<h2>The Big Picture…</h2>
+<ul>
+<li><p>Great test for automation/reproducibility since you might want the scripts to run in the background without any user interaction. If the script hangs because it requires some manual input, think about automating it!</p></li>
+<li><p>If you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow…</p></li>
+</ul>
 </section></section>
-<section id="github-utrechtuniversity" class="title-slide slide level1 center" data-background-color="#FFCD00">
-<h1>GitHub <span class="citation" data-cites="UtrechtUniversity">@UtrechtUniversity</span></h1>
-<p><strong><a href="https://github.com/UtrechtUniversity" data-preview-link="true">https://github.com/UtrechtUniversity</a></strong></p>
-<p><img data-src="./templates/UU_logo_2021_EN_RGB.png" class="absolute" style="top: -200px; left: -240px; width: 300px; height: 120px; "></p>
-</section>
-
 <section>
-<section id="getting-started-with-github-actions" class="title-slide slide level1 center" data-background-color="#FFCD00">
-<h1>Getting Started With GitHub Actions</h1>
-<p>Research Data Management Support <img data-src="./templates/UU_logo_2021_EN_RGB.png" class="absolute" style="top: -200px; left: -240px; width: 300px; height: 120px; "></p>
-</section>
-<section id="what-is-github-actions" class="slide level2">
-<h2>What is GitHub Actions</h2>
-<div style="text-align: left; margin-top: 2em">
-<ul>
-<li>Free GitHub service</li>
-<li>Perform tasks on the servers of GitHub</li>
-<li>Events/scheduled times</li>
-</ul>
-</div>
-</section>
-<section id="why-using-github-actions" class="slide level2">
-<h2>Why using GitHub Actions?</h2>
-<p><strong>Automation of:</strong></p>
-<ul>
-<li>
-Testing
-</li>
-<li>
-Deploying
-</li>
-<li>
-Packaging/publishing
-</li>
-<li>
-Parsing/rendering
-<ul>
-<li>
-GitHub Pages
-</li>
-<li>
-Websites
-</li>
-<li>
-Documentation
-</li>
-</ul>
-</li>
-<li>
-Other stuff
-</li>
-</ul>
-</section>
-<section id="cool-features" class="slide level2">
-<h2>Cool features:</h2>
-<div style="text-align: left; margin-top: 2em">
-<ul>
-<li>Test on several Operating systems (e.g.&nbsp;Windows, macOS, Ubuntu)</li>
-<li>Simultaneous testing across multiple operating systems and versions</li>
-<li>Multi-container testing (Docker-compose)</li>
-<li>Creating and reusing actions from GitHub Marketplace</li>
-<li>Interact with GitHub API (e.g.&nbsp;comment on pull request, create issues)</li>
-</ul>
-</div>
-</section>
-<section id="getting-started" class="slide level2">
-<h2>Getting started</h2>
-<p><br> <br></p>
-<p><a href="https://github.com/jelletreep/actions-playground" data-preview-link="true">Example</a></p>
-</section>
-<section id="terminology" class="slide level2 smaller">
-<h2>Terminology</h2>
-<div style="text-align: left; margin-top: 2em">
-<h3 id="action">Action</h3>
-<p>An action is a custom application for the GitHub Actions platform that performs a complex but frequently repeated task (e.g.&nbsp;installing Python). Use an action to help reduce the amount of repetitive code that you write in your workflow files.</p>
-<p><br> <br></p>
-<h3 id="event">Event</h3>
-<p>An event is a specific activity in a repository that triggers GitHub Actions to start. For example, activity can originate from GitHub when someone creates a pull request, opens an issue, or pushes a commit to a repository. You can also trigger GitHub Actions on a schedule.</p>
-</div>
-</section>
-<section id="terminology-1" class="slide level2 smaller">
-<h2>Terminology</h2>
-<p><br></p>
-<h3 id="jobs">Jobs</h3>
-<p>A job is a set of steps in a workflow that execute on the same <strong>runner</strong> (or server). Each step is either a shell script/command that will be executed, or an <strong>Action</strong> that will be run. Steps are executed in order and are dependent on each other.</p>
-<p><br> <br></p>
-<h3 id="workflow">Workflow</h3>
-<p>A workflow is one (or a set of) <strong>job(s)</strong> that are defined in a script (YAML file) and triggered by <strong>events</strong></p>
-</section>
-<section id="terminology-2" class="slide level2 smaller">
-<h2>Terminology</h2>
-<p><br></p>
-<h3 id="runner">Runner</h3>
-<p>A runner is a server that runs your workflows when they’re triggered. Each runner can run a single job at a time. GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; each workflow run executes in a fresh, newly-provisioned virtual machine.</p>
-<p><br> <br></p>
-<p><a href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions">Further reading</a></p>
-</section>
-<section id="summary" class="slide level2">
-<h2>Summary</h2>
+<section id="bonus" class="title-slide slide level1 center" data-background-color="#FFCD00">
+<h1>Bonus</h1>
 
-<img data-src="images/actions-structure.png" class="r-stretch"></section>
-<section id="exercises" class="slide level2">
-<h2>Exercises</h2>
-<p><br> <br></p>
-<p><a href="https://utrechtuniversity.github.io/programming-cafe/" data-preview-link="true">https://utrechtuniversity.github.io/programming-cafe/</a></p>
+</section>
+<section id="github-actions" class="slide level2">
+<h2>GitHub Actions</h2>
+<ul>
+<li><code>cron</code> via GitHub Actions</li>
+<li>example of UU GitHub README</li>
+</ul>
+</section>
+<section id="r-packages" class="slide level2">
+<h2>R Packages</h2>
+<ul>
+<li><code>taskscheduleR</code></li>
+<li><code>cronR</code></li>
+</ul>
+
+
+<img src="./templates/UU_logo_2021_EN_RGB.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<p>Programming Cafe</p>
+</div>
 </section></section>
-<section id="section" class="title-slide slide level1 center" data-background-color="#FFCD00">
-<h1></h1>
-<p><img data-src="./templates/UU_logo_2021_EN_RGB_payoff.png"></p>
-
-<p><img src="./templates/UU_logo_2021_EN_RGB.png" class="slide-logo"></p>
-<div class="footer footer-default">
-<p>Jelle Treep &amp; Neha Moopen</p>
-</div>
-</section>
     </div>
   </div>
 
@@ -666,7 +485,7 @@ Other stuff
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"e75a692701a59eaa","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":"16987847300762098265","id":"8e375ec7e5bc6466","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -840,7 +659,7 @@ Other stuff
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]

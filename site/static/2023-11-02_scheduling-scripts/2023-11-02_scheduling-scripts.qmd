@@ -1,0 +1,116 @@
+---
+format:
+  revealjs:
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    multiplex: true
+    footer: "Programming Cafe"
+---
+
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Plan for today
+
+::: {style="text-align: left; margin-top: 2em"}
+
+|    |    |
+|------------------------------|-------------|
+| Work on your own project | 45 min |
+| Scheduling Scripts | 45 min |
+| Wrap-up | 10 min |
+| Drinks! |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Presentation, demo, exercise
+-    Community event
+-    Open to UU, HU, UMCU
+-    Researchers, students, support staff
+-    It is OK to work on your own code
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Ideas for topics? Let us know!
+-    Wanted: Core team members
+-    Feedback welcome! 
+
+Use the link below or talk to us
+
+[tinyurl.com/uucafe](https://tinyurl.com/uucafe)
+
+:::
+
+# Scheduling Scripts {background-color="#FFCD00"}
+
+## What Is Job Scheduling?
+
+In programming, _job scheduling_ involves automating the execution of scripts or programs at specified times or intervals.
+
+## Why Would We Want To Schedule Jobs? {.smaller}
+
+- Automation (of the boring things)
+- Efficiency (of system performance)
+- Consistency (same time, same place, human error minimized)
+- Updating Things (fetching data, re-running models or manuscripts)
+- Integration (works across multiple software etc. since it's a command line utility at it's core)
+- Scalability (multiple scripts to run manually? schedule them with a batch/shell script)
+
+## How Can We Schedule Jobs?
+
+Using a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.
+
+They differ per operating system:
+- Windows: Windows Task Scheduler
+- MacOS & Linux: `cron`
+
+## Windows Task Scheduler
+
+Intro / Demo / Walkthrough
+
+## `cron`
+
+Intro / Demo / Walkthrough
+
+## Some Considerations When Scheduling Jobs
+
+- In Windows Task Scheduler (maybe also for `cron`), double-check the _Conditions_ (things only run when logged on, only run on A/C power) 
+
+- Administrator Privileges
+
+- Working Directories 
+
+## The Big Picture... {.smaller}
+
+- Great test for automation/reproducibility since you might want the scripts to run in the background without any user interaction. If the script hangs because it requires some manual input, think about automating it!
+
+- If you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow...
+
+# Bonus {background-color="#FFCD00"}
+
+## GitHub Actions
+
+- `cron` via GitHub Actions
+- example of UU GitHub README
+
+## R Packages
+
+- `taskscheduleR`
+- `cronR`
+
+
+
+

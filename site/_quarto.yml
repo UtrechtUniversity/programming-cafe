@@ -19,7 +19,6 @@ website:
 format:
   html:
     theme: pulse
-    css: styles.css
     toc: true
 
 
