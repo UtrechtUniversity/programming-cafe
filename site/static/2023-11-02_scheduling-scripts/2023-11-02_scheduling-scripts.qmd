@@ -62,54 +62,77 @@ In programming, _job scheduling_ involves automating the execution of scripts or
 
 ## Why Would We Want To Schedule Jobs? {.smaller}
 
-- Automation (of the boring things)
-- Efficiency (of system performance)
-- Consistency (same time, same place, human error minimized)
-- Updating Things (fetching data, re-running models or manuscripts)
-- Integration (works across multiple software etc. since it's a command line utility at it's core)
-- Scalability (multiple scripts to run manually? schedule them with a batch/shell script)
+- Automation 
+- Efficiency 
+- Consistency 
+- Updating Things 
+- Integration 
+- Scalability 
 
 ## How Can We Schedule Jobs?
 
 Using a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.
 
 They differ per operating system:
-- Windows: Windows Task Scheduler
-- MacOS & Linux: `cron`
+- **Windows:** Windows Task Scheduler
+- **MacOS & Linux:** `cron`
 
 ## Windows Task Scheduler
 
-Intro / Demo / Walkthrough
+Windows Task Scheduler is a job scheduler in Microsoft Windows that launches computer programs or scripts at pre-defined times or after specified time intervals. 
 
-## `cron`
+Here is a written tutorial: [https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows]()
 
-Intro / Demo / Walkthrough
+## `cron` {.smaller .scrollable}
+
+The `cron` command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as _cron jobs_, to run periodically at fixed times, dates, or intervals.
+
+The actions of `cron` are driven by a _crontab_ (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The syntax of each line within a _crontab_ file expects a cron expression made of five fields which represent the time to execute the command, followed by a shell command to execute.
+
+```
+# ┌───────────── minute (0–59)
+# │ ┌───────────── hour (0–23)
+# │ │ ┌───────────── day of the month (1–31)
+# │ │ │ ┌───────────── month (1–12)
+# │ │ │ │ ┌───────────── day of the week (0–6) (Sunday to Saturday;
+# │ │ │ │ │                                   7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * * <command to execute>
+```
+
+Here is a written tutorial: [https://itsfoss.com/cron-job/](https://itsfoss.com/cron-job/) 
 
 ## Some Considerations When Scheduling Jobs
 
-- In Windows Task Scheduler (maybe also for `cron`), double-check the _Conditions_ (things only run when logged on, only run on A/C power) 
+- In Windows Task Scheduler, double-check the _Conditions_.  
 
-- Administrator Privileges
+- With `cron`, you have to pay attention to the syntax
 
-- Working Directories 
+- You might need Administrator Privileges to run jobs.
+
+- Remember to specify working directories. 
 
 ## The Big Picture... {.smaller}
 
-- Great test for automation/reproducibility since you might want the scripts to run in the background without any user interaction. If the script hangs because it requires some manual input, think about automating it!
+- Great test for automation/reproducibility, since you might want the scripts to run in the background without any user interaction. 
 
 - If you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow...
+
+- At this point, we are getting into _background processes_ running on your computer. You can create multiple background processes that are running in parallel from the command line, or from a Python/R script. This is where parallelization and potentially, when you have many parallel tasks, _High Performance Computing_ starts.
 
 # Bonus {background-color="#FFCD00"}
 
 ## GitHub Actions
 
-- `cron` via GitHub Actions
-- example of UU GitHub README
+- You can run `cron` via GitHub Actions
+
+- Check out how the README of the UU GitHub Organization is updated everyday using a `cron` job.
 
 ## R Packages
 
-- `taskscheduleR`
-- `cronR`
+- [`taskscheduleR`](https://cran.r-project.org/web/packages/taskscheduleR/vignettes/taskscheduleR.html) package.
+- [`cronR`](https://github.com/bnosac/cronR) package.
 
 
 

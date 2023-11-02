@@ -10,7 +10,7 @@ This week's Programming Cafe is about _Scheduling Scripts_! We will learn how to
 
 ## Exercise
 
-After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: [link](link)
+After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: [exercises.zip](https://github.com/UtrechtUniversity/programming-cafe/raw/main/exercises/scheduling-scripts/scheduling-scripts.zip)
 
 ### Windows
 

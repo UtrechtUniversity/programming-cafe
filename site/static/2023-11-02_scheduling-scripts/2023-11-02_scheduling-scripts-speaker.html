@@ -391,40 +391,54 @@
 <section id="why-would-we-want-to-schedule-jobs" class="slide level2 smaller">
 <h2>Why Would We Want To Schedule Jobs?</h2>
 <ul>
-<li>Automation (of the boring things)</li>
-<li>Efficiency (of system performance)</li>
-<li>Consistency (same time, same place, human error minimized)</li>
-<li>Updating Things (fetching data, re-running models or manuscripts)</li>
-<li>Integration (works across multiple software etc. since it’s a command line utility at it’s core)</li>
-<li>Scalability (multiple scripts to run manually? schedule them with a batch/shell script)</li>
+<li>Automation</li>
+<li>Efficiency</li>
+<li>Consistency</li>
+<li>Updating Things</li>
+<li>Integration</li>
+<li>Scalability</li>
 </ul>
 </section>
 <section id="how-can-we-schedule-jobs" class="slide level2">
 <h2>How Can We Schedule Jobs?</h2>
 <p>Using a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.</p>
-<p>They differ per operating system: - Windows: Windows Task Scheduler - MacOS &amp; Linux: <code>cron</code></p>
+<p>They differ per operating system: - <strong>Windows:</strong> Windows Task Scheduler - <strong>MacOS &amp; Linux:</strong> <code>cron</code></p>
 </section>
 <section id="windows-task-scheduler" class="slide level2">
 <h2>Windows Task Scheduler</h2>
-<p>Intro / Demo / Walkthrough</p>
+<p>Windows Task Scheduler is a job scheduler in Microsoft Windows that launches computer programs or scripts at pre-defined times or after specified time intervals.</p>
+<p>Here is a written tutorial: <a href="">https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows</a></p>
 </section>
-<section id="cron" class="slide level2">
+<section id="cron" class="slide level2 smaller scrollable">
 <h2><code>cron</code></h2>
-<p>Intro / Demo / Walkthrough</p>
+<p>The <code>cron</code> command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as <em>cron jobs</em>, to run periodically at fixed times, dates, or intervals.</p>
+<p>The actions of <code>cron</code> are driven by a <em>crontab</em> (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The syntax of each line within a <em>crontab</em> file expects a cron expression made of five fields which represent the time to execute the command, followed by a shell command to execute.</p>
+<pre><code># ┌───────────── minute (0–59)
+# │ ┌───────────── hour (0–23)
+# │ │ ┌───────────── day of the month (1–31)
+# │ │ │ ┌───────────── month (1–12)
+# │ │ │ │ ┌───────────── day of the week (0–6) (Sunday to Saturday;
+# │ │ │ │ │                                   7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * * &lt;command to execute&gt;</code></pre>
+<p>Here is a written tutorial: <a href="https://itsfoss.com/cron-job/">https://itsfoss.com/cron-job/</a></p>
 </section>
 <section id="some-considerations-when-scheduling-jobs" class="slide level2">
 <h2>Some Considerations When Scheduling Jobs</h2>
 <ul>
-<li><p>In Windows Task Scheduler (maybe also for <code>cron</code>), double-check the <em>Conditions</em> (things only run when logged on, only run on A/C power)</p></li>
-<li><p>Administrator Privileges</p></li>
-<li><p>Working Directories</p></li>
+<li><p>In Windows Task Scheduler, double-check the <em>Conditions</em>.</p></li>
+<li><p>With <code>cron</code>, you have to pay attention to the syntax</p></li>
+<li><p>You might need Administrator Privileges to run jobs.</p></li>
+<li><p>Remember to specify working directories.</p></li>
 </ul>
 </section>
 <section id="the-big-picture" class="slide level2 smaller">
 <h2>The Big Picture…</h2>
 <ul>
-<li><p>Great test for automation/reproducibility since you might want the scripts to run in the background without any user interaction. If the script hangs because it requires some manual input, think about automating it!</p></li>
+<li><p>Great test for automation/reproducibility, since you might want the scripts to run in the background without any user interaction.</p></li>
 <li><p>If you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow…</p></li>
+<li><p>At this point, we are getting into <em>background processes</em> running on your computer. You can create multiple background processes that are running in parallel from the command line, or from a Python/R script. This is where parallelization and potentially, when you have many parallel tasks, <em>High Performance Computing</em> starts.</p></li>
 </ul>
 </section></section>
 <section>
@@ -435,15 +449,15 @@
 <section id="github-actions" class="slide level2">
 <h2>GitHub Actions</h2>
 <ul>
-<li><code>cron</code> via GitHub Actions</li>
-<li>example of UU GitHub README</li>
+<li><p>You can run <code>cron</code> via GitHub Actions</p></li>
+<li><p>Check out how the README of the UU GitHub Organization is updated everyday using a <code>cron</code> job.</p></li>
 </ul>
 </section>
 <section id="r-packages" class="slide level2">
 <h2>R Packages</h2>
 <ul>
-<li><code>taskscheduleR</code></li>
-<li><code>cronR</code></li>
+<li><a href="https://cran.r-project.org/web/packages/taskscheduleR/vignettes/taskscheduleR.html"><code>taskscheduleR</code></a> package.</li>
+<li><a href="https://github.com/bnosac/cronR"><code>cronR</code></a> package.</li>
 </ul>
 
 
