@@ -74,7 +74,9 @@ In programming, _job scheduling_ involves automating the execution of scripts or
 Using a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.
 
 They differ per operating system:
+
 - **Windows:** Windows Task Scheduler
+
 - **MacOS & Linux:** `cron`
 
 ## Windows Task Scheduler
@@ -127,7 +129,7 @@ Here is a written tutorial: [https://itsfoss.com/cron-job/](https://itsfoss.com/
 
 - You can run `cron` via GitHub Actions
 
-- Check out how the README of the UU GitHub Organization is updated everyday using a `cron` job.
+- Check out how the README of the UU GitHub Organization is updated everyday using a `cron` job: [https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml](https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml)
 
 ## R Packages
 
