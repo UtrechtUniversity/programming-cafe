@@ -6,7 +6,7 @@
 - **Date:** Thursday, 2nd November
 - **Time:** 15:00-17:00
 - **Location:** 0.33D, Adminstration Building (Bestuursgebouw) Heidelberglaan 8, Utrecht Science Park
-- **Demo/Presentation:** tbd
+- **Demo/Presentation:** Scheduling things
 
 <a href='https://www.uu.nl/en/node/132839/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add November edition to calendar</button>

@@ -1,0 +1,97 @@
+---
+title: "Scheduling Scripts"
+---
+
+This week's Programming Cafe is about _Scheduling Scripts_! We will learn how to automate some boring things using the _schedulers_ available on our operating systems.
+
+```{=html}
+<iframe width="900" height="600" src="../../static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html"></iframe>
+```
+
+## Exercise
+
+After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: [exercises.zip](https://github.com/UtrechtUniversity/programming-cafe/raw/main/exercises/scheduling-scripts/scheduling-scripts.zip)
+
+### Windows
+
+::: {.panel-tabset}
+
+#### R
+
+1. Go to `windows/r` and double-click on `scheduling-scripts.Rproj` to open RStudio.
+
+2. Open the `countdown.R` script from your _Files_ pane and run the script once to make sure it works.
+
+3. If the script works fine, you can try scheduling it! 
+
+4. Search for _Windows Task Scheduler_ in your computer's search bar.
+
+5. ....
+
+#### Python
+
+1. Go to `windows/python` and double-click on `countdown.py` to open it.
+
+2. Run the script to make sure it works.
+
+3. If the script works fine, you can try scheduling it! 
+
+4. Search for _Windows Task Scheduler_ in your computer's search bar.
+
+5. ....
+
+:::
+
+### MacOS
+
+::: {.panel-tabset}
+
+#### R
+
+1. Go to `macos/r` and double-click on `scheduling-scripts.Rproj` to open RStudio.
+
+2. Open the `countdown.R` script from your _Files_ pane and run the script once to make sure it works.
+
+3. If the script works fine, you can try scheduling it! 
+
+4. ...
+
+#### Python
+
+1. Go to `macos/python` and double-click on `countdown.py` to open it.
+
+2. Run the script to make sure it works.
+
+3. If the script works fine, you can try scheduling it! 
+
+4. ...
+
+:::
+
+### Linux
+
+::: {.panel-tabset}
+
+#### R
+
+1. Go to `linux/r` and double-click on `scheduling-scripts.Rproj` to open RStudio.
+
+2. Open the `countdown.R` script from your _Files_ pane and run the script once to make sure it works.
+
+3. If the script works fine, you can try scheduling it! 
+
+4. ...
+
+#### Python
+
+1. Go to `linux/python` and double-click on `countdown.py` to open it.
+
+2. Run the script to make sure it works.
+
+3. If the script works fine, you can try scheduling it! 
+
+4. ...
+
+:::
+
+## References
