@@ -8,12 +8,12 @@ Depending on your skill level and your interest in the topic there are several r
 ## Routes
 1. Read a tutorial about scheduling tasks in [Windows](https://adamtheautomator.com/cron-for-windows), [Mac](https://medium.com/@justin_ng/how-to-run-your-script-on-a-schedule-using-crontab-on-macos-a-step-by-step-guide-a7ba539acf76) or [Linux](https://itsfoss.com/cron-job/) and schedule the countdown timer script to run at a specific time. **Make sure you read the tips for your specific operating system at the bottom of this page.**
 
-2. Open this chapter from Automate the Boring Stuff, and read and program the examples from the following sections:
+2. Open [this chapter from Automate the Boring Stuff](https://automatetheboringstuff.com/2e/chapter17/), and read and program the examples from the following sections:
     - The Time Module including the stop watch (stop at Rounding Numbers)
     - Project: Simple Countdown Program (use the sound file from the data folder)
     - **The examples are written in Python. We can help you translate the code to R if you want to, or you can try to use the `reticulate` R package.**
 
-3. Open this chapter from Automate the Boring Stuff, and do everything (or the parts you are interested in). Suggestions:
+3. Open [this chapter from Automate the Boring Stuff](https://automatetheboringstuff.com/2e/chapter17/), and do everything (or the parts you are interested in). Suggestions:
     - The chapters mentioned above
     - The datetime module
     - Converting Strings into datetime Objects
