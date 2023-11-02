@@ -144,7 +144,7 @@
     "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#how-can-we-schedule-jobs",
     "title": "Programming Cafe",
     "section": "How Can We Schedule Jobs?",
-    "text": "How Can We Schedule Jobs?\nUsing a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.\nThey differ per operating system: - Windows: Windows Task Scheduler - MacOS & Linux: cron"
+    "text": "How Can We Schedule Jobs?\nUsing a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.\nThey differ per operating system:\n\nWindows: Windows Task Scheduler\nMacOS & Linux: cron"
   },
   {
     "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#windows-task-scheduler",
@@ -179,7 +179,7 @@
     "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#github-actions",
     "title": "Programming Cafe",
     "section": "GitHub Actions",
-    "text": "GitHub Actions\n\nYou can run cron via GitHub Actions\nCheck out how the README of the UU GitHub Organization is updated everyday using a cron job."
+    "text": "GitHub Actions\n\nYou can run cron via GitHub Actions\nCheck out how the README of the UU GitHub Organization is updated everyday using a cron job: https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml"
   },
   {
     "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#r-packages",
