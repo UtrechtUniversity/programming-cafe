@@ -11,4 +11,4 @@ while (timeLeft > 0) {
   timeLeft <- timeLeft - 1
 }
 
-shell.exec("smb_stage_clear.wav")
+shell.exec("../data/smb_stage_clear.wav")

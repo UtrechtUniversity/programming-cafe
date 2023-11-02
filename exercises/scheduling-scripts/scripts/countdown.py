@@ -9,4 +9,4 @@ while timeLeft > 0:
     time.sleep(1)
     timeLeft = timeLeft - 1
 
-os.system('start smb_stage_clear.wav') 
+os.system('start ../data/smb_stage_clear.wav') 
