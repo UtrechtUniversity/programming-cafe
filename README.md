@@ -6,7 +6,7 @@ This repository is used for managing the website and , exercises and other mater
 
 ## Next edition:
 
-| Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| Theme | [Git and GitHub: becoming a pro](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
 | __Date__ | 2024 January, 11th 15:00-17:00 |
 | __Location__ | Bucheliuszaal 6.18, USP Library |
