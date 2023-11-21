@@ -1,29 +1,71 @@
 # Agenda
 
 ::: {.callout-note icon=false}
-## Programming Cafe November 2023
+## Programming Cafe January 2024
 
-- **Date:** Thursday, 2nd November
+- **Date:** Thursday, 11th January
 - **Time:** 15:00-17:00
-- **Location:** 0.33D, Adminstration Building (Bestuursgebouw) Heidelberglaan 8, Utrecht Science Park
-- **Demo/Presentation:** Scheduling things
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** Git and GitHub intermediate
 
-<a href='https://www.uu.nl/en/node/132839/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add November edition to calendar</button>
+<a href='https://www.uu.nl/en/node/133004/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add January edition to calendar</button>
 </a>
 
 :::
 
 ::: {.callout-note icon=false}
-## Programming Cafe December 2023
+## Programming Cafe February 2024
 
-- **Date:** Thursday, 30th November
+- **Date:** Thursday, 8th February
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
 - **Demo/Presentation:** tbd
 
-<a href='https://www.uu.nl/en/node/132841/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add December edition to calendar</button>
+<a href='https://www.uu.nl/en/node/133006/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add February edition to calendar</button>
+</a>
+
+:::
+
+::: {.callout-note icon=false}
+## Programming Cafe March 2024
+
+- **Date:** Thursday, 7th March
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** tbd
+
+<a href='https://www.uu.nl/en/node/133008/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add March edition to calendar</button>
+</a>
+
+:::
+
+::: {.callout-note icon=false}
+## Programming Cafe April 2024
+
+- **Date:** Thursday, 4th April
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** tbd
+
+<a href='https://www.uu.nl/en/node/133010/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add April edition to calendar</button>
+</a>
+
+:::
+
+::: {.callout-note icon=false}
+## Programming Cafe May 2024
+
+- **Date:** Thursday, 2nd May
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** tbd
+
+<a href='https://www.uu.nl/en/node/133012/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add May edition to calendar</button>
 </a>
 
 :::
