@@ -13,8 +13,10 @@ website:
       - about.qmd
       - agenda.qmd
       - posts.qmd
-  repo-url: https://github.com/UtrechtUniversity/programming-cafe
-  repo-actions: [edit]
+  repo-url: https://github.com/UtrechtUniversity/programming-cafe/
+  repo-subdir: site
+  repo-branch: main
+  repo-actions: [edit, issue, source]
 
 format:
   html:
