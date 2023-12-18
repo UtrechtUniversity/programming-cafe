@@ -16,7 +16,7 @@ This repository is used for managing the website and , exercises and other mater
 </a> |
 
 
-| Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| Theme | [Demo of the Julia Programming Language](https://utrechtuniversity.github.io/programming-cafe/agenda) |
 | :--- | :--- |
 | __Date__ | 2024 February, 8th 15:00-17:00 |
 | __Location__ | Bucheliuszaal 6.18, USP Library |
@@ -25,7 +25,7 @@ This repository is used for managing the website and , exercises and other mater
 <button type="button" class="btn btn-primary btn-sm">Add February edition to calendar</button>
 </a> |
 
-| Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| Theme | [Packaging in Python and R](https://utrechtuniversity.github.io/programming-cafe/agenda) |
 | :--- | :--- |
 | __Date__ | 2024 March, 7th 15:00-17:00 |
 | __Location__ | Bucheliuszaal 6.18, USP Library |
