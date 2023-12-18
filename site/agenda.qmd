@@ -6,7 +6,7 @@
 - **Date:** Thursday, 11th January
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Git and GitHub intermediate
+- **Demo/Presentation:** Git and GitHub intermediate (by Dawa Ometto)
 
 <a href='https://www.uu.nl/en/node/133004/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add January edition to calendar</button>
@@ -20,7 +20,7 @@
 - **Date:** Thursday, 8th February
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** tbd
+- **Demo/Presentation:** Demo of the Julia Programming Language (by Emilia Jarochowska)
 
 <a href='https://www.uu.nl/en/node/133006/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add February edition to calendar</button>
@@ -34,7 +34,7 @@
 - **Date:** Thursday, 7th March
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** tbd
+- **Demo/Presentation:** Packaging in Python and R (by Raoul Schram and Jelle Treep)
 
 <a href='https://www.uu.nl/en/node/133008/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add March edition to calendar</button>
