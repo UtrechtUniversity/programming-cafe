@@ -53,7 +53,7 @@ Learn to exercise precise control what is added to your commits, with `git add -
 
 ### Additional exercise
 
-Can you figure out how to use `git stash` to stash *everything that is not staged for commit*? (Hint: you'll need to pass two options to `git stash`). [Solution](git stash --keep-index --include-untracked https://calebhearth.com/stash-what-git-wouldnt-commit).
+Can you figure out how to use `git stash` to stash *everything that is not staged for commit*? (Hint: you'll need to pass two options to `git stash`). [Solution](https://calebhearth.com/stash-what-git-wouldnt-commit).
 
 ## Exercise7 RebaseAndAmend
 
