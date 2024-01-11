@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <title>programming cafe 11012023</title>
+  <title>slides</title>
   <style type="text/css">
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -174,11 +174,11 @@ have versioning along the way!</p>
 <li>When the work is done, review your commit history on that branch:
 <ul>
 <li>does it contain needless commits? Remove them!</li>
-<li>does it contain commits that do <em>more than one</em> thing? Split
-them!</li>
 <li>does it contain multiple commits that do <em>less than one</em>
 thing? Squash them together!</li>
-<li>…we’ll need some tools for this!</li>
+<li>does it contain commits that do <em>more than one</em> thing? Split
+them!</li>
+<li>…we’ll need to rewrite history!</li>
 </ul></li>
 <li>Only now open a Pull Request, or merge the branch into
 <code>main</code> yourself.
@@ -342,10 +342,10 @@ current branch <em>on top of</em> the last commit in
 <div id="rebasing-1" class="slide section level1">
 <h1>Rebasing</h1>
 <ul>
-<li>for every commit on the current branch, <code>git</code> applies the
+<li>For every commit on the current branch, <code>git</code> applies the
 changes in that commit on top of the latest commit in
 <code>main</code>.</li>
-<li>merge conflicts may need to be handled for each commit that is
+<li>Merge conflicts may need to be handled for each commit that is
 ‘replayed’.</li>
 <li>NB: potential for losing work
 <ul>
@@ -383,8 +383,8 @@ the work-in-progress on your feature branch…
 <ul>
 <li><strong>iff</strong> your PR is trying to achieve precisely one
 thing anyway.</li>
-<li>However, squash-and-merging can <a href="">“camouflage”</a> and
-thereby encourage non-atomic commits.</li>
+<li>However, squash-and-merging can “camouflage” non-atomic
+commits.</li>
 </ul></li>
 </ul>
 </div>
@@ -421,6 +421,12 @@ commits:
 (<code>git stash</code>).</li>
 </ul>
 <p>See exercises!</p>
+</div>
+<div id="practice" class="slide section level1">
+<h1>Practice</h1>
+<p>Exercises at:
+https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/advanced-git/exercises.md</p>
+<p>And/or practice by making one of your own branches more atomic.</p>
 </div>
 </body>
 </html>
