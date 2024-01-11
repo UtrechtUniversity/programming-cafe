@@ -108,9 +108,9 @@ Solution:
 - As you work on a feature branch, try to make your commits *as* atomic as possible.
 - When the work is done, review your commit history on that branch:
   * does it contain needless commits? Remove them!
-  * does it contain commits that do *more than one* thing? Split them!
   * does it contain multiple commits that do *less than one* thing? Squash them together!
-  * ...we'll need some tools for this!
+  * does it contain commits that do *more than one* thing? Split them!
+  * ...we'll need to rewrite history!
 - Only now open a Pull Request, or merge the branch into `main` yourself.
   * what *merge strategy* is appropriate?
 
@@ -264,8 +264,8 @@ But what if `main` and `<feature>` have divergent histories?
 
 # Rebasing
 
-* for every commit on the current branch, `git` applies the changes in that commit on top of the latest commit in `main`.
-* merge conflicts may need to be handled for each commit that is 'replayed'.
+* For every commit on the current branch, `git` applies the changes in that commit on top of the latest commit in `main`.
+* Merge conflicts may need to be handled for each commit that is 'replayed'.
 * NB: potential for losing work
   * you can accidentally delete your own commits in an 'interactive' rebase session
   * if you force push a *public* rebased branch, potential for merge conflicts.
@@ -289,7 +289,7 @@ If we're aiming at having *only* atomic commits in `main`, which merge strategy 
   - ...but do we mind, as long as the commits *in* the merge commit are atomic?
 - Squash-and-merge *can* create nicely atomic commits out of the work-in-progress on your feature branch...
   - **iff** your PR is trying to achieve precisely one thing anyway.
-  - However, squash-and-merging can ["camouflage"]() and thereby encourage non-atomic commits.
+  - However, squash-and-merging can "camouflage" non-atomic commits.
 
 # Merge strategies
 
@@ -312,3 +312,9 @@ Some tools:
 * *Stashing* work-in-progress that should not yet be committed (`git stash`).
 
 See exercises!
+
+# Practice
+
+Exercises at: https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/advanced-git/exercises.md
+
+And/or practice by making one of your own branches more atomic.
