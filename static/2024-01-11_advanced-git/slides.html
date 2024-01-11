@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>programming cafe 11012023</title>
+  <style type="text/css">
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" type="text/css" media="screen, projection, print"
+    href="https://www.w3.org/Talks/Tools/Slidy2/styles/slidy.css" />
+  <script src="https://www.w3.org/Talks/Tools/Slidy2/scripts/slidy.js"
+    charset="utf-8" type="text/javascript"></script>
+</head>
+<body>
+<div id="introduction" class="slide section level1">
+<h1>Introduction</h1>
+<p>Dawa Ometto (d.l.a.ometto1@uu.nl, <span
+class="citation">@dometto</span>)</p>
+<p>UU ITS, Research Engineer</p>
+<p>Making life difficult for myself with <code>git</code> since
+2012:</p>
+<p><img src="gollum.png" /></p>
+</div>
+<div id="introduction-1" class="slide section level1">
+<h1>Introduction</h1>
+<p><img width="30%" height="30%" src="https://imgs.xkcd.com/comics/git_2x.png" /></p>
+</div>
+<div id="introduction-2" class="slide section level1">
+<h1>Introduction</h1>
+<ul>
+<li>Discussing:
+<ul>
+<li>branches</li>
+<li>atomic commits</li>
+<li>merging:</li>
+<li>fast-forward vs. merge commits vs. rebase vs. squash</li>
+</ul></li>
+<li>Along the way: what are commits, branches, refs?</li>
+<li>What tools can we use to rewrite git history?</li>
+<li>Practice!</li>
+</ul>
+</div>
+<div id="materials" class="slide section level1">
+<h1>Materials</h1>
+<p>“Borrowed” from:</p>
+<ul>
+<li>Utopian Git History (Abel Soares Siqueira, eScience Center, <span
+class="citation">@abelsiqueira</span>)
+<ul>
+<li>https://blog.esciencecenter.nl/the-utopic-git-history-d44b81c09593</li>
+<li>https://blog.esciencecenter.nl/achieving-utopic-git-history-4cc2a1fd3107</li>
+</ul></li>
+<li>Git Legit (Pauline de Vos, <span
+class="citation">@paulinedevos</span>)
+<ul>
+<li>http://www.pauline-vos.nl/git-legit-cheatsheet/</li>
+<li>https://www.youtube.com/watch?v=_e5oq4JT4_8</li>
+</ul></li>
+<li>The git book (Scott Shacon, Ben Straub):
+<ul>
+<li>https://git-scm.com/book/en/v2/</li>
+</ul></li>
+<li>Blog posts by Julia Evans (<span class="citation">@jvns</span>)
+<ul>
+<li>https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-/</li>
+<li>https://jvns.ca/blog/2023/11/01/confusing-git-terminology/</li>
+</ul></li>
+</ul>
+</div>
+<div id="who-has-used" class="slide section level1">
+<h1>Who has used…</h1>
+<ul>
+<li><code>git commit</code></li>
+<li><code>git status</code>, <code>git add</code></li>
+<li>Pull Requests?</li>
+<li><code>git branch</code>, <code>git merge</code></li>
+<li><code>git rebase</code></li>
+<li><code>git reflog</code></li>
+<li><code>git cherry-pick</code></li>
+<li><code>git add -p</code></li>
+<li><code>git bisect</code></li>
+<li><code>git cat-file</code>, <code>git ls-tree</code></li>
+</ul>
+</div>
+<div id="workflows" class="slide section level1">
+<h1>Workflows</h1>
+<p>Simplest <code>git</code> workflow:</p>
+<ol style="list-style-type: decimal">
+<li>working on only a single branch (<code>main</code>)</li>
+<li>committing changes with <code>git commit -a</code>.</li>
+</ol>
+<p>This can already be an improvement over <em>not</em> using
+versioning! But it doesn’t work for collaboration.</p>
+</div>
+<div id="best-practice-feature-branches" class="slide section level1">
+<h1>Best practice: feature branches</h1>
+<ol style="list-style-type: decimal">
+<li>Create a branch <code>&lt;feature&gt;</code> “branching off” from
+<code>main</code>.</li>
+<li>Do your work on <code>&lt;feature&gt;</code>.</li>
+<li>Merge the branch into <code>main</code>, or open a Pull
+Request.</li>
+</ol>
+<p><img src="https://git-scm.com/book/en/v2/images/basic-branching-6.png" /></p>
+</div>
+<div id="best-practice-atomic-commits" class="slide section level1">
+<h1>Best practice: atomic commits</h1>
+<p>How many changes should be contained in a commit?</p>
+<p>Strive (!) to make your commits <em>atomic</em>:</p>
+<blockquote>
+<p>The basic idea of an atomic git commit is that it contains the
+shortest amount of work that does what it is supposed to do. That is,
+less work would not be enough to do the task, and more work would be
+going out of scope. (<span class="citation">@abelsiqueira</span>)</p>
+</blockquote>
+<p><span class="citation">@paulinevos</span>:</p>
+<ol style="list-style-type: decimal">
+<li>Single, irreducible unit. Every commits pertains to one fix or
+feature.</li>
+<li>Everything works. Don’t break the build on any commit.</li>
+<li>Clear and concise. Purpose is clear from commit message and
+description.</li>
+</ol>
+</div>
+<div id="best-practice-atomic-commits-1" class="slide section level1">
+<h1>Best practice: atomic commits</h1>
+<blockquote>
+<p>If every commit is an atomic commit, then we have a beautiful git
+history. Every commit passes tests, so we can easily navigate around.
+Every commit has a non-creeping purpose, so we can cherry-pick them more
+easily. Every commit is self-contained, so we can revert them trivially.
+It is almost utopic, but it is actually attainable. (<span
+class="citation">@abelsiqueira</span>)</p>
+</blockquote>
+<p>General idea: your commit history should tell an understandable
+story.</p>
+</div>
+<div id="best-practice-atomic-commits-2" class="slide section level1">
+<h1>Best practice: atomic commits</h1>
+<p>Atomic commits help you avoid this:</p>
+<p><img src="https://imgs.xkcd.com/comics/git_commit.png" /></p>
+</div>
+<div id="best-practice-atomic-commits-3" class="slide section level1">
+<h1>Best practice: atomic commits</h1>
+<p>But creating atomic commits is hard.</p>
+<p>We often don’t know what logical ‘chunks’ our work will end up
+dividing into, until we’ve done the work – and we <em>do</em> want to
+have versioning along the way!</p>
+</div>
+<div id="best-practice-atomic-commits-4" class="slide section level1">
+<h1>Best practice: atomic commits</h1>
+<p>Solution:</p>
+<ul>
+<li>As you work on a feature branch, try to make your commits
+<em>as</em> atomic as possible.</li>
+<li>When the work is done, review your commit history on that branch:
+<ul>
+<li>does it contain needless commits? Remove them!</li>
+<li>does it contain commits that do <em>more than one</em> thing? Split
+them!</li>
+<li>does it contain multiple commits that do <em>less than one</em>
+thing? Squash them together!</li>
+<li>…we’ll need some tools for this!</li>
+</ul></li>
+<li>Only now open a Pull Request, or merge the branch into
+<code>main</code> yourself.
+<ul>
+<li>what <em>merge strategy</em> is appropriate?</li>
+</ul></li>
+</ul>
+</div>
+<div id="merge-strategies" class="slide section level1">
+<h1>Merge strategies</h1>
+<p>On GitHub:</p>
+<p><img src="https://www.lloydatkinson.net/_astro/squash-merge-or-merge-commit.o7Y8qS1t_Z1IgvJm.webp" /></p>
+<p>These options correspond to CLI options:</p>
+<ul>
+<li><code>git merge --no-ff</code></li>
+<li><code>git merge --squash</code></li>
+<li><code>git merge --ff-only</code> (need to rebase first!)</li>
+</ul>
+<p>What is the difference, and which one should we use? * Spoiler: all
+three are legit.</p>
+</div>
+<div id="a-note-on-merge-conflicts" class="slide section level1">
+<h1>A note on merge conflicts</h1>
+<p>Regardless of what merge <em>strategy</em> you choose, <em>merge
+conflicts</em> may occur. That is, <code>git</code> may be unable to
+resolve conflicts between:</p>
+<ul>
+<li>changes you have made in your <code>&lt;feature&gt;</code>
+branch.</li>
+<li>changes made in the <code>main</code> branch, <em>after</em>
+<code>&lt;feature&gt;</code> branched off from <code>main</code>.</li>
+</ul>
+<pre><code># How to create a merge conflict
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+First you add a file, but create a conflicting change
+
+on another branch.
+=======
+First you add a file.
+
+Then you add something on another branch and commit it.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; new_branch</code></pre>
+</div>
+<div id="a-note-on-merge-conflicts-1" class="slide section level1">
+<h1>A note on merge conflicts</h1>
+<p><code>git</code> is clever enough to ‘auto-merge’ clearly unrelated
+changes. But if auto-merging fails, you will need to resolve the
+conflict manually:</p>
+<ol style="list-style-type: decimal">
+<li>Edit the files that contain conflicts until you’re happy.</li>
+<li>Mark the conflict as resolved
+(<code>git add &lt;filename&gt;</code>).</li>
+<li>Tell <code>git</code> to continue with your <code>merge</code> or
+<code>rebase</code>.</li>
+</ol>
+<p>See exercises!</p>
+</div>
+<div id="commits-and-merge-commits" class="slide section level1">
+<h1>Commits and merge commits</h1>
+<p>Every commit is uniquely <em>defined</em> by its:</p>
+<ul>
+<li>message</li>
+<li>author info</li>
+<li>date/time</li>
+<li>total state of all the files and directories (<em>tree</em>)</li>
+<li>parents</li>
+</ul>
+</div>
+<div id="commits-and-merge-commits-1" class="slide section level1">
+<h1>Commits and merge commits</h1>
+<pre><code>$ git cat-file commit HEAD
+tree 7bbb09e5f1ab20c91e0e57be4ec99c49ba482bac
+parent 7656a5f45d263eb0d4a09788dc83aae8106970b4
+author Dawa Ometto &lt;d.l.a.ometto1@uu.nl&gt; 1704892164 +0100
+committer Dawa Ometto &lt;d.l.a.ometto1@uu.nl&gt; 1704892195 +0100
+
+Use more chili</code></pre>
+<p>So:</p>
+<ul>
+<li>every commit is a pointer to an entire history.</li>
+<li>there is not really such a thing as <em>editing</em> a commit.</li>
+</ul>
+</div>
+<div id="commits-and-merge-commits-2" class="slide section level1">
+<h1>Commits and merge commits</h1>
+<p>A merge commit is a commit that has <em>multiple parents</em>:</p>
+<pre><code>tree 10f6a7c3758039f5d24fac9556646c830655fb14
+parent 7656a5f45d263eb0d4a09788dc83aae8106970b4
+parent a831dcd01638aebb453fb218bbb8eeebc2e2cf69
+author Dawa Ometto &lt;d.l.a.ometto1@uu.nl&gt; 1704899151 +0100
+committer Dawa Ometto &lt;d.l.a.ometto1@uu.nl&gt; 1704899151 +0100
+
+Merge branch &#39;noconflict&#39;</code></pre>
+<p>It forms a ‘link’ between two different histories.</p>
+</div>
+<div id="commits-and-merge-commits-3" class="slide section level1">
+<h1>Commits and merge commits</h1>
+<p>Having a merge commit makes the history of a branch
+<em>non-linear</em>:</p>
+<p><img src="https://git-scm.com/book/en/v2/images/basic-merging-2.png" /></p>
+</div>
+<div id="merging-without-a-merge-commit" class="slide section level1">
+<h1>Merging without a merge commit</h1>
+<p>Unlike merge commits, our other two merge strategies yield
+<em>linear</em> histories.</p>
+<p>Rebase-and-merge:</p>
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*SIRHlrHJsVv-IMipE7Rmwg.gif" /></p>
+</div>
+<div id="fast-forwarding" class="slide section level1">
+<h1>Fast-forwarding</h1>
+<p>If there have been no new commits to <code>main</code> since
+<code>&lt;feature&gt;</code> was created, this is easy:</p>
+<ul>
+<li><code>git</code> simply records that the branch <code>main</code>
+points to the latest commit in <code>&lt;feature&gt;</code>.</li>
+<li>= fast-forward merge.</li>
+</ul>
+</div>
+<div id="fast-forwarding-1" class="slide section level1">
+<h1>Fast-forwarding</h1>
+<pre><code>testrepo git:(main) $ cat .git/refs/heads/main 
+bfe91cdde970ecdffaac357f6253aec288c92396
+
+testrepo git:(main) $ git merge --ff-only feature_branch
+Updating bfe91cd..8bbdd62
+Fast-forward
+ ingredients.txt | 1 +
+
+testrepo git:(main) $ cat .git/refs/heads/main 
+8bbdd629aa39af3da8916275ea8be39c412c91a4
+
+testrepo git:(main) $ git cat-file commit 8bbdd629aa39af3da8916275ea8be39c412c91a4
+tree 23c56b3e5170e3cb63c037986199320ea2d7d260
+parent bfe91cdde970ecdffaac357f6253aec288c92396
+author Dawa Ometto &lt;d.l.a.ometto1@uu.nl&gt; 1704907022 +0100
+committer Dawa Ometto &lt;d.l.a.ometto1@uu.nl&gt; 1704907022 +0100
+
+This is the commit message of the commit that will be the new HEAD!</code></pre>
+</div>
+<div id="merging-without-a-merge-commit-1" class="slide section level1">
+<h1>Merging without a merge commit</h1>
+<p>But what if <code>main</code> and <code>&lt;feature&gt;</code> have
+divergent histories?</p>
+<ul>
+<li>then there is no ‘link’ between the tip of <code>main</code> and the
+start of <code>&lt;feature&gt;</code> :-(</li>
+<li>forunately, we can <em>recreate</em> a linear history by
+<em>rebasing</em>.</li>
+</ul>
+</div>
+<div id="rebasing" class="slide section level1">
+<h1>Rebasing</h1>
+<p><code>git rebase main</code> <em>replays</em> the changes in your
+current branch <em>on top of</em> the last commit in
+<code>main</code>.</p>
+<p><strong>Goal</strong>: get a history that can be merged with a
+“fast-forward” again!</p>
+<p><img src="https://git-scm.com/book/en/v2/images/basic-rebase-3.png" /></p>
+</div>
+<div id="rebasing-1" class="slide section level1">
+<h1>Rebasing</h1>
+<ul>
+<li>for every commit on the current branch, <code>git</code> applies the
+changes in that commit on top of the latest commit in
+<code>main</code>.</li>
+<li>merge conflicts may need to be handled for each commit that is
+‘replayed’.</li>
+<li>NB: potential for losing work
+<ul>
+<li>you can accidentally delete your own commits in an ‘interactive’
+rebase session</li>
+<li>if you force push a <em>public</em> rebased branch, potential for
+merge conflicts.</li>
+<li><strong>don’t push rebased branches that others are also working
+on</strong></li>
+</ul></li>
+</ul>
+</div>
+<div id="squash-and-merge" class="slide section level1">
+<h1>Squash-and-merge</h1>
+<p><img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*1-Q3n04s2PLAYjVsP8AV_g.gif" /></p>
+<p>Squash-and-merge accomplishes essentially the same thing as
+rebase-and-merge, but compresses all the changes on
+<code>&lt;feature&gt;</code> into a single commit.</p>
+<p>Advantage: you’ll only have to handle merge conflicts once.
+Disadvantage (?): we lose the history of the feature branch.</p>
+</div>
+<div id="merge-strategies-1" class="slide section level1">
+<h1>Merge strategies</h1>
+<p>If we’re aiming at having <em>only</em> atomic commits in
+<code>main</code>, which merge strategy is appropriate?</p>
+<ul>
+<li>Rebase-and-merge clearly works.</li>
+<li>Merge commits are technically not atomic.
+<ul>
+<li>…but do we mind, as long as the commits <em>in</em> the merge commit
+are atomic?</li>
+</ul></li>
+<li>Squash-and-merge <em>can</em> create nicely atomic commits out of
+the work-in-progress on your feature branch…
+<ul>
+<li><strong>iff</strong> your PR is trying to achieve precisely one
+thing anyway.</li>
+<li>However, squash-and-merging can <a href="">“camouflage”</a> and
+thereby encourage non-atomic commits.</li>
+</ul></li>
+</ul>
+</div>
+<div id="merge-strategies-2" class="slide section level1">
+<h1>Merge strategies</h1>
+<p>Bottom line:</p>
+<ul>
+<li>merge strategy is less important than having sensible, clean
+commits.</li>
+<li>main appeal of merge commits is not having to learn
+<code>rebase</code>…</li>
+<li>…but to get sensible, clean commits, you’ll have to learn
+<code>rebase</code> anyway :-)</li>
+</ul>
+</div>
+<div id="how-to-achieve-atomic-commits" class="slide section level1">
+<h1>How to achieve atomic commits</h1>
+<p>Some tools:</p>
+<ul>
+<li>Using <code>git commit --amend</code> to change the contents of the
+last commit.</li>
+<li>Using the <em>staging area</em> to precisely control what is added
+to a commit:
+<ul>
+<li>which <em>files</em></li>
+<li>…but also which <em>lines</em>!</li>
+</ul></li>
+<li><em>Squashing</em>, <em>splitting</em>, and <em>reordering</em>
+commits:
+<ul>
+<li><code>git rebase -i</code></li>
+</ul></li>
+<li><em>Stashing</em> work-in-progress that should not yet be committed
+(<code>git stash</code>).</li>
+</ul>
+<p>See exercises!</p>
+</div>
+</body>
+</html>
