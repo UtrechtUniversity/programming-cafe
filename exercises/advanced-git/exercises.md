@@ -1,6 +1,6 @@
 # New to git?
 
-If you're completely new to git, or need to refresh your memory, just start with [the basics](https://coderefinery.github.io/git-intro/basics/)!
+If you're completely new to git, or need to refresh your memory, just start with [the basics](https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/git-and-github/git-and-github.md)!
 
 # Beginners
 
