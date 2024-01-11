@@ -6,13 +6,11 @@ If you're completely new to git, or need to refresh your memory, just start with
 
 If you're a beginner, we recommend that you do the following exercises/tutorials from the CodeRefinery course [Introduction to version control with Git](https://coderefinery.github.io/git-intro/):
 
-1. [Branching](https://coderefinery.github.io/git-intro/branches/)
+1. Clone [this repository](https://github.com/dometto/git-tutorial-testrepo) to do the exercises in.
+2. [Branching](https://coderefinery.github.io/git-intro/branches/)
 1. [Conflict resolution](https://coderefinery.github.io/git-intro/conflicts/)
 1. [Pull Requests](https://coderefinery.github.io/git-intro/remotes/)
 1. [The Staging Area](https://coderefinery.github.io/git-intro/staging-area/#staging-area-commands)
-
-Clone [this repository](https://github.com/dometto/git-tutorial-testrepo) to do the exercises in.
-
 
 If you have time left, proceed with the exercises from the Intermediate/Advanced section below, focusing on the following:
 
@@ -30,9 +28,7 @@ We recommend first picking the exercises listed below. For some of these topics,
 
 ## Exercise1 SimpleCommit
 
-https://github.com/nnja/advanced-git/blob/master/exercises/Exercise1-SimpleCommit.md
-
-Learn about git's internals by inspecting a commit under the hood.
+[Learn about git's internals by inspecting a commit under the hood](https://github.com/nnja/advanced-git/blob/master/exercises/Exercise1-SimpleCommit.md).
 
 ### Additional exercises
 
@@ -47,9 +43,9 @@ Now, using just the following three commands, can you output the contents of the
 
 ## Exercise2 Staging and Stashing
 
-https://github.com/nnja/advanced-git/blob/master/exercises/Exercise2-StagingAndStashing.md
+[Exercise Two - Staging and Stashing](https://github.com/nnja/advanced-git/blob/master/exercises/Exercise2-StagingAndStashing.md)
 
-Learn to exercise precise control what is added to your commits, with `git add -p` and `git stash`.
+Learn to exercise precise control over what is added to your commits, with `git add -p` and `git stash`.
 
 ### Additional exercise
 
@@ -57,7 +53,7 @@ Can you figure out how to use `git stash` to stash *everything that is not stage
 
 ## Exercise7 RebaseAndAmend
 
-https://github.com/nnja/advanced-git/blob/master/exercises/Exercise7-RebaseAndAmend.md
+[Exercise Seven - Rebase and Amend](https://github.com/nnja/advanced-git/blob/master/exercises/Exercise7-RebaseAndAmend.md)
 
 ### Additional exercises
 
@@ -68,13 +64,13 @@ https://github.com/nnja/advanced-git/blob/master/exercises/Exercise7-RebaseAndAm
 
 ## Exercise4 Merging and ReReRe
 
-https://github.com/nnja/advanced-git/blob/master/exercises/Exercise4-MergingAndReReRe.md
+[Exercise4 Merging and ReReRe](https://github.com/nnja/advanced-git/blob/master/exercises/Exercise4-MergingAndReReRe.md)
 
 Reuse Recorded Resolution is a feature that lets you automate merge conflict resolution (for similar/recurring merge conflicts). This can be especially handy when rebasing, as [rebasing can require you to solve the same merge conflict multiple times](https://mindup.medium.com/enable-git-rerere-for-easy-merging-303c6f2dacd3)!
 
 ## Exercise9 Advanced Tools
 
-https://github.com/nnja/advanced-git/blob/master/exercises/Exercise9-AdvancedTools.md
+[Exercise9 Advanced Tools](https://github.com/nnja/advanced-git/blob/master/exercises/Exercise9-AdvancedTools.md)
 
 Notes:
 
