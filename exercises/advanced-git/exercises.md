@@ -20,9 +20,9 @@ If you have time left, proceed with the exercises from the Intermediate/Advanced
 
 # Intermediate/Advanced
 
-If you are a more advanced `git` user and are already familiar with the concepts of branching and merging, we recommend that you pick exercises from the [[Advanced Git In Depth](https://github.com/nnja/advanced-git/tree/master/exercises) course by Nina Zakharenko that cover topics you don't know yet.
+If you are a more advanced `git` user and are already familiar with the concepts of branching and merging, we recommend that you pick exercises from the [Advanced Git In Depth](https://github.com/nnja/advanced-git/tree/master/exercises) course by Nina Zakharenko that cover topics you don't know yet.
 
-**Use the following repository to complete the exercises: https://github.com/nnja/advanced-git-exercises **
+**Use the following repository to complete the exercises: https://github.com/nnja/advanced-git-exercises**
 
 We recommend first picking the exercises listed below. For some of these topics, we've also added additional challenges!
 
@@ -35,11 +35,11 @@ We recommend first picking the exercises listed below. For some of these topics,
 1. Create a subdirectory `subdir` and create a file `hello2.txt` in it, with content such as `Hello to you too!`.
 2. Commit `subdir/hello2.txt`
 
-Now, using just the following three commands, can you output the contents of the file you just committed, `hello2.txt`?
+Now, using at most the following three commands, can you output the contents of the file you just committed, `hello2.txt`?
 
 * `git log`
 * `git ls-tree`
-* `git cat-file blob`
+* `git cat-file`
 
 ## Exercise2 Staging and Stashing
 
