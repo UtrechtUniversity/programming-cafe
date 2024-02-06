@@ -116,15 +116,16 @@ Write this formula in Julia to find β.
   <summary>Solution</summary>
   Note that the multiplier of β₀ is actually 1.
 
-y = β₀.1 + β₁x₁ + β₂x₂ + β₃x₃
+  y = β₀.1 + β₁x₁ + β₂x₂ + β₃x₃
 
-So, we should add a column of ones to the matrix as the first column.
-
-X = [ones(100) X]
-
-Now we can write the formula.
-
-β = inv(X'X)X'y
+  So, we should add a column of ones to the matrix as the first column.
+  ```
+  X = [ones(100) X]
+  ```
+  Now we can write the formula.
+  ```
+  β = inv(X'X)X'y
+  ```
 </details>
 
 This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlker Arslan](https://www.udemy.com/course/programming-with-julia/)
