@@ -19,12 +19,19 @@ Julia comes with some optional packages that you can import without having to in
 ```
 using Pkg
 ```
-Now you can install Julia's most advanced plotting package, `Makie`:
+Now you can install Julia's most advanced plotting package, `CairoMakie`:
 
 ```
-Pkg.add("Makie")
+Pkg.add("CairoMakie")
 ```
-This will trigger installation of all other packages that `Makie` uses, it might be a longish list if you don't have any Julia packages on your computer yet. 
+This will trigger installation of all other packages that `CairoMakie` uses, it might be a longish list if you don't have any Julia packages on your computer yet. 
+
+Once `CairoMakie` is installed, you can import it into your current session:
+```
+using CairoMakie
+```
+
+If you try importing a package that is not installed yet, Julia will ask you if you want to install it. The following exercises don't include explicit instructions for installing each package that is used; they only tell you what to import. If the package is missing, you can just confirm that you do intend to install it.
 
 ### Precompilation
 
@@ -41,7 +48,7 @@ Pkg.activate(".")
 
 now add some packages to this environment, for example `Makie`:
 ```
-Pkg.add("Makie")
+Pkg.add("GLMakie")
 ```
 
 If you exit Julia and come back to this environment later, you can re-activate it and it will already "know" which packages you're using:
@@ -56,7 +63,28 @@ To create an environment in a given path:
 Pkg.activate("path/to/environment")
 ```
 
-## Linear algebra
+## 2. Variables
+
+In variables (names and conents) you can use any character that is represented in Unicode:
+
+```
+θ = π * 3
+```
+To type a symbol in Julia that you don't have on your keyboard, you can use its Unicode id (that you are not likely to remember) or a word corresponding to it, for example `\pi` followed by the `TAB` key. 
+**TBC**
+
+### Arrays
+
+To Julia, a 1-dimensional array is still an array (what is called a "vector" in R). You can create arrays in various ways:
+
+A 3 x 4 array of zeros:
+```
+Z = zeros(3, 4)
+```
+Array comprehension:
+**TBC**
+
+## 3. Linear algebra
 
 For any operations on matrices (except for creating, reading, deleting), it is best to import `LinearAlgebra`:
 ```
@@ -68,7 +96,7 @@ To transpose a matrix, use the `transpose()` function or, shorter, a single quot
 
 The identity matrix (a quare matrix with 1 on the diagonal and zeros elsewhere) is created by referring to `I` or `I(n)` for a n-sized matrix.
 
-#### Matrix multiplication
+### Matrix multiplication
 
 ```
 X * B
@@ -82,7 +110,7 @@ X .* B
 
 Multiplies elements of `X` and `B` one by one. The *dot operator* works for various mathematical operators by making them *element-wise* - something akin to vectorized operations in R using the `apply()` command family.
 
-#### Matrix division
+### Matrix division
 
 Let's create some matrices as an example:
 ```
@@ -130,7 +158,7 @@ Write this formula in Julia to find β.
 
 This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlker Arslan](https://www.udemy.com/course/programming-with-julia/)
 
-## Types and multiple dispatch
+## 4. Types and multiple dispatch
 
 In Julia, you don't have to define the types of variables. This is similar like in R or Python, but in all languages you will soon notice that some functions don't work on all types, or work the wrong way. For example, `"a"` and `a` might look similar, but in all of these langugages it will be processed differently.
 
@@ -226,7 +254,10 @@ print_tree(Integer)
 
 This exercise is based on [the solution by Przemyslaw Szufel at StackOverflow](https://stackoverflow.com/a/71526202/17001395), distributed under [the CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
 
-## Further reading
+## 5. Plotting
+
+
+## 6. Further reading
 
 ### Resources for a quick start
 
