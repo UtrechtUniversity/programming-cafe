@@ -71,23 +71,96 @@ In variables (names and conents) you can use any character that is represented i
 θ = π * 3
 ```
 To type a symbol in Julia that you don't have on your keyboard, you can use its Unicode id (that you are not likely to remember) or a word corresponding to it, for example `\pi` followed by the `TAB` key. 
-**TBC**
+
 
 ### Arrays
 
-To Julia, a 1-dimensional array is still an array (what is called a "vector" in R). You can create arrays in various ways:
+#### Creating arrays
+
+To Julia, a 1-dimensional array is still an array (what is called a "vector" in R). A 2-dimensional array is a matrix. You can have n-dimensional arrays. You can create arrays in various ways:
 
 A 3 x 4 array of zeros:
 ```
 Z = zeros(3, 4)
 ```
-Array comprehension:
-**TBC**
+
+Arrays can store variables of one type of various types. Make an array with strings, integers and complex numbers:
+
+```
+weird_array = [2, "example text",  1+2im]
+```
+You will get an object `3-element Vector{Any}` so a vector (1-dimensional array) with the type `Any`. `Any` is the most general of variable types in Julia, it encompasses number, strings and other things. So when Julia cannot narrow down the type of objects, it will assume they are of type `Any`.
+
+You can also make an array of a more specified type, e.g. floating-point numbers:
+```
+floats = [1.1 1.2 1.3; 2.1 2.2 2.3]
+```
+
+Check the type of `floats`:
+```
+typeof(floats)
+```
+
+You can tell Julia upfront what data type you intend for an array, instead of letting it guess:
+
+```
+my_floats = Float64[3.1, 3.2, 3.3, 3.4, 3.5, 3.6, 3.7, 3.8, 3.9, 4.0]
+```
+
+You can make an array by taking a slice from another array:
+```julia
+new = Z[1:2, 2:end] # this takes a range: from position 1 to 2 in rows and 2 to the end in columns
+a = floats[end, end]
+```
+
+What is the type of `new` and of `a`?
+You can't really tell if `Z[1:2, 2:end]` cuts out the right part of the matrix because all elements are zeros. So let's overwrite some elements in the array:
+```
+Z[2,3] = 1
+Z[1:2, 2:end]
+```
+
+This time we see that we indeed sliced out the right part of the matrix `Z`. And even though you assign `1` (an integer) to the element in the 2nd row and 2nd column of `Z`, it has automatically been converted to a float, because that is the type of `Z`.
+
+If you want to check if an element is included in an array, you can use a function (`issubset()`) but also the mathematical operator ∊ which is easier to read:
+
+```
+0 ∈ Z
+```
+You type it as `\in` and the `TAB` key. Julia has a lot of logical operators for all occasions.
+
+#### Operations on arrays
+
+Broadcasting is applying an operation element-wise:
+```
+Y = Z .+ 0.5
+```
+Adds 0.5 to each element of `Z`.
+
+You can use the `.` operator with any function. For example the exponent:
+```
+ℯ .^ floats
+```
+calculates ℯ to the power defined by each element of `floats`.
+
+You can create an array that is a result of a function. That is: using an array comprehension.
+For example:
+```
+U = [x + 2y for x in 1:5, y in 0:1] 
+```
+
+#### Exercise
+
+1. Create an array with 10 random numbers.
+2. Use the `reshape()` function to make the array 2 x 5.
+3. Apply the function `==` to the array to check element-wise if it is equal to `my_floats`
+4. Create an array that contains the reciprocals (1/n) for each element of `floats`
+5. Create a vector that contains the reciprocals (1/n) for n from 8 to 12
 
 ## 3. Linear algebra
 
 For any operations on matrices (except for creating, reading, deleting), it is best to import `LinearAlgebra`:
-```
+```julia
 using LinearAlgebra
 ```
 To calculate the *inverse* of a matrix, you can use the `inv()` function.
