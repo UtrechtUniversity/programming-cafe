@@ -44,11 +44,13 @@ If you try importing a package that is not installed yet, Julia will ask you if 
 
 ### Precompilation
 
-After downloading `Makie`, you will notice the message "Precompiling project". If you're installing many packages, this can take a while. Every time you add or remove a new package from your project, or change the version of a package you're using, you will trigger precompilation. It will be a one-time operation that can take a few (tens of) seconds, but it will make the subsequent use faster.
+After downloading `CairoMakie`, you will notice the message "Precompiling project". If you're installing many packages, this can take a while. Every time you add or remove a new package from your project, or change the version of a package you're using, you will trigger precompilation. It will be a one-time operation that can take a few (tens of) seconds, but it will make the subsequent use faster.
 
 ### Environments
 
-If you want to keep track of what packages you're using or share your project with others, you can create your own environment. Different environments can have totally different packages and versions installed. 
+If you want to keep track of what packages you're using or share your project with others, you can create your own environment. **This step is optional: if you just want to try some commands and don't plan to return to yur project later, you can skip this chapter.**
+
+Different environments can have totally different packages and versions installed. 
 
 To create an environment in a the current directory (where you started Julia):
 ```julia
@@ -73,12 +75,42 @@ Pkg.activate("path/to/environment")
 
 ## 2. Variables
 
-In variables (names and conents) you can use any character that is represented in Unicode:
+Assigning variables works the same way as in R, Python or MATLAB:
+```julia
+name = "Julia" # string variable
+```
+Extract parts of a variable:
+```julia
+name[end]
+name[begin]
+name[2:4]
+```
+
+Get the length of a variable and the position of the first and last character:
+
+```julia
+length(name)
+firstindex(name)
+lastindex(name)
+```
+
+In variables (names and contents) you can use any character that is represented in Unicode:
 
 ```julia
 θ = π * 3
 ```
 To type a symbol in Julia that you don't have on your keyboard, you can use its Unicode id (that you are not likely to remember) or a word corresponding to it, for example `\pi` followed by the `TAB` key. A Unicode cheatsheet can be found [here](https://docs.julialang.org/en/v1/manual/unicode-input/).
+
+You can paste the value of a variable into displayed text (e.g. returned by a function) by referring to the variable name preceded with `$`:
+
+```julia
+Δ = 2; Ω = 3
+"The first variable equals $Δ, the second: $Ω"
+```
+
+### Structs
+
+
 
 ### Arrays
 
@@ -240,7 +272,7 @@ Write this formula in Julia to find β.
 
 This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlker Arslan](https://www.udemy.com/course/programming-with-julia/)
 
-## 4. Types and multiple dispatch
+## 4. Types and dispatch
 
 In Julia, you don't have to define the types of variables. This is similar like in R or Python, but in all languages you will soon notice that some functions don't work on all types, or work the wrong way. For example, `"a"` and `a` might look similar, but in all of these languages it will be processed differently.
 
@@ -275,9 +307,9 @@ Incidentally, a function may have different methods because of speed, e.g. when 
 @btime abs(-100.0)
 ```
 
-#### The gamma function
+#### Single dispatch: The gamma function
 
-In the presentation, you saw adding a simpler method to the existing function `gamma()` from the package `SpecialFunctions`. Now you can check if that indeed gained you anything at all, using the `BenchmarkTools` package:
+In the presentation, you saw adding a simpler method to the existing function `gamma()` from the package `SpecialFunctions`. You can check if that indeed gained you anything at all, using the `BenchmarkTools` package:
 
 ```julia
 import SpecialFunctions:gamma
@@ -315,7 +347,36 @@ The second line will use the method you defined for integers. Is it faster on yo
 
 This example comes from the blog [MatecDev by Martin D. Maas](https://www.matecdev.com/posts/julia-multiple-dispatch.html). You can find more examples of multiple dispatch there.
 
-You can find another educational example of Julia's multiple dispatch in [chapter 2.3.3](https://juliadatascience.io/julia_accomplish) of the online book Data Science using Julia by Storopoli, Huijzer and Alonso (2021).
+#### Multiple dispatch: trivial example
+
+```julia
+multi_dispatch( x :: Int, y :: Int ) = x^2 + y^2
+multi_dispatch( x :: AbstractFloat, y :: String ) = print("$y = ", x)
+multi_dispatch( x :: String) = print("Great string you have here, $x, but I prefer numbers")
+```
+##### Exercise
+
+Currently, the second method only works for floating point numbers. If you pass an integer and a string as arguments, it will return an error. Change the method so that it handles 1) any number, 2) a pair of boolean (true or false) arguments. You can find names of Julia types in [the manual](https://docs.julialang.org/en/v1/manual/types/).
+
+<details open>
+  <summary>1. Any number</summary>
+  
+  ```julia
+  multi_dispatch( x :: Number, y :: String ) = print("$y = ", x, " but we don't know if exactly")
+  ```
+  What will happen now if we call the function with the first argument `5` and `5.0`?
+</details>
+
+<details open>
+  <summary>2. Boolean</summary>
+  
+  ```julia
+  multi_dispatch( x :: Bool, y :: Bool ) = print("The first argument is $x, the second is $y")
+  ```
+  This is just an example but I hope you can come up with a better use of two booleans!
+</details>
+
+You can find a longer educational example of Julia's multiple dispatch in [chapter 2.3.3](https://juliadatascience.io/julia_accomplish) of the online book Data Science using Julia by Storopoli, Huijzer and Alonso (2021). If you look for real-life examples, check the `methods()` of common functions, such as `rand()`, `%` or `\` (yes, mathematical operators are also functions!).
 
 #### Julia type tree
 
