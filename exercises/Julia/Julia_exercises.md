@@ -1,10 +1,19 @@
 # Julia intro with exercises
 
-## 0. Help?
+## Starting Julia
 
-To get help in Julia REPL, type `?` followed by a `command` or a `"string"`, which can be a regular expression. For example `?div` will give you direct help on the `div` operation, but `?"div"` will return a list of functions whose docstrings mention `"div"`. 
+To start Julia, open a terminal window (git bash for windows) and enter `julia`.
+This will open the so-called REPL, which stands for read-evaluate-print-loop. The interactive command-line REPL allows quick and easy execution of Julia statements.
 
-#### Try using help
+Like the terminal, the Julia REPL has a prompt, where it awaits input:
+`julia>`
+
+If you work in VS code you can interact with the Julia REPL via the terminal window within VS code.
+
+## 0. Getting help
+To get help in Julia REPL, type `?` (the prompt will now change) followed by a `command` or a `"string"`, which can be a regular expression. For example `?div` will give you direct help on the `div` operation, but `?"div"` will return a list of functions whose docstrings mention `"div"`. 
+
+### Try using help
 
 Find out the difference in the `div` and `/` functions. Try them on some examples: when do they give the same results?
 
@@ -39,7 +48,7 @@ After downloading `Makie`, you will notice the message "Precompiling project". I
 
 ### Environments
 
-If you want to keep track of what packages you're using or share your project with others, you can create your own environment. Different environments can have different totally different packages and versions installed from another environment. 
+If you want to keep track of what packages you're using or share your project with others, you can create your own environment. Different environments can have totally different packages and versions installed. 
 
 To create an environment in a the current directory (where you started Julia):
 ```julia
@@ -69,7 +78,7 @@ In variables (names and conents) you can use any character that is represented i
 ```julia
 θ = π * 3
 ```
-To type a symbol in Julia that you don't have on your keyboard, you can use its Unicode id (that you are not likely to remember) or a word corresponding to it, for example `\pi` followed by the `TAB` key. 
+To type a symbol in Julia that you don't have on your keyboard, you can use its Unicode id (that you are not likely to remember) or a word corresponding to it, for example `\pi` followed by the `TAB` key. A Unicode cheatsheet can be found [here](https://docs.julialang.org/en/v1/manual/unicode-input/).
 
 ### Arrays
 
@@ -148,6 +157,8 @@ U = [x + 2y for x in 1:5, y in 0:1]
 ```
 
 #### Exercise
+Hints: Use `?` and `command` to check how to use a function. [This cheatsheet](https://cheatsheets.quantecon.org/julia-cheatsheet.html) provides examples of common operations in Julia.
+
 
 1. Create an array with 10 random numbers.
 2. Use the `reshape()` function to make the array 2 x 5.
@@ -163,9 +174,9 @@ using LinearAlgebra
 ```
 To calculate the *inverse* of a matrix, you can use the `inv()` function.
 
-To transpose a matrix, use the `transpose()` function or, shorter, a single quote at the end of its name, e.g. `X'` to get the inverse of `X`.
+To transpose a matrix, use the `transpose()` function or, shorter, a single quote at the end of its name, e.g. `X'` to get the transpose.
 
-The identity matrix (a quare matrix with 1 on the diagonal and zeros elsewhere) is created by referring to `I` or `I(n)` for a n-sized matrix.
+The identity matrix (a square matrix with 1 on the diagonal and zeros elsewhere) is created by referring to `I` or `I(n)` for a n-sized matrix.
 
 ### Matrix multiplication
 
@@ -231,7 +242,7 @@ This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlke
 
 ## 4. Types and multiple dispatch
 
-In Julia, you don't have to define the types of variables. This is similar like in R or Python, but in all languages you will soon notice that some functions don't work on all types, or work the wrong way. For example, `"a"` and `a` might look similar, but in all of these langugages it will be processed differently.
+In Julia, you don't have to define the types of variables. This is similar like in R or Python, but in all languages you will soon notice that some functions don't work on all types, or work the wrong way. For example, `"a"` and `a` might look similar, but in all of these languages it will be processed differently.
 
 Check the type of `1.0`:
 ```julia
