@@ -13,6 +13,8 @@ If you work in VS code you can interact with the Julia REPL via the terminal win
 ## 0. Getting help
 To get help in Julia REPL, type `?` (the prompt will now change) followed by a `command` or a `"string"`, which can be a regular expression. For example `?div` will give you direct help on the `div` operation, but `?"div"` will return a list of functions whose docstrings mention `"div"`. 
 
+The chapters in this document are zero-indexed, but Julia is 1-indexed, like R or FORTRAN, but unlike Python.
+
 ### Try using help
 
 Find out the difference in the `div` and `/` functions. Try them on some examples: when do they give the same results?
@@ -399,11 +401,69 @@ This exercise is based on [the solution by Przemyslaw Szufel at StackOverflow](h
 
 ## 5. Plotting
 
-### 6. Control flow
+Julia has basic plotting capability using `Plots.jl`. That is comparable to `plot()` in base R. It's quick.
+There are several other plotting ecosystems for Julia, akin to the `ggplot` family. There is a Julia version of Plotly. A Julia-specific and most intensively developed plotting tool is [Makie.jl](https://docs.makie.org/stable/), which contains in fact several packages, depending on whether you want to only plot in 2D, in 3D, for the web, or something even more specific.
 
+### Simple example
 
+```julia
+using Plots
 
-## 7. Further reading
+x = range(0, 10, length=100)
+y1 = sin.(x) # note the dot operator discussed earlier!
+y2 = cos.(x)
+plot(x, y)
+```
+Exercise:
+plot the parabola x³ for x values of [0, 1]. 
+
+<details open>
+  <summary>Solution</summary>
+  
+  ```julia
+  x = range(0, 1, step = 0.1)
+  y = x.^3
+  plot(x, y)
+  ```
+</details>
+
+`plot()` is a function name used by many packages. If you have Makie loaded, Julia may not know if you want to use `plot()` from `Plots` or from `Makie`. You can tell it by prepending the name of the package: `Plots.plot(x, y)`. That may be a good practice in general, it certainly is in R!
+
+### Intermediate example
+
+Plot a polynomial approximation of $sin(x)$ employing Unicode characters to label axes and legends. This example comes from [the Makie tutorial](https://github.com/MakieOrg/Makie.jl#a-more-complex-plot-with-unicode-characters-and-latex-strings).
+
+Installing and opening `GLMakie` might take a minute or so, depending on your computer and other Julia packages you already have.
+
+```julia
+using GLMakie
+
+x = -2pi:0.1:2pi
+approx = fill(0.0, length(x))
+cmap = [:gold, :deepskyblue3, :orangered, "#e82051"]
+with_theme(palette = (; patchcolor = cgrad(cmap, alpha=0.45))) do
+    fig, axis, lineplot = lines(x, sin.(x); label = L"sin(x)", linewidth = 3, color = :black,
+        axis = (; title = "Polynomial approximation of sin(x)",
+            xgridstyle = :dash, ygridstyle = :dash,
+            xticksize = 10, yticksize = 10, xtickalign = 1, ytickalign = 1,
+            xticks = (-π:π/2:π, ["π", "-π/2", "0", "π/2", "π"])
+        ))
+    translate!(lineplot, 0, 0, 2) # move line to foreground
+    band!(x, sin.(x), approx .+= x; label = L"n = 0")
+    band!(x, sin.(x), approx .+= -x .^ 3 / 6; label = L"n = 1")
+    band!(x, sin.(x), approx .+= x .^ 5 / 120; label = L"n = 2")
+    band!(x, sin.(x), approx .+= -x .^ 7 / 5040; label = L"n = 3")
+    limits!(-3.8, 3.8, -1.5, 1.5)
+    axislegend(; position = :ct, backgroundcolor = (:white, 0.75), framecolor = :orange)
+    fig
+end
+```
+
+### Advanced example with complex layout
+
+Let's not copy the entire example here, please just take a look at the [Makie layout tutorial](https://docs.makie.org/stable/tutorials/layout-tutorial/).
+
+## 6. Further reading
 
 ### Resources for a quick start
 
