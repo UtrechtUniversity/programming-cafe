@@ -2,7 +2,7 @@
 
 Julia default [installation instructions](https://julialang.org/downloads/) include `juliaup`, a handy manager that allows you to switch Julia versions and set the default one for your system. It has the same purpose as `pyenv`.
 
-For this exercise, you just need one version, let's make it the latest: Julia 1.10.0 But if you want to see if you have other Julia installs on your computer, or what else you can do, just type 
+For this exercise, you just need one version, let's make it the latest: Julia 1.10.0 But if you want to see if you have other Julia installs on your computer, or what else you can do, in the terminal (or PowerShell if using Windows), type 
 
 ```
 juliaup
@@ -10,7 +10,7 @@ juliaup
 
 This will return a list of commands with explanations.
 
-Once you've installed Julia, you can use it without further ado. Just type `julia` in the terminal. You quit using `exit()`.
+Once you've installed Julia, you can use it without further ado. Just type `julia` in the terminal. This starts the *Julia REPL*, i.e. an interactive Julia interpreter. You quit using `exit()`.
 
 # VS Code Installation
 
@@ -18,3 +18,6 @@ Once you've installed Julia, you can use it without further ado. Just type `juli
 
 If you are reluctant to install VS Code because of its tracking options, you can use [VS Codium](https://vscodium.com/). It is the same IDE, but without tracking (for what it's worth). I do not know how it affects work with Julia Extension, but [tracking in the extension is disabled, unless you opt in](https://github.com/julia-vscode/julia-vscode/wiki/Privacy-Policy).
 
+# Terminal commands
+
+Once in VS Code, you can either create scripts (a text file with a `.jl` extension) and run them interactively or start the terminal *within* VS Code and run Julia commands in the same way as in the REPL.
