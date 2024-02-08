@@ -9,13 +9,13 @@ The Programming Cafe is a community event organized every first Thursday of the 
 ::: {.callout-note icon=false}
 ## Next Edition
 
-- **Date:** Thursday, 11th January 2024
+- **Date:** Thursday, 8th February 2024
 - **Time:** 15:00-17:00
 - **Location:** Buchelius Room 6.18, University Library, Utrecht Science Park
-- **Demo/Presentation:** Improving your Git and GitHub skills (by Dawa Ometto)
+- **Demo/Presentation:** Demo of the Julia Programming Language
 
-<a href='https://www.uu.nl/en/node/133004/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add next edition to calendar</button>
+<a href='https://www.uu.nl/en/node/133006/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add February edition to calendar</button>
 </a>
 
 :::
