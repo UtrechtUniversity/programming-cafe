@@ -1,26 +1,13 @@
 # Agenda
 
 ::: {.callout-note icon=false}
-## Programming Cafe January 2024
-
-- **Date:** Thursday, 11th January
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Advanced Git](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-01-11_advanced-git/slides.html) (by Dawa Ometto)
-
-<a href='https://www.uu.nl/en/node/133004/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add January edition to calendar</button>
-</a>
-
-:::
-
-::: {.callout-note icon=false}
 ## Programming Cafe February 2024
 
 - **Date:** Thursday, 8th February
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Demo of the Julia Programming Language (by Emilia Jarochowska)
+- **Demo/Presentation:** [Demo of the Julia Programming Language (by Emilia Jarochowska)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-02-08_Julia/Julia_intro_beamer.html)
+Julia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.
 
 <a href='https://www.uu.nl/en/node/133006/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add February edition to calendar</button>
@@ -73,6 +60,19 @@
 
 
 ## Past Programming Cafes
+
+### Programming Cafe January 2024
+
+- **Date:** Thursday, 11th January
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** [Advanced Git](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-01-11_advanced-git/slides.html) (by Dawa Ometto)
+
+You've started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.
+
+- Basic knowledge of git (e.g. cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.
+- For beginners we have a set of suggested exercises (and helpers) to get started with Git and GitHub.
+- For more advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.
 
 ### September 2023
 - **Date:** Thursday, 7th June
