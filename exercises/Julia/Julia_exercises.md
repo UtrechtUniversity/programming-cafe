@@ -143,8 +143,8 @@ Calculate the volume of the prism object using the field values. You can look up
 This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlker Arslan](https://www.udemy.com/course/programming-with-julia/)
 <details open>
   <summary>Solution</summary>
-```julia
 
+```julia
 mutable struct Prism{T <: Real} 
   width::T 
   length::T 
@@ -155,6 +155,7 @@ p = Prism(3.5, 7.2, 7.5)
 
 volume = p.height * p.length * p.width
 ```
+
 </details>
 
 ### Arrays
