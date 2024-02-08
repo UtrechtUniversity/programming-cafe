@@ -135,28 +135,26 @@ Regular structs cannot be changed once defined (without restarting Julia). But y
 
 #### Exercise 
 
-    Create a struct for a prism. The struct should include three fields: width, length, height.
-
-    Data types of the fields should be the same and they should be a subtype of Real type.
-
-    Create an instance of a Prism type. Set the values for width, length, and height any value you like.
-
-    Calculate the volume of the prism object using the field values. You can look up the syntax and try to write a [function](https://docs.julialang.org/en/v1/manual/functions/).
+Create a struct for a prism. The struct should include three fields: width, length, height.
+Data types of the fields should be the same and they should be a subtype of Real type.
+Create an instance of a Prism type. Set the values for width, length, and height any value you like.
+Calculate the volume of the prism object using the field values. You can look up the syntax and try to write a [function](https://docs.julialang.org/en/v1/manual/functions/).
 
 This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlker Arslan](https://www.udemy.com/course/programming-with-julia/)
 <details open>
   <summary>Solution</summary>
-  ```julia
-      mutable struct Prism{T <: Real} 
-        width::T 
-        length::T 
-        height::T
-    end
+```julia
 
-    p = Prism(3.5, 7.2, 7.5)
+mutable struct Prism{T <: Real} 
+  width::T 
+  length::T 
+  height::T
+end
 
-    volume = p.height * p.length * p.width
-    ```
+p = Prism(3.5, 7.2, 7.5)
+
+volume = p.height * p.length * p.width
+```
 </details>
 
 ### Arrays
