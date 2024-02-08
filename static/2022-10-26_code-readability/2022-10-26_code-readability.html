@@ -8,9 +8,9 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.549">
 
-  <title>Programming Cafe – code-readability</title>
+  <title>Programming Cafe</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +30,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -220,7 +220,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -463,39 +464,39 @@
 <h2>Some elements of style guides</h2>
 <p>Guidance of strategic use of <strong>whitespace</strong> and <strong>new lines</strong>:</p>
 <p>Compare:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>this <span class="ot">&lt;-</span> <span class="cf">function</span>(arg1,arg2) res<span class="ot">&lt;-</span>arg1<span class="sc">*</span>arg2;<span class="fu">return</span>(res)</span>
-<span id="cb1-2"><a href="#cb1-2"></a>hurts <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">c</span>(<span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">4</span>),<span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">1</span>),<span class="fu">this</span>(<span class="dv">9</span>,<span class="dv">9</span>))); <span class="fu">print</span>(hurts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>this <span class="ot">&lt;-</span> <span class="cf">function</span>(arg1,arg2) res<span class="ot">&lt;-</span>arg1<span class="sc">*</span>arg2;<span class="fu">return</span>(res)</span>
+<span id="cb1-2"><a></a>hurts <span class="ot">&lt;-</span> <span class="fu">mean</span>(<span class="fu">c</span>(<span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">4</span>),<span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">1</span>),<span class="fu">this</span>(<span class="dv">9</span>,<span class="dv">9</span>))); <span class="fu">print</span>(hurts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>this <span class="ot">&lt;-</span> <span class="cf">function</span>(arg1,arg2){</span>
-<span id="cb2-2"><a href="#cb2-2"></a>  res <span class="ot">&lt;-</span> arg1 <span class="sc">*</span> arg2</span>
-<span id="cb2-3"><a href="#cb2-3"></a>  <span class="fu">return</span>(res)</span>
-<span id="cb2-4"><a href="#cb2-4"></a>}</span>
-<span id="cb2-5"><a href="#cb2-5"></a></span>
-<span id="cb2-6"><a href="#cb2-6"></a>hurts <span class="ot">&lt;-</span> <span class="fu">mean</span>(</span>
-<span id="cb2-7"><a href="#cb2-7"></a>  <span class="fu">c</span>(</span>
-<span id="cb2-8"><a href="#cb2-8"></a>    <span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">4</span>),</span>
-<span id="cb2-9"><a href="#cb2-9"></a>    <span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">1</span>),</span>
-<span id="cb2-10"><a href="#cb2-10"></a>    <span class="fu">this</span>(<span class="dv">9</span>,<span class="dv">9</span>)</span>
-<span id="cb2-11"><a href="#cb2-11"></a>    )</span>
-<span id="cb2-12"><a href="#cb2-12"></a>  )</span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="fu">print</span>(hurts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>this <span class="ot">&lt;-</span> <span class="cf">function</span>(arg1,arg2){</span>
+<span id="cb2-2"><a></a>  res <span class="ot">&lt;-</span> arg1 <span class="sc">*</span> arg2</span>
+<span id="cb2-3"><a></a>  <span class="fu">return</span>(res)</span>
+<span id="cb2-4"><a></a>}</span>
+<span id="cb2-5"><a></a></span>
+<span id="cb2-6"><a></a>hurts <span class="ot">&lt;-</span> <span class="fu">mean</span>(</span>
+<span id="cb2-7"><a></a>  <span class="fu">c</span>(</span>
+<span id="cb2-8"><a></a>    <span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">4</span>),</span>
+<span id="cb2-9"><a></a>    <span class="fu">this</span>(<span class="dv">3</span>,<span class="dv">1</span>),</span>
+<span id="cb2-10"><a></a>    <span class="fu">this</span>(<span class="dv">9</span>,<span class="dv">9</span>)</span>
+<span id="cb2-11"><a></a>    )</span>
+<span id="cb2-12"><a></a>  )</span>
+<span id="cb2-13"><a></a><span class="fu">print</span>(hurts)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The second chunk is longer, but more modular and readable.</p>
 </section>
 <section id="some-elements-of-style-guides-1" class="slide level2">
 <h2>Some elements of style guides</h2>
 <p>Guidance on descriptive <strong>naming</strong> of functions and variables</p>
 <p>Compare:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="cf">for</span> i <span class="kw">in</span> my_shopping_basket:</span>
-<span id="cb3-2"><a href="#cb3-2"></a>  <span class="cf">if</span>(test(i)) <span class="op">&gt;</span> <span class="dv">10</span>:</span>
-<span id="cb3-3"><a href="#cb3-3"></a>    purch(i)</span>
-<span id="cb3-4"><a href="#cb3-4"></a>  <span class="cf">else</span>:</span>
-<span id="cb3-5"><a href="#cb3-5"></a>    disc(i)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> my_shopping_basket:</span>
+<span id="cb3-2"><a></a>  <span class="cf">if</span>(test(i)) <span class="op">&gt;</span> <span class="dv">10</span>:</span>
+<span id="cb3-3"><a></a>    purch(i)</span>
+<span id="cb3-4"><a></a>  <span class="cf">else</span>:</span>
+<span id="cb3-5"><a></a>    disc(i)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br></p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="cf">for</span> item <span class="kw">in</span> basket:</span>
-<span id="cb4-2"><a href="#cb4-2"></a>  <span class="cf">if</span>(testNecessity(item)) <span class="op">&gt;</span> <span class="dv">10</span>:</span>
-<span id="cb4-3"><a href="#cb4-3"></a>    purchase(item)</span>
-<span id="cb4-4"><a href="#cb4-4"></a>  <span class="cf">else</span>:</span>
-<span id="cb4-5"><a href="#cb4-5"></a>    discard(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="cf">for</span> item <span class="kw">in</span> basket:</span>
+<span id="cb4-2"><a></a>  <span class="cf">if</span>(testNecessity(item)) <span class="op">&gt;</span> <span class="dv">10</span>:</span>
+<span id="cb4-3"><a></a>    purchase(item)</span>
+<span id="cb4-4"><a></a>  <span class="cf">else</span>:</span>
+<span id="cb4-5"><a></a>    discard(item)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>In the second chunk, we start functions with a verb and make variable names <em>just</em> long enough to be meaningful</p>
 </section>
 <section id="what-is-a-style-guide-and-why-should-i-follow-one-1" class="slide level2">
@@ -571,38 +572,40 @@
 <h2>Linters &amp; Formatters in R</h2>
 <p>Replace <code>bad.R</code> with the relevant script name.</p>
 <p>Make sure you’re in the same working directory as the script!</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"lintr"</span>, <span class="st">"styler"</span>))</span>
-<span id="cb5-2"><a href="#cb5-2"></a></span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="fu">library</span>(lintr)</span>
-<span id="cb5-4"><a href="#cb5-4"></a><span class="fu">library</span>(styler)</span>
-<span id="cb5-5"><a href="#cb5-5"></a></span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="fu">lint</span>(<span class="st">"bad.R"</span>)</span>
-<span id="cb5-7"><a href="#cb5-7"></a></span>
-<span id="cb5-8"><a href="#cb5-8"></a><span class="co"># you have two options for styler:</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a></span>
-<span id="cb5-10"><a href="#cb5-10"></a><span class="co"># style using a function</span></span>
-<span id="cb5-11"><a href="#cb5-11"></a></span>
-<span id="cb5-12"><a href="#cb5-12"></a><span class="fu">style_file</span>(<span class="st">"bad.R"</span>)</span>
-<span id="cb5-13"><a href="#cb5-13"></a></span>
-<span id="cb5-14"><a href="#cb5-14"></a><span class="co"># or use the RStudio add-in (Addins drop-down menu -&gt; Style active file)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">install.packages</span>(<span class="fu">c</span>(<span class="st">"lintr"</span>, <span class="st">"styler"</span>))</span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a><span class="fu">library</span>(lintr)</span>
+<span id="cb5-4"><a></a><span class="fu">library</span>(styler)</span>
+<span id="cb5-5"><a></a></span>
+<span id="cb5-6"><a></a><span class="fu">lint</span>(<span class="st">"bad.R"</span>)</span>
+<span id="cb5-7"><a></a></span>
+<span id="cb5-8"><a></a><span class="co"># you have two options for styler:</span></span>
+<span id="cb5-9"><a></a></span>
+<span id="cb5-10"><a></a><span class="co"># style using a function</span></span>
+<span id="cb5-11"><a></a></span>
+<span id="cb5-12"><a></a><span class="fu">style_file</span>(<span class="st">"bad.R"</span>)</span>
+<span id="cb5-13"><a></a></span>
+<span id="cb5-14"><a></a><span class="co"># or use the RStudio add-in (Addins drop-down menu -&gt; Style active file)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="linters-formatters-in-python" class="slide level2">
 <h2>Linters &amp; Formatters in Python</h2>
 <p>Replace ‘pep8.py’ with the relevant script name if needed.</p>
 <p>Make sure you’re in the same working directory as the script!</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>pip install flake8 black</span>
-<span id="cb6-2"><a href="#cb6-2"></a></span>
-<span id="cb6-3"><a href="#cb6-3"></a>flake8 pep8.py</span>
-<span id="cb6-4"><a href="#cb6-4"></a></span>
-<span id="cb6-5"><a href="#cb6-5"></a>black pep8.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>pip install flake8 black</span>
+<span id="cb6-2"><a></a></span>
+<span id="cb6-3"><a></a>flake8 pep8.py</span>
+<span id="cb6-4"><a></a></span>
+<span id="cb6-5"><a></a>black pep8.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section id="section" class="title-slide slide level1 center" data-background-color="#FFCD00">
 <h1></h1>
 <p><img data-src="./templates/UU_logo_2021_EN_RGB_payoff.png"></p>
 
+<div class="quarto-auto-generated-content">
 <p><img src="./templates/UU_logo_2021_EN_RGB.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -633,7 +636,6 @@
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -895,10 +897,9 @@
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -908,8 +909,17 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
