@@ -327,8 +327,11 @@ This exercise is based on [the solution by Przemyslaw Szufel at StackOverflow](h
 
 ## 5. Plotting
 
+### 6. Control flow
 
-## 6. Further reading
+
+
+## 7. Further reading
 
 ### Resources for a quick start
 
@@ -338,3 +341,7 @@ This exercise is based on [the solution by Przemyslaw Szufel at StackOverflow](h
 
 * [Julia vs Numba and Cython: Looking Beyond Microbenchmarks](https://www.matecdev.com/posts/julia-python-numba-cython.html)
 * [How to solve the same numerical Problem in 7 different Programming Languages](https://medium.com/@andreaskuhn92/how-to-solve-the-same-numerical-problem-in-7-different-programming-languages-a64daac3ed64) - these examples may not necessarily be the fastest code possible in the respective languages
+
+### Trivia
+
+* [Multiple dispatch explained with Pokemon](https://www.moll.dev/projects/effective-multi-dispatch/), a bit too complicated for this demo
