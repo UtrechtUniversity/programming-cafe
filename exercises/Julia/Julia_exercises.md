@@ -112,7 +112,52 @@ You can paste the value of a variable into displayed text (e.g. returned by a fu
 
 ### Structs
 
+Structs are composite types, cosisting of several objects which can be of several types. 
 
+```julia
+struct Student
+  major::String
+  grade::Float64
+  name::String
+  enrolled::Bool
+  group::Integer
+end
+```
+This is a struct that we can use to create instances, i.e. record of individual students, and make operations on them.
+
+```julia
+Emilia = Student("Geoscience", 5.5, "Jarochowska", true, 1)
+```
+
+You can see student's properties by writing `Emilia.major`.
+
+Regular structs cannot be changed once defined (without restarting Julia). But you can make a `mutable struct` that can be modified. 
+
+#### Exercise 
+
+    Create a struct for a prism. The struct should include three fields: width, length, height.
+
+    Data types of the fields should be the same and they should be a subtype of Real type.
+
+    Create an instance of a Prism type. Set the values for width, length, and height any value you like.
+
+    Calculate the volume of the prism object using the field values. You can look up the syntax and try to write a [function](https://docs.julialang.org/en/v1/manual/functions/).
+
+This exercise comes from the [Udemy course "Programming with Julia" by Dr. İlker Arslan](https://www.udemy.com/course/programming-with-julia/)
+<details open>
+  <summary>Solution</summary>
+  ```julia
+      mutable struct Prism{T <: Real} 
+        width::T 
+        length::T 
+        height::T
+    end
+
+    p = Prism(3.5, 7.2, 7.5)
+
+    volume = p.height * p.length * p.width
+    ```
+</details>
 
 ### Arrays
 
@@ -282,6 +327,21 @@ Check the type of `1.0`:
 ```julia
 typeof(1.0)
 ```
+
+Earlier we created arrays with a specific type. You can create objects that have type `Any` but sometimes you want just a specific selection of types. Then you can list the types allowed for your objects using a `Union` type:
+```julia
+my_custom_type = Union{Integer, String}
+x = "Geoscience"
+y = "100"
+z = 1.0
+```
+
+Now you can check if the variables `x`, `y` and `z` we just created fall into your custom type:
+```julia
+x::my_custom_type
+```
+
+Which one throws an error?
 
 Julia has a hierarchical system of types. So you can define functions for more specific types or more general. If you define a function for a general type, for example all numbers, it will work for all sub-types of the type `Number`. You don't need to be specific about the level of the type, because every Julia command (every function call) will be compiled **for that specific type that was used**. 
 
@@ -468,6 +528,7 @@ Let's not copy the entire example here, please just take a look at the [Makie la
 ### Resources for a quick start
 
 * [MATLAB--Python--Julia cheatsheet](https://cheatsheets.quantecon.org/)
+* [Julia track on Exercism](https://exercism.org/tracks/julia)
 
 ### Prose and code examples explaining how Julia compares to other languages
 
