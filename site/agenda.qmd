@@ -1,18 +1,5 @@
 # Agenda
 
-::: {.callout-note icon=false}
-## Programming Cafe February 2024
-
-- **Date:** Thursday, 8th February
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Demo of the Julia Programming Language (by Emilia Jarochowska)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-02-08_Julia/Julia_intro_beamer.html)
-Julia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.
-
-<a href='https://www.uu.nl/en/node/133006/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add February edition to calendar</button>
-</a>
-
 :::
 
 ::: {.callout-note icon=false}
@@ -21,7 +8,8 @@ Julia is a programming language designed for scientific applications. It’s an 
 - **Date:** Thursday, 7th March
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Packaging in Python and R (by Raoul Schram and Jelle Treep)
+- **Demo/Presentation:** Creating your own Python and R packages (by Raoul Schram and Jelle Treep)
+- If you are working with Python and R, undoubtedly you will have used packages (e.g. numpy, pandas, ggplot2 or tidyr). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this programming cafe we discuss what a package is, when and why it is a good idea to create a packages, how to create a package and some best practices when creating packages. We will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the programming cafe and experts in the room to help you!
 
 <a href='https://www.uu.nl/en/node/133008/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add March edition to calendar</button>
@@ -60,6 +48,16 @@ Julia is a programming language designed for scientific applications. It’s an 
 
 
 ## Past Programming Cafes
+
+### Programming Cafe February 2024
+
+- **Date:** Thursday, 8th February
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Demo/Presentation:** [Demo of the Julia Programming Language (by Emilia Jarochowska)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-02-08_Julia/Julia_intro_beamer.html)
+
+Julia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.
+
 
 ### Programming Cafe January 2024
 
