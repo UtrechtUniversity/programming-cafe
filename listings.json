@@ -2,9 +2,9 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2022-10-26_code-readability/index.html",
       "/posts/2023-10-05_data-visualization/index.html",
       "/posts/2023-11-02_scheduling-scripts/index.html",
-      "/posts/2022-10-26_code-readability/index.html",
       "/posts/2022-09-28_git-and-github/index.html"
     ]
   }

@@ -1,17 +1,248 @@
 [
   {
-    "objectID": "agenda.html",
-    "href": "agenda.html",
-    "title": "Agenda",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": ":::\n\n\n\n\n\n\nProgramming Cafe March 2024\n\n\n\n\nDate: Thursday, 7th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Creating your own Python and R packages (by Raoul Schram and Jelle Treep)\nIf you are working with Python and R, undoubtedly you will have used packages (e.g. numpy, pandas, ggplot2 or tidyr). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this programming cafe we discuss what a package is, when and why it is a good idea to create a packages, how to create a package and some best practices when creating packages. We will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the programming cafe and experts in the room to help you!\n\n Add March edition to calendar \n\n\n\n\n\n\n\n\nProgramming Cafe April 2024\n\n\n\n\nDate: Thursday, 4th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: tbd\n\n Add April edition to calendar \n\n\n\n\n\n\n\n\nProgramming Cafe May 2024\n\n\n\n\nDate: Thursday, 2nd May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: tbd\n\n Add May edition to calendar \n\n\n\n\n\n\n\nDate: Thursday, 8th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Demo of the Julia Programming Language (by Emilia Jarochowska)\n\nJulia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.\n\n\n\n\nDate: Thursday, 11th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Advanced Git (by Dawa Ometto)\n\nYou’ve started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.\n\nBasic knowledge of git (e.g. cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.\nFor beginners we have a set of suggested exercises (and helpers) to get started with Git and GitHub.\nFor more advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.\n\n\n\n\n\nDate: Thursday, 7th June\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation: Literate Programming Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.\n\n\n\n\n\nDate: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
+    "text": "During the Programming Cafe, we will share knowledge about programming through short presentations and also help each other with challenges in working with code and data."
   },
   {
-    "objectID": "agenda.html#past-programming-cafes",
-    "href": "agenda.html#past-programming-cafes",
-    "title": "Agenda",
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nThe Programming Café is a ‘relaunch’ of the popular R Café external link community event that used to take place before the coronavirus outbreak. We are happy to broaden the event to include programming languages other than R."
+  },
+  {
+    "objectID": "about.html#theme",
+    "href": "about.html#theme",
+    "title": "About",
+    "section": "Theme",
+    "text": "Theme\nEach Programming Café will have a special theme. The theme is a short presentation or demonstration of (maximum) half an hour. The presentations will be given by attendees of the Café. We are always looking for people who want to present something. Please send an email to Neha Moopen external linkif you want to give a presentation."
+  },
+  {
+    "objectID": "about.html#who-can-join",
+    "href": "about.html#who-can-join",
+    "title": "About",
+    "section": "Who Can join?",
+    "text": "Who Can join?\nEveryone is welcome at the Programming Café, as long as you like to code in R, Python or other programming languages. You can be of any skill level and at any stage in working with your code and data. You can be a researcher, student, or support staff at the UU, UMCU, or HU (or even from outside these institutions).\nYou can bring your programming problems to work on or discuss with the attendees. Even if you do not have an issue, you’re welcome at the Café - just to work on your code or try out the exercises that have been prepared for you.\n\n\n\n\n\n\nWant to get involved?\n\n\n\nGot a favorite topic you’d like us to explore, or an idea for a presentation at an upcoming Programming Café? Please let us know via a GitHub Issue or info.rdm@uu.nl"
+  },
+  {
+    "objectID": "about.html#more-information",
+    "href": "about.html#more-information",
+    "title": "About",
+    "section": "More information",
+    "text": "More information\nThe Programming Café will take place on a monthly basis, and it will last about two hours (usually towards the end of the workday). Registration is not required. To stay up to date on the planning and themes, check or agenda or keep an eye on the website of Research Data Management Support and the agenda on the intranet.\n\nWalk-in hours for research data and software\nFor hands-on support on all questions related to research data and/or software, we also have the Walk-In Hours for Data & Software which takes place every Monday from 15:00-17:00."
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/notes.html",
+    "href": "static/2022-09-28_git-and-github/notes.html",
+    "title": "Git & GitHub",
     "section": "",
-    "text": "Date: Thursday, 8th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Demo of the Julia Programming Language (by Emilia Jarochowska)\n\nJulia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.\n\n\n\n\nDate: Thursday, 11th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Advanced Git (by Dawa Ometto)\n\nYou’ve started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.\n\nBasic knowledge of git (e.g. cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.\nFor beginners we have a set of suggested exercises (and helpers) to get started with Git and GitHub.\nFor more advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.\n\n\n\n\n\nDate: Thursday, 7th June\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation: Literate Programming Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.\n\n\n\n\n\nDate: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
+    "text": "Date: 28-09-2022\nTime: 15:00-17:00\nLocation: Living Lab, UB Uithof\nAudience: Mixed, from beginners to advanced users\n\n\n\n\n\n\n\nWelcome to the Programming Cafe!\nToday we’ll discuss Git & GitHub\nAlready introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)\n\n\n\n\n\nStart with a problem statement/case! -&gt; version control & collaboration, reproducibility as well…\nWhat is Git? Explain the software.\nWhat is GitHub (& GitLab and other services)?\nBenefits of using Git & GitHub. -&gt; btw, you can already start with the web browser!\n\n\n\n\n\nWhat are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line\nstart the basic exercise here?\nWhat makes a good GitHub repo? README, License, folder structure…\n\n\n\n\n\nlocal vs. online work\n\n\n\n\n\nadd\ncommit\npush\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\ncollaborating on github\nsharing openly on github -&gt; licenses!\npublishing code via Zenodo for a DOI / CITATION.cff files\nintroduce Utrecht University GitHub Jelle"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/notes.html#details",
+    "href": "static/2022-09-28_git-and-github/notes.html#details",
+    "title": "Git & GitHub",
+    "section": "",
+    "text": "Date: 28-09-2022\nTime: 15:00-17:00\nLocation: Living Lab, UB Uithof\nAudience: Mixed, from beginners to advanced users"
+  },
+  {
+    "objectID": "static/2022-09-28_git-and-github/notes.html#presentation-notes",
+    "href": "static/2022-09-28_git-and-github/notes.html#presentation-notes",
+    "title": "Git & GitHub",
+    "section": "",
+    "text": "Welcome to the Programming Cafe!\nToday we’ll discuss Git & GitHub\nAlready introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)\n\n\n\n\n\nStart with a problem statement/case! -&gt; version control & collaboration, reproducibility as well…\nWhat is Git? Explain the software.\nWhat is GitHub (& GitLab and other services)?\nBenefits of using Git & GitHub. -&gt; btw, you can already start with the web browser!\n\n\n\n\n\nWhat are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line\nstart the basic exercise here?\nWhat makes a good GitHub repo? README, License, folder structure…\n\n\n\n\n\nlocal vs. online work\n\n\n\n\n\nadd\ncommit\npush\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\ncollaborating on github\nsharing openly on github -&gt; licenses!\npublishing code via Zenodo for a DOI / CITATION.cff files\nintroduce Utrecht University GitHub Jelle"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#plan-for-today",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#plan-for-today",
+    "title": "Programming Cafe",
+    "section": "Plan for today",
+    "text": "Plan for today\n\n\n\n\nWork on your own project\n45 min\n\n\nScheduling Scripts\n45 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nR-Cafe\nPresentation, demo, exercise\nCommunity event\nOpen to UU, HU, UMCU\nResearchers, students, support staff\nIt is OK to work on your own code"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe-1",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe-1",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nIdeas for topics? Let us know!\nWanted: Core team members\nFeedback welcome!\n\nUse the link below or talk to us\ntinyurl.com/uucafe"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#what-is-job-scheduling",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#what-is-job-scheduling",
+    "title": "Programming Cafe",
+    "section": "What Is Job Scheduling?",
+    "text": "What Is Job Scheduling?\nIn programming, job scheduling involves automating the execution of scripts or programs at specified times or intervals."
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#why-would-we-want-to-schedule-jobs",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#why-would-we-want-to-schedule-jobs",
+    "title": "Programming Cafe",
+    "section": "Why Would We Want To Schedule Jobs?",
+    "text": "Why Would We Want To Schedule Jobs?\n\nAutomation\nEfficiency\nConsistency\nUpdating Things\nIntegration\nScalability"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#how-can-we-schedule-jobs",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#how-can-we-schedule-jobs",
+    "title": "Programming Cafe",
+    "section": "How Can We Schedule Jobs?",
+    "text": "How Can We Schedule Jobs?\nUsing a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.\nThey differ per operating system:\n\nWindows: Windows Task Scheduler\nMacOS & Linux: cron"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#windows-task-scheduler",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#windows-task-scheduler",
+    "title": "Programming Cafe",
+    "section": "Windows Task Scheduler",
+    "text": "Windows Task Scheduler\nWindows Task Scheduler is a job scheduler in Microsoft Windows that launches computer programs or scripts at pre-defined times or after specified time intervals.\nHere is a written tutorial: https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#cron",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#cron",
+    "title": "Programming Cafe",
+    "section": "cron",
+    "text": "cron\nThe cron command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as cron jobs, to run periodically at fixed times, dates, or intervals.\nThe actions of cron are driven by a crontab (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The syntax of each line within a crontab file expects a cron expression made of five fields which represent the time to execute the command, followed by a shell command to execute.\n# ┌───────────── minute (0–59)\n# │ ┌───────────── hour (0–23)\n# │ │ ┌───────────── day of the month (1–31)\n# │ │ │ ┌───────────── month (1–12)\n# │ │ │ │ ┌───────────── day of the week (0–6) (Sunday to Saturday;\n# │ │ │ │ │                                   7 is also Sunday on some systems)\n# │ │ │ │ │\n# │ │ │ │ │\n# * * * * * &lt;command to execute&gt;\nHere is a written tutorial: https://itsfoss.com/cron-job/"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#some-considerations-when-scheduling-jobs",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#some-considerations-when-scheduling-jobs",
+    "title": "Programming Cafe",
+    "section": "Some Considerations When Scheduling Jobs",
+    "text": "Some Considerations When Scheduling Jobs\n\nIn Windows Task Scheduler, double-check the Conditions.\nWith cron, you have to pay attention to the syntax\nYou might need Administrator Privileges to run jobs.\nRemember to specify working directories."
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#the-big-picture",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#the-big-picture",
+    "title": "Programming Cafe",
+    "section": "The Big Picture…",
+    "text": "The Big Picture…\n\nGreat test for automation/reproducibility, since you might want the scripts to run in the background without any user interaction.\nIf you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow…\nAt this point, we are getting into background processes running on your computer. You can create multiple background processes that are running in parallel from the command line, or from a Python/R script. This is where parallelization and potentially, when you have many parallel tasks, High Performance Computing starts."
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#github-actions",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#github-actions",
+    "title": "Programming Cafe",
+    "section": "GitHub Actions",
+    "text": "GitHub Actions\n\nYou can run cron via GitHub Actions\nCheck out how the README of the UU GitHub Organization is updated everyday using a cron job: https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml"
+  },
+  {
+    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#r-packages",
+    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#r-packages",
+    "title": "Programming Cafe",
+    "section": "R Packages",
+    "text": "R Packages\n\ntaskscheduleR package.\ncronR package.\n\n\n\n\n\nProgramming Cafe"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#plan-for-today",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#plan-for-today",
+    "title": "Programming Cafe",
+    "section": "Plan for today",
+    "text": "Plan for today\n\n\n\n\nIntroduction to challenge\n5 min\n\n\nWork on challenge or your own project\n105 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nR-Cafe\nPresentation, demo, exercise\nCommunity event\nOpen to UU, HU, UMCU\nResearchers, students, support staff\nIt is OK to work on your own code"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe-1",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe-1",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nIdeas for topics? Let us know!\nWanted: Core team members\nFeedback welcome!\n\nUse the link below or talk to us\ntinyurl.com/uucafe"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tidy-tuesday",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tidy-tuesday",
+    "title": "Programming Cafe",
+    "section": "Tidy Tuesday",
+    "text": "Tidy Tuesday\nhttps://github.com/rfordatascience/tidytuesday"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#pet-cats-uk",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#pet-cats-uk",
+    "title": "Programming Cafe",
+    "section": "Pet cats UK",
+    "text": "Pet cats UK\nCat owners where convinced to strap GPS tracks on their cats.\nGPS tracks from 101 cats in the UK\nAdditional info on: sex, hrs_indoors, reproductive condition, food, age, prey per month\nDataset initially published on Movebank for Animal Tracking Data\nTidy Tuesday original challenge"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#examples-beginner",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#examples-beginner",
+    "title": "Programming Cafe",
+    "section": "Examples Beginner",
+    "text": "Examples Beginner"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-intermediate",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-intermediate",
+    "title": "Programming Cafe",
+    "section": "Example intermediate",
+    "text": "Example intermediate"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-expert",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-expert",
+    "title": "Programming Cafe",
+    "section": "Example expert",
+    "text": "Example expert"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#getting-started",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#getting-started",
+    "title": "Programming Cafe",
+    "section": "Getting Started",
+    "text": "Getting Started\ntinyurl.com/uucafeviz\nlibrary(readr)\ncats_uk &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')\ncats_uk_reference &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')\nimport pandas as pd\ncats_uk = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')\ncats_uk_reference = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tips",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tips",
+    "title": "Programming Cafe",
+    "section": "Tips",
+    "text": "Tips\ntinyurl.com/uucafeviz\n\n\nR Packages\n\nggplot2\nleaflet\nmove\nmoveVis\n\n\nPython Packages\n\nmatplotlib\ngeopandas\nmovingpandas\n(pystac)"
+  },
+  {
+    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#success",
+    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#success",
+    "title": "Programming Cafe",
+    "section": "Success!!",
+    "text": "Success!!\n\n\n\n\nProgramming Cafe"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Code Readability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScheduling Scripts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit & GitHub\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html",
+    "title": "Scheduling Scripts",
+    "section": "",
+    "text": "This week’s Programming Cafe is about Scheduling Scripts! We will learn how to automate some boring things using the schedulers available on our operating systems."
+  },
+  {
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
+    "title": "Scheduling Scripts",
+    "section": "Exercise",
+    "text": "Exercise\nAfter the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: exercises.zip\n\nWindows\n\nRPython\n\n\n\nGo to windows/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it!\nSearch for Windows Task Scheduler in your computer’s search bar.\n….\n\n\n\n\nGo to windows/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it!\nSearch for Windows Task Scheduler in your computer’s search bar.\n….\n\n\n\n\n\n\nMacOS\n\nRPython\n\n\n\nGo to macos/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it!\n…\n\n\n\n\nGo to macos/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it!\n…\n\n\n\n\n\n\nLinux\n\nRPython\n\n\n\nGo to linux/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it!\n…\n\n\n\n\nGo to linux/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it!\n…"
+  },
+  {
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#references",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html#references",
+    "title": "Scheduling Scripts",
+    "section": "References",
+    "text": "References"
   },
   {
     "objectID": "posts/2022-10-26_code-readability/index.html",
@@ -63,25 +294,151 @@
     "text": "References\nWill be updated to be more neat, the authors of the data and code and resources retain all their copyright - they are awesome!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programming Cafe",
+    "objectID": "posts/2022-09-28_git-and-github/index.html",
+    "href": "posts/2022-09-28_git-and-github/index.html",
+    "title": "Git & GitHub",
     "section": "",
-    "text": "Welcome to the website for the Programming Cafe at Utrecht University!\nThe Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity."
+    "text": "We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:\n\nWe discussed the use of Git and GitHub during the first edition of the programming cafe.\nCheck out the slide below and do some exercises to get started.\nThe UU GitHub page can be found here."
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Programming Cafe",
-    "section": "About",
-    "text": "About"
+    "objectID": "agenda.html",
+    "href": "agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": ":::\n\n\n\n\n\n\nProgramming Cafe March 2024\n\n\n\n\nDate: Thursday, 7th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Creating your own Python and R packages (by Raoul Schram and Jelle Treep)\nIf you are working with Python and R, undoubtedly you will have used packages (e.g. numpy, pandas, ggplot2 or tidyr). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this programming cafe we discuss what a package is, when and why it is a good idea to create a packages, how to create a package and some best practices when creating packages. We will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the programming cafe and experts in the room to help you!\n\n Add March edition to calendar \n\n\n\n\n\n\n\n\nProgramming Cafe April 2024\n\n\n\n\nDate: Thursday, 4th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: tbd\n\n Add April edition to calendar \n\n\n\n\n\n\n\n\nProgramming Cafe May 2024\n\n\n\n\nDate: Thursday, 2nd May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: tbd\n\n Add May edition to calendar \n\n\n\n\n\n\n\nDate: Thursday, 8th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Demo of the Julia Programming Language (by Emilia Jarochowska)\n\nJulia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.\n\n\n\n\nDate: Thursday, 11th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Advanced Git (by Dawa Ometto)\n\nYou’ve started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.\n\nBasic knowledge of git (e.g. cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.\nFor beginners we have a set of suggested exercises (and helpers) to get started with Git and GitHub.\nFor more advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.\n\n\n\n\n\nDate: Thursday, 7th June\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation: Literate Programming Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.\n\n\n\n\n\nDate: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
   },
   {
-    "objectID": "index.html#agenda-and-previous-editions",
-    "href": "index.html#agenda-and-previous-editions",
+    "objectID": "agenda.html#past-programming-cafes",
+    "href": "agenda.html#past-programming-cafes",
+    "title": "Agenda",
+    "section": "",
+    "text": "Date: Thursday, 8th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Demo of the Julia Programming Language (by Emilia Jarochowska)\n\nJulia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.\n\n\n\n\nDate: Thursday, 11th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Advanced Git (by Dawa Ometto)\n\nYou’ve started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.\n\nBasic knowledge of git (e.g. cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.\nFor beginners we have a set of suggested exercises (and helpers) to get started with Git and GitHub.\nFor more advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.\n\n\n\n\n\nDate: Thursday, 7th June\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nDemo/Presentation: Literate Programming Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.\n\n\n\n\n\nDate: Wednesday, 28th June\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nGitHub Actions for absolute beginners and advanced GitHub users:\n- What is it and why should you use it\n- How to create smart workflows to limit energy use & environmental impact\n\n\n\n\nDate: Wednesday, 31st May\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation:\n\nprojectlog: An R package for improving project management and documentation by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)\n\n\n\n\nDate: Wednesday, 26th April\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Introduction to and Creating Websites with Quarto (slides)\n\n\n\n\n\nDate: Wednesday, 29th March\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Programming Data Workflows in Yoda/iRODS\n\n\n\n\n\nDate: Wednesday, 22th February\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Good Practices in Managing Your Code & Data Workflows: Project management\n\n\n\n\n\nDate: Wednesday, 25th January\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Polars: fast DataFrames in Python & GitHub Copilot Demo (all languages)\n\n\n\n\n\nDate: Wednesday, 30th November\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Software Licenses\n\n\n\n\n\nDate: Wednesday, 26th October\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Code Readability: Linters & Formatters in R & Python\n\n\n\n\n\nDate: Wednesday, 28th September\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nDemo/Presentation: Getting Started With Git, GitHub and GitHub Actions"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#plan-for-today",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#plan-for-today",
     "title": "Programming Cafe",
-    "section": "Agenda and previous editions",
-    "text": "Agenda and previous editions"
+    "section": "Plan for today",
+    "text": "Plan for today\n\n\n\n\nWelcome\n10 min\n\n\nIntroduction to Code Readability\n15 min\n\n\nLinters & Formatters in R & Python\n15 min\n\n\nExercises or Work on your own code\n60 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#programming-cafe",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#programming-cafe",
+    "title": "Programming Cafe",
+    "section": "Programming Cafe",
+    "text": "Programming Cafe\n\n\nPreviously the R-Cafe\nAn informal, community event\nWork on your own code\nThemes with presentations and exercises\nInteraction"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#good-quality-code-is",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#good-quality-code-is",
+    "title": "Programming Cafe",
+    "section": "Good quality code is:",
+    "text": "Good quality code is:\n\n\nReadable\nReusable\nRobust"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one",
+    "title": "Programming Cafe",
+    "section": "What is a style guide and why should I follow one?",
+    "text": "What is a style guide and why should I follow one?\nA programming style guide consists of rules or guidelines on writing code. These can be seen as conventions or best practices for the community.\nFollowing a style guide will make your code more consistent and readable, both for you and anyone who will interact with your code. It also reduces the chances of errors."
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides",
+    "title": "Programming Cafe",
+    "section": "Some elements of style guides",
+    "text": "Some elements of style guides\nGuidance of strategic use of whitespace and new lines:\nCompare:\nthis &lt;- function(arg1,arg2) res&lt;-arg1*arg2;return(res)\nhurts &lt;- mean(c(this(3,4),this(3,1),this(9,9))); print(hurts)\n\nthis &lt;- function(arg1,arg2){\n  res &lt;- arg1 * arg2\n  return(res)\n}\n\nhurts &lt;- mean(\n  c(\n    this(3,4),\n    this(3,1),\n    this(9,9)\n    )\n  )\nprint(hurts)\nThe second chunk is longer, but more modular and readable."
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides-1",
+    "title": "Programming Cafe",
+    "section": "Some elements of style guides",
+    "text": "Some elements of style guides\nGuidance on descriptive naming of functions and variables\nCompare:\nfor i in my_shopping_basket:\n  if(test(i)) &gt; 10:\n    purch(i)\n  else:\n    disc(i)\n\nfor item in basket:\n  if(testNecessity(item)) &gt; 10:\n    purchase(item)\n  else:\n    discard(item)\nIn the second chunk, we start functions with a verb and make variable names just long enough to be meaningful"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one-1",
+    "title": "Programming Cafe",
+    "section": "What is a style guide and why should I follow one?",
+    "text": "What is a style guide and why should I follow one?"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide",
+    "title": "Programming Cafe",
+    "section": "How can I start working with a style guide?",
+    "text": "How can I start working with a style guide?\nMost programming languages have style guides and these are followed by the community or enforced within organizations.\n\n\nR: The tidyverse style guide\nPython: PEP-8"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide-1",
+    "title": "Programming Cafe",
+    "section": "How can I start working with a style guide?",
+    "text": "How can I start working with a style guide?\nThere are tools available to help you with this! You can use a linter and (auto)formatter while coding!"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\nA linter is a static code analysis tool.\nIt will browse your code and flag/report issues (style, errors, bugs) as output. Then it’s up to the programmer to go through the list and fix the issues."
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-1",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\n\n\nR: The lintr package\nPython: There are several libraries, today we’ll use flake8"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-2",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-2",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\nThe lintr package in R:"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-3",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-3",
+    "title": "Programming Cafe",
+    "section": "Linters",
+    "text": "Linters\nThe lintr package in R:"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters",
+    "title": "Programming Cafe",
+    "section": "(Auto)formatters",
+    "text": "(Auto)formatters\nWhile linters provide a report of issues, (auto)formatters will browse the code and correct issues automatically/directly.\nThe corrections will depend on the rules encoded within the package/library.\n\n\nR: The styler package\nPython: There are several libraries, today we’ll use black"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters-1",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters-1",
+    "title": "Programming Cafe",
+    "section": "(Auto)formatters",
+    "text": "(Auto)formatters\nThe styler package in R:"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#your-turn",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#your-turn",
+    "title": "Programming Cafe",
+    "section": "Your turn!",
+    "text": "Your turn!\nTry linting and formatting your own code!\nDon’t have your own code? You can use our exercise files:\n\n\nR: bad.R\nPython: pep8.py"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-r",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-r",
+    "title": "Programming Cafe",
+    "section": "Linters & Formatters in R",
+    "text": "Linters & Formatters in R\nReplace bad.R with the relevant script name.\nMake sure you’re in the same working directory as the script!\ninstall.packages(c(\"lintr\", \"styler\"))\n\nlibrary(lintr)\nlibrary(styler)\n\nlint(\"bad.R\")\n\n# you have two options for styler:\n\n# style using a function\n\nstyle_file(\"bad.R\")\n\n# or use the RStudio add-in (Addins drop-down menu -&gt; Style active file)"
+  },
+  {
+    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-python",
+    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-python",
+    "title": "Programming Cafe",
+    "section": "Linters & Formatters in Python",
+    "text": "Linters & Formatters in Python\nReplace ‘pep8.py’ with the relevant script name if needed.\nMake sure you’re in the same working directory as the script!\npip install flake8 black\n\nflake8 pep8.py\n\nblack pep8.py"
   },
   {
     "objectID": "static/2022-09-28_git-and-github/2022-09-28_git-and-github.html#plan-for-today",
@@ -266,381 +623,24 @@
     "text": "Exercises\n \nhttps://utrechtuniversity.github.io/programming-cafe/"
   },
   {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#plan-for-today",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#plan-for-today",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Programming Cafe",
-    "section": "Plan for today",
-    "text": "Plan for today\n\n\n\n\nIntroduction to challenge\n5 min\n\n\nWork on challenge or your own project\n105 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe",
-    "title": "Programming Cafe",
-    "section": "Programming Cafe",
-    "text": "Programming Cafe\n\n\nR-Cafe\nPresentation, demo, exercise\nCommunity event\nOpen to UU, HU, UMCU\nResearchers, students, support staff\nIt is OK to work on your own code"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe-1",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#programming-cafe-1",
-    "title": "Programming Cafe",
-    "section": "Programming Cafe",
-    "text": "Programming Cafe\n\n\nIdeas for topics? Let us know!\nWanted: Core team members\nFeedback welcome!\n\nUse the link below or talk to us\ntinyurl.com/uucafe"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tidy-tuesday",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tidy-tuesday",
-    "title": "Programming Cafe",
-    "section": "Tidy Tuesday",
-    "text": "Tidy Tuesday\nhttps://github.com/rfordatascience/tidytuesday"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#pet-cats-uk",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#pet-cats-uk",
-    "title": "Programming Cafe",
-    "section": "Pet cats UK",
-    "text": "Pet cats UK\nCat owners where convinced to strap GPS tracks on their cats.\nGPS tracks from 101 cats in the UK\nAdditional info on: sex, hrs_indoors, reproductive condition, food, age, prey per month\nDataset initially published on Movebank for Animal Tracking Data\nTidy Tuesday original challenge"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#examples-beginner",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#examples-beginner",
-    "title": "Programming Cafe",
-    "section": "Examples Beginner",
-    "text": "Examples Beginner"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-intermediate",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-intermediate",
-    "title": "Programming Cafe",
-    "section": "Example intermediate",
-    "text": "Example intermediate"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-expert",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#example-expert",
-    "title": "Programming Cafe",
-    "section": "Example expert",
-    "text": "Example expert"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#getting-started",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#getting-started",
-    "title": "Programming Cafe",
-    "section": "Getting Started",
-    "text": "Getting Started\ntinyurl.com/uucafeviz\nlibrary(readr)\ncats_uk &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')\ncats_uk_reference &lt;- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')\nimport pandas as pd\ncats_uk = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv')\ncats_uk_reference = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tips",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#tips",
-    "title": "Programming Cafe",
-    "section": "Tips",
-    "text": "Tips\ntinyurl.com/uucafeviz\n\n\nR Packages\n\nggplot2\nleaflet\nmove\nmoveVis\n\n\nPython Packages\n\nmatplotlib\ngeopandas\nmovingpandas\n(pystac)"
-  },
-  {
-    "objectID": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#success",
-    "href": "static/2023-10-05_dataviz/2023-10-05_dataviz.html#success",
-    "title": "Programming Cafe",
-    "section": "Success!!",
-    "text": "Success!!\n\n\n\n\nProgramming Cafe"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
     "section": "",
-    "text": "During the Programming Cafe, we will share knowledge about programming through short presentations and also help each other with challenges in working with code and data."
+    "text": "Welcome to the website for the Programming Cafe at Utrecht University!\nThe Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity."
   },
   {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About",
-    "section": "Background",
-    "text": "Background\nThe Programming Café is a ‘relaunch’ of the popular R Café external link community event that used to take place before the coronavirus outbreak. We are happy to broaden the event to include programming languages other than R."
-  },
-  {
-    "objectID": "about.html#theme",
-    "href": "about.html#theme",
-    "title": "About",
-    "section": "Theme",
-    "text": "Theme\nEach Programming Café will have a special theme. The theme is a short presentation or demonstration of (maximum) half an hour. The presentations will be given by attendees of the Café. We are always looking for people who want to present something. Please send an email to Neha Moopen external linkif you want to give a presentation."
-  },
-  {
-    "objectID": "about.html#who-can-join",
-    "href": "about.html#who-can-join",
-    "title": "About",
-    "section": "Who Can join?",
-    "text": "Who Can join?\nEveryone is welcome at the Programming Café, as long as you like to code in R, Python or other programming languages. You can be of any skill level and at any stage in working with your code and data. You can be a researcher, student, or support staff at the UU, UMCU, or HU (or even from outside these institutions).\nYou can bring your programming problems to work on or discuss with the attendees. Even if you do not have an issue, you’re welcome at the Café - just to work on your code or try out the exercises that have been prepared for you.\n\n\n\n\n\n\nWant to get involved?\n\n\n\nGot a favorite topic you’d like us to explore, or an idea for a presentation at an upcoming Programming Café? Please let us know via a GitHub Issue or info.rdm@uu.nl"
-  },
-  {
-    "objectID": "about.html#more-information",
-    "href": "about.html#more-information",
-    "title": "About",
-    "section": "More information",
-    "text": "More information\nThe Programming Café will take place on a monthly basis, and it will last about two hours (usually towards the end of the workday). Registration is not required. To stay up to date on the planning and themes, check or agenda or keep an eye on the website of Research Data Management Support and the agenda on the intranet.\n\nWalk-in hours for research data and software\nFor hands-on support on all questions related to research data and/or software, we also have the Walk-In Hours for Data & Software which takes place every Monday from 15:00-17:00."
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#plan-for-today",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#plan-for-today",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
     "title": "Programming Cafe",
-    "section": "Plan for today",
-    "text": "Plan for today\n\n\n\n\nWork on your own project\n45 min\n\n\nScheduling Scripts\n45 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
+    "section": "About",
+    "text": "About"
   },
   {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe",
+    "objectID": "index.html#agenda-and-previous-editions",
+    "href": "index.html#agenda-and-previous-editions",
     "title": "Programming Cafe",
-    "section": "Programming Cafe",
-    "text": "Programming Cafe\n\n\nR-Cafe\nPresentation, demo, exercise\nCommunity event\nOpen to UU, HU, UMCU\nResearchers, students, support staff\nIt is OK to work on your own code"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe-1",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#programming-cafe-1",
-    "title": "Programming Cafe",
-    "section": "Programming Cafe",
-    "text": "Programming Cafe\n\n\nIdeas for topics? Let us know!\nWanted: Core team members\nFeedback welcome!\n\nUse the link below or talk to us\ntinyurl.com/uucafe"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#what-is-job-scheduling",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#what-is-job-scheduling",
-    "title": "Programming Cafe",
-    "section": "What Is Job Scheduling?",
-    "text": "What Is Job Scheduling?\nIn programming, job scheduling involves automating the execution of scripts or programs at specified times or intervals."
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#why-would-we-want-to-schedule-jobs",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#why-would-we-want-to-schedule-jobs",
-    "title": "Programming Cafe",
-    "section": "Why Would We Want To Schedule Jobs?",
-    "text": "Why Would We Want To Schedule Jobs?\n\nAutomation\nEfficiency\nConsistency\nUpdating Things\nIntegration\nScalability"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#how-can-we-schedule-jobs",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#how-can-we-schedule-jobs",
-    "title": "Programming Cafe",
-    "section": "How Can We Schedule Jobs?",
-    "text": "How Can We Schedule Jobs?\nUsing a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.\nThey differ per operating system:\n\nWindows: Windows Task Scheduler\nMacOS & Linux: cron"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#windows-task-scheduler",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#windows-task-scheduler",
-    "title": "Programming Cafe",
-    "section": "Windows Task Scheduler",
-    "text": "Windows Task Scheduler\nWindows Task Scheduler is a job scheduler in Microsoft Windows that launches computer programs or scripts at pre-defined times or after specified time intervals.\nHere is a written tutorial: https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#cron",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#cron",
-    "title": "Programming Cafe",
-    "section": "cron",
-    "text": "cron\nThe cron command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as cron jobs, to run periodically at fixed times, dates, or intervals.\nThe actions of cron are driven by a crontab (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The syntax of each line within a crontab file expects a cron expression made of five fields which represent the time to execute the command, followed by a shell command to execute.\n# ┌───────────── minute (0–59)\n# │ ┌───────────── hour (0–23)\n# │ │ ┌───────────── day of the month (1–31)\n# │ │ │ ┌───────────── month (1–12)\n# │ │ │ │ ┌───────────── day of the week (0–6) (Sunday to Saturday;\n# │ │ │ │ │                                   7 is also Sunday on some systems)\n# │ │ │ │ │\n# │ │ │ │ │\n# * * * * * &lt;command to execute&gt;\nHere is a written tutorial: https://itsfoss.com/cron-job/"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#some-considerations-when-scheduling-jobs",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#some-considerations-when-scheduling-jobs",
-    "title": "Programming Cafe",
-    "section": "Some Considerations When Scheduling Jobs",
-    "text": "Some Considerations When Scheduling Jobs\n\nIn Windows Task Scheduler, double-check the Conditions.\nWith cron, you have to pay attention to the syntax\nYou might need Administrator Privileges to run jobs.\nRemember to specify working directories."
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#the-big-picture",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#the-big-picture",
-    "title": "Programming Cafe",
-    "section": "The Big Picture…",
-    "text": "The Big Picture…\n\nGreat test for automation/reproducibility, since you might want the scripts to run in the background without any user interaction.\nIf you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow…\nAt this point, we are getting into background processes running on your computer. You can create multiple background processes that are running in parallel from the command line, or from a Python/R script. This is where parallelization and potentially, when you have many parallel tasks, High Performance Computing starts."
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#github-actions",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#github-actions",
-    "title": "Programming Cafe",
-    "section": "GitHub Actions",
-    "text": "GitHub Actions\n\nYou can run cron via GitHub Actions\nCheck out how the README of the UU GitHub Organization is updated everyday using a cron job: https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml"
-  },
-  {
-    "objectID": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#r-packages",
-    "href": "static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html#r-packages",
-    "title": "Programming Cafe",
-    "section": "R Packages",
-    "text": "R Packages\n\ntaskscheduleR package.\ncronR package.\n\n\n\n\n\nProgramming Cafe"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#plan-for-today",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#plan-for-today",
-    "title": "Programming Cafe",
-    "section": "Plan for today",
-    "text": "Plan for today\n\n\n\n\nWelcome\n10 min\n\n\nIntroduction to Code Readability\n15 min\n\n\nLinters & Formatters in R & Python\n15 min\n\n\nExercises or Work on your own code\n60 min\n\n\nWrap-up\n10 min\n\n\nDrinks!"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#programming-cafe",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#programming-cafe",
-    "title": "Programming Cafe",
-    "section": "Programming Cafe",
-    "text": "Programming Cafe\n\n\nPreviously the R-Cafe\nAn informal, community event\nWork on your own code\nThemes with presentations and exercises\nInteraction"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#good-quality-code-is",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#good-quality-code-is",
-    "title": "Programming Cafe",
-    "section": "Good quality code is:",
-    "text": "Good quality code is:\n\n\nReadable\nReusable\nRobust"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one",
-    "title": "Programming Cafe",
-    "section": "What is a style guide and why should I follow one?",
-    "text": "What is a style guide and why should I follow one?\nA programming style guide consists of rules or guidelines on writing code. These can be seen as conventions or best practices for the community.\nFollowing a style guide will make your code more consistent and readable, both for you and anyone who will interact with your code. It also reduces the chances of errors."
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides",
-    "title": "Programming Cafe",
-    "section": "Some elements of style guides",
-    "text": "Some elements of style guides\nGuidance of strategic use of whitespace and new lines:\nCompare:\nthis &lt;- function(arg1,arg2) res&lt;-arg1*arg2;return(res)\nhurts &lt;- mean(c(this(3,4),this(3,1),this(9,9))); print(hurts)\n\nthis &lt;- function(arg1,arg2){\n  res &lt;- arg1 * arg2\n  return(res)\n}\n\nhurts &lt;- mean(\n  c(\n    this(3,4),\n    this(3,1),\n    this(9,9)\n    )\n  )\nprint(hurts)\nThe second chunk is longer, but more modular and readable."
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides-1",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#some-elements-of-style-guides-1",
-    "title": "Programming Cafe",
-    "section": "Some elements of style guides",
-    "text": "Some elements of style guides\nGuidance on descriptive naming of functions and variables\nCompare:\nfor i in my_shopping_basket:\n  if(test(i)) &gt; 10:\n    purch(i)\n  else:\n    disc(i)\n\nfor item in basket:\n  if(testNecessity(item)) &gt; 10:\n    purchase(item)\n  else:\n    discard(item)\nIn the second chunk, we start functions with a verb and make variable names just long enough to be meaningful"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one-1",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#what-is-a-style-guide-and-why-should-i-follow-one-1",
-    "title": "Programming Cafe",
-    "section": "What is a style guide and why should I follow one?",
-    "text": "What is a style guide and why should I follow one?"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide",
-    "title": "Programming Cafe",
-    "section": "How can I start working with a style guide?",
-    "text": "How can I start working with a style guide?\nMost programming languages have style guides and these are followed by the community or enforced within organizations.\n\n\nR: The tidyverse style guide\nPython: PEP-8"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide-1",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#how-can-i-start-working-with-a-style-guide-1",
-    "title": "Programming Cafe",
-    "section": "How can I start working with a style guide?",
-    "text": "How can I start working with a style guide?\nThere are tools available to help you with this! You can use a linter and (auto)formatter while coding!"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters",
-    "title": "Programming Cafe",
-    "section": "Linters",
-    "text": "Linters\nA linter is a static code analysis tool.\nIt will browse your code and flag/report issues (style, errors, bugs) as output. Then it’s up to the programmer to go through the list and fix the issues."
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-1",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-1",
-    "title": "Programming Cafe",
-    "section": "Linters",
-    "text": "Linters\n\n\nR: The lintr package\nPython: There are several libraries, today we’ll use flake8"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-2",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-2",
-    "title": "Programming Cafe",
-    "section": "Linters",
-    "text": "Linters\nThe lintr package in R:"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-3",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-3",
-    "title": "Programming Cafe",
-    "section": "Linters",
-    "text": "Linters\nThe lintr package in R:"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters",
-    "title": "Programming Cafe",
-    "section": "(Auto)formatters",
-    "text": "(Auto)formatters\nWhile linters provide a report of issues, (auto)formatters will browse the code and correct issues automatically/directly.\nThe corrections will depend on the rules encoded within the package/library.\n\n\nR: The styler package\nPython: There are several libraries, today we’ll use black"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters-1",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#autoformatters-1",
-    "title": "Programming Cafe",
-    "section": "(Auto)formatters",
-    "text": "(Auto)formatters\nThe styler package in R:"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#your-turn",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#your-turn",
-    "title": "Programming Cafe",
-    "section": "Your turn!",
-    "text": "Your turn!\nTry linting and formatting your own code!\nDon’t have your own code? You can use our exercise files:\n\n\nR: bad.R\nPython: pep8.py"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-r",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-r",
-    "title": "Programming Cafe",
-    "section": "Linters & Formatters in R",
-    "text": "Linters & Formatters in R\nReplace bad.R with the relevant script name.\nMake sure you’re in the same working directory as the script!\ninstall.packages(c(\"lintr\", \"styler\"))\n\nlibrary(lintr)\nlibrary(styler)\n\nlint(\"bad.R\")\n\n# you have two options for styler:\n\n# style using a function\n\nstyle_file(\"bad.R\")\n\n# or use the RStudio add-in (Addins drop-down menu -&gt; Style active file)"
-  },
-  {
-    "objectID": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-python",
-    "href": "static/2022-10-26_code-readability/2022-10-26_code-readability.html#linters-formatters-in-python",
-    "title": "Programming Cafe",
-    "section": "Linters & Formatters in Python",
-    "text": "Linters & Formatters in Python\nReplace ‘pep8.py’ with the relevant script name if needed.\nMake sure you’re in the same working directory as the script!\npip install flake8 black\n\nflake8 pep8.py\n\nblack pep8.py"
-  },
-  {
-    "objectID": "static/2022-09-28_git-and-github/notes.html",
-    "href": "static/2022-09-28_git-and-github/notes.html",
-    "title": "Git & GitHub",
-    "section": "",
-    "text": "Date: 28-09-2022\nTime: 15:00-17:00\nLocation: Living Lab, UB Uithof\nAudience: Mixed, from beginners to advanced users\n\n\n\n\n\n\n\nWelcome to the Programming Cafe!\nToday we’ll discuss Git & GitHub\nAlready introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)\n\n\n\n\n\nStart with a problem statement/case! -&gt; version control & collaboration, reproducibility as well…\nWhat is Git? Explain the software.\nWhat is GitHub (& GitLab and other services)?\nBenefits of using Git & GitHub. -&gt; btw, you can already start with the web browser!\n\n\n\n\n\nWhat are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line\nstart the basic exercise here?\nWhat makes a good GitHub repo? README, License, folder structure…\n\n\n\n\n\nlocal vs. online work\n\n\n\n\n\nadd\ncommit\npush\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\ncollaborating on github\nsharing openly on github -&gt; licenses!\npublishing code via Zenodo for a DOI / CITATION.cff files\nintroduce Utrecht University GitHub Jelle"
-  },
-  {
-    "objectID": "static/2022-09-28_git-and-github/notes.html#details",
-    "href": "static/2022-09-28_git-and-github/notes.html#details",
-    "title": "Git & GitHub",
-    "section": "",
-    "text": "Date: 28-09-2022\nTime: 15:00-17:00\nLocation: Living Lab, UB Uithof\nAudience: Mixed, from beginners to advanced users"
-  },
-  {
-    "objectID": "static/2022-09-28_git-and-github/notes.html#presentation-notes",
-    "href": "static/2022-09-28_git-and-github/notes.html#presentation-notes",
-    "title": "Git & GitHub",
-    "section": "",
-    "text": "Welcome to the Programming Cafe!\nToday we’ll discuss Git & GitHub\nAlready introduce the exercises! Especially for the advanced users, they can already get started with GitHub Actions exercises (whichever we choose)\n\n\n\n\n\nStart with a problem statement/case! -&gt; version control & collaboration, reproducibility as well…\nWhat is Git? Explain the software.\nWhat is GitHub (& GitLab and other services)?\nBenefits of using Git & GitHub. -&gt; btw, you can already start with the web browser!\n\n\n\n\n\nWhat are the various ways you can interact with Git & GitHub? Web browser, GitHub Desktop, RStudio, other IDEs, command line\nstart the basic exercise here?\nWhat makes a good GitHub repo? README, License, folder structure…\n\n\n\n\n\nlocal vs. online work\n\n\n\n\n\nadd\ncommit\npush\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\ncollaborating on github\nsharing openly on github -&gt; licenses!\npublishing code via Zenodo for a DOI / CITATION.cff files\nintroduce Utrecht University GitHub Jelle"
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Data Visualization\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nScheduling Scripts\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCode Readability\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGit & GitHub\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html",
-    "title": "Scheduling Scripts",
-    "section": "",
-    "text": "This week’s Programming Cafe is about Scheduling Scripts! We will learn how to automate some boring things using the schedulers available on our operating systems."
-  },
-  {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
-    "title": "Scheduling Scripts",
-    "section": "Exercise",
-    "text": "Exercise\nAfter the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: exercises.zip\n\nWindows\n\nRPython\n\n\n\nGo to windows/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it!\nSearch for Windows Task Scheduler in your computer’s search bar.\n….\n\n\n\n\nGo to windows/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it!\nSearch for Windows Task Scheduler in your computer’s search bar.\n….\n\n\n\n\n\n\nMacOS\n\nRPython\n\n\n\nGo to macos/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it!\n…\n\n\n\n\nGo to macos/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it!\n…\n\n\n\n\n\n\nLinux\n\nRPython\n\n\n\nGo to linux/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it!\n…\n\n\n\n\nGo to linux/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it!\n…"
-  },
-  {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#references",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html#references",
-    "title": "Scheduling Scripts",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "posts/2022-09-28_git-and-github/index.html",
-    "href": "posts/2022-09-28_git-and-github/index.html",
-    "title": "Git & GitHub",
-    "section": "",
-    "text": "We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:\n\nWe discussed the use of Git and GitHub during the first edition of the programming cafe.\nCheck out the slide below and do some exercises to get started.\nThe UU GitHub page can be found here."
+    "section": "Agenda and previous editions",
+    "text": "Agenda and previous editions"
   }
 ]
