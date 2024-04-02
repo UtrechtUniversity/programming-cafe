@@ -6,16 +6,7 @@ This repository is used for managing the website and , exercises and other mater
 
 ## Next edition:
 
-| Theme | [Packaging in Python and R](https://utrechtuniversity.github.io/programming-cafe/agenda) |
-| :--- | :--- |
-| __Date__ | 2024 March, 7th 15:00-17:00 |
-| __Location__ | Bucheliuszaal 6.18, USP Library |
-
-| <a href='https://www.uu.nl/en/node/133008/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add March edition to calendar</button>
-</a> |
-
-| Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| Theme | [High Performance Computing](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
 | __Date__ | 2024 April, 4th 15:00-17:00 |
 | __Location__ | Bucheliuszaal 6.18, USP Library |
@@ -24,13 +15,31 @@ This repository is used for managing the website and , exercises and other mater
 <button type="button" class="btn btn-primary btn-sm">Add April edition to calendar</button>
 </a> |
 
-| Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| Theme | [Pluto.jl, notebooks for Julia](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
 | __Date__ | 2024 May, 2nd 15:00-17:00 |
 | __Location__ | Bucheliuszaal 6.18, USP Library |
 
 | <a href='https://www.uu.nl/en/node/133012/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add May edition to calendar</button>
+</a> |
+
+| Theme | [Special edition at Faculty of Science (open to everyone) - theme: tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| :--- | :--- |
+| __Date__ | 2024 June, 6th 15:00-17:00 |
+| __Location__ | [Buys Ballotgebouw 1.69](https://www.uu.nl/en/buys-ballot-building) |
+
+| <a href='https://www.uu.nl/en/node/138938/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add June edition to calendar</button>
+</a> |
+
+| Theme | [tbd](https://utrechtuniversity.github.io/programming-cafe/) |
+| :--- | :--- |
+| __Date__ | 2024 July, 4th 15:00-17:00 |
+| __Location__ | Bucheliuszaal 6.18, USP Library |
+
+| <a href='https://www.uu.nl/en/node/138939/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add July edition to calendar</button>
 </a> |
 
 ## Exercises
