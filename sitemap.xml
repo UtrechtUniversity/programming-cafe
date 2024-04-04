@@ -2,54 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/index.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/agenda.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UtrechtUniversity.github.io/programming-cafe/slides/template.html</loc>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/index.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/index.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/static/2023-11-02_scheduling-scripts/2023-11-02_scheduling-scripts.html</loc>
-    <lastmod>2024-04-02T12:39:51.443Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.469Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/static/2022-09-28_git-and-github/2022-09-28_git-and-github.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/static/2022-10-26_code-readability/2022-10-26_code-readability.html</loc>
-    <lastmod>2024-04-02T12:39:51.383Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.409Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/static/2022-09-28_git-and-github/notes.html</loc>
-    <lastmod>2024-04-02T12:39:51.383Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.409Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/static/2023-10-05_dataviz/2023-10-05_dataviz.html</loc>
-    <lastmod>2024-04-02T12:39:51.407Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.437Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/index.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/posts/2023-10-05_data-visualization/index.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/posts.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
+  </url>
+  <url>
+    <loc>https://UtrechtUniversity.github.io/programming-cafe/slides/parallel-programming.html</loc>
+    <lastmod>2024-04-04T12:28:48.377Z</lastmod>
   </url>
   <url>
     <loc>https://UtrechtUniversity.github.io/programming-cafe/about.html</loc>
-    <lastmod>2024-04-02T12:39:51.347Z</lastmod>
+    <lastmod>2024-04-04T12:28:48.373Z</lastmod>
   </url>
 </urlset>
