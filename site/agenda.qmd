@@ -8,8 +8,8 @@
 - **Date:** Thursday, 4th April
 - **Time:** 15:00-17:00
 - **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** HPC and parallel programming
-- Do you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing  (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g. simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some hands on exercises so you can practice writing some parallel code yourself!
+- **Demo/Presentation:** [Parallel programming is ~~not~~ easy](https://github.com/LukasvdWiel/parProgIsEasy/blob/main/parallelProgramming.pdf) (by Lukas van de Wiel) & [Intro slides](https://utrechtuniversity.github.io/programming-cafe/slides/parallel-programming)
+- Do you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing  (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g. simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some [hands on exercises](https://github.com/UtrechtUniversity/programming-cafe/tree/main/exercises/parallel-programming) so you can practice writing some parallel code yourself!
 
 <a href='https://www.uu.nl/en/node/133010/ics' download="Programming-Cafe">
 <button type="button" class="btn btn-primary btn-sm">Add April edition to calendar</button>
