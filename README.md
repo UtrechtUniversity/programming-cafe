@@ -2,9 +2,9 @@
 
 The Programming Cafe is a community event organized every last wednesday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity.
 
-This repository is used for managing the website and , exercises and other materials related to the Programming Cafe sessions.
+This repository is used for managing the website and presentations, exercises and other materials related to the Programming Cafe sessions.
 
-## Next edition:
+## Next editions:
 
 | Theme | [High Performance Computing](https://utrechtuniversity.github.io/programming-cafe/) |
 | :--- | :--- |
@@ -42,9 +42,9 @@ This repository is used for managing the website and , exercises and other mater
 <button type="button" class="btn btn-primary btn-sm">Add July edition to calendar</button>
 </a> |
 
-## Exercises
+## Materials
 
-[GitHub and GitHub Actions](exercises/github_actions/github_actions.md)
+Find links to presentations and exercises on [our website](https://utrechtuniversity.github.io/programming-cafe/agenda). The exercises can also be found in the exercises folder in this repository.
 
 ## Contribute
 We are very happy with any input! We are interested in the stuff you would like to learn more about or nice tools that you use or have developed and you would like to present about. Let us know via the [Issues](https://github.com/UtrechtUniversity/programming-cafe/issues)
