@@ -1,8 +1,9 @@
 ---
 title: "Introduction to Julia"
+date: "08-02-2024"
 format: "html"
 ---
 
 ```{=html}
-<iframe width="1050" height="700" src=".../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
 ```

@@ -1,5 +1,6 @@
 ---
 title: "Parallel Programming"
+date: "04-04-2024"
 format: "html"
 ---
 

@@ -3,7 +3,7 @@ title: "Posts"
 format: "html"
 listing: 
   contents: posts
-  sort: "date"
+  sort: "date desc"
   type: default 
   feed: true
 ---
