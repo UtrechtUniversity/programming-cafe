@@ -1,0 +1,97 @@
+--- 
+format: 
+  revealjs:
+    theme: templates/uu.scss
+    logo: templates/UU_logo_2021_EN_RGB.png
+    footer: "Programming Cafe"
+    embed-resources: true
+---
+
+# Welcome to the Programming Café! {data-background-color="#FFCD00"}
+
+## Welcome to the Programming Cafe!
+
+::: {style="text-align: left; margin-top: 2em"}
+
+
+|    |    |
+|------------------------------|-------------|
+| Walk-in | 15:00 |
+| HPC Presentation | 15:15 |
+| Tutorials or work on your own project | ~15:45 |
+| Wrap up | 16:45 |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Presentation, demo, exercises
+-    Community event
+-    Local event
+-    Researchers, students, support staff
+-    It is OK to work on your own code
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Organized by RDM support (uu.nl/rdm)
+-    Ideas for topics? Let us know!
+-    Wanted: Core team members
+-    Feedback welcome! 
+
+Use the link below or talk to us
+
+[tinyurl.com/uucafe](https://tinyurl.com/uucafe)
+
+:::
+
+## Learn Programming at UU
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    1 day beginner courses R and Python (RDM support)
+-    Best practices for Reproducible Coding (RDM support)
+-    Advanced courses at eScienceCenter
+-    Programming Cafe & Walk-in hours (RDM support)
+-    UU/UMCU Programming community on Teams
+
+:::
+
+# Parallel programming is ~~not~~ easy {data-background-color="#FFCD00"}
+
+## Getting Started with HPC
+
+::: {style="text-align: left; margin-top: 2em"}
+
+Trainings:
+
+- [eScience center](https://www.esciencecenter.nl/events/?f=workshops)  
+- [SURF](https://www.surf.nl/en/agenda-overview)  
+- [EuroCC](https://eurocc-netherlands.nl/calendar/category/training-en/)
+
+Access and advice:
+
+- [RDM support](https://www.uu.nl/en/research/research-data-management/tools/software-and-computing/high-performance-and-cloud-computing)  
+- Faculty IT
+
+:::
+
+## Exercises:
+
+::: {style="text-align: left; margin-top: 2em"}
+
+- Exercises: [edu.nl/b6eph](https://edu.nl/b6eph)  
+- [Presentation Parallel programming](https://github.com/LukasvdWiel/parProgIsEasy/blob/main/parallelProgramming.pdf)  
+- This presentation [edu.nl/w4y7q](https://edu.nl/w4y7q)
+
+:::
+
+# {data-background-color="#FFCD00"}
+
+![](templates/UU_logo_2021_EN_RGB_payoff.png)

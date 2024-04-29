@@ -1,0 +1,11 @@
+format:
+  revealjs: 
+    menu: false
+    progress: true
+    width: 1920
+    height: 1080
+    embed-resources: true
+    slide-number: true
+    navigation-mode: linear
+    controls: true
+search: false

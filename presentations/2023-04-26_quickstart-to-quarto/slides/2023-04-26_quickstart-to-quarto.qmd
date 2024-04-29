@@ -1,0 +1,130 @@
+---
+format: 
+    revealjs:
+        slide-number: true
+        theme: default
+        embed-resources: true
+---
+
+# Quickstart to Quarto {background-color="#FFCD00"}
+<br>
+**Neha Moopen**<br>
+Programming Cafe<br>
+26-04-2023
+
+## What is Quatro?
+
+<br>
+[Quarto](https://quarto.org/) is an open-source scientific and technical publishing system built on [Pandoc](https://pandoc.org/).
+
+. . .
+
+<br>
+Quarto allows you create _dynamic documents_ which weave text and code together to produce documents, web pages, blog posts, books and more.
+
+. . .
+
+<br>
+It is developed by [Posit](https://posit.co/) (formerly RStudio) and is considered the 'next-generation' of R Markdown
+
+## How does Quarto work?
+
+<br>
+First, let's revisit `knitr` (2011) & RMarkdown (2014).
+
+. . .
+
+![](images/rmd-knitr.jpg)
+
+## How does Quarto work?
+
+<br>
+Quarto is an upgrade!
+
+. . .
+
+![](images/qmd-knitr.jpeg)
+
+## How does Quarto work?
+
+<br>
+Quarto is an upgrade!
+
+. . .
+
+![](images/qmd-jupyter.jpeg)
+
+## How does Quarto work?
+
+. . .
+
+<br>
+When using R Markdown, different packages are required for specific kinds of output:
+
+. . .
+
+- **Websites:** `distill` or `blogdown`
+- **Books:** `bookdown`
+- **Presentations:** `xaringan`
+
+## How does Quarto work?
+
+. . .
+
+<br>
+Quarto is an upgrade! It is a single publishing system for all sorts of output:
+
+. . .
+
+- Computations
+- Documents
+- Presentations
+- Websites
+- Books
+
+. . .
+
+Overview & Guides: [https://quarto.org/docs/guide/](https://quarto.org/docs/guide/)
+
+## How does Quarto work?
+
+. . .
+
+<br>
+Quarto works smoothly outside R & RStudio. The following programming languages can be executed:
+
+. . .
+
+- R
+- Python
+- Julia
+- Observable JS
+
+. . .
+
+This also makes it suitable for multi-language computational work!
+
+## How does Quarto work?
+
+. . .
+
+<br>
+Quarto works smoothly outside R & RStudio. The following tools are supported:
+
+. . .
+
+- Command Line (Quarto CLI)
+- RStudio IDE
+- JupyterLab
+- VS Code
+- Neovim
+- Text Editors
+
+## Links & References
+
+<br>
+- The Quarto website has everything you need to get started: [https://quarto.org/](https://quarto.org/)
+
+- This presentation borrows a lot from Thomas Mock's 2-hour Quarto webinar: [https://jthomasmock.github.io/quarto-2hr-webinar/](https://jthomasmock.github.io/quarto-2hr-webinar/)
+
+# Time for a demo! {background-color="#FFCD00"}

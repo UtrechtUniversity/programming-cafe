@@ -10,7 +10,7 @@
 <atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website for the Programming Cafe @UtrechtUniversity.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Mon, 29 Apr 2024 01:18:53 GMT</lastBuildDate>
+<lastBuildDate>Mon, 29 Apr 2024 08:27:33 GMT</lastBuildDate>
 <item>
   <title>Git &amp; GitHub</title>
   <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/index.html</link>
@@ -29,7 +29,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Code Readability</title>
@@ -45,7 +45,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Software Licenses</title>
@@ -60,7 +60,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Copilot</title>
@@ -75,7 +75,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Polars</title>
@@ -90,7 +90,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Project Management</title>
@@ -105,7 +105,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>YODA &amp; iRODS Workflows</title>
@@ -120,7 +120,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Quickstart to Quarto</title>
@@ -135,7 +135,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Project Log</title>
@@ -150,7 +150,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Actions</title>
@@ -165,7 +165,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-06-28_github-actions/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Literate Programming</title>
@@ -180,7 +180,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Data Visualization</title>
@@ -573,7 +573,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-10-05_data-visualization/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Scheduling Scripts</title>
@@ -670,7 +670,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Advanced Git</title>
@@ -685,7 +685,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Introduction to Julia</title>
@@ -700,7 +700,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Packaging in Python &amp; R</title>
@@ -715,7 +715,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 <item>
   <title>Parallel Programming</title>
@@ -730,7 +730,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 01:18:53 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
 </item>
 </channel>
 </rss>
