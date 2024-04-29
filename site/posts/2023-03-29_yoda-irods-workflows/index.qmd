@@ -1,0 +1,5 @@
+---
+title: "YODA & iRODS Workflows"
+---
+
+<embed src="../../static/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px" />

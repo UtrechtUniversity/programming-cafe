@@ -1,0 +1,7 @@
+---
+title: "GitHub Copilot"
+---
+
+```{=html}
+<iframe width="1050" height="700" src="../../static/slides/2023-01-25_github-copilot.html"></iframe>
+```

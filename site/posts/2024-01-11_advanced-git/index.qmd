@@ -1,0 +1,7 @@
+---
+title: "Advanced Git"
+---
+
+```{=html}
+<iframe width="1050" height="700" src="../../static/slides/2024-01-11_advanced-git.html"></iframe>
+```

@@ -5,7 +5,7 @@ title: "Data Visualization"
 This week's Programming Cafe is all about _Data Visualization_! We are borrowing from the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative and we'll be analyzing data from **Pet Cats UK**.
 
 ```{=html}
-<iframe width="900" height="600" src="../../static/2023-10-05_dataviz/2023-10-05_dataviz.html"></iframe>
+<iframe width="900" height="600" src="../../static/slides/2023-10-05_data-visualization.html"></iframe>
 ```
 
 ## How This Will Go

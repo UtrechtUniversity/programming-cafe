@@ -1,0 +1,5 @@
+---
+title: "Polars"
+---
+
+<embed src="../../static/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px" />

@@ -14,7 +14,5 @@ Check out the slide below and do some [exercises](https://github.com/UtrechtUniv
 The UU GitHub page can be found [here](https://github.com/UtrechtUniversity).
 
 ```{=html}
-<iframe width="1050" height="700" src="../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html"></iframe>
+<iframe width="1050" height="700" src="../../static/slides/2022-09-28_git-and-github.html"></iframe>
 ```
-
-

@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VEVENT
+DTEND:20231102T150000Z
+LOCATION:Bucheliuszaal 6.18\, University Library (Utrecht Science Park)
+DTSTART:20231102T130000Z
+SUMMARY:Programming Cafe
+UID:7478fea3-e3dd-4dfe-be6a-eadbe2ee68d2@7478.org
+END:VEVENT
+END:VCALENDAR

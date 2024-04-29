@@ -1,0 +1,7 @@
+---
+title: "GitHub Actions"
+---
+
+```{=html}
+<iframe width="1050" height="700" src="../../static/slides/2023-06-28_github-actions.html"></iframe>
+```

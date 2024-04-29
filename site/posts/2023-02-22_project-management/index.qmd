@@ -1,0 +1,7 @@
+---
+title: "Project Management"
+---
+
+```{=html}
+<iframe width="1050" height="700" src="../../static/slides/2023-02-22_project-management.html"></iframe>
+```

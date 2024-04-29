@@ -1,0 +1,7 @@
+---
+title: "Parallel Programming"
+---
+
+```{=html}
+<iframe width="1050" height="700" src="../../static/slides/2024-04-04_parallel-programming.html"></iframe>
+```
