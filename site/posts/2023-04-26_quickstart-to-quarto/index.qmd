@@ -1,5 +1,6 @@
 ---
 title: "Quickstart to Quarto"
+format: "html"
 ---
 
 ```{=html}

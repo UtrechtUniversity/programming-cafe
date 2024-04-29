@@ -1,5 +1,6 @@
 ---
 title: "Code Readability"
+format: "html"
 ---
 
 Hello this a post about code readability

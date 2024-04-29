@@ -1,5 +1,6 @@
 ---
 title: "Scheduling Scripts"
+format: "html"
 ---
 
 This week's Programming Cafe is about _Scheduling Scripts_! We will learn how to automate some boring things using the _schedulers_ available on our operating systems.

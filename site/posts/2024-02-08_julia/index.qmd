@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Julia"
+format: "html"
 ---
 
 ```{=html}

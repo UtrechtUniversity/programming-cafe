@@ -1,5 +1,6 @@
 ---
 title: "Git & GitHub"
+format: "html"
 ---
 
 We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:

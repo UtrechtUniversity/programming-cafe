@@ -27,5 +27,6 @@ format:
     theme: pulse
     toc: true
 
-
+metadata-files:
+  - presentations/_metadata.yml
 

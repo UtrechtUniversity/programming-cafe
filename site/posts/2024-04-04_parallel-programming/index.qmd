@@ -1,5 +1,6 @@
 ---
 title: "Parallel Programming"
+format: "html"
 ---
 
 ```{=html}

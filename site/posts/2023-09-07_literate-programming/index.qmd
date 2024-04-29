@@ -1,5 +1,6 @@
 ---
 title: "Literate Programming"
+format: "html"
 ---
 
 coming soon

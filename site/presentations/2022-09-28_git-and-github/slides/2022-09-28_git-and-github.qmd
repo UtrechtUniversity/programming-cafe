@@ -1,8 +1,8 @@
 ---
 format:
   revealjs:
-    theme: ./templates/uu.scss
-    logo: ./templates/UU_logo_2021_EN_RGB.png
+    theme: ../../../styles/uu.scss
+    logo: ../../../images/UU_logo_2021_EN_RGB.png
     embed-resources: true
     controls: true
     navigation-mode: linear
@@ -12,7 +12,7 @@ format:
 
 # Welcome to the Programming Cafe! {background-color="#FFCD00"}
 
-![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+![](../../../images/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
 ## Plan for today
 
@@ -51,7 +51,7 @@ format:
 
 Research Data Management Support
 
-![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+![](../../../images/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 ---
 
 ## Why Git and GitHub?
@@ -231,12 +231,12 @@ You can try out any of the exercises, we do have some recommendations based on t
 
 **[https://github.com/UtrechtUniversity](https://github.com/UtrechtUniversity){preview-link="true"}**
 
-![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+![](../../../images/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
 # Getting Started With GitHub Actions {background-color="#FFCD00"}
 
 Research Data Management Support
-![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+![](../../../images/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
 
 ## What is GitHub Actions
 
@@ -349,4 +349,4 @@ A runner is a server that runs your workflows when they're triggered. Each runne
 
 # {data-background-color="#FFCD00"}
 
-![](./templates/UU_logo_2021_EN_RGB_payoff.png)
+![](../../../images/UU_logo_2021_EN_RGB_payoff.png)

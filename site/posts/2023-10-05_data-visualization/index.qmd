@@ -1,5 +1,6 @@
 ---
 title: "Data Visualization"
+format: "html"
 ---
 
 This week's Programming Cafe is all about _Data Visualization_! We are borrowing from the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative and we'll be analyzing data from **Pet Cats UK**.

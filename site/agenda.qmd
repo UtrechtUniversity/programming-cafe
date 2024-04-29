@@ -1,6 +1,10 @@
-# Agenda
+---
+title: Agenda
+format: "html"
+---
 
-:::
+
+
 
 ::: {.callout-note icon=false}
 ## Programming Cafe April 2024
