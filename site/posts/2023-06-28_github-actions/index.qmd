@@ -1,6 +1,6 @@
 ---
 title: "GitHub Actions"
-date: "28-06-2023"
+date: "2023-06-28"
 format: "html"
 ---
 

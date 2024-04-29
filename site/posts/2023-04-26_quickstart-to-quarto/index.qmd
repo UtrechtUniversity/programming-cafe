@@ -1,6 +1,6 @@
 ---
 title: "Quickstart to Quarto"
-date: "26-04-2023"
+date: "2023-04-26"
 format: "html"
 ---
 

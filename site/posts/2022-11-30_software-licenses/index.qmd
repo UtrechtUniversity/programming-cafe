@@ -1,6 +1,6 @@
 ---
 title: "Software Licenses"
-date: "30-11-2022"
+date: "2022-11-30"
 format: "html"
 ---
 
