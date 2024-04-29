@@ -10,7 +10,7 @@
 <atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website for the Programming Cafe @UtrechtUniversity.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Mon, 29 Apr 2024 08:27:33 GMT</lastBuildDate>
+<lastBuildDate>Mon, 29 Apr 2024 09:09:44 GMT</lastBuildDate>
 <item>
   <title>Git &amp; GitHub</title>
   <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/index.html</link>
@@ -23,13 +23,13 @@
 <p>We discussed the use of Git and GitHub during the first edition of the programming cafe.</p>
 <p>Check out the slide below and do some <a href="https://github.com/UtrechtUniversity/programming-cafe/exercises/git-and-github/git-and-github.md">exercises</a> to get started.</p>
 <p>The UU GitHub page can be found <a href="https://github.com/UtrechtUniversity">here</a>.</p>
-<iframe width="1050" height="700" src="../../static/slides/2022-09-28_git-and-github.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Code Readability</title>
@@ -39,13 +39,13 @@
 
 
 <p>Hello this a post about code readability</p>
-<iframe width="1050" height="700" src="../../static/slides/2022-10-26_code-readability.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2022-10-26_code-readability/slides/2022-10-26_code-readability.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Software Licenses</title>
@@ -60,7 +60,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Copilot</title>
@@ -69,13 +69,13 @@
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2023-01-25_github-copilot.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2023-01-25_github-copilot/slides/2023-01-25_github-copilot.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Polars</title>
@@ -84,13 +84,13 @@
 
 
 
-<embed src="../../static/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px">
+<embed src="../../presentations/2023-01-25_polars/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px">
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Project Management</title>
@@ -99,13 +99,13 @@
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2023-02-22_project-management.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2023-02-22_project-management/slides/2023-02-22_project-management.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>YODA &amp; iRODS Workflows</title>
@@ -114,13 +114,13 @@
 
 
 
-<embed src="../../static/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px">
+<embed src="../../presentations/2023-03-29_yoda-irods-workflows/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px">
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Quickstart to Quarto</title>
@@ -129,13 +129,13 @@
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2023-04-26_quickstart-to-quarto/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Project Log</title>
@@ -150,7 +150,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>GitHub Actions</title>
@@ -159,13 +159,13 @@
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2023-06-28_github-actions.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2023-06-28_github-actions/slides/2023-06-28_github-actions.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-06-28_github-actions/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Literate Programming</title>
@@ -180,7 +180,7 @@
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Data Visualization</title>
@@ -190,7 +190,7 @@
 
 
 <p>This week’s Programming Cafe is all about <em>Data Visualization</em>! We are borrowing from the <a href="https://github.com/rfordatascience/tidytuesday">#TidyTuesday</a> initiative and we’ll be analyzing data from <strong>Pet Cats UK</strong>.</p>
-<iframe width="900" height="600" src="../../static/slides/2023-10-05_data-visualization.html"></iframe>
+<iframe width="900" height="600" src="../../presentations/2023-10-05_data-visualization/slides/2023-10-05_data-visualization.html"></iframe>
 <section id="how-this-will-go" class="level2">
 <h2 class="anchored" data-anchor-id="how-this-will-go">How This Will Go</h2>
 <p>Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we’ve gathered below. You can use whatever programming language and packages/libraries you like and we encourage you to work in pairs/groups - so you can learn together!</p>
@@ -573,7 +573,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-10-05_data-visualization/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Scheduling Scripts</title>
@@ -583,7 +583,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
 
 <p>This week’s Programming Cafe is about <em>Scheduling Scripts</em>! We will learn how to automate some boring things using the <em>schedulers</em> available on our operating systems.</p>
-<iframe width="900" height="600" src="../../static/slides/2023-11-02_scheduling-scripts.html"></iframe>
+<iframe width="900" height="600" src="../../presentations/2023-11-02_scheduling-scripts/slides/2023-11-02_scheduling-scripts.html"></iframe>
 <section id="exercise" class="level2">
 <h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
 <p>After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R &amp; Python scripts that you can utilize for this. You can download the materials here: <a href="https://github.com/UtrechtUniversity/programming-cafe/raw/main/exercises/scheduling-scripts/scheduling-scripts.zip">exercises.zip</a></p>
@@ -670,7 +670,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Advanced Git</title>
@@ -679,13 +679,13 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2024-01-11_advanced-git.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2024-01-11_advanced-git/slides/2024-01-11_advanced-git.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Introduction to Julia</title>
@@ -694,13 +694,13 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2024-02-08_julia.html"></iframe>
+<iframe width="1050" height="700" src=".../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Packaging in Python &amp; R</title>
@@ -715,7 +715,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 <item>
   <title>Parallel Programming</title>
@@ -724,13 +724,13 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 
 
 
-<iframe width="1050" height="700" src="../../static/slides/2024-04-04_parallel-programming.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2024-04-04_parallel-programming/slides/2024-04-04_parallel-programming.html"></iframe>
 
 
 
  ]]></description>
   <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/index.html</guid>
-  <pubDate>Mon, 29 Apr 2024 08:27:33 GMT</pubDate>
+  <pubDate>Mon, 29 Apr 2024 09:09:44 GMT</pubDate>
 </item>
 </channel>
 </rss>

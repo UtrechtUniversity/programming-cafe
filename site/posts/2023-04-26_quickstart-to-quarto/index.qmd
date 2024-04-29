@@ -3,5 +3,5 @@ title: "Quickstart to Quarto"
 ---
 
 ```{=html}
-<iframe width="1050" height="700" src="../../static/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2023-04-26_quickstart-to-quarto/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
 ```

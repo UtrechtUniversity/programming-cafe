@@ -5,7 +5,7 @@ title: "Scheduling Scripts"
 This week's Programming Cafe is about _Scheduling Scripts_! We will learn how to automate some boring things using the _schedulers_ available on our operating systems.
 
 ```{=html}
-<iframe width="900" height="600" src="../../static/slides/2023-11-02_scheduling-scripts.html"></iframe>
+<iframe width="900" height="600" src="../../presentations/2023-11-02_scheduling-scripts/slides/2023-11-02_scheduling-scripts.html"></iframe>
 ```
 
 ## Exercise

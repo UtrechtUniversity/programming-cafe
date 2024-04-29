@@ -1,0 +1,141 @@
+---
+format:
+  revealjs:
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    embed-resources: true
+    footer: "Programming Cafe"
+---
+
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Plan for today
+
+::: {style="text-align: left; margin-top: 2em"}
+
+|    |    |
+|------------------------------|-------------|
+| Work on your own project | 45 min |
+| Scheduling Scripts | 45 min |
+| Wrap-up | 10 min |
+| Drinks! |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Presentation, demo, exercise
+-    Community event
+-    Open to UU, HU, UMCU
+-    Researchers, students, support staff
+-    It is OK to work on your own code
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Ideas for topics? Let us know!
+-    Wanted: Core team members
+-    Feedback welcome! 
+
+Use the link below or talk to us
+
+[tinyurl.com/uucafe](https://tinyurl.com/uucafe)
+
+:::
+
+# Scheduling Scripts {background-color="#FFCD00"}
+
+## What Is Job Scheduling?
+
+In programming, _job scheduling_ involves automating the execution of scripts or programs at specified times or intervals.
+
+## Why Would We Want To Schedule Jobs? {.smaller}
+
+- Automation 
+- Efficiency 
+- Consistency 
+- Updating Things 
+- Integration 
+- Scalability 
+
+## How Can We Schedule Jobs?
+
+Using a job scheduler! These are applications already available on your computer. You use them for controlling unattended background program execution of jobs.
+
+They differ per operating system:
+
+- **Windows:** Windows Task Scheduler
+
+- **MacOS & Linux:** `cron`
+
+## Windows Task Scheduler
+
+Windows Task Scheduler is a job scheduler in Microsoft Windows that launches computer programs or scripts at pre-defined times or after specified time intervals. 
+
+Here is a written tutorial: [https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows]()
+
+## `cron` {.smaller .scrollable}
+
+The `cron` command-line utility is a job scheduler on Unix-like operating systems. Users who set up and maintain software environments use cron to schedule jobs (commands or shell scripts), also known as _cron jobs_, to run periodically at fixed times, dates, or intervals.
+
+The actions of `cron` are driven by a _crontab_ (cron table) file, a configuration file that specifies shell commands to run periodically on a given schedule. The syntax of each line within a _crontab_ file expects a cron expression made of five fields which represent the time to execute the command, followed by a shell command to execute.
+
+```
+# ┌───────────── minute (0–59)
+# │ ┌───────────── hour (0–23)
+# │ │ ┌───────────── day of the month (1–31)
+# │ │ │ ┌───────────── month (1–12)
+# │ │ │ │ ┌───────────── day of the week (0–6) (Sunday to Saturday;
+# │ │ │ │ │                                   7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * * <command to execute>
+```
+
+Here is a written tutorial: [https://itsfoss.com/cron-job/](https://itsfoss.com/cron-job/) 
+
+## Some Considerations When Scheduling Jobs
+
+- In Windows Task Scheduler, double-check the _Conditions_.  
+
+- With `cron`, you have to pay attention to the syntax
+
+- You might need Administrator Privileges to run jobs.
+
+- Remember to specify working directories. 
+
+## The Big Picture... {.smaller}
+
+- Great test for automation/reproducibility, since you might want the scripts to run in the background without any user interaction. 
+
+- If you can schedule one script, you can schedule multiple! If you can schedule multiple scripts, you may as well start looking into workflow orchestration using shell scripts, batch files, MAKE, Apache Airflow...
+
+- At this point, we are getting into _background processes_ running on your computer. You can create multiple background processes that are running in parallel from the command line, or from a Python/R script. This is where parallelization and potentially, when you have many parallel tasks, _High Performance Computing_ starts.
+
+# Bonus {background-color="#FFCD00"}
+
+## GitHub Actions
+
+- You can run `cron` via GitHub Actions
+
+- Check out how the README of the UU GitHub Organization is updated everyday using a `cron` job: [https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml](https://github.com/UtrechtUniversity/.github/blob/main/.github/workflows/update_featured.yml)
+
+## R Packages
+
+- [`taskscheduleR`](https://cran.r-project.org/web/packages/taskscheduleR/vignettes/taskscheduleR.html) package.
+- [`cronR`](https://github.com/bnosac/cronR) package.
+
+
+
+

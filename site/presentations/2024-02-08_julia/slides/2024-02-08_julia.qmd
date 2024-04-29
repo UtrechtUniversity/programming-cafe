@@ -1,0 +1,199 @@
+---
+title: "Julia for scientists: the shortest intro"
+author: "Emilia Jarochowska"
+format: 
+ revealjs:
+     monofont: "JuliaMono"
+execute:
+  eval: false
+  echo: true
+---
+
+# Menu
+
+15:15 Presentation
+
+15:30 Installation
+
+15:40 Live coding
+
+---
+
+# Why would I need another programming language? 🤨
+
+---
+
+### "The two language problem" {.smaller}
+
+* High-level languages (Python, R) are slow because they are interpreted
+* Here "interpreted" means the program is not **compiled** into machine code
+* They are executed by a virtual machine that is not specific to a given processor
+
+![](https://media.geeksforgeeks.org/wp-content/uploads/20230809115142/Internal-working-of-Python-(1).gif)
+
+Source [geeksforgeeks.org](https://www.geeksforgeeks.org/internal-working-of-python/)
+
+---
+
+### What are the options for a busy scientist? {.smaller}
+
+::: {.incremental}
+* You can either rewrite your code in C, Fortran etc (see you in two years!)
+* Or tinker with (pre-)compiling parts of your code:
+* Speeding up Python (Cython, Numba) is not too far from learning a new language
+:::
+
+--- 
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683037618888/f615721e-9a2f-499f-af64-a8102a58c4eb.png?auto=compress,format&format=webp")
+
+Source: [scientificcoder.com](https://scientificcoder.com/how-to-solve-the-two-language-problem)
+
+::: {.incremental}
+* LLVM is a compiler that "translates" your code into byte code. That's intermediate code, not tied to a specific processor
+* In Python, translating to LLVM is not native. It's optional, e.g. using Numba - it works only for some libraries
+:::
+
+----
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683037634944/a8634473-0686-4172-ba4d-e6fd79dd1390.png?auto=compress,format&format=webp")
+
+Source: [scientificcoder.com](https://scientificcoder.com/how-to-solve-the-two-language-problem)
+
+* Julia compiles directly to LLVM, all of the code
+* Interactive AND compiled
+
+---- 
+
+> In R you get exposed to the “two-language” problem quickly if you want to look at internals in some statistical packages. Whenever you try to get to how things are actually done and you want to open the “black box”, you’ll find yourself in a world with RCpp and C++ code. [...] One of the things that convinced me to give Julia a try was opening the `GLM.jl` code and seeing Julia code inside and being able to follow how data was analyzed, almost step by step, so I could check all the intermediate steps of my calculation.
+
+alejandromerchan on [discourse.julialang.org](https://discourse.julialang.org)
+
+----
+
+<img data-src="https://juliadatascience.io/images/language_comparisons.png" />
+
+Source: [Julia Data Science](https://juliadatascience.io/julia_accomplish)
+
+----
+
+## Mathematical notation {.smaller}
+
+$$ g(g_m, I_0, I_k, k, w) = g_m \times \tanh\left(\frac{I_k \exp^{-wk}}{I_k}\right) $$
+
+Julia:
+```julia
+g(gₘ, I₀, Iₖ, k, w) = gₘ * tanh(I₀/Iₖ * exp(-w * k))
+```
+
+. . .
+
+Python
+```python
+#| eval: false
+def g(g_m, I_0, I_k, k, w):
+    return g_m * np.tanh(I_0/I_k * np.exp(-w * k))
+```
+
+. . .
+
+R
+```r
+#| eval: false
+g <- function(g_m, I_0, I_k, k, w) {
+  g_m * tanh(I_0/I_k * exp(-w * k))
+}
+```
+
+----
+
+###  Mathematical notation
+
+```julia
+#Parameters
+ω = 1
+
+#Initial Conditions
+x₀ = [0.0]
+dx₀ = [π / 2]
+tspan = (0.0, 2π)
+
+ϕ = atan((dx₀[1] / ω) / x₀[1])
+A = √(x₀[1]^2 + dx₀[1]^2)
+
+#Define the problem
+function harmonicoscillator(ddu, du, u, ω, t)
+    ddu .= -ω^2 * u
+end
+```
+
+Source: [DifferentialEquations.jl](https://docs.sciml.ai/DiffEqDocs/stable/examples/classical_physics/)
+
+----
+
+## Reproducibility
+
+Julia projects are defined using the `Project.toml` file and optionally `Manifest.toml`.
+
+> If the project contains a manifest, this will install the packages in the same state that is given by that manifest. Otherwise, it will resolve the latest versions of the dependencies compatible with the project.
+
+[Pkg.jl documentation](https://pkgdocs.julialang.org/v1/environments/)
+
+Substantial backwards compatibility: no need for a completely new install of dependencies for each project.
+
+----
+
+## Multiple dispatch {.smaller}
+
+The same function performs different things depending on the *type* of the argument.
+
+For example, the gamma function reduces to the factorial function:
+
+$$ \Gamma(n) = (n - 1)! $$
+
+```julia
+import SpecialFunctions:gamma
+using BenchmarkTools
+
+gamma( x :: Int ) = x > 0 ? factorial(x-1) : Inf
+```
+
+. . .
+
+
+```julia
+@btime gamma(15.0)
+```
+  38.642 ns
+
+. . .
+
+```julia
+@btime gamma(15)
+```
+  1.500 ns
+
+----
+
+## How can I use Julia?
+
+::: {.incremental}
+* Julia is Open Source. You can download it at [julialang.org](https://julialang.org) and contribute to it
+* You can run Julia REPL in the terminal (type `julia` and go!)
+* You can use a notebook. **Ju** in **Ju**pyter stands for Julia
+* Julia has its own notebook too: Pluto
+* Quarto supports Julia 
+* In this demo we will use Visual Studio Code with Julia Extension. You still need to install Julia! 
+:::
+
+----
+
+## My favourite Julia resources
+
+::: {.incremental}
+* [Doggo.jl](https://www.youtube.com/@doggodotjl) - great YouTube channel
+* [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall23/)
+* [Calculus with Julia](https://jverzani.github.io/CalculusWithJuliaNotes.jl/)
+* [Introduction to Julia for Data Science (short course)](https://github.com/pszufe/2024_MIT_18.S097_Introduction-to-Julia-for-Data-Science/)
+:::
+
