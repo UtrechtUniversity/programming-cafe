@@ -1,5 +1,6 @@
 ---
 title: "Git & GitHub"
+format: "html"
 ---
 
 We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:
@@ -14,7 +15,5 @@ Check out the slide below and do some [exercises](https://github.com/UtrechtUniv
 The UU GitHub page can be found [here](https://github.com/UtrechtUniversity).
 
 ```{=html}
-<iframe width="1050" height="700" src="../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
 ```
-
-

@@ -1,0 +1,267 @@
+--- 
+from: markdown+emoji
+format:
+  revealjs:
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    embed-resources: true
+---
+
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+---
+
+## Plan for today
+
+::: {style="text-align: left; margin-top: 2em"}
+
+|    |    |
+|------------------------------|-------------|
+| Welcome | 15 min |
+| Complex project management use case | 15 min |
+| Discussion | 10 min |
+| Work on your own code | 30 min |
+| Basics of project management | 10 min |
+| HDF5 | 10 min |
+| Work on your own code | 30 min |
+| Drinks! |
+
+:::
+
+---
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Previously the R-Cafe
+-    An informal, community event
+-    Work on your own code
+-    Themes with presentations and exercises
+-    Interaction
+:::
+
+---
+
+## WANTED: Topics, presenters, likes!
+
+::: {style="text-align: left; margin-top: 2em"}
+Check: [https://github.com/UtrechtUniversity/programming-cafe](https://github.com/UtrechtUniversity/programming-cafe)
+
+and submit your ideas and :+1: in the Issues section :pray:
+:::
+
+
+# Basics of reproducible project management {background-color="#FFCD00"}
+
+
+## Contents
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-   Introduction
+-   Project design
+-   Code organization
+-   Data storage and organization
+-   Next steps
+
+:::
+
+## Introduction
+
+::: {style="text-align: left; margin-top: 2em"}
+
+Scientific Project:
+
+-   Data
+-   Scripts
+-   Compute platforms
+-   Collaborators
+
+:::
+
+## Introduction
+
+:::::::::::::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="text-align: left; margin-top: 2em"}
+
+Keep things clean and organized for:
+
+-   efficiency
+-   transparency
+-   reproducibility
+
+:::
+:::
+
+::: {.column width="60%"}
+![](./images/reproducible-definition-grid.svg){fig-align="right" width="600"}
+:::
+
+::::::::::::::
+
+## Introduction
+
+Already a challenge when working alone on 1 laptop!!!
+
+![](./images/project.png){fig-align="right" width="300"}
+
+## Project design
+
+```
+.
+├── CITATION.cff
+├── LICENSE.md
+├── README.md
+├── requirements.txt
+├── config             <- Configuration files (HW)
+├── data               <- All project data, ignored by git
+│   ├── processed      <- The final, canonical data sets for modeling. (PG)
+│   ├── raw            <- The original, immutable data dump. (RO)
+│   └── temp           <- Intermediate data that has been transformed. (PG)
+├── docs               <- Documentation notebook for users (HW)
+│   ├── manuscript     <- Manuscript source, e.g., LaTeX, Markdown, etc. (HW)
+│   └── reports        <- Other project reports and notebooks (e.g. Jupyter, .Rmd) (HW)
+├── results
+│   ├── figures        <- Figures for the manuscript or reports (PG)
+│   └── output         <- Other output for the manuscript or reports (PG)
+└── src                <- Source code for this project (HW)
+```
+
+## Project design
+
+:::::::::::::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="text-align: left; margin-top: 2em"}
+
+Document!!
+
+- Project structure
+- Collaboration
+- Pipeline
+
+:::
+:::
+::: {.column width="60%"}
+![](./images/example-workflow.png){fig-align="right" width="600"}
+:::
+::::::::::::::
+
+## Organize code
+
+:::::::::::::: {.columns}
+
+::: {.column width="40%"}
+
+::: {style="text-align: left; margin-top: 2em"}
+
+- Code quality and best practices
+
+- Store it online (Git)
+
+:::
+:::
+::: {.column width="60%"}
+![](./images/github-mark.svg){fig-align="right" width="300"}
+:::
+
+::::::::::::::
+
+## Organize code
+
+Git for Version Control
+
+::: {layout-ncol=2}
+![](./images/project-history.svg)
+
+![](./images/distributed.png)
+:::
+
+## Data storage and organization
+
+Store it online!
+
+-   Yoda
+-   Research Drive
+-   Surfdrive
+-   Onedrive 
+-   etc.
+
+## Project design
+
+```
+.
+├── CITATION.cff
+├── LICENSE.md
+├── README.md
+├── requirements.txt
+├── config             <- Configuration files (HW)
+├── data               <- All project data, ignored by git
+│   ├── processed      <- The final, canonical data sets for modeling. (PG)
+│   ├── raw            <- The original, immutable data dump. (RO)
+│   └── temp           <- Intermediate data that has been transformed. (PG)
+├── docs               <- Documentation notebook for users (HW)
+│   ├── manuscript     <- Manuscript source, e.g., LaTeX, Markdown, etc. (HW)
+│   └── reports        <- Other project reports and notebooks (e.g. Jupyter, .Rmd) (HW)
+├── results
+│   ├── figures        <- Figures for the manuscript or reports (PG)
+│   └── output         <- Other output for the manuscript or reports (PG)
+└── src                <- Source code for this project (HW)
+```
+
+## Data storage and organization
+
+![](./images/data_workflow.png)
+
+
+## Code and Data organization
+
+```
+#!/bin/bash
+#Set job requirements
+#SBATCH -n 16
+#SBATCH -t 5:00:00
+ 
+#Clone project
+git clone https://github.com/UtrechtUniversity/my-project.git
+
+#Download data from Yoda
+mkdir "$TMPDIR"/input
+irsync -rKV i:myfolder "$TMPDIR"/input
+ 
+#Execute tasks
+
+...
+```
+
+## Advanced/future topics
+
+::: {style="text-align: left; margin-top: 2em"}
+
+- Makefiles
+- Workflow management tools
+- Continuous integration and testing
+- Containers
+- APIs
+
+:::
+
+## Resources:
+
+-   [https://utrechtuniversity.github.io/programming-cafe/](https://utrechtuniversity.github.io/programming-cafe/)
+-   RDM course: [Best Practices for Writing Reproducible Code](https://www.uu.nl/en/research/research-data-management/training-workshops/best-practices-for-writing-reproducible-code)
+-   [Best Practices for Git and GitHub](https://github.com/UtrechtUniversity/best-practices)
+-   [The Turing Way](https://the-turing-way.netlify.app/welcome.html)
+
+# {data-background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB_payoff.png)

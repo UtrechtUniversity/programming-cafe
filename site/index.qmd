@@ -1,5 +1,6 @@
 ---
 title: "Programming Cafe"
+format: "html"
 ---
 
 Welcome to the website for the Programming Cafe at Utrecht University!

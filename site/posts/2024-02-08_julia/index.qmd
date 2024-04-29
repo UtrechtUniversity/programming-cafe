@@ -1,0 +1,8 @@
+---
+title: "Introduction to Julia"
+format: "html"
+---
+
+```{=html}
+<iframe width="1050" height="700" src=".../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
+```
