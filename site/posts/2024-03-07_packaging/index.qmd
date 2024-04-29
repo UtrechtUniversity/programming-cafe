@@ -1,6 +1,6 @@
 ---
 title: "Packaging in Python & R"
-date: "07-03-2024"
+date: "2024-03-07"
 format: "html"
 ---
 

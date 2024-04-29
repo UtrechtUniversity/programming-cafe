@@ -1,6 +1,6 @@
 ---
 title: "Advanced Git"
-date: "11-01-2024"
+date: "2024-01-11"
 format: "html"
 ---
 
