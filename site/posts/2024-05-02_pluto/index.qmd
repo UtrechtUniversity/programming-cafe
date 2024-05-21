@@ -1,0 +1,28 @@
+---
+title: "Pluto.jl"
+date: "2024-05-02"
+author: "Luka van der Plas"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Thursday, 2nd May 2024
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Pluto.jl, Interactive Notebooks for Julia](https://utrechtuniversity.github.io/programming-cafe/posts/2024-05-02_pluto/) 
+- **Presenter:** Lukas van de Wiel
+
+:::
+
+Interactive Notebooks for Julia and More.
+
+Are you curious about how scientific computing can be more accessible and fun? Pluto is a programming environment for Julia designed to be just that. In a simple, intuitive environment, you can create lightweight, reproducible notebooks that react instantly to your ideas. In this edition of the Programming Cafe, Luka van der Plas (Developer at the Research Software Lab) will tell you what Pluto is, and how it can benefit researchers and educators.
+
+## Slides
+
+_coming soon_
+
+## Exercises
+
+_coming soon_

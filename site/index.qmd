@@ -3,24 +3,30 @@ title: "Programming Cafe"
 format: "html"
 ---
 
-Welcome to the website for the Programming Cafe at Utrecht University!
+Welcome to the website of the Programming Cafe @Utrecht University!
 
-The Programming Cafe is a community event organized every first Thursday of the month for everyone interested in writing code (R, Python, Matlab, Julia, etc.) at @UtrechtUniversity.
+The Programming Cafe is a community event open to everyone interested in code and software for scientific research. It is held on the first Thursday of every month, usually at the University Library (Utrecht Science Park). 
 
 ::: {.callout-note icon=false}
-## Next Edition
 
-- **Date:** Thursday, 4th April 2024
+## Programming Cafe June 2024 (@Faculty of Science)
+
+- **Date:** Thursday, 6th June
 - **Time:** 15:00-17:00
-- **Location:** Buchelius Room 6.18, University Library, Utrecht Science Park
-- **Demo/Presentation:** High Performance Computing and Parallel programming
+- **Location:** Buys Ballotgebouw 1.69, Utrecht Science Park
+- **Demo/Presentation:** Managing Coding Environments With Conda & Docker / Environment Management in R & Python 
+- This edition is hosted at the faculty of Science, however everyone is welcome as always!
 
-<a href='https://www.uu.nl/en/node/133010/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add April edition to calendar</button>
+<a href='https://www.uu.nl/en/node/138938/ics' download="Programming-Cafe">
+<button type="button" class="btn btn-primary btn-sm">Add June edition to calendar</button>
 </a>
 
 :::
 
-## [About](about.qmd)
+You can learn more about the Programming Cafe on our [About](about.qmd) page. Our [Agenda](agenda.qmd) lists upcoming and previous editions of the Programming Cafe, while the [Posts](posts.qmd) contain the slides and exercises per edition. Last but not least, the Programming Cafe would not be what it is without it's [People](people.qmd)!
 
-## [Agenda and previous editions](agenda.qmd)
+## [About](about.qmd)
+## [Agenda & Previous Editions](agenda.qmd)
+## [People](people.qmd)
+## [Posts](posts.qmd)
+

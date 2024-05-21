@@ -1,7 +1,29 @@
 ---
 title: "YODA & iRODS Workflows"
 date: "2023-03-29"
+author: "Christine Staiger"
 format: "html"
 ---
 
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 29th March 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Programming Data Workflows in Yoda/iRODS](https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/)
+- **Presenter:** Christine Staiger
+
+:::
+
+Master the chaos of data management in Yoda & iRODS!
+
+In this edition of the Programming Cafe, Christine Staiger presented about the use of annotated data objects and
+annotating data objects in Yoda & iRODS workflows. 
+
+## Slides
+
 <embed src="../../presentations/2023-03-29_yoda-irods-workflows/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px" />
+
+## Exercises
+
+There were no exercises, attendees worked on their own projects.

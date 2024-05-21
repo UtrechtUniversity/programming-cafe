@@ -1,7 +1,30 @@
 ---
 title: "Literate Programming"
 date: "2023-09-07"
+author: "Johan Hidding"
 format: "html"
 ---
 
-coming soon
+::: {.callout-note icon=false}
+
+- **Date:** Thursday, 7th September 2023
+- **Time:** 15:00-17:00
+- **Location:** Living Lab, University Library (Utrecht Science Park)
+- **Presentation:** Literate Programming
+- **Presenter:** Johan Hidding
+
+:::
+
+Literate Programming in Markdown.
+
+Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer ([source](https://www-cs-faculty.stanford.edu/~knuth/lp.html)). 
+
+Johan Hidding (eScienceCenter) is passionate about literate programming and in this edition of the Programming Cafe, he presented a package that he developed to write Literate Programs in Markdown.
+
+## Slides
+
+_coming soon_
+
+## Reference
+
+1. <https://www-cs-faculty.stanford.edu/~knuth/lp.html>

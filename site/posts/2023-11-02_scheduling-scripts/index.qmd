@@ -1,10 +1,25 @@
 ---
 title: "Scheduling Scripts"
 date: "2023-11-02"
+author: "Neha Moopen & Jelle Treep"
 format: "html"
 ---
 
-This week's Programming Cafe is about _Scheduling Scripts_! We will learn how to automate some boring things using the _schedulers_ available on our operating systems.
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 2nd November 2023
+- **Time:** 15:00-17:00
+- **Location:** Bestuursgebouw ~~Bucheliuszaal 6.18, University Library (Utrecht Science Park)~~
+- **Presentation:** Scheduling Scripts
+- **Presenter:** Neha Mooopen & Jelle Treep
+
+:::
+
+Automate the boring things using the schedulers on your computers!
+
+In this edition of the Programming Cafe, we familiarized ourselves with the schedulers available on our operating systems. _Windows Task Scheduler_ & `cron`. We learnt how we could use these schedulers to automate the execution of scripts. We also touched upon scheduling `cron` jobs with GitHub Actions.
+
+## Slides
 
 ```{=html}
 <iframe width="900" height="600" src="../../presentations/2023-11-02_scheduling-scripts/slides/2023-11-02_scheduling-scripts.html"></iframe>
@@ -12,7 +27,11 @@ This week's Programming Cafe is about _Scheduling Scripts_! We will learn how to
 
 ## Exercise
 
-After the presentation, we invite you to try out the scheduler on your operating system yourself! We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: [exercises.zip](https://github.com/UtrechtUniversity/programming-cafe/raw/main/exercises/scheduling-scripts/scheduling-scripts.zip)
+After the presentation, we invite you to try out the scheduler on your operating system yourself! 
+
+We have prepared some R & Python scripts that you can utilize for this. You can download the materials here: [exercises.zip](https://github.com/UtrechtUniversity/programming-cafe/raw/main/site/presentations/2023-11-02_scheduling-scripts/exercises/scheduling-scripts.zip). 
+
+Don't forget to unzip the folder to an accessible location on your system.
 
 ### Windows
 
@@ -24,11 +43,7 @@ After the presentation, we invite you to try out the scheduler on your operating
 
 2. Open the `countdown.R` script from your _Files_ pane and run the script once to make sure it works.
 
-3. If the script works fine, you can try scheduling it! 
-
-4. Search for _Windows Task Scheduler_ in your computer's search bar.
-
-5. ....
+3. If the script works fine, you can try scheduling it using _Windows Task Scheduler_.
 
 #### Python
 
@@ -36,11 +51,7 @@ After the presentation, we invite you to try out the scheduler on your operating
 
 2. Run the script to make sure it works.
 
-3. If the script works fine, you can try scheduling it! 
-
-4. Search for _Windows Task Scheduler_ in your computer's search bar.
-
-5. ....
+3. If the script works fine, you can try scheduling it using _Windows Task Scheduler_.
 
 :::
 
@@ -54,9 +65,7 @@ After the presentation, we invite you to try out the scheduler on your operating
 
 2. Open the `countdown.R` script from your _Files_ pane and run the script once to make sure it works.
 
-3. If the script works fine, you can try scheduling it! 
-
-4. ...
+3. If the script works fine, you can try scheduling it using `cron`. 
 
 #### Python
 
@@ -64,9 +73,7 @@ After the presentation, we invite you to try out the scheduler on your operating
 
 2. Run the script to make sure it works.
 
-3. If the script works fine, you can try scheduling it! 
-
-4. ...
+3. If the script works fine, you can try scheduling it using `cron`.
 
 :::
 
@@ -80,9 +87,7 @@ After the presentation, we invite you to try out the scheduler on your operating
 
 2. Open the `countdown.R` script from your _Files_ pane and run the script once to make sure it works.
 
-3. If the script works fine, you can try scheduling it! 
-
-4. ...
+3. If the script works fine, you can try scheduling it using `cron`. 
 
 #### Python
 
@@ -90,10 +95,12 @@ After the presentation, we invite you to try out the scheduler on your operating
 
 2. Run the script to make sure it works.
 
-3. If the script works fine, you can try scheduling it! 
-
-4. ...
+3. If the script works fine, you can try scheduling it using `cron`.
 
 :::
 
 ## References
+
+1. <https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows>
+
+2. <https://itsfoss.com/cron-job/>

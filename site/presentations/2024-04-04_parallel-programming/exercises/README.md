@@ -6,7 +6,7 @@ There are many ways to speed up your code in Python, and also many ways to paral
 
 ### 1. `multiprocessing` library
 
-Download the notebook from the notebooks folder and follow the instructions in the notebook.
+Download the _notebook_ from the notebooks folder and follow the instructions in the notebook.
 
 ### 2. `dask` and profilers
 
