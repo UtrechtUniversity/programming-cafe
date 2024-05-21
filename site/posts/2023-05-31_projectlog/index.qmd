@@ -1,7 +1,34 @@
 ---
-title: "Project Log"
+title: "projectlog"
 date: "2023-05-31"
+author: "Stefan Vermeent"
 format: "html"
 ---
 
-coming soon
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 31st May 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [projectlog: An R package for improving project management and documentation](https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/)
+- **Presenter:** Stefan Vermeent
+
+:::
+
+An R package for improving project management and documentation.
+
+In this edition of the Programming Cafe, Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences) presented [`projectlog`](https://stefanvermeent.github.io/projectlog/) - the R package he developed to help researchers manage and document their project from start to finish.
+
+## Slides
+
+_coming soon_
+
+## Exercises
+
+There were no exercises. Attendees followed/coded along with the demo on `projectlog` or worked on their own projects. 
+
+## Reference
+
+1. Vermeent S (2023). _projectlog: Tools for documenting your project workflow._ R package version 0.1.0, <https://stefanvermeent.github.io/projectlog/>. 
+
+2. <https://github.com/StefanVermeent/projectlog>

@@ -1,0 +1,121 @@
+---
+format:
+  revealjs:
+    theme: ./templates/uu.scss
+    logo: ./templates/UU_logo_2021_EN_RGB.png
+    embed-resources: true
+    controls: true
+    navigation-mode: linear
+    slide-number: true
+    footer: "Programming Cafe"
+---
+
+# Welcome to the Programming Cafe! {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Welcome to the Programming Cafe!
+
+::: {style="text-align: left; margin-top: 2em"}
+
+
+|    |    |
+|------------------------------|-------------|
+| Walk-in | 15:00 |
+| Packaging Presentation | 15:15 |
+| Live Demo | 15:30 |
+| Tutorials or work on your own project | ~16:00 |
+| Wrap up | 16:45 |
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    R-Cafe
+-    Presentation, demo, exercises
+-    Community event
+-    Local event
+-    Researchers, students, support staff
+-    It is OK to work on your own code
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Organized by RDM support (uu.nl/rdm)
+-    Ideas for topics? Let us know!
+-    Wanted: Core team members
+-    Feedback welcome! 
+
+Use the link below or talk to us
+
+[tinyurl.com/uucafe](https://tinyurl.com/uucafe)
+
+:::
+
+## Learn Programming at UU
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    1 day beginner courses R and Python (RDM support)
+-    Best practices for Reproducible Coding (RDM support)
+-    Advanced courses at eScienceCenter
+-    Programming Cafe & Walk-in hours (RDM support)
+-    UU/UMCU Programming community on Teams
+
+:::
+
+
+# Packaging {background-color="#FFCD00"}
+
+![](./templates/UU_logo_2021_EN_RGB.png){.absolute top=-200 left=-240 width="300" height="120"}
+
+## Packaging in R
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    There seems to be one way to do it
+-    Interactively with RStudio
+-    R packages for help
+:::
+
+## Packaging in R
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    devtools
+-    usethis
+-    testthat
+-    roxygen2
+
+:::
+## Levels of maturity
+
+::: {style="text-align: left; margin-top: 2em"}
+
+-    Local package
+-    GitHub package
+-    CRAN package
+:::
+
+## Demo
+
+::: {style="text-align: left; margin-top: 2em"}
+
+RSTUDIO
+:::
+
+
+## Links
+
+::: {style="text-align: left; margin-top: 2em; font-size: 1.5em"}
+
+-    R tutorial:                  edu.nl/prn4j
+-    Python Poetry tutorial:      edu.nl/wuewu
+-    Python Setuptools tutorial:  edu.nl/vytqk
+
+:::

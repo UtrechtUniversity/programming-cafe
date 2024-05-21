@@ -2,8 +2,29 @@
 title: "GitHub Copilot"
 date: "2023-01-25"
 format: "html"
+author: "Jelle Treep"
 ---
+
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 25th January 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [GitHub Copilot](https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot)
+- **Presenter:** Jelle Treep
+
+:::
+
+Your AI pair programmer!
+
+In this edition of the Programming Cafe, Jelle Treep introduced us to [GitHub Copilot](https://github.com/features/copilot).
+
+## Slides
 
 ```{=html}
 <iframe width="1050" height="700" src="../../presentations/2023-01-25_github-copilot/slides/2023-01-25_github-copilot.html"></iframe>
 ```
+
+## Exercises
+
+There were no exercises, a demo of GitHub Copilot was provided instead.

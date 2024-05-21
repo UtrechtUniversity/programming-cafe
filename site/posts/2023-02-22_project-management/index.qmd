@@ -1,9 +1,30 @@
 ---
 title: "Project Management"
 date: "2023-02-22"
+author: "Jelle Treep"
 format: "html"
 ---
+
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 22th February 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Project Management: Good Practices in Managing Your Code & Data Workflows](https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/)
+- **Presenter:** Jelle Treep
+
+:::
+
+The basics of reproducible project management.
+
+In this edition of the Programming Cafe, Jelle Treep presented about good practices in managing code and data. We learnt about project design, code organization, data storage and organization to make our workflows as efficient and reproducible as possible. 
+
+## Slides
 
 ```{=html}
 <iframe width="1050" height="700" src="../../presentations/2023-02-22_project-management/slides/2023-02-22_project-management.html"></iframe>
 ```
+
+## Exercises
+
+There were no exercises, attendees worked on their own projects.

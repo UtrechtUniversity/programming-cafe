@@ -1,9 +1,36 @@
 ---
 title: "Quickstart to Quarto"
 date: "2023-04-26"
+author: "Neha Moopen"
 format: "html"
 ---
+
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 26th April 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Quickstart to Quarto](https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/)
+- **Presenter:** Neha Moopen
+
+:::
+
+An introduction to Quarto.
+
+[Quarto](https://quarto.org/) is an open-source scientific and technical publishing system built on Pandoc. It allows you create dynamic documents which weave text and code together to produce documents, web pages, blog posts, books and more. Developed by Posit (formerly RStudio), it is considered the ‘next-generation’ of R Markdown.
+
+In this edition of the Programming Cafe, Neha Moopen introduced Quarto and provided a demo on how to build websites with it.
+
+## Slides
 
 ```{=html}
 <iframe width="1050" height="700" src="../../presentations/2023-04-26_quickstart-to-quarto/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
 ```
+
+## Exercises
+
+There were no exercises prepared in advance. Attendees followed/coded along with the demo on building websites or worked on their own projects. 
+
+## Reference
+
+1. <https://quarto.org/docs/websites/>

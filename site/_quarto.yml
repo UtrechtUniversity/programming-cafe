@@ -14,6 +14,7 @@ website:
         text: Home
       - about.qmd
       - agenda.qmd
+      - people.qmd
       - posts.qmd
       - icon: rss
         href: index.xml
