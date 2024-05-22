@@ -2,10 +2,24 @@
   {
     "listing": "/posts.html",
     "items": [
-      "/posts/2022-10-26_code-readability/index.html",
-      "/posts/2022-09-28_git-and-github/index.html",
+      "/posts/2024-05-02_pluto/index.html",
+      "/posts/2024-04-04_parallel-programming/index.html",
+      "/posts/2024-03-07_packaging/index.html",
+      "/posts/2024-02-08_julia/index.html",
+      "/posts/2024-01-11_advanced-git/index.html",
+      "/posts/2023-11-02_scheduling-scripts/index.html",
       "/posts/2023-10-05_data-visualization/index.html",
-      "/posts/2023-11-02_scheduling-scripts/index.html"
+      "/posts/2023-09-07_literate-programming/index.html",
+      "/posts/2023-06-28_github-actions/index.html",
+      "/posts/2023-05-31_projectlog/index.html",
+      "/posts/2023-04-26_quickstart-to-quarto/index.html",
+      "/posts/2023-03-29_yoda-irods-workflows/index.html",
+      "/posts/2023-02-22_project-management/index.html",
+      "/posts/2023-01-25_github-copilot/index.html",
+      "/posts/2023-01-25_polars/index.html",
+      "/posts/2022-11-30_software-licenses/index.html",
+      "/posts/2022-10-26_code-readability/index.html",
+      "/posts/2022-09-28_git-and-github/index.html"
     ]
   }
 ]

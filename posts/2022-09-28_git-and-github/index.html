@@ -2,12 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Neha Moopen &amp; Jelle Treep">
+<meta name="dcterms.date" content="2022-09-28">
 
-<title>Programming Cafe - Git &amp; GitHub</title>
+<title>Programming Cafe - Git, GitHub &amp; GitHub Actions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -100,8 +102,17 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Agenda</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -115,21 +126,47 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
+  <ul class="collapse">
+  <li><a href="#beginner-getting-started-with-github" id="toc-beginner-getting-started-with-github" class="nav-link" data-scroll-target="#beginner-getting-started-with-github">Beginner: Getting started With GitHub</a></li>
+  <li><a href="#intermediate-working-with-github" id="toc-intermediate-working-with-github" class="nav-link" data-scroll-target="#intermediate-working-with-github">Intermediate: Working with GitHub</a></li>
+  <li><a href="#advanced-github-actions" id="toc-advanced-github-actions" class="nav-link" data-scroll-target="#advanced-github-actions">Advanced: GitHub Actions</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
+  </ul></li>
+  <li><a href="#utrecht-universitys-github-organization" id="toc-utrecht-universitys-github-organization" class="nav-link" data-scroll-target="#utrecht-universitys-github-organization">Utrecht University’s GitHub Organization</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2022-09-28_git-and-github/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2022-09-28_git-and-github/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Git &amp; GitHub</h1>
+<h1 class="title">Git, GitHub &amp; GitHub Actions</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Neha Moopen &amp; Jelle Treep </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 28, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -139,14 +176,75 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 28th September 2022</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Living Lab, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/">Getting Started With Git, GitHub &amp; GitHub Actions</a></li>
+<li><strong>Presenters:</strong> Neha Moopen &amp; Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Let’s Git Started!</p>
+<p>On 28th September 2022, we had our first Programming Cafe! The Programming Cafe is a ‘relaunch’ of the popular <a href="https://github.com/UtrechtUniversity/R-data-cafe">R Cafe</a>, from the pre-corona days.</p>
+<p>We discussed the use of Git, GitHub &amp; GitHub Actions during this edition of the Programming Cafe. Beginners were shown how to get started with GitHub without any coding, while intermediate/advanced users were introduced to the Git workflow and <a href="https://github.com/features/actions">GitHub Actions</a>.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>Check out the slides below:</p>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>The <a href="../../presentations/2022-09-28_git-and-github/exercises/2022-09-28_git-and-github.html">exercises</a> are a selection from <a href="https://skills.github.com/" class="uri">https://skills.github.com/</a>.</p>
+<section id="beginner-getting-started-with-github" class="level3">
+<h3 class="anchored" data-anchor-id="beginner-getting-started-with-github">Beginner: Getting started With GitHub</h3>
+<ul>
+<li><a href="https://github.com/skills/introduction-to-github">Introduction to GitHub</a></li>
+<li><a href="https://github.com/skills/communicate-using-markdown">Communicate Using Markdown</a></li>
+<li><a href="https://github.com/skills/github-pages">GitHub Pages</a></li>
+</ul>
+</section>
+<section id="intermediate-working-with-github" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate-working-with-github">Intermediate: Working with GitHub</h3>
+<ul>
+<li><a href="https://github.com/skills/review-pull-requests">Review Pull Requests</a></li>
+<li><a href="https://github.com/skills/resolve-merge-conflicts">Resolve Merge Conflicts</a></li>
+</ul>
+</section>
+<section id="advanced-github-actions" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-github-actions">Advanced: GitHub Actions</h3>
+<ul>
+<li><a href="https://docs.github.com/en/actions/quickstart">Quickstart</a></li>
+<li><a href="https://github.com/skills/hello-github-actions">Hello GitHub Actions</a></li>
+<li><a href="https://github.com/skills/continuous-integration">Continuous Integration</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level3">
+<h3 class="anchored" data-anchor-id="further-reading">Further Reading</h3>
+<ul>
+<li><a href="https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python">Build &amp; Test Python</a></li>
+<li><a href="https://github.com/r-lib/actions/blob/v2/examples/render-rmarkdown.yaml">Render RMarkdown Using GitHub Actions</a></li>
+</ul>
+</section>
+</section>
+<section id="utrecht-universitys-github-organization" class="level2">
+<h2 class="anchored" data-anchor-id="utrecht-universitys-github-organization">Utrecht University’s GitHub Organization</h2>
+<p>We greatly encourage the use of Git &amp; GitHub in research projects. Utrecht University maintains a GitHub organization for staff and students: <a href="https://github.com/UtrechtUniversity" class="uri">https://github.com/UtrechtUniversity</a>.</p>
+<p>Here is a video about Utrecht University’s GitHub organization:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/qXfbnz2id8A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>We discussed the use of Git and GitHub during the first edition of the programming cafe.</p>
-<p>Check out the slide below and do some <a href="https://github.com/UtrechtUniversity/programming-cafe/exercises/git-and-github/git-and-github.md">exercises</a> to get started.</p>
-<p>The UU GitHub page can be found <a href="https://github.com/UtrechtUniversity">here</a>.</p>
-<iframe width="1050" height="700" src="../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html"></iframe>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -230,7 +328,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/UtrechtUniversity\.github\.io\/programming-cafe\/");
+      var filterRegex = new RegExp("https:\/\/utrechtuniversity\.github\.io\/programming-cafe\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -563,4 +661,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2022-09-28_git-and-github/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2022-09-28_git-and-github/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UtrechtUniversity/programming-cafe/edit/main/site/posts/2022-09-28_git-and-github/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/posts/2022-09-28_git-and-github/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

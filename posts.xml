@@ -1,0 +1,1667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Programming Cafe</title>
+<link>https://utrechtuniversity.github.io/programming-cafe/posts.html</link>
+<atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
+<description>Website for the Programming Cafe @UtrechtUniversity.</description>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Thu, 02 May 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Pluto.jl</title>
+  <dc:creator>Luka van der Plas</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-05-02_pluto/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 2nd May 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-05-02_pluto/">Pluto.jl, Interactive Notebooks for Julia</a></li>
+<li><strong>Presenter:</strong> Lukas van de Wiel</li>
+</ul>
+</div>
+</div>
+<p>Interactive Notebooks for Julia and More.</p>
+<p>Are you curious about how scientific computing can be more accessible and fun? Pluto is a programming environment for Julia designed to be just that. In a simple, intuitive environment, you can create lightweight, reproducible notebooks that react instantly to your ideas. In this edition of the Programming Cafe, Luka van der Plas (Developer at the Research Software Lab) will tell you what Pluto is, and how it can benefit researchers and educators.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p><em>coming soon</em></p>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p><em>coming soon</em></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-05-02_pluto/</guid>
+  <pubDate>Thu, 02 May 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Parallel Programming</title>
+  <dc:creator>Luka van de Wiel</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 4th April 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/">Parallel programming is <del>not</del> easy</a></li>
+<li><strong>Presenter:</strong> Lukas van de Wiel</li>
+</ul>
+</div>
+</div>
+<p>Speed up your HPC workflow!</p>
+<p>Do you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g.&nbsp;simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some <a href="https://github.com/UtrechtUniversity/programming-cafe/tree/main/exercises/parallel-programming">hands on exercises</a> so you can practice writing some parallel code yourself!</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2024-04-04_parallel-programming/slides/2024-04-04_parallel-programming.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Python</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">R</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p>There are many ways to speed up your code in Python, and also many ways to parallelize your code. The <a href="https://carpentries-incubator.github.io/lesson-parallel-python">Parallel Programming in Python course</a> that is co-developed and taught by the eScience Center is a great way to learn more about this in more detail. Below is a notebook that will introduce you to the <code>multiprocessing</code> library in Python, and a link to some the course materials of the above course about <code>dask</code>.</p>
+<section id="multiprocessing-library" class="level4">
+<h4 class="anchored" data-anchor-id="multiprocessing-library">1. <code>multiprocessing</code> library</h4>
+<p>Download the <em>notebook from the notebooks</em> (link missing) folder and follow the instructions in the notebook.</p>
+</section>
+<section id="dask-and-profilers" class="level4">
+<h4 class="anchored" data-anchor-id="dask-and-profilers">2. <code>dask</code> and profilers</h4>
+<p>Checkout this cool <a href="https://carpentries-incubator.github.io/lesson-parallel-python/02-benchmarking/index.html">tutorial</a> on <code>dask</code> and measuring performance from the Parallel Programming in Python course (by the eScience Center).</p>
+</section>
+<section id="optional" class="level4">
+<h4 class="anchored" data-anchor-id="optional">Optional:</h4>
+<p>Browse the <a href="https://carpentries-incubator.github.io/lesson-parallel-python">Parallel Programming in Python course</a> to see what other topics might be interesting for you, and feel free to try out some of the code examples.</p>
+</section>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<p>There are different approaches to parallel programming in R. One package that can be used is the <code>doFuture</code> package in combination with the <code>foreach</code> package.</p>
+<pre><code>install.packages("doFuture")
+install.packages('foreach')</code></pre>
+<p>Follow <a href="https://msu-icer.github.io/r-for-hpcc/parallelizing-r-code.html#writing-code-that-runs-on-multiple-cores">this tutorial</a> on how to use this package and stop at the section <strong>Writing code that runs on multiple nodes</strong>.</p>
+<p>Try now to use the same method for doing some computations in parallel. For example:</p>
+<pre><code>estimate_pi &lt;- function(N) {
+    j &lt;- 0
+    for (i in 1:N) {
+        x &lt;- runif(1,-1,1)
+        y &lt;- runif(1,-1,1)
+        if (x^2+y^2&lt; 1)  {
+            j=j+1
+        }
+    }
+return(4*j/N)
+}</code></pre>
+<p>Tip: There are two approaches: either parallelize the function, or run the function in parallel with batched inputs. Try both, think on forehand what would be the more useful approach and why and compare the results.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-04-04_parallel-programming/</guid>
+  <pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Packaging in Python &amp; R</title>
+  <dc:creator>Raoul Schram &amp; Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 7th March 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/">Creating Your Own Python &amp; R Packages</a></li>
+<li><strong>Presenters:</strong> Raoul Schram &amp; Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Ever wanted to build your own R/Python package?</p>
+<p>If you work with Python and R, you will have undoubtedly used packages (e.g.&nbsp;<code>numpy</code>, <code>pandas</code>, <code>ggplot2</code>, <code>tidyr</code>). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this edition of the Programming Cafe, we discuss:</p>
+<ul>
+<li>what a package is,</li>
+<li>when and why it is a good idea to create a packages,</li>
+<li>how to create a package and some best practices when creating packages.</li>
+</ul>
+<p>We will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the Programming Cafe, with experts in the room to help you!</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2024-03-07_packaging/slides/2024-03-07_packaging.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<ul>
+<li><strong>R tutorial:</strong> <a href="https://edu.nl/prn4j" class="uri">https://edu.nl/prn4j</a></li>
+<li><strong>Python Poetry tutorial:</strong> <a href="https://edu.nl/wuewu" class="uri">https://edu.nl/wuewu</a></li>
+<li><strong>Python Setuptools tutorial:</strong> <a href="https://edu.nl/vytqk" class="uri">https://edu.nl/vytqk</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/</guid>
+  <pubDate>Thu, 07 Mar 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Introduction to Julia</title>
+  <dc:creator>Emilia Jarochowska</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 8th February 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/">Demo of the Julia Programming Language</a></li>
+<li><strong>Presenter:</strong> Emilia Jarochowska</li>
+</ul>
+</div>
+</div>
+<p>Who or What is Julia?</p>
+<p>Julia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<ol type="1">
+<li><a href="../../presentations/2024-02-08_julia/exercises/Installation.html">Installation</a></li>
+<li><a href="../../presentations/2024-02-08_julia/exercises/Julia_exercises.html">Exercises</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/</guid>
+  <pubDate>Thu, 08 Feb 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Advanced Git</title>
+  <dc:creator>Dawa Ometto</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 11th January 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/">Advanced Git</a></li>
+<li><strong>Presenter:</strong> Dawa Ometto</li>
+</ul>
+</div>
+</div>
+<p>New Year, New Git Skills!</p>
+<p>So you’ve started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.</p>
+<p>Basic knowledge of git (e.g.&nbsp;cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.</p>
+<ul>
+<li><p>For beginners, we have a set of suggested exercises (and helpers) to get started with Git and GitHub.</p></li>
+<li><p>For advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.</p></li>
+</ul>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2024-01-11_advanced-git/slides/2024-01-11_advanced-git.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>The <a href="../../presentations/2024-01-11_advanced-git/exercises/exercises.html">exercises</a> below are available as a separate file, if more convenient.</p>
+<section id="new-to-git" class="level3">
+<h3 class="anchored" data-anchor-id="new-to-git">New to git?</h3>
+<p>If you’re completely new to git, or need to refresh your memory, just start with <a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/exercises/git-and-github/git-and-github.md">the basics</a>!</p>
+</section>
+<section id="beginners" class="level3">
+<h3 class="anchored" data-anchor-id="beginners">Beginners</h3>
+<p>If you’re a beginner, we recommend that you do the following exercises/tutorials from the CodeRefinery course <a href="https://coderefinery.github.io/git-intro/">Introduction to version control with Git</a>:</p>
+<ol type="1">
+<li>Clone <a href="https://github.com/dometto/git-tutorial-testrepo">this repository</a> to do the exercises in.</li>
+<li><a href="https://coderefinery.github.io/git-intro/branches/">Branching</a></li>
+<li><a href="https://coderefinery.github.io/git-intro/conflicts/">Conflict resolution</a></li>
+<li><a href="https://coderefinery.github.io/git-intro/remotes/">Pull Requests</a></li>
+<li><a href="https://coderefinery.github.io/git-intro/staging-area/#staging-area-commands">The Staging Area</a></li>
+</ol>
+<p>If you have time left, proceed with the exercises from the Intermediate/Advanced section below, focusing on the following:</p>
+<ol type="1">
+<li>Exercise2 Staging and Stashing</li>
+<li>Exercise7 RebaseAndAmend</li>
+<li>Exercise4 Merging and ReReRe</li>
+</ol>
+</section>
+<section id="intermediateadvanced" class="level3">
+<h3 class="anchored" data-anchor-id="intermediateadvanced">Intermediate/Advanced</h3>
+<p>If you are a more advanced <code>git</code> user and are already familiar with the concepts of branching and merging, we recommend that you pick exercises from the <a href="https://github.com/nnja/advanced-git/tree/master/exercises">Advanced Git In Depth</a> course by Nina Zakharenko that cover topics you don’t know yet.</p>
+<p><strong>Use the following repository to complete the exercises: https://github.com/nnja/advanced-git-exercises</strong></p>
+<p>We recommend first picking the exercises listed below. For some of these topics, we’ve also added additional challenges!</p>
+<section id="exercise1-simplecommit" class="level4">
+<h4 class="anchored" data-anchor-id="exercise1-simplecommit">Exercise1 SimpleCommit</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise1-SimpleCommit.md">Learn about git’s internals by inspecting a commit under the hood</a>.</p>
+<section id="additional-exercises" class="level5">
+<h5 class="anchored" data-anchor-id="additional-exercises">Additional exercises</h5>
+<ol type="1">
+<li>Create a subdirectory <code>subdir</code> and create a file <code>hello2.txt</code> in it, with content such as <code>Hello to you too!</code>.</li>
+<li>Commit <code>subdir/hello2.txt</code></li>
+</ol>
+<p>Now, using at most the following three commands, can you output the contents of the file you just committed, <code>hello2.txt</code>?</p>
+<ul>
+<li><code>git log</code></li>
+<li><code>git ls-tree</code></li>
+<li><code>git cat-file</code></li>
+</ul>
+</section>
+</section>
+<section id="exercise2-staging-and-stashing" class="level4">
+<h4 class="anchored" data-anchor-id="exercise2-staging-and-stashing">Exercise2 Staging and Stashing</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise2-StagingAndStashing.md">Exercise Two - Staging and Stashing</a></p>
+<p>Learn to exercise precise control over what is added to your commits, with <code>git add -p</code> and <code>git stash</code>.</p>
+<section id="additional-exercise" class="level5">
+<h5 class="anchored" data-anchor-id="additional-exercise">Additional exercise</h5>
+<p>Can you figure out how to use <code>git stash</code> to stash <em>everything that is not staged for commit</em>? (Hint: you’ll need to pass two options to <code>git stash</code>). <a href="https://calebhearth.com/stash-what-git-wouldnt-commit">Solution</a>.</p>
+</section>
+</section>
+<section id="exercise7-rebaseandamend" class="level4">
+<h4 class="anchored" data-anchor-id="exercise7-rebaseandamend">Exercise7 RebaseAndAmend</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise7-RebaseAndAmend.md">Exercise Seven - Rebase and Amend</a></p>
+<section id="additional-exercises-1" class="level5">
+<h5 class="anchored" data-anchor-id="additional-exercises-1">Additional exercises</h5>
+<ol type="1">
+<li>The exercise in the tutorial has you use <code>git commit --amend</code> to change a commit’s message. Can you also use <code>amend</code> to change the <em>contents</em> of the files within the commit?</li>
+<li>Most difficult: the exercise in the tutorial has you use <code>rebase -i</code> to squash some commits. This allows you to combine a number of commits that each contain <em>too little</em> to amount to an atomic commit into one. But suppose you have a commit in your history that contains <em>too much</em> to amount to an atomic commit – i.e.&nbsp;a commit that changes two logically distinct bits of code. How can you use <code>rebase -i</code> to split this commit into two atomic commits? (Hint: you’ll need more commands than just <code>rebase</code>). <a href="https://github.com/kimgr/git-rewrite-guide#split-a-commit">Solution</a>.</li>
+<li>Similarly, can you use <code>rebase -i</code> to completely delete an unwanted commit, as well?</li>
+<li>Oops! You just deleted a commit and it’s all gone from your branch. This is one of the ways in which you could (accidentally) lose work while rebasing. But git wouldn’t be git if you couldn’t undo a rebase. Can you figure out how to restore your previous commit? <a href="https://git-scm.com/docs/git-reflog">Hint</a> <a href="https://jvns.ca/blog/2023/11/06/rebasing-what-can-go-wrong-/#undoing-a-rebase-is-hard">Solution</a></li>
+</ol>
+</section>
+</section>
+<section id="exercise4-merging-and-rerere" class="level4">
+<h4 class="anchored" data-anchor-id="exercise4-merging-and-rerere">Exercise4 Merging and ReReRe</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise4-MergingAndReReRe.md">Exercise4 Merging and ReReRe</a></p>
+<p>Reuse Recorded Resolution is a feature that lets you automate merge conflict resolution (for similar/recurring merge conflicts). This can be especially handy when rebasing, as <a href="https://mindup.medium.com/enable-git-rerere-for-easy-merging-303c6f2dacd3">rebasing can require you to solve the same merge conflict multiple times</a>!</p>
+</section>
+<section id="exercise9-advanced-tools" class="level4">
+<h4 class="anchored" data-anchor-id="exercise9-advanced-tools">Exercise9 Advanced Tools</h4>
+<p><a href="https://github.com/nnja/advanced-git/blob/master/exercises/Exercise9-AdvancedTools.md">Exercise9 Advanced Tools</a></p>
+<p>Notes:</p>
+<ul>
+<li><code>cherry-pick</code> can be very useful for creating atomic git histories. It essentially does the inverse of <code>rebase</code>: rather than replaying the changes on the current branch on top of (typically) <code>main</code> (rebase), it replays the changes from a commit on a <em>different</em> branch on top of the current branch. If your feature branch is a mess, but contains some commits that are nice atomic gems, you may be able to <code>cherry-pick</code> the latter on your <code>main</code> branch!</li>
+<li><code>git bisect</code> is a great debugging tool, especially when used in its automatic mode in conjunction with unit tests. Give the example <a href="https://mlo.io/blog/2020/08/05/debugging-with-git-bisect/">here</a> a go!</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-01-11_advanced-git/</guid>
+  <pubDate>Thu, 11 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Scheduling Scripts</title>
+  <dc:creator>Neha Moopen &amp; Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 2nd November 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bestuursgebouw <del>Bucheliuszaal 6.18, University Library (Utrecht Science Park)</del></li>
+<li><strong>Presentation:</strong> Scheduling Scripts</li>
+<li><strong>Presenter:</strong> Neha Mooopen &amp; Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Automate the boring things using the schedulers on your computers!</p>
+<p>In this edition of the Programming Cafe, we familiarized ourselves with the schedulers available on our operating systems. <em>Windows Task Scheduler</em> &amp; <code>cron</code>. We learnt how we could use these schedulers to automate the execution of scripts. We also touched upon scheduling <code>cron</code> jobs with GitHub Actions.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="900" height="600" src="../../presentations/2023-11-02_scheduling-scripts/slides/2023-11-02_scheduling-scripts.html"></iframe>
+</section>
+<section id="exercise" class="level2">
+<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
+<p>After the presentation, we invite you to try out the scheduler on your operating system yourself!</p>
+<p>We have prepared some R &amp; Python scripts that you can utilize for this. You can download the materials here: <a href="https://github.com/UtrechtUniversity/programming-cafe/raw/main/site/presentations/2023-11-02_scheduling-scripts/exercises/scheduling-scripts.zip">exercises.zip</a>.</p>
+<p>Don’t forget to unzip the folder to an accessible location on your system.</p>
+<section id="windows" class="level3">
+<h3 class="anchored" data-anchor-id="windows">Windows</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<ol type="1">
+<li><p>Go to <code>windows/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it using <em>Windows Task Scheduler</em>.</p></li>
+</ol>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<ol type="1">
+<li><p>Go to <code>windows/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it using <em>Windows Task Scheduler</em>.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="macos" class="level3">
+<h3 class="anchored" data-anchor-id="macos">MacOS</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" aria-controls="tabset-2-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" aria-controls="tabset-2-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" aria-labelledby="tabset-2-1-tab">
+<ol type="1">
+<li><p>Go to <code>macos/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it using <code>cron</code>.</p></li>
+</ol>
+</div>
+<div id="tabset-2-2" class="tab-pane" aria-labelledby="tabset-2-2-tab">
+<ol type="1">
+<li><p>Go to <code>macos/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it using <code>cron</code>.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+<section id="linux" class="level3">
+<h3 class="anchored" data-anchor-id="linux">Linux</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" aria-controls="tabset-3-1" aria-selected="true">R</a></li><li class="nav-item"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" aria-controls="tabset-3-2" aria-selected="false">Python</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" aria-labelledby="tabset-3-1-tab">
+<ol type="1">
+<li><p>Go to <code>linux/r</code> and double-click on <code>scheduling-scripts.Rproj</code> to open RStudio.</p></li>
+<li><p>Open the <code>countdown.R</code> script from your <em>Files</em> pane and run the script once to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it using <code>cron</code>.</p></li>
+</ol>
+</div>
+<div id="tabset-3-2" class="tab-pane" aria-labelledby="tabset-3-2-tab">
+<ol type="1">
+<li><p>Go to <code>linux/python</code> and double-click on <code>countdown.py</code> to open it.</p></li>
+<li><p>Run the script to make sure it works.</p></li>
+<li><p>If the script works fine, you can try scheduling it using <code>cron</code>.</p></li>
+</ol>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li><p><a href="https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows" class="uri">https://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows</a></p></li>
+<li><p><a href="https://itsfoss.com/cron-job/" class="uri">https://itsfoss.com/cron-job/</a></p></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-11-02_scheduling-scripts/</guid>
+  <pubDate>Thu, 02 Nov 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Data Visualization</title>
+  <dc:creator>Neha Moopen &amp; Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-10-05_data-visualization/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 5th October 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Living Lab, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> Data Visualization</li>
+<li><strong>Presenters:</strong> Neha Moopen &amp; Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Borrowing from the <a href="https://github.com/rfordatascience/tidytuesday">#TidyTuesday</a> initiative, we’re analyzing data from <strong>Pet Cats UK</strong>!</p>
+<p>In this edition of the Programming Cafe, we decided to try a coding challenge focused on data visualization that was accessible to all levels of experience.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="900" height="600" src="../../presentations/2023-10-05_data-visualization/slides/2023-10-05_data-visualization.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we’ve gathered below. You can use whatever programming language and packages/libraries you like and we encourage you to work in pairs/groups - so you can learn together!</p>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<section id="inspiration" class="level4">
+<h4 class="anchored" data-anchor-id="inspiration">Inspiration</h4>
+<p><a href="https://www.data-to-viz.com/">from Data to Viz</a></p>
+</section>
+<section id="r-packages" class="level4">
+<h4 class="anchored" data-anchor-id="r-packages">R Packages</h4>
+<ul>
+<li>ggplot2</li>
+<li>leaflet</li>
+<li>move</li>
+<li>moveVis</li>
+</ul>
+</section>
+<section id="python-libraries" class="level4">
+<h4 class="anchored" data-anchor-id="python-libraries">Python Libraries</h4>
+<ul>
+<li>matplotlib</li>
+<li>geopandas</li>
+<li>movingpandas</li>
+<li>(pystac + rioxarray) (to read and visualize sentinel satellite data)</li>
+</ul>
+</section>
+</section>
+<section id="pet-cats-uk" class="level3">
+<h3 class="anchored" data-anchor-id="pet-cats-uk">Pet Cats UK</h3>
+<p><strong>source</strong>: <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md">https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md</a></p>
+<p>The data comes from the <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank for Animal Tracking Data</a> via <a href="https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013">Data is Plural</a>.</p>
+<blockquote class="blockquote">
+<p>Between 2013 and 2017, Roland Kays et al.&nbsp;convinced hundreds of volunteers in the U.S., U.K., Australia, and New Zealand to strap GPS sensors on their pet cats. The aforelinked datasets include each cat’s characteristics (such as age, sex, neuter status, hunting habits) and time-stamped GPS pings.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>When using this dataset, please cite the original article.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Kays R, Dunn RR, Parsons AW, Mcdonald B, Perkins T, Powers S, Shell L, McDonald JL, Cole H, Kikillus H, Woods L, Tindle H, Roetman P (2020) The small home ranges and large local ecological impacts of pet cats. Animal Conservation. <a href="http://dx.doi.org/10.1111/acv.12563">doi:10.1111/acv.12563</a></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Additionally, please cite the Movebank data package:</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>McDonald JL, Cole H (2020) Data from: The small home ranges and large local ecological impacts of pet cats [United Kingdom]. Movebank Data Repository. <a href="http://dx.doi.org/10.5441/001/1.pf315732">doi:10.5441/001/1.pf315732</a></p>
+</blockquote>
+<p>Additional datasets for the <a href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>, <a href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>, and <a href="https://www.datarepository.movebank.org/handle/10255/move.879">New Zealand</a> are also available for download, but they are not included.</p>
+<section id="get-the-data-here" class="level4">
+<h4 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h4>
+<section id="r" class="level5">
+<h5 class="anchored" data-anchor-id="r">R</h5>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(readr)</span>
+<span id="cb1-2"></span>
+<span id="cb1-3">cats_uk <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> readr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
+<span id="cb1-4">cats_uk_reference <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> readr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read_csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code></pre></div>
+</section>
+<section id="python" class="level5">
+<h5 class="anchored" data-anchor-id="python">Python</h5>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pandas <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> pd</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">cats_uk <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pd.read_csv(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
+<span id="cb2-4">cats_uk_reference <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> pd.read_csv(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code></pre></div>
+</section>
+</section>
+<section id="data-dictionary" class="level4">
+<h4 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h4>
+<p>Full dictionaries are available on <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank</a></p>
+<section id="cats_uk.csv" class="level5">
+<h5 class="anchored" data-anchor-id="cats_uk.csv"><code>cats_uk.csv</code></h5>
+<table class="table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 16%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">tag_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">A unique identifier for the tag, provided by the data owner. If the data owner does not provide a tag ID, an internal Movebank tag identifier may sometimes be shown.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">event_id</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">An identifier for the set of values associated with each event, i.e.&nbsp;sensor measurement. A unique event ID is assigned to every time-location or other time-measurement record in Movebank. If multiple measurements are included within a single row of a data file, they will share an event ID. If users import the same sensor measurement to Movebank multiple times, a separate event ID will be assigned to each.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">visible</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Determines whether an event is visible on the Movebank map. Values are calculated automatically, with TRUE indicating the event has not been flagged as an outlier by <code>algorithm_marked_outlier</code>, <code>import_marked_outlier</code> or <code>manually_marked_outlier</code>, or that the user has overridden the results of these outlier attributes using <code>manually_marked_valid</code> = TRUE. Allowed values are TRUE or FALSE.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">timestamp</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The date and time corresponding to a sensor measurement or an estimate derived from sensor measurements.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">location_long</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The geographic longitude of the location as estimated by the sensor. Positive values are east of the Greenwich Meridian, negative values are west of it.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">location_lat</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The geographic longitude of the location as estimated by the sensor. Positive values are east of the Greenwich Meridian, negative values are west of it.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ground_speed</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The estimated ground speed provided by the sensor or calculated between consecutive locations. Units are reportedly m/s, which indicates that there is likely a problem with this data (either the units were reported erroneously or their is an issue with the sensor data).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">height_above_ellipsoid</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The estimated height above the ellipsoid, typically estimated by the tag. Units: meters</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">algorithm_marked_outlier</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Identifies events marked as outliers using a user-selected filter algorithm in Movebank. Outliers have the value TRUE.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">manually_marked_outlier</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Identifies events flagged manually as outliers, typically using the Event Editor in Movebank, and may also include outliers identified using other methods. Outliers have the value TRUE.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">study_name</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The name of the study in Movebank.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cats_uk_reference.csv" class="level5">
+<h5 class="anchored" data-anchor-id="cats_uk_reference.csv"><code>cats_uk_reference.csv</code></h5>
+<table class="table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 14%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">variable</th>
+<th style="text-align: left;">class</th>
+<th style="text-align: left;">description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">tag_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">A unique identifier for the tag, provided by the data owner. If the data owner does not provide a tag ID, an internal Movebank tag identifier may sometimes be shown.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">animal_id</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">An individual identifier for the animal, provided by the data owner. If the data owner does not provide an Animal ID, an internal Movebank animal identifier is sometimes shown.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">animal_taxon</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The scientific name of the species on which the tag was deployed, as defined by the Integrated Taxonomic Information System (ITIS, www.itis.gov). If the species name can not be provided, this should be the lowest level taxonomic rank that can be determined and that is used in the ITIS taxonomy.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">deploy_on_date</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The timestamp when the tag deployment started.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">deploy_off_date</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The timestamp when the tag deployment ended.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hunt</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether the animal was allowed to hunt.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">prey_p_month</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">Approximate number of prey caught by the animal per month.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">animal_reproductive_condition</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The reproductive condition of the animal at the beginning of the deployment.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">animal_sex</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">The sex of the animal, as “m” or “f”.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hrs_indoors</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The average number of hours which the animal was indoors per day.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">n_cats</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The number of cats in the house.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">food_dry</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether the cat was fed dry food.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">food_wet</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether the cat was fed wet food.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">food_other</td>
+<td style="text-align: left;">logical</td>
+<td style="text-align: left;">Whether the cat was fed other food.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">study_site</td>
+<td style="text-align: left;">character</td>
+<td style="text-align: left;">A location such as the deployment site or colony, or a location-related group such as the herd or pack name.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">age_years</td>
+<td style="text-align: left;">double</td>
+<td style="text-align: left;">The age of the animal at the beginning of the deployment, in years. “0” indicates that the animal was &lt; 1 year old.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="example-data-visualizations" class="level3">
+<h3 class="anchored" data-anchor-id="example-data-visualizations">Example Data Visualizations</h3>
+<section id="beginner" class="level4">
+<h4 class="anchored" data-anchor-id="beginner">Beginner</h4>
+<p>Beginners can try:</p>
+<ol type="1">
+<li><p>Reading in the data</p></li>
+<li><p>Plotting the number of cats per household</p></li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-2-1.png" class="img-fluid"></p>
+<ol start="3" type="1">
+<li>Plotting the number of prey caught per year</li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-3-1.png" class="img-fluid"></p>
+<ol start="4" type="1">
+<li>Plotting the number of hours spent indoors</li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-4-1.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li>Plotting the gender of the cats in the dataset</li>
+</ol>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-5-1.png" class="img-fluid"></p>
+<ul>
+<li>Plotting the age of the cats</li>
+</ul>
+<p><img src="https://github.com/MattHondrakis/TidyTuesday/raw/main/2023/01-31-23/UK-Cats_files/figure-gfm/unnamed-chunk-6-1.png" class="img-fluid"></p>
+<p>The above plots are referenced from: <a href="https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md">https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md</a>. The author has code snippets in R showing how they obtained the plots.</p>
+<p>You can get tips on building bar plots in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/histogram.html">https://www.data-to-viz.com/graph/histogram.html</a></p>
+</section>
+<section id="intermediate" class="level4">
+<h4 class="anchored" data-anchor-id="intermediate">Intermediate</h4>
+<p>Intermediate users have two options:</p>
+<section id="creating-a-treemap-of-the-data." class="level5">
+<h5 class="anchored" data-anchor-id="creating-a-treemap-of-the-data.">Creating a <code>treemap</code> of the data.</h5>
+<p><img src="https://github.com/poncest/tidytuesday/raw/main/2023/Week_05/2023_05.png" class="img-fluid"></p>
+<p>The above plot is referenced from: <a href="https://github.com/poncest/tidytuesday/tree/main/2023/Week_05">https://github.com/poncest/tidytuesday/tree/main/2023/Week_05</a>. The author has a script in R showing how they obtained the plot.</p>
+<p>You can get tips on building treemaps in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/treemap.html">https://www.data-to-viz.com/graph/treemap.html</a></p>
+<p>Here is a human-readable breakdown of the steps, provided by ChatGPT:</p>
+<ol type="1">
+<li><strong>Load Packages &amp; Setup:</strong>
+<ul>
+<li>Load necessary software packages using the pacman library.</li>
+<li>Set up the figure size and resolution for plotting.</li>
+</ul></li>
+<li><strong>Read in the Data:</strong>
+<ul>
+<li>Load data for the TidyTuesday challenge for 2023, week 05.</li>
+<li>Clean and organize the data.</li>
+</ul></li>
+<li><strong>Examine the Data:</strong>
+<ul>
+<li>Use glimpse to see the structure of the cats_uk and cats_uk_reference datasets.</li>
+<li>List unique values in the “tag_id” column of both datasets.</li>
+<li>Combine the data using a left join operation and save memory.</li>
+</ul></li>
+<li><strong>Tidy the Data:</strong>
+<ul>
+<li>Remove outliers from the data.</li>
+<li>Convert timestamp data to date format.</li>
+<li>Group and summarize the data based on specific columns.</li>
+<li>Clean and prepare the data for visualization.</li>
+</ul></li>
+<li><strong>Create Visualization:</strong>
+<ul>
+<li>Set up plot aesthetics including colors, titles, and captions.</li>
+<li>Define fonts for text elements.</li>
+<li>Build the main plot using the ggplot2 package with a treemap representation.</li>
+<li>Customize plot labels, colors, and themes to make it visually appealing.</li>
+</ul></li>
+</ol>
+</section>
+<section id="map" class="level5">
+<h5 class="anchored" data-anchor-id="map">Map</h5>
+<p>Try to create a map (e.g.&nbsp;leaflet (R) or geopandas (python)) and plot a gps track on top of it</p>
+<p><img src="https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/intermediate.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="advanced" class="level4">
+<h4 class="anchored" data-anchor-id="advanced">Advanced</h4>
+<p>Advanced users can try plotting the data onto a map and adding an animation element.</p>
+<p><img src="https://github.com/fblpalmeira/cats_uk/blob/main/data/cats_uk_movevis.gif?raw=true" class="img-fluid"></p>
+<p>The above plot is referenced from: <a href="https://github.com/fblpalmeira/cats_uk/blob/main/README.md">https://github.com/fblpalmeira/cats_uk/blob/main/README.md</a>. The author has a script in R showing how they obtained the plot.</p>
+<p>You can get tips on building maps in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/map.html">https://www.data-to-viz.com/graph/map.html</a></p>
+<p>Here is a human-readable breakdown of the steps, provided by ChatGPT:</p>
+<ol type="1">
+<li><p><strong>Read in the Data</strong>: Begin by reading two CSV files from the internet. You can do this using software like R. The files you need are named cats_uk.csv and cats_uk_reference.csv.</p></li>
+<li><p><strong>View the Data</strong>: After reading the data, use a tool or function (like the View function in R) to visually inspect the contents of both data files. This step helps you understand what’s in the data.</p></li>
+<li><p><strong>Load Libraries</strong>: Make sure you have certain software libraries installed and loaded. These libraries include dplyr, move, moveVis, maptools, magrittr, and ggplot2. They provide tools for data manipulation and visualization.</p></li>
+<li><p><strong>Combine and Filter Data</strong>: Use the dplyr library to combine the data from the two CSV files based on a common column called “tag_id.” After combining, filter the data to select only specific cat names like “Bear,” “Coco,” etc.</p></li>
+<li><p><strong>Convert Timestamps</strong>: Convert the timestamps in the filtered data from a text format to a date-time format. This makes it easier to work with time-based data.</p></li>
+<li><p><strong>Create a Move Object</strong>: Using the filtered and timestamp-converted data, create a “move object” that represents the movement of cats. This object specifies the columns for longitude, latitude, time, and track ID.</p></li>
+<li><p><strong>Align Data</strong>: Adjust the timestamps in the move object to align them at a specific resolution, such as daily intervals. This step aggregates the data for each day.</p></li>
+<li><p><strong>Generate Map Frames</strong>: Create map frames to visualize cat movements. You can customize these frames by adding things like labels, a north arrow, and a scale bar.</p></li>
+<li><p><strong>Add Text</strong>: Include text on the map frames, such as a Twitter handle, at a specific location.</p></li>
+<li><p><strong>Preview a Frame</strong>: Optionally, you can preview one of the map frames to see how it looks.</p></li>
+<li><p><strong>Generate an Animation</strong>: Finally, use a function or tool (like animate_frames) to turn the map frames into an animated GIF. This GIF will show the movements of the selected cats over time.</p></li>
+</ol>
+</section>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Will be updated to be more neat, the authors of the data and code and resources retain all their copyright - they are awesome!</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-10-05_data-visualization/</guid>
+  <pubDate>Thu, 05 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Literate Programming</title>
+  <dc:creator>Johan Hidding</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 7th September 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Living Lab, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> Literate Programming</li>
+<li><strong>Presenter:</strong> Johan Hidding</li>
+</ul>
+</div>
+</div>
+<p>Literate Programming in Markdown.</p>
+<p>Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer (<a href="https://www-cs-faculty.stanford.edu/~knuth/lp.html">source</a>).</p>
+<p>Johan Hidding (eScienceCenter) is passionate about literate programming and in this edition of the Programming Cafe, he presented a package that he developed to write Literate Programs in Markdown.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p><em>coming soon</em></p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<ol type="1">
+<li><a href="https://www-cs-faculty.stanford.edu/~knuth/lp.html" class="uri">https://www-cs-faculty.stanford.edu/~knuth/lp.html</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-09-07_literate-programming/</guid>
+  <pubDate>Thu, 07 Sep 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Actions</title>
+  <dc:creator>Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-06-28_github-actions/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 28th June 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> GitHub Actions</li>
+<li><strong>Presenter:</strong> Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>GitHub Actions for Absolute Beginners &amp; Advanced GitHub Users.</p>
+<p>In this edition of the Programming Cafe, Jelle Treep gave a presentation about GitHub Actions. The presentation covered:</p>
+<ul>
+<li>what is GitHub Actions and why should we use it<br>
+</li>
+<li>how to create smart workflows to limit energy use &amp; environmental impact</li>
+</ul>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2023-06-28_github-actions/slides/2023-06-28_github-actions.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>The <a href="../../presentations/2023-06-28_github-actions/exercises/github_actions.html">exercises</a> are a selection from <a href="https://skills.github.com/" class="uri">https://skills.github.com/</a>.</p>
+<section id="beginner-getting-started-with-github" class="level3">
+<h3 class="anchored" data-anchor-id="beginner-getting-started-with-github">Beginner: Getting started With GitHub</h3>
+<ul>
+<li><a href="https://github.com/skills/introduction-to-github">Introduction to GitHub</a></li>
+<li><a href="https://github.com/skills/communicate-using-markdown">Communicate Using Markdown</a></li>
+<li><a href="https://github.com/skills/github-pages">GitHub Pages</a></li>
+</ul>
+</section>
+<section id="intermediate-working-with-github" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate-working-with-github">Intermediate: Working with GitHub</h3>
+<ul>
+<li><a href="https://github.com/skills/review-pull-requests">Review Pull Requests</a></li>
+<li><a href="https://github.com/skills/resolve-merge-conflicts">Resolve Merge Conflicts</a></li>
+</ul>
+</section>
+<section id="advanced-github-actions" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-github-actions">Advanced: GitHub Actions</h3>
+<ul>
+<li><a href="https://docs.github.com/en/actions/quickstart">Quickstart</a></li>
+<li><a href="https://github.com/skills/hello-github-actions">Hello GitHub Actions</a></li>
+<li><a href="https://github.com/skills/continuous-integration">Continuous Integration</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level3">
+<h3 class="anchored" data-anchor-id="further-reading">Further Reading</h3>
+<ul>
+<li><a href="https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python">Build &amp; Test Python</a></li>
+<li><a href="https://github.com/r-lib/actions/blob/v2/examples/render-rmarkdown.yaml">Render RMarkdown Using GitHub Actions</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-06-28_github-actions/</guid>
+  <pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>projectlog</title>
+  <dc:creator>Stefan Vermeent</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 31st May 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/">projectlog: An R package for improving project management and documentation</a></li>
+<li><strong>Presenter:</strong> Stefan Vermeent</li>
+</ul>
+</div>
+</div>
+<p>An R package for improving project management and documentation.</p>
+<p>In this edition of the Programming Cafe, Stefan Vermeent (PhD Candidate, Faculty of Social &amp; Behavioral Sciences) presented <a href="https://stefanvermeent.github.io/projectlog/"><code>projectlog</code></a> - the R package he developed to help researchers manage and document their project from start to finish.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p><em>coming soon</em></p>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>There were no exercises. Attendees followed/coded along with the demo on <code>projectlog</code> or worked on their own projects.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<ol type="1">
+<li><p>Vermeent S (2023). <em>projectlog: Tools for documenting your project workflow.</em> R package version 0.1.0, <a href="https://stefanvermeent.github.io/projectlog/" class="uri">https://stefanvermeent.github.io/projectlog/</a>.</p></li>
+<li><p><a href="https://github.com/StefanVermeent/projectlog" class="uri">https://github.com/StefanVermeent/projectlog</a></p></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-05-31_projectlog/</guid>
+  <pubDate>Wed, 31 May 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Quickstart to Quarto</title>
+  <dc:creator>Neha Moopen</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 26th April 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/">Quickstart to Quarto</a></li>
+<li><strong>Presenter:</strong> Neha Moopen</li>
+</ul>
+</div>
+</div>
+<p>An introduction to Quarto.</p>
+<p><a href="https://quarto.org/">Quarto</a> is an open-source scientific and technical publishing system built on Pandoc. It allows you create dynamic documents which weave text and code together to produce documents, web pages, blog posts, books and more. Developed by Posit (formerly RStudio), it is considered the ‘next-generation’ of R Markdown.</p>
+<p>In this edition of the Programming Cafe, Neha Moopen introduced Quarto and provided a demo on how to build websites with it.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2023-04-26_quickstart-to-quarto/slides/2023-04-26_quickstart-to-quarto.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>There were no exercises prepared in advance. Attendees followed/coded along with the demo on building websites or worked on their own projects.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<ol type="1">
+<li><a href="https://quarto.org/docs/websites/" class="uri">https://quarto.org/docs/websites/</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-04-26_quickstart-to-quarto/</guid>
+  <pubDate>Wed, 26 Apr 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>YODA &amp; iRODS Workflows</title>
+  <dc:creator>Christine Staiger</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 29th March 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/">Programming Data Workflows in Yoda/iRODS</a></li>
+<li><strong>Presenter:</strong> Christine Staiger</li>
+</ul>
+</div>
+</div>
+<p>Master the chaos of data management in Yoda &amp; iRODS!</p>
+<p>In this edition of the Programming Cafe, Christine Staiger presented about the use of annotated data objects and annotating data objects in Yoda &amp; iRODS workflows.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<embed src="../../presentations/2023-03-29_yoda-irods-workflows/slides/2023-03-29_yoda-irods-workflows.pdf" type="application/pdf" width="100%" height="600px">
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>There were no exercises, attendees worked on their own projects.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-03-29_yoda-irods-workflows/</guid>
+  <pubDate>Wed, 29 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Project Management</title>
+  <dc:creator>Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 22th February 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/">Project Management: Good Practices in Managing Your Code &amp; Data Workflows</a></li>
+<li><strong>Presenter:</strong> Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>The basics of reproducible project management.</p>
+<p>In this edition of the Programming Cafe, Jelle Treep presented about good practices in managing code and data. We learnt about project design, code organization, data storage and organization to make our workflows as efficient and reproducible as possible.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2023-02-22_project-management/slides/2023-02-22_project-management.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>There were no exercises, attendees worked on their own projects.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-02-22_project-management/</guid>
+  <pubDate>Wed, 22 Feb 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>GitHub Copilot</title>
+  <dc:creator>Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 25th January 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot">GitHub Copilot</a></li>
+<li><strong>Presenter:</strong> Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Your AI pair programmer!</p>
+<p>In this edition of the Programming Cafe, Jelle Treep introduced us to <a href="https://github.com/features/copilot">GitHub Copilot</a>.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2023-01-25_github-copilot/slides/2023-01-25_github-copilot.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>There were no exercises, a demo of GitHub Copilot was provided instead.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_github-copilot/</guid>
+  <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Polars</title>
+  <dc:creator>Raoul Schram</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 25th January 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars">Polars: Fast DataFrames in Python</a></li>
+<li><strong>Presenter:</strong> Raoul Schram</li>
+</ul>
+</div>
+</div>
+<p>Fast DataFrames in Python</p>
+<p>In this edition of the Programming Cafe, Raoul Schram introduced us to <a href="https://pola.rs/">Polars</a>. Polars is a library for dataframes that has been described as <em>blazingly fast</em> 💨 and <em>lightning-fast</em> ⚡.</p>
+<p>We learnt about how Polars can be used in Python, plus how it stacks up against other popular dataframe libraries.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<embed src="../../presentations/2023-01-25_polars/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px">
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>There were no exercises, a demo of Polars was provided instead.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars/</guid>
+  <pubDate>Wed, 25 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Software Licenses</title>
+  <dc:creator>Jonathan de Bruin</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 30th November 2022</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2024-11-30_software-licenses">Software Licenses</a></li>
+<li><strong>Presenter:</strong> Jonathan de Bruin</li>
+</ul>
+</div>
+</div>
+<p>A deep dive into software licenses.</p>
+<p>In this edition of the Programming Cafe, Jonathan de Bruin led a hands-on discussion about software licenses. There weren’t any slides, but we remembered to take some photos!</p>
+<section id="photos" class="level2">
+<h2 class="anchored" data-anchor-id="photos">Photos</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://utrechtuniversity.github.io/programming-cafe/presentations/2022-11-30_software-licenses/images/software-licenses-1.jpg" class="img-fluid figure-img"></p>
+<figcaption>who has published, which was license was used</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://utrechtuniversity.github.io/programming-cafe/presentations/2022-11-30_software-licenses/images/software-licenses-2.jpg" class="img-fluid figure-img"></p>
+<figcaption>terms and conditions under licenses</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://utrechtuniversity.github.io/programming-cafe/presentations/2022-11-30_software-licenses/images/software-licenses-3.jpg" class="img-fluid figure-img"></p>
+<figcaption>copyright vs.&nbsp;copyleft</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://utrechtuniversity.github.io/programming-cafe/presentations/2022-11-30_software-licenses/images/software-licenses-4.jpg" class="img-fluid figure-img"></p>
+<figcaption>cookies</figcaption>
+</figure>
+</div>
+</section>
+<section id="exercise" class="level2">
+<h2 class="anchored" data-anchor-id="exercise">Exercise</h2>
+<p>Check out <a href="https://choosealicense.com">Choose an open source license | Choose a License</a> and explore which licenses may be suitable for your project.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-11-30_software-licenses/</guid>
+  <pubDate>Wed, 30 Nov 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Code Readability</title>
+  <dc:creator>Neha Moopen</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 26th October 2022</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Bucheliuszaal 6.18, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/">Code Readability: Linters &amp; Formatters in R &amp; Python</a></li>
+<li><strong>Presenter:</strong> Neha Moopen</li>
+</ul>
+</div>
+</div>
+<p>How can you make your code more readable?</p>
+<p>👆 That’s what we discussed in this edition of the Programming Cafe. We learnt about style guides in R <a href="https://style.tidyverse.org/">(the tidyverse style guide)</a> &amp; Python (<a href="https://peps.python.org/pep-0008/">PEP-8</a>) and how we can use linters and (auto)formatters to ensure our code adheres to conventions followed by the community.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/2022-10-26_code-readability/slides/2022-10-26_code-readability.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>The scripts for the exercises can be downloaded via this <em>link</em>. If more convenient, the code has also been included as chunks/blocks below.</p>
+<ul>
+<li>Run a linter through your R and/or Python code and identify style issues.
+<ul>
+<li>Edit your code to improve the style compatibility, based on the feedback from your linter.</li>
+</ul></li>
+<li>Run an (auto)formatter through your R and/or Python code to automatically fix issues instead of simply flagging them.</li>
+</ul>
+<section id="r" class="level3">
+<h3 class="anchored" data-anchor-id="r">R</h3>
+<p>Use the <a href="https://lintr.r-lib.org/"><code>lintr</code></a> &amp; <a href="https://styler.r-lib.org/"><code>styler</code></a> packages to lint and (auto)format the following code:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">fun <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">function</span>(one) {</span>
+<span id="cb1-2">  one.plus.one <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> oen <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-3">  four <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> newVar <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">matrix</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">nrow =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-4">  four[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, ]</span>
+<span id="cb1-5">  txt <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hi"</span></span>
+<span id="cb1-6">  three <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> two <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-7">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">if</span> (txt <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"hi"</span>) <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span></span>
+<span id="cb1-8">  <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span></span>
+<span id="cb1-9">}</span></code></pre></div>
+</div>
+<p>The relevant functions are:</p>
+<ul>
+<li><code>lintr::lint(filename)</code></li>
+<li><code>styler::style_file(filepath)</code></li>
+</ul>
+</section>
+<section id="python" class="level3">
+<h3 class="anchored" data-anchor-id="python">Python</h3>
+<p>Use the <a href="https://pypi.org/project/flake8/"><code>flake8</code></a> &amp; <a href="https://pypi.org/project/black/"><code>black</code></a>` libraries to lint and (auto)format the following code:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">### This is an important function</span></span>
+<span id="cb2-2">some_constant<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb2-3"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">def</span> MYFUNCTION (X ,y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>): </span>
+<span id="cb2-4"> z<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"1"</span>,<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span>y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb2-5"> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">return</span> (</span>
+<span id="cb2-6">        X<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>y  <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span>  some_constant) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#This is a very long comment that about how the condition can be checked directly in the return statement.</span></span>
+<span id="cb2-7"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span></span></code></pre></div>
+</div>
+<p>The relevant functions are:</p>
+<ul>
+<li><code>flake8 path/to/code/to/check.py</code></li>
+<li><code>black {source_file_or_directory}</code></li>
+</ul>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li><a href="https://utrechtuniversity.github.io/workshop-computational-reproducibility/chapters/readability.html" class="uri">https://utrechtuniversity.github.io/workshop-computational-reproducibility/chapters/readability.html</a></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-10-26_code-readability/</guid>
+  <pubDate>Wed, 26 Oct 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Git, GitHub &amp; GitHub Actions</title>
+  <dc:creator>Neha Moopen &amp; Jelle Treep</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Wednesday, 28th September 2022</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Living Lab, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> <a href="https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/">Getting Started With Git, GitHub &amp; GitHub Actions</a></li>
+<li><strong>Presenters:</strong> Neha Moopen &amp; Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Let’s Git Started!</p>
+<p>On 28th September 2022, we had our first Programming Cafe! The Programming Cafe is a ‘relaunch’ of the popular <a href="https://github.com/UtrechtUniversity/R-data-cafe">R Cafe</a>, from the pre-corona days.</p>
+<p>We discussed the use of Git, GitHub &amp; GitHub Actions during this edition of the Programming Cafe. Beginners were shown how to get started with GitHub without any coding, while intermediate/advanced users were introduced to the Git workflow and <a href="https://github.com/features/actions">GitHub Actions</a>.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<p>Check out the slides below:</p>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p>The <a href="../../presentations/2022-09-28_git-and-github/exercises/2022-09-28_git-and-github.html">exercises</a> are a selection from <a href="https://skills.github.com/" class="uri">https://skills.github.com/</a>.</p>
+<section id="beginner-getting-started-with-github" class="level3">
+<h3 class="anchored" data-anchor-id="beginner-getting-started-with-github">Beginner: Getting started With GitHub</h3>
+<ul>
+<li><a href="https://github.com/skills/introduction-to-github">Introduction to GitHub</a></li>
+<li><a href="https://github.com/skills/communicate-using-markdown">Communicate Using Markdown</a></li>
+<li><a href="https://github.com/skills/github-pages">GitHub Pages</a></li>
+</ul>
+</section>
+<section id="intermediate-working-with-github" class="level3">
+<h3 class="anchored" data-anchor-id="intermediate-working-with-github">Intermediate: Working with GitHub</h3>
+<ul>
+<li><a href="https://github.com/skills/review-pull-requests">Review Pull Requests</a></li>
+<li><a href="https://github.com/skills/resolve-merge-conflicts">Resolve Merge Conflicts</a></li>
+</ul>
+</section>
+<section id="advanced-github-actions" class="level3">
+<h3 class="anchored" data-anchor-id="advanced-github-actions">Advanced: GitHub Actions</h3>
+<ul>
+<li><a href="https://docs.github.com/en/actions/quickstart">Quickstart</a></li>
+<li><a href="https://github.com/skills/hello-github-actions">Hello GitHub Actions</a></li>
+<li><a href="https://github.com/skills/continuous-integration">Continuous Integration</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level3">
+<h3 class="anchored" data-anchor-id="further-reading">Further Reading</h3>
+<ul>
+<li><a href="https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python">Build &amp; Test Python</a></li>
+<li><a href="https://github.com/r-lib/actions/blob/v2/examples/render-rmarkdown.yaml">Render RMarkdown Using GitHub Actions</a></li>
+</ul>
+</section>
+</section>
+<section id="utrecht-universitys-github-organization" class="level2">
+<h2 class="anchored" data-anchor-id="utrecht-universitys-github-organization">Utrecht University’s GitHub Organization</h2>
+<p>We greatly encourage the use of Git &amp; GitHub in research projects. Utrecht University maintains a GitHub organization for staff and students: <a href="https://github.com/UtrechtUniversity" class="uri">https://github.com/UtrechtUniversity</a>.</p>
+<p>Here is a video about Utrecht University’s GitHub organization:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/qXfbnz2id8A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/</guid>
+  <pubDate>Wed, 28 Sep 2022 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

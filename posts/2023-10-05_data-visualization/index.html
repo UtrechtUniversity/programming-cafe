@@ -2,10 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Neha Moopen &amp; Jelle Treep">
+<meta name="dcterms.date" content="2023-10-05">
 
 <title>Programming Cafe - Data Visualization</title>
 <style>
@@ -134,8 +136,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Agenda</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../../people.html"> 
+<span class="menu-text">People</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -153,22 +164,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#how-this-will-go" id="toc-how-this-will-go" class="nav-link active" data-scroll-target="#how-this-will-go">How This Will Go</a>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
   <ul class="collapse">
-  <li><a href="#example-libraries-to-use" id="toc-example-libraries-to-use" class="nav-link" data-scroll-target="#example-libraries-to-use">Example libraries to use</a></li>
-  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   <li><a href="#pet-cats-uk" id="toc-pet-cats-uk" class="nav-link" data-scroll-target="#pet-cats-uk">Pet Cats UK</a></li>
-  <li><a href="#get-the-data-here" id="toc-get-the-data-here" class="nav-link" data-scroll-target="#get-the-data-here">Get the data here</a>
-  <ul class="collapse">
-  <li><a href="#r-1" id="toc-r-1" class="nav-link" data-scroll-target="#r-1">R</a></li>
-  <li><a href="#python-1" id="toc-python-1" class="nav-link" data-scroll-target="#python-1">Python</a></li>
-  <li><a href="#data-dictionary" id="toc-data-dictionary" class="nav-link" data-scroll-target="#data-dictionary">Data Dictionary</a></li>
-  </ul></li>
-  <li><a href="#example-data-visualizations" id="toc-example-data-visualizations" class="nav-link" data-scroll-target="#example-data-visualizations">Example Data Visualizations</a>
-  <ul class="collapse">
-  <li><a href="#beginner" id="toc-beginner" class="nav-link" data-scroll-target="#beginner">Beginner</a></li>
-  <li><a href="#intermediate" id="toc-intermediate" class="nav-link" data-scroll-target="#intermediate">Intermediate</a></li>
-  <li><a href="#advanced" id="toc-advanced" class="nav-link" data-scroll-target="#advanced">Advanced</a></li>
+  <li><a href="#example-data-visualizations" id="toc-example-data-visualizations" class="nav-link" data-scroll-target="#example-data-visualizations">Example Data Visualizations</a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
@@ -186,7 +187,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Neha Moopen &amp; Jelle Treep </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 5, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -196,15 +209,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This week’s Programming Cafe is all about <em>Data Visualization</em>! We are borrowing from the <a href="https://github.com/rfordatascience/tidytuesday">#TidyTuesday</a> initiative and we’ll be analyzing data from <strong>Pet Cats UK</strong>.</p>
-<iframe width="900" height="600" src="../../static/2023-10-05_dataviz/2023-10-05_dataviz.html"></iframe>
-<section id="how-this-will-go" class="level2">
-<h2 class="anchored" data-anchor-id="how-this-will-go">How This Will Go</h2>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 5th October 2023</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Living Lab, University Library (Utrecht Science Park)</li>
+<li><strong>Presentation:</strong> Data Visualization</li>
+<li><strong>Presenters:</strong> Neha Moopen &amp; Jelle Treep</li>
+</ul>
+</div>
+</div>
+<p>Borrowing from the <a href="https://github.com/rfordatascience/tidytuesday">#TidyTuesday</a> initiative, we’re analyzing data from <strong>Pet Cats UK</strong>!</p>
+<p>In this edition of the Programming Cafe, we decided to try a coding challenge focused on data visualization that was accessible to all levels of experience.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="900" height="600" src="../../presentations/2023-10-05_data-visualization/slides/2023-10-05_data-visualization.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
 <p>Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we’ve gathered below. You can use whatever programming language and packages/libraries you like and we encourage you to work in pairs/groups - so you can learn together!</p>
-<section id="example-libraries-to-use" class="level3">
-<h3 class="anchored" data-anchor-id="example-libraries-to-use">Example libraries to use</h3>
-<section id="r" class="level4">
-<h4 class="anchored" data-anchor-id="r">R:</h4>
+<section id="resources" class="level3">
+<h3 class="anchored" data-anchor-id="resources">Resources</h3>
+<section id="inspiration" class="level4">
+<h4 class="anchored" data-anchor-id="inspiration">Inspiration</h4>
+<p><a href="https://www.data-to-viz.com/">from Data to Viz</a></p>
+</section>
+<section id="r-packages" class="level4">
+<h4 class="anchored" data-anchor-id="r-packages">R Packages</h4>
 <ul>
 <li>ggplot2</li>
 <li>leaflet</li>
@@ -212,8 +252,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>moveVis</li>
 </ul>
 </section>
-<section id="python" class="level4">
-<h4 class="anchored" data-anchor-id="python">Python:</h4>
+<section id="python-libraries" class="level4">
+<h4 class="anchored" data-anchor-id="python-libraries">Python Libraries</h4>
 <ul>
 <li>matplotlib</li>
 <li>geopandas</li>
@@ -221,15 +261,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>(pystac + rioxarray) (to read and visualize sentinel satellite data)</li>
 </ul>
 </section>
-<section id="inspiration" class="level4">
-<h4 class="anchored" data-anchor-id="inspiration">Inspiration:</h4>
-<p><a href="https://www.data-to-viz.com/">https://www.data-to-viz.com/</a></p>
 </section>
-</section>
-</section>
-<section id="pet-cats-uk" class="level2">
-<h2 class="anchored" data-anchor-id="pet-cats-uk">Pet Cats UK</h2>
-<p><strong>source for much of the text/code: <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md">https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md</a></strong></p>
+<section id="pet-cats-uk" class="level3">
+<h3 class="anchored" data-anchor-id="pet-cats-uk">Pet Cats UK</h3>
+<p><strong>source</strong>: <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md">https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md</a></p>
 <p>The data comes from the <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank for Animal Tracking Data</a> via <a href="https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013">Data is Plural</a>.</p>
 <blockquote class="blockquote">
 <p>Between 2013 and 2017, Roland Kays et al.&nbsp;convinced hundreds of volunteers in the U.S., U.K., Australia, and New Zealand to strap GPS sensors on their pet cats. The aforelinked datasets include each cat’s characteristics (such as age, sex, neuter status, hunting habits) and time-stamped GPS pings.</p>
@@ -247,28 +282,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>McDonald JL, Cole H (2020) Data from: The small home ranges and large local ecological impacts of pet cats [United Kingdom]. Movebank Data Repository. <a href="http://dx.doi.org/10.5441/001/1.pf315732">doi:10.5441/001/1.pf315732</a></p>
 </blockquote>
 <p>Additional datasets for the <a href="https://www.datarepository.movebank.org/handle/10255/move.885">US</a>, <a href="https://www.datarepository.movebank.org/handle/10255/move.876">Australia</a>, and <a href="https://www.datarepository.movebank.org/handle/10255/move.879">New Zealand</a> are also available for download, but they are not included.</p>
-</section>
-<section id="get-the-data-here" class="level2">
-<h2 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h2>
-<section id="r-1" class="level3">
-<h3 class="anchored" data-anchor-id="r-1">R</h3>
+<section id="get-the-data-here" class="level4">
+<h4 class="anchored" data-anchor-id="get-the-data-here">Get the data here</h4>
+<section id="r" class="level5">
+<h5 class="anchored" data-anchor-id="r">R</h5>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="python-1" class="level3">
-<h3 class="anchored" data-anchor-id="python-1">Python</h3>
+<section id="python" class="level5">
+<h5 class="anchored" data-anchor-id="python">Python</h5>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>cats_uk <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk.csv'</span>)</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>cats_uk_reference <span class="op">=</span> pd.read_csv(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="data-dictionary" class="level3">
-<h3 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h3>
+</section>
+<section id="data-dictionary" class="level4">
+<h4 class="anchored" data-anchor-id="data-dictionary">Data Dictionary</h4>
 <p>Full dictionaries are available on <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank</a></p>
-<section id="cats_uk.csv" class="level4">
-<h4 class="anchored" data-anchor-id="cats_uk.csv"><code>cats_uk.csv</code></h4>
+<section id="cats_uk.csv" class="level5">
+<h5 class="anchored" data-anchor-id="cats_uk.csv"><code>cats_uk.csv</code></h5>
 <table class="table">
 <colgroup>
 <col style="width: 41%">
@@ -341,8 +376,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tbody>
 </table>
 </section>
-<section id="cats_uk_reference.csv" class="level4">
-<h4 class="anchored" data-anchor-id="cats_uk_reference.csv"><code>cats_uk_reference.csv</code></h4>
+<section id="cats_uk_reference.csv" class="level5">
+<h5 class="anchored" data-anchor-id="cats_uk_reference.csv"><code>cats_uk_reference.csv</code></h5>
 <table class="table">
 <colgroup>
 <col style="width: 42%">
@@ -442,10 +477,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 </section>
-<section id="example-data-visualizations" class="level2">
-<h2 class="anchored" data-anchor-id="example-data-visualizations">Example Data Visualizations</h2>
-<section id="beginner" class="level3">
-<h3 class="anchored" data-anchor-id="beginner">Beginner</h3>
+<section id="example-data-visualizations" class="level3">
+<h3 class="anchored" data-anchor-id="example-data-visualizations">Example Data Visualizations</h3>
+<section id="beginner" class="level4">
+<h4 class="anchored" data-anchor-id="beginner">Beginner</h4>
 <p>Beginners can try:</p>
 <ol type="1">
 <li><p>Reading in the data</p></li>
@@ -471,11 +506,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The above plots are referenced from: <a href="https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md">https://github.com/MattHondrakis/TidyTuesday/blob/main/2023/01-31-23/UK-Cats.md</a>. The author has code snippets in R showing how they obtained the plots.</p>
 <p>You can get tips on building bar plots in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/histogram.html">https://www.data-to-viz.com/graph/histogram.html</a></p>
 </section>
-<section id="intermediate" class="level3">
-<h3 class="anchored" data-anchor-id="intermediate">Intermediate</h3>
+<section id="intermediate" class="level4">
+<h4 class="anchored" data-anchor-id="intermediate">Intermediate</h4>
 <p>Intermediate users have two options:</p>
-<section id="creating-a-treemap-of-the-data." class="level4">
-<h4 class="anchored" data-anchor-id="creating-a-treemap-of-the-data.">Creating a <code>treemap</code> of the data.</h4>
+<section id="creating-a-treemap-of-the-data." class="level5">
+<h5 class="anchored" data-anchor-id="creating-a-treemap-of-the-data.">Creating a <code>treemap</code> of the data.</h5>
 <p><img src="https://github.com/poncest/tidytuesday/raw/main/2023/Week_05/2023_05.png" class="img-fluid"></p>
 <p>The above plot is referenced from: <a href="https://github.com/poncest/tidytuesday/tree/main/2023/Week_05">https://github.com/poncest/tidytuesday/tree/main/2023/Week_05</a>. The author has a script in R showing how they obtained the plot.</p>
 <p>You can get tips on building treemaps in both R &amp; Python on the following page: <a href="https://www.data-to-viz.com/graph/treemap.html">https://www.data-to-viz.com/graph/treemap.html</a></p>
@@ -513,14 +548,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 </ol>
 </section>
-<section id="map" class="level4">
-<h4 class="anchored" data-anchor-id="map">Map</h4>
+<section id="map" class="level5">
+<h5 class="anchored" data-anchor-id="map">Map</h5>
 <p>Try to create a map (e.g.&nbsp;leaflet (R) or geopandas (python)) and plot a gps track on top of it</p>
 <p><img src="https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/intermediate.png" class="img-fluid"></p>
 </section>
 </section>
-<section id="advanced" class="level3">
-<h3 class="anchored" data-anchor-id="advanced">Advanced</h3>
+<section id="advanced" class="level4">
+<h4 class="anchored" data-anchor-id="advanced">Advanced</h4>
 <p>Advanced users can try plotting the data onto a map and adding an animation element.</p>
 <p><img src="https://github.com/fblpalmeira/cats_uk/blob/main/data/cats_uk_movevis.gif?raw=true" class="img-fluid"></p>
 <p>The above plot is referenced from: <a href="https://github.com/fblpalmeira/cats_uk/blob/main/README.md">https://github.com/fblpalmeira/cats_uk/blob/main/README.md</a>. The author has a script in R showing how they obtained the plot.</p>
@@ -539,6 +574,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p><strong>Preview a Frame</strong>: Optionally, you can preview one of the map frames to see how it looks.</p></li>
 <li><p><strong>Generate an Animation</strong>: Finally, use a function or tool (like animate_frames) to turn the map frames into an animated GIF. This GIF will show the movements of the selected cats over time.</p></li>
 </ol>
+</section>
 </section>
 </section>
 <section id="references" class="level2">
@@ -630,7 +666,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/UtrechtUniversity\.github\.io\/programming-cafe\/");
+      var filterRegex = new RegExp("https:\/\/utrechtuniversity\.github\.io\/programming-cafe\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
