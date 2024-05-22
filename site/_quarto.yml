@@ -6,13 +6,18 @@ execute:
 
 website:
   title: "Programming Cafe"
+  site-url: https://utrechtuniversity.github.io/programming-cafe/
+  description: "Website for the Programming Cafe @UtrechtUniversity."
   navbar:
     right:
       - href: index.qmd
         text: Home
       - about.qmd
       - agenda.qmd
+      - people.qmd
       - posts.qmd
+      - icon: rss
+        href: index.xml
   repo-url: https://github.com/UtrechtUniversity/programming-cafe/
   repo-subdir: site
   repo-branch: main
@@ -22,6 +27,4 @@ format:
   html:
     theme: pulse
     toc: true
-
-
-
+    

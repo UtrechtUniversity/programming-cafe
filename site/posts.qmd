@@ -1,7 +1,9 @@
 ---
 title: "Posts"
+format: "html"
 listing: 
-  contents: posts 
-  type: default 
+  contents: posts
   sort: "date desc"
+  type: default 
+  feed: true
 ---

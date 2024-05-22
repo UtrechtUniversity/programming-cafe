@@ -1,0 +1,31 @@
+---
+title: "Polars"
+date: "2023-01-25"
+author: "Raoul Schram"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 25th January 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Polars: Fast DataFrames in Python](https://utrechtuniversity.github.io/programming-cafe/posts/2023-01-25_polars)
+- **Presenter:** Raoul Schram
+
+:::
+
+Fast DataFrames in Python
+
+In this edition of the Programming Cafe, Raoul Schram introduced us to [Polars](https://pola.rs/). Polars is a library for dataframes that has been described as _blazingly fast_ 💨 and _lightning-fast_ ⚡.  
+
+We learnt about how Polars can be used in Python, plus how it stacks up against other popular dataframe libraries.
+
+## Slides
+
+<embed src="../../presentations/2023-01-25_polars/slides/2023-01-25_polars.pdf" type="application/pdf" width="100%" height="600px" />
+
+## Exercises
+
+There were no exercises, a demo of Polars was provided instead.
+

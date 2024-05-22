@@ -1,0 +1,34 @@
+---
+title: "Software Licenses"
+date: "2022-11-30"
+author: "Jonathan de Bruin"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 30th November 2022
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Software Licenses](https://utrechtuniversity.github.io/programming-cafe/posts/2024-11-30_software-licenses)
+- **Presenter:** Jonathan de Bruin
+
+:::
+
+A deep dive into software licenses.
+
+In this edition of the Programming Cafe, Jonathan de Bruin led a hands-on discussion about software licenses. There weren't any slides, but we remembered to take some photos!
+
+## Photos
+
+![who has published, which was license was used](../../presentations/2022-11-30_software-licenses/images/software-licenses-1.jpg)
+
+![terms and conditions under licenses](../../presentations/2022-11-30_software-licenses/images/software-licenses-2.jpg)
+
+![copyright vs. copyleft](../../presentations/2022-11-30_software-licenses/images/software-licenses-3.jpg)
+
+![cookies](../../presentations/2022-11-30_software-licenses/images/software-licenses-4.jpg)
+
+## Exercise
+
+Check out [Choose an open source license | Choose a License](https://choosealicense.com) and explore which licenses may be suitable for your project.

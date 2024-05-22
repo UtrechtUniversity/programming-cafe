@@ -1,0 +1,56 @@
+---
+title: "GitHub Actions"
+date: "2023-06-28"
+author: "Jelle Treep"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Wednesday, 28th June 2023
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** GitHub Actions
+- **Presenter:** Jelle Treep
+
+:::
+
+GitHub Actions for Absolute Beginners & Advanced GitHub Users.
+
+In this edition of the Programming Cafe, Jelle Treep gave a presentation about GitHub Actions. The presentation covered:
+  
+-   what is GitHub Actions and why should we use it  
+-   how to create smart workflows to limit energy use & environmental impact  
+
+## Slides
+
+```{=html}
+<iframe width="1050" height="700" src="../../presentations/2023-06-28_github-actions/slides/2023-06-28_github-actions.html"></iframe>
+```
+
+## Exercises
+
+The [exercises](../../presentations/2023-06-28_github-actions/exercises/github_actions.md) are a selection from <https://skills.github.com/>.
+
+### Beginner: Getting started With GitHub
+
+- [Introduction to GitHub](https://github.com/skills/introduction-to-github)
+- [Communicate Using Markdown](https://github.com/skills/communicate-using-markdown)
+- [GitHub Pages](https://github.com/skills/github-pages)
+
+### Intermediate: Working with GitHub
+
+- [Review Pull Requests](https://github.com/skills/review-pull-requests)
+- [Resolve Merge Conflicts](https://github.com/skills/resolve-merge-conflicts)
+
+### Advanced: GitHub Actions
+
+- [Quickstart](https://docs.github.com/en/actions/quickstart)
+- [Hello GitHub Actions](https://github.com/skills/hello-github-actions)
+- [Continuous Integration](https://github.com/skills/continuous-integration)
+
+### Further Reading
+
+- [Build & Test Python](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+- [Render RMarkdown Using GitHub Actions](https://github.com/r-lib/actions/blob/v2/examples/render-rmarkdown.yaml)
+

@@ -1,0 +1,39 @@
+---
+title: "Packaging in Python & R"
+date: "2024-03-07"
+author: "Raoul Schram & Jelle Treep"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Thursday, 7th March 2024
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Creating Your Own Python & R Packages](https://utrechtuniversity.github.io/programming-cafe/posts/2024-03-07_packaging/)
+- **Presenters:** Raoul Schram & Jelle Treep
+
+:::
+
+Ever wanted to build your own R/Python package?
+
+If you work with Python and R, you will have undoubtedly used packages (e.g. `numpy`, `pandas`, `ggplot2`, `tidyr`). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this edition of the Programming Cafe, we discuss:
+
+- what a package is, 
+- when and why it is a good idea to create a packages, 
+- how to create a package and some best practices when creating packages. 
+
+We will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the Programming Cafe, with experts in the room to help you!
+
+## Slides
+
+```{=html}
+<iframe width="1050" height="700" src="../../presentations/2024-03-07_packaging/slides/2024-03-07_packaging.html"></iframe>
+```
+
+## Exercises
+
+- **R tutorial:** <https://edu.nl/prn4j>
+- **Python Poetry tutorial:** <https://edu.nl/wuewu>
+- **Python Setuptools tutorial:**  <https://edu.nl/vytqk>
+

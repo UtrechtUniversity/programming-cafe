@@ -1,0 +1,31 @@
+---
+title: "Introduction to Julia"
+date: "2024-02-08"
+author: "Emilia Jarochowska"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Thursday, 8th February 2024
+- **Time:** 15:00-17:00
+- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
+- **Presentation:** [Demo of the Julia Programming Language](https://utrechtuniversity.github.io/programming-cafe/posts/2024-02-08_julia/)
+- **Presenter:**  Emilia Jarochowska
+
+:::
+
+Who or What is Julia?
+
+Julia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.
+
+## Slides
+
+```{=html}
+<iframe width="1050" height="700" src="../../presentations/2024-02-08_julia/slides/2024-02-08_julia.html"></iframe>
+```
+
+## Exercises
+
+1. [Installation](../../presentations/2024-02-08_julia/exercises/Installation.md)
+2. [Exercises](../../presentations/2024-02-08_julia/exercises/Julia_exercises.md)

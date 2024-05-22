@@ -1,35 +1,7 @@
-# Agenda
-
-:::
-
-::: {.callout-note icon=false}
-## Programming Cafe April 2024
-
-- **Date:** Thursday, 4th April
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Parallel programming is ~~not~~ easy](https://github.com/LukasvdWiel/parProgIsEasy/blob/main/parallelProgramming.pdf) (by Lukas van de Wiel) & [Intro slides](https://utrechtuniversity.github.io/programming-cafe/slides/parallel-programming)
-- Do you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing  (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g. simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some [hands on exercises](https://github.com/UtrechtUniversity/programming-cafe/tree/main/exercises/parallel-programming) so you can practice writing some parallel code yourself!
-
-<a href='https://www.uu.nl/en/node/133010/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add April edition to calendar</button>
-</a>
-
-:::
-
-::: {.callout-note icon=false}
-## Programming Cafe May 2024
-
-- **Date:** Thursday, 2nd May
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** tbd
-
-<a href='https://www.uu.nl/en/node/133012/ics' download="Programming-Cafe">
-<button type="button" class="btn btn-primary btn-sm">Add May edition to calendar</button>
-</a>
-
-:::
+---
+title: Agenda
+format: "html"
+---
 
 ::: {.callout-note icon=false}
 
@@ -38,7 +10,7 @@
 - **Date:** Thursday, 6th June
 - **Time:** 15:00-17:00
 - **Location:** Buys Ballotgebouw 1.69, Utrecht Science Park
-- **Demo/Presentation: TBD** 
+- **Demo/Presentation:** Managing Coding Environments With Conda & Docker / Environment Management in R & Python 
 - This edition is hosted at the faculty of Science, however everyone is welcome as always!
 
 <a href='https://www.uu.nl/en/node/138938/ics' download="Programming-Cafe">
@@ -62,117 +34,58 @@
 
 :::
 
-## Past Programming Cafes
+## Previous Editions
 
-### Programming Cafe March 2024
+### 2024
 
-- **Date:** Thursday, 7th March
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Creating your own Python and R packages (by Raoul Schram and Jelle Treep)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-03-07_packaging/intro-slides.html)
-- If you are working with Python and R, undoubtedly you will have used packages (e.g. numpy, pandas, ggplot2 or tidyr). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this programming cafe we discuss what a package is, when and why it is a good idea to create a packages, how to create a package and some best practices when creating packages. We will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the programming cafe and experts in the room to help you!
+- _July_
+- _Managing Coding Environments With Conda & Docker / Environment Management in R & Python_
+- [Pluto.jl, Interactive Notebooks for Julia](posts/2024-05-02_pluto/index.qmd)
+- [Parallel Programming Is ~~Not~~ Easy](posts/2024-04-04_parallel-programming/index.qmd)
+- [Creating Your Own Python & R Packages](posts/2024-03-07_packaging/index.qmd)
+- [Demo of the Julia Programming Language](posts/2024-02-08_julia/index.qmd) 
+- [Advanced Git](posts/2024-01-11_advanced-git/index.qmd)
 
-### Programming Cafe February 2024
+### 2023
 
-- **Date:** Thursday, 8th February
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Demo of the Julia Programming Language (by Emilia Jarochowska)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-02-08_Julia/Julia_intro_beamer.html)
+- [Scheduling Scripts](posts/2023-11-02_scheduling-scripts/index.qmd)
+- [Data Visualization](posts/2023-10-05_data-visualization/index.qmd)
+- [Literate Programming](posts/2023-09-07_literate-programming/index.qmd)
+- [GitHub Actions for Absolute Beginners & Advanced GitHub Users](posts/2023-06-28_github-actions/index.qmd)
+- [projectlog: An R Package for Improving Project Management & Documentation](posts/2023-05-31_projectlog/index.qmd)
+- [Quickstart to Quarto](posts/2023-04-26_quickstart-to-quarto/index.qmd)
+- [Programming Data Workflows in Yoda/iRODS](posts/2023-03-29_yoda-irods-workflows/index.qmd)
+- [Project Management: Good Practices in Managing Your Code & Data Workflows](posts/2023-02-22_project-management/index.qmd)
+- [Polars: Fast DataFrames in Python](posts/2023-01-25_polars/index.qmd) & [GitHub Copilot](posts/2023-01-25_github-copilot/index.qmd)
 
-Julia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran.
+### 2022
 
-
-### Programming Cafe January 2024
-
-- **Date:** Thursday, 11th January
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Advanced Git](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2024-01-11_advanced-git/slides.html) (by Dawa Ometto)
-
-You've started using git for version control but are still puzzled by things as rebasing, merge conflict resolution, and pull request workflows? Then this Programming Café is for you! We’ll help you practice with intermediate-to-advanced uses of git, and also showcase some less known but handy ways in which you can use git during your development process.
-
-- Basic knowledge of git (e.g. cloning a repository and staging/committing your changes) is assumed for the audience of the presentation.
-- For beginners we have a set of suggested exercises (and helpers) to get started with Git and GitHub.
-- For more advanced users, we may also delve into some of git’s “plumbing” to help you understand just what is going on when you type “git commit”.
-
-### September 2023
-- **Date:** Thursday, 7th June
-- **Time:** 15:00-17:00
-- **Location:** Living Lab, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Literate Programming
-Literate programming is a programming paradigm introduced by Donald Knuth in which a program is given as an explanation of the program logic in a natural language, such as English, interspersed with snippets of macros and traditional source code, from which a compilable source code can be generated. (Wikipedia) Johan Hidding (eScienceCenter) is passionate about literate programming and developed a package that helps you write Literate Programs in Markdown.
+- [Software Licenses](posts/2022-11-30_software-licenses/index.qmd)
+- [Code Readability: Linters & Formatters in R & Python](posts/2022-10-26_code-readability/index.qmd)
+- [Getting Started With Git, GitHub & GitHub Actions](posts/2022-09-28_git-and-github/index.qmd)
 
 
-### June 2023
-
-- **Date:** Wednesday, 28th June
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:**
-
-**GitHub Actions for absolute beginners and advanced GitHub users:**  
--   What is it and why should you use it  
--   How to create smart workflows to limit energy use & environmental impact  
-
-### May 2023
-
-- **Date:** Wednesday, 31st May
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** 
-
-**projectlog: An R package for improving project management and documentation**
-by Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences)
-
-### April 2023
-
-- **Date:** Wednesday, 26th April
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Introduction to and Creating Websites with Quarto [(slides)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2023-04-26_quickstart-to-quarto/2023-04-26_quickstart-to-quarto.html)
-
-### March 2023
-
-- **Date:** Wednesday, 29th March
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Programming Data Workflows in Yoda/iRODS](https://github.com/UtrechtUniversity/programming-cafe-presentations/blob/main/presentations/2023_03_29_YODA_Python.pdf)
-
-### February 2023
-
-- **Date:** Wednesday, 22th February
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Good Practices in Managing Your Code & Data Workflows: [Project management](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2023-02-22_projects-workflows/2023-02-22_project-management.html)
-
-### January 2023
-
-- **Date:** Wednesday, 25th January
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Polars: fast DataFrames in Python](https://github.com/UtrechtUniversity/programming-cafe-presentations/blob/main/presentations/2023-01-25_polars-copilot/polars.pdf) & [GitHub Copilot Demo (all languages)](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2023-01-25_polars-copilot/2023-01-25_github-copilot.html)
-
-### November 2022
-
-- **Date:** Wednesday, 30th November
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** Software Licenses
-
-### October 2022
-
-- **Date:** Wednesday, 26th October
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Code Readability: Linters & Formatters in R & Python](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2022-10-26_code-readability/2022-10-26_code-readability.html)
 
 
-### September 2022
 
-- **Date:** Wednesday, 28th September
-- **Time:** 15:00-17:00
-- **Location:** Bucheliuszaal 6.18, University Library (Utrecht Science Park)
-- **Demo/Presentation:** [Getting Started With Git, GitHub and GitHub Actions](https://utrechtuniversity.github.io/programming-cafe-presentations/presentations/2022-09-28_git-and-github/2022-09-28_git-and-github.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

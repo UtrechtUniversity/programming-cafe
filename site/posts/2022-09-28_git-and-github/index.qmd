@@ -1,20 +1,64 @@
 ---
-title: "Git & GitHub"
+title: "Git, GitHub & GitHub Actions"
+date: "2022-09-28"
+author: "Neha Moopen & Jelle Treep"
+format: "html"
 ---
 
-We greatly encourage using Git and GitHub in research projects. The UU has published a video about the UU GitHub page:
+::: {.callout-note icon=false}
 
-{{< video https://www.youtube.com/embed/qXfbnz2id8A >}}
+- **Date:** Wednesday, 28th September 2022
+- **Time:** 15:00-17:00
+- **Location:** Living Lab, University Library (Utrecht Science Park)
+- **Presentation:** [Getting Started With Git, GitHub & GitHub Actions](https://utrechtuniversity.github.io/programming-cafe/posts/2022-09-28_git-and-github/)
+- **Presenters:** Neha Moopen & Jelle Treep
 
+:::
 
-We discussed the use of Git and GitHub during the first edition of the programming cafe.
+Let's Git Started!
 
-Check out the slide below and do some [exercises](https://github.com/UtrechtUniversity/programming-cafe/exercises/git-and-github/git-and-github.md) to get started.
+On 28th September 2022, we had our first Programming Cafe! The Programming Cafe is a 'relaunch' of the popular [R Cafe](https://github.com/UtrechtUniversity/R-data-cafe), from the pre-corona days.
 
-The UU GitHub page can be found [here](https://github.com/UtrechtUniversity).
+We discussed the use of Git, GitHub & GitHub Actions during this edition of the Programming Cafe. Beginners were shown how to get started with GitHub without any coding, while intermediate/advanced users were introduced to the Git workflow and [GitHub Actions](https://github.com/features/actions). 
+
+## Slides
+
+Check out the slides below:
 
 ```{=html}
-<iframe width="1050" height="700" src="../../static/2022-09-28_git-and-github/2022-09-28_git-and-github-speaker.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/2022-09-28_git-and-github/slides/2022-09-28_git-and-github.html"></iframe>
 ```
 
+## Exercises
 
+The [exercises](../../presentations/2022-09-28_git-and-github/exercises/2022-09-28_git-and-github.md) are a selection from <https://skills.github.com/>.
+
+### Beginner: Getting started With GitHub
+
+- [Introduction to GitHub](https://github.com/skills/introduction-to-github)
+- [Communicate Using Markdown](https://github.com/skills/communicate-using-markdown)
+- [GitHub Pages](https://github.com/skills/github-pages)
+
+### Intermediate: Working with GitHub
+
+- [Review Pull Requests](https://github.com/skills/review-pull-requests)
+- [Resolve Merge Conflicts](https://github.com/skills/resolve-merge-conflicts)
+
+### Advanced: GitHub Actions
+
+- [Quickstart](https://docs.github.com/en/actions/quickstart)
+- [Hello GitHub Actions](https://github.com/skills/hello-github-actions)
+- [Continuous Integration](https://github.com/skills/continuous-integration)
+
+### Further Reading
+
+- [Build & Test Python](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
+- [Render RMarkdown Using GitHub Actions](https://github.com/r-lib/actions/blob/v2/examples/render-rmarkdown.yaml)
+
+## Utrecht University's GitHub Organization
+
+We greatly encourage the use of Git & GitHub in research projects. Utrecht University maintains a GitHub organization for staff and students: <https://github.com/UtrechtUniversity>. 
+
+Here is a video about Utrecht University's GitHub organization: 
+
+{{< video https://www.youtube.com/embed/qXfbnz2id8A >}}

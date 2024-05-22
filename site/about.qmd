@@ -1,5 +1,6 @@
 ---
 title: "About"
+format: "html"
 ---
 
 During the Programming Cafe, we will share knowledge about programming through short presentations and also help each other with challenges in working with code and data.

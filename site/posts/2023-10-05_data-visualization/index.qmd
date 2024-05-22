@@ -1,39 +1,57 @@
 ---
 title: "Data Visualization"
+date: "2023-10-05"
+author: "Neha Moopen & Jelle Treep"
+format: "html"
 ---
 
-This week's Programming Cafe is all about _Data Visualization_! We are borrowing from the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative and we'll be analyzing data from **Pet Cats UK**.
+::: {.callout-note icon=false}
+
+- **Date:** Thursday, 5th October 2023
+- **Time:** 15:00-17:00
+- **Location:** Living Lab, University Library (Utrecht Science Park)
+- **Presentation:** Data Visualization
+- **Presenters:** Neha Moopen & Jelle Treep
+
+:::
+
+Borrowing from the [#TidyTuesday](https://github.com/rfordatascience/tidytuesday) initiative, we're analyzing data from **Pet Cats UK**!
+
+In this edition of the Programming Cafe, we decided to try a coding challenge focused on data visualization that was accessible to all levels of experience.
+
+## Slides
 
 ```{=html}
-<iframe width="900" height="600" src="../../static/2023-10-05_dataviz/2023-10-05_dataviz.html"></iframe>
+<iframe width="900" height="600" src="../../presentations/2023-10-05_data-visualization/slides/2023-10-05_data-visualization.html"></iframe>
 ```
 
-## How This Will Go
+## Exercises
 
 Once you have gotten hold of the data, you can attempt to reproduce some of the example visualizations (beginner, intermediate, advanced) we've gathered below. You can use whatever programming language and packages/libraries you like and we encourage you to work in pairs/groups - so you can learn together! 
 
-### Example libraries to use
+### Resources
 
-#### R:
+#### Inspiration
+
+[from Data to Viz](https://www.data-to-viz.com/)
+
+#### R Packages
 
 - ggplot2
 - leaflet
 - move
 - moveVis
 
-#### Python:
+#### Python Libraries
 
 - matplotlib
 - geopandas
 - movingpandas
 - (pystac + rioxarray) (to read and visualize sentinel satellite data)
 
-#### Inspiration:
-[https://www.data-to-viz.com/](https://www.data-to-viz.com/)
+### Pet Cats UK
 
-## Pet Cats UK
-
-**source for much of the text/code: [https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md](https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md)**
+**source**: [https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md](https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-01-31/readme.md)
 
 The data comes from the [Movebank for Animal Tracking Data](https://www.datarepository.movebank.org/handle/10255/move.882) via [Data is Plural](https://themarkup.org/data-is-plural/2023/01/25/from-jazz-solos-to-cats-on-the-move#:~:text=Giuseppe%20Sollazzo%5D-,Cats%20on%20the%20move,-.%20Between%202013). 
 
@@ -49,9 +67,9 @@ The data comes from the [Movebank for Animal Tracking Data](https://www.datarepo
 
 Additional datasets for the [US](https://www.datarepository.movebank.org/handle/10255/move.885), [Australia](https://www.datarepository.movebank.org/handle/10255/move.876), and [New Zealand](https://www.datarepository.movebank.org/handle/10255/move.879) are also available for download, but they are not included.
 
-## Get the data here
+#### Get the data here
 
-### R
+##### R
 
 ``` r
 library(readr)
@@ -60,7 +78,7 @@ cats_uk <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/ti
 cats_uk_reference <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')
 ```
 
-### Python
+##### Python
 
 ``` python
 import pandas as pd
@@ -69,11 +87,11 @@ cats_uk = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytue
 cats_uk_reference = pd.read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2023/2023-01-31/cats_uk_reference.csv')
 ```
 
-### Data Dictionary
+#### Data Dictionary
 
 Full dictionaries are available on [Movebank](https://www.datarepository.movebank.org/handle/10255/move.882)
 
-#### `cats_uk.csv`
+##### `cats_uk.csv`
 
 |variable                 |class     |description              |
 |:------------------------|:---------|:------------------------|
@@ -89,7 +107,7 @@ Full dictionaries are available on [Movebank](https://www.datarepository.moveban
 |manually_marked_outlier         |logical   |Identifies events flagged manually as outliers, typically using the Event Editor in Movebank, and may also include outliers identified using other methods. Outliers have the value TRUE.|
 |study_name                      |character |The name of the study in Movebank.|
 
-#### `cats_uk_reference.csv`
+##### `cats_uk_reference.csv`
 
 |variable                      |class     |description                   |
 |:-----------------------------|:---------|:-----------------------------|
@@ -110,9 +128,9 @@ Full dictionaries are available on [Movebank](https://www.datarepository.moveban
 |study_site                    |character |A location such as the deployment site or colony, or a location-related group such as the herd or pack name.|
 |age_years                     |double    |The age of the animal at the beginning of the deployment, in years. "0" indicates that the animal was < 1 year old.|
 
-## Example Data Visualizations
+### Example Data Visualizations
 
-### Beginner
+#### Beginner
 
 Beginners can try:
 
@@ -143,11 +161,11 @@ The author has code snippets in R showing how they obtained the plots.
 
 You can get tips on building bar plots in both R & Python on the following page: [https://www.data-to-viz.com/graph/histogram.html](https://www.data-to-viz.com/graph/histogram.html)
 
-### Intermediate
+#### Intermediate
 
 Intermediate users have two options: 
 
-#### Creating a `treemap` of the data.
+##### Creating a `treemap` of the data.
 
 ![](https://github.com/poncest/tidytuesday/raw/main/2023/Week_05/2023_05.png)
 
@@ -182,13 +200,13 @@ Here is a human-readable breakdown of the steps, provided by ChatGPT:
     - Build the main plot using the ggplot2 package with a treemap representation.
     - Customize plot labels, colors, and themes to make it visually appealing.
 
-#### Map
+##### Map
 
 Try to create a map (e.g. leaflet (R) or geopandas (python)) and plot a gps track on top of it
 
 ![](https://raw.githubusercontent.com/UtrechtUniversity/programming-cafe/main/presentations/2023-10-05_dataviz/images/intermediate.png)
 
-### Advanced
+#### Advanced
 
 Advanced users can try plotting the data onto a map and adding an animation element.
 

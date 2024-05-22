@@ -1,6 +1,10 @@
 docs/
+site/_site/
+
 
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+.quarto
+site/.quarto

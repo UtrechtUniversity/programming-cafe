@@ -1,0 +1,23 @@
+---
+title: People
+format: "html"
+---
+
+## Team
+
+- Jelle Treep
+- Neha Moopen
+
+## Presenters
+
+- Jelle Treep
+- Neha Moopen
+- Jonathan de Bruin
+- Raoul Schram
+- Christine Staiger
+- Stefan Vermeent
+- Johan Hidding
+- Dawa Ometto
+- Emilia Jarochowska
+- Luka van de Wiel
+- Luka van der Plas
