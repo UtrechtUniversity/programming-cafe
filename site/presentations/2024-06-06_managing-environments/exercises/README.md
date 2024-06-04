@@ -8,21 +8,21 @@ You can find more information about the use of Venv [here](https://packaging.pyt
 2. Create a folder called GPT4All
 3. Open a terminal in this folder and create a new environment
    
-...* Linux/Mac `python -m venv .venv`
+...Linux/Mac `python -m venv .venv`
 
-...* Windows `py -m venv .venv`    
+...Windows `py -m venv .venv`    
 5. Activate your new environment
 
-...* Linux/Mac `source .venv/bin/activate`
+...Linux/Mac `source .venv/bin/activate`
 
-...* Windows `.venv\Scripts\activate`
+...Windows `.venv\Scripts\activate`
 6. Install GPT4All using `pip install gpt4all typer`
 7. Download this [file](https://github.com/nomic-ai/gpt4all/blob/main/gpt4all-bindings/cli/app.py)
 8. Run the chatbot
 
-...* Linux/Mac `python app.py repl`
+...Linux/Mac `python app.py repl`
 
-...* Windows `py app.py repl`
+...Windows `py app.py repl`
 
 You just installed and ran your own chatbot in a virtual environment.
 
