@@ -26,7 +26,25 @@ You can find more information on the use of Renv [here](https://rstudio.github.i
 1. If not already installed, you can download and install R and RStudio from [here]([https://www.python.org/downloads/](https://posit.co/download/rstudio-desktop/)).
 2. Create a new project in a new folder called NetworkD3
 3. Open the console of RStudio and install Renv `install.packages("renv")`
-4. Activate your new
+4. Activate your new environment `renv::init()`
+5. Install NetworkD3 `install.packages("networkD3")`
+6. Run the following code
+   ```r
+   # Load package
+library(networkD3)
+
+# Create fake data
+src <- c("A", "A", "A", "A",
+        "B", "B", "C", "C", "D")
+target <- c("B", "C", "D", "J",
+            "E", "F", "G", "H", "I")
+networkData <- data.frame(src, target)
+
+# Plot
+simpleNetwork(networkData)
+```
+
+Now you can see a folder called renv in you project that contains all the installed packages
 
 ## [Conda](https://www.anaconda.com/download) (beginner)
 
