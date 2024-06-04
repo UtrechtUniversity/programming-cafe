@@ -2,7 +2,7 @@
 Virtual environments are very useful in order to avoid breaking dependencies across projects and improve reusability of your code. Multiple options are available in for each language and for each purpose. For this session, we will focus on the most commonly used solutions in Python and R: Venv, Renv, Conda, Docker and chroot.
 
 ## [Venv for Python](https://docs.python.org/3/library/venv.html) (beginner)
-You can find more information about the use of Venv [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/). In this part we will try to install an open source chatbot that will run on you own machine. For that, we will use the software [GPT4All](https://github.com/nomic-ai/gpt4all) that is open source and optimized to run with or without a GPU on your computer. A desktop application is available for this software (that is really great) but we will use the [Python version](https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-bindings/python) for this tutorial.
+You can find more information on the use of Venv [here](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/). In this part we will try to install an open source chatbot that will run on you own machine. For that, we will use the software [GPT4All](https://github.com/nomic-ai/gpt4all) that is open source and optimized to run with or without a GPU on your computer. A desktop application is available for this software (that is really great) but we will use the [Python version](https://github.com/nomic-ai/gpt4all/tree/main/gpt4all-bindings/python) for this tutorial.
 
 1. If not already installed, you can download and install Python from [here](https://www.python.org/downloads/)
 2. Create a folder called GPT4All
@@ -21,6 +21,12 @@ You can find more information about the use of Venv [here](https://packaging.pyt
 You just installed and ran your own chatbot in a virtual environment.
 
 ## [Renv for R](https://rstudio.github.io/renv/) (beginner)
+You can find more information on the use of Renv [here](https://rstudio.github.io/renv/). In this part we will try to install the library [NetworkD3](https://christophergandrud.github.io/networkD3/) that is used to display graph networks. 
+
+1. If not already installed, you can download and install R and RStudio from [here]([https://www.python.org/downloads/](https://posit.co/download/rstudio-desktop/)).
+2. Create a new project in a new folder called NetworkD3
+3. Open the console of RStudio and install Renv `install.packages("renv")`
+4. Activate your new
 
 ## [Conda](https://www.anaconda.com/download) (beginner)
 
