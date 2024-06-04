@@ -9,7 +9,7 @@
 <link>https://utrechtuniversity.github.io/programming-cafe/posts.html</link>
 <atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website for the Programming Cafe @UtrechtUniversity.</description>
-<generator>quarto-1.4.554</generator>
+<generator>quarto-1.4.555</generator>
 <lastBuildDate>Thu, 02 May 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Pluto.jl</title>
@@ -629,7 +629,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 <p>Full dictionaries are available on <a href="https://www.datarepository.movebank.org/handle/10255/move.882">Movebank</a></p>
 <section id="cats_uk.csv" class="level5">
 <h5 class="anchored" data-anchor-id="cats_uk.csv"><code>cats_uk.csv</code></h5>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 41%">
 <col style="width: 16%">
@@ -703,7 +703,7 @@ font-style: inherit;">'https://raw.githubusercontent.com/rfordatascience/tidytue
 </section>
 <section id="cats_uk_reference.csv" class="level5">
 <h5 class="anchored" data-anchor-id="cats_uk_reference.csv"><code>cats_uk_reference.csv</code></h5>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 42%">
 <col style="width: 14%">
