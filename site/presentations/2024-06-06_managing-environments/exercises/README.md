@@ -29,8 +29,9 @@ You can find more information on the use of Renv [here](https://rstudio.github.i
 4. Activate your new environment `renv::init()`
 5. Install NetworkD3 `install.packages("networkD3")`
 6. Run the following code
-   ```r
-   # Load package
+
+```r
+# Load package
 library(networkD3)
 
 # Create fake data
@@ -47,5 +48,9 @@ simpleNetwork(networkData)
 Now you can see a folder called renv in you project that contains all the installed packages
 
 ## [Conda](https://www.anaconda.com/download) (beginner)
+Aside from the language-specific environments, a very popular solution in data-science is [Conda](https://www.anaconda.com/download). In this part, we will use a [Jupyter Notebook](https://docs.anaconda.com/free/navigator/tutorials/r-lang/) for data processing in R.
 
 ## [Docker](https://docs.docker.com/get-started/) and [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/) (advanced)
+For more complex dependencies across mutliple languages and compatibility accross OS, [Docker](https://docs.docker.com/get-started/) is the most used solution. Other solutions offer the same advantages like [Podman](https://podman.io/). For this part, we will follow the tutorial of [Docker](https://docs.docker.com/get-started/) and try to understand what is happening when using Docker.
+
+As a light-weight alternative to containers when needing to run unknown code on a Linux machine, [chroot](https://www.howtogeek.com/441534/how-to-use-the-chroot-command-on-linux/) is a good choice. For example, chroot is used to securely run students code handed out for programming assignments in an automatic way on our instance of [DOMjudge](https://domjudge.uu.nl/). 
