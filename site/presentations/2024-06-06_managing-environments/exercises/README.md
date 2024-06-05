@@ -12,9 +12,10 @@ You can find more information on the use of Venv [here](https://packaging.python
 5. Activate your new environment
 * Linux/Mac `source .venv/bin/activate`
 * Windows `.venv\Scripts\activate`
-6. Install GPT4All using `pip install gpt4all typer`
-7. Download this [file](https://github.com/nomic-ai/gpt4all/blob/main/gpt4all-bindings/cli/app.py)
-8. Run the chatbot
+6. Check that your terminal now shows `(.venv)`
+7. Install GPT4All using `pip install gpt4all typer`
+8. Download this [file](https://github.com/nomic-ai/gpt4all/blob/main/gpt4all-bindings/cli/app.py)
+9. Run the chatbot
 * Linux/Mac `python app.py repl`
 * Windows `py app.py repl`
 
@@ -23,7 +24,7 @@ You just installed and ran your own chatbot in a virtual environment.
 ## [Renv for R](https://rstudio.github.io/renv/) (beginner)
 You can find more information on the use of Renv [here](https://rstudio.github.io/renv/). In this part we will try to install the library [NetworkD3](https://christophergandrud.github.io/networkD3/) that is used to display graph networks. 
 
-1. If not already installed, you can download and install R and RStudio from [here]([https://www.python.org/downloads/](https://posit.co/download/rstudio-desktop/)).
+1. If not already installed, you can download and install R and RStudio from [here](https://posit.co/download/rstudio-desktop/).
 2. Create a new project in a new folder called NetworkD3
 3. Open the console of RStudio and install Renv `install.packages("renv")`
 4. Activate your new environment `renv::init()`
