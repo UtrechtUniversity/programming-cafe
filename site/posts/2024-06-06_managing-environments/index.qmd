@@ -19,6 +19,11 @@ Do you often get stuck in programming when working on different projects because
 ## Slides
 
 ```{=html}
+<embed src="../../presentations/2024-06-06_managing-environments/slides/Programming Café.pdf" width="1050px" height="700px" />
+```
+
+
+```{=html}
 <iframe width="1050" height="700" src="../../presentations/2024-06-06_managing-environments/slides/2024-06-06_intro-slides.html"></iframe>
 ```
 
