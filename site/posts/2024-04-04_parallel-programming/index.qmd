@@ -22,7 +22,7 @@ Do you want to perform many calculations or large analyses that would take very 
 ## Slides
 
 ```{=html}
-<embed src="../../presentations/2024-04-04_parallel-programming/slides/parallelProgramming.pdf" width="800px" height="2100px" />
+<embed src="../../presentations/2024-04-04_parallel-programming/slides/parallelProgramming.pdf" width="1050px" height="700px" />
 ```
 
 
