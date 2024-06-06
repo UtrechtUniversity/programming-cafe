@@ -2,6 +2,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/2024-06-06_managing-environments/index.html",
       "/posts/2024-05-02_pluto/index.html",
       "/posts/2024-04-04_parallel-programming/index.html",
       "/posts/2024-03-07_packaging/index.html",

@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Pluto.jl\n\n\n\n\n\n\n\n\n\n\n\nMay 2, 2024\n\n\nLuka van der Plas\n\n\n\n\n\n\n\n\n\n\n\n\nParallel Programming\n\n\n\n\n\n\n\n\n\n\n\nApr 4, 2024\n\n\nLuka van de Wiel\n\n\n\n\n\n\n\n\n\n\n\n\nPackaging in Python & R\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2024\n\n\nRaoul Schram & Jelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Julia\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nEmilia Jarochowska\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Git\n\n\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nDawa Ometto\n\n\n\n\n\n\n\n\n\n\n\n\nScheduling Scripts\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nNeha Moopen & Jelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nNeha Moopen & Jelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nLiterate Programming\n\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\nJohan Hidding\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\n\n\n\n\n\n\nJun 28, 2023\n\n\nJelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nprojectlog\n\n\n\n\n\n\n\n\n\n\n\nMay 31, 2023\n\n\nStefan Vermeent\n\n\n\n\n\n\n\n\n\n\n\n\nQuickstart to Quarto\n\n\n\n\n\n\n\n\n\n\n\nApr 26, 2023\n\n\nNeha Moopen\n\n\n\n\n\n\n\n\n\n\n\n\nYODA & iRODS Workflows\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nChristine Staiger\n\n\n\n\n\n\n\n\n\n\n\n\nProject Management\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nJelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub Copilot\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nJelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nPolars\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nRaoul Schram\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware Licenses\n\n\n\n\n\n\n\n\n\n\n\nNov 30, 2022\n\n\nJonathan de Bruin\n\n\n\n\n\n\n\n\n\n\n\n\nCode Readability\n\n\n\n\n\n\n\n\n\n\n\nOct 26, 2022\n\n\nNeha Moopen\n\n\n\n\n\n\n\n\n\n\n\n\nGit, GitHub & GitHub Actions\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\nNeha Moopen & Jelle Treep\n\n\n\n\n\n\nNo matching items"
+    "text": "Managing Environments\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2024\n\n\nLibio Goncalves Braz\n\n\n\n\n\n\n\n\n\n\n\n\nPluto.jl\n\n\n\n\n\n\n\n\n\n\n\nMay 2, 2024\n\n\nLuka van der Plas\n\n\n\n\n\n\n\n\n\n\n\n\nParallel Programming\n\n\n\n\n\n\n\n\n\n\n\nApr 4, 2024\n\n\nLuka van de Wiel\n\n\n\n\n\n\n\n\n\n\n\n\nPackaging in Python & R\n\n\n\n\n\n\n\n\n\n\n\nMar 7, 2024\n\n\nRaoul Schram & Jelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nIntroduction to Julia\n\n\n\n\n\n\n\n\n\n\n\nFeb 8, 2024\n\n\nEmilia Jarochowska\n\n\n\n\n\n\n\n\n\n\n\n\nAdvanced Git\n\n\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nDawa Ometto\n\n\n\n\n\n\n\n\n\n\n\n\nScheduling Scripts\n\n\n\n\n\n\n\n\n\n\n\nNov 2, 2023\n\n\nNeha Moopen & Jelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nData Visualization\n\n\n\n\n\n\n\n\n\n\n\nOct 5, 2023\n\n\nNeha Moopen & Jelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nLiterate Programming\n\n\n\n\n\n\n\n\n\n\n\nSep 7, 2023\n\n\nJohan Hidding\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub Actions\n\n\n\n\n\n\n\n\n\n\n\nJun 28, 2023\n\n\nJelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nprojectlog\n\n\n\n\n\n\n\n\n\n\n\nMay 31, 2023\n\n\nStefan Vermeent\n\n\n\n\n\n\n\n\n\n\n\n\nQuickstart to Quarto\n\n\n\n\n\n\n\n\n\n\n\nApr 26, 2023\n\n\nNeha Moopen\n\n\n\n\n\n\n\n\n\n\n\n\nYODA & iRODS Workflows\n\n\n\n\n\n\n\n\n\n\n\nMar 29, 2023\n\n\nChristine Staiger\n\n\n\n\n\n\n\n\n\n\n\n\nProject Management\n\n\n\n\n\n\n\n\n\n\n\nFeb 22, 2023\n\n\nJelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nGitHub Copilot\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nJelle Treep\n\n\n\n\n\n\n\n\n\n\n\n\nPolars\n\n\n\n\n\n\n\n\n\n\n\nJan 25, 2023\n\n\nRaoul Schram\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware Licenses\n\n\n\n\n\n\n\n\n\n\n\nNov 30, 2022\n\n\nJonathan de Bruin\n\n\n\n\n\n\n\n\n\n\n\n\nCode Readability\n\n\n\n\n\n\n\n\n\n\n\nOct 26, 2022\n\n\nNeha Moopen\n\n\n\n\n\n\n\n\n\n\n\n\nGit, GitHub & GitHub Actions\n\n\n\n\n\n\n\n\n\n\n\nSep 28, 2022\n\n\nNeha Moopen & Jelle Treep\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-02-22_project-management/index.html",
@@ -84,172 +84,200 @@
     "text": "References\n\nhttps://utrechtuniversity.github.io/workshop-computational-reproducibility/chapters/readability.html"
   },
   {
-    "objectID": "posts/2023-01-25_polars/index.html",
-    "href": "posts/2023-01-25_polars/index.html",
-    "title": "Polars",
+    "objectID": "posts/2022-09-28_git-and-github/index.html",
+    "href": "posts/2022-09-28_git-and-github/index.html",
+    "title": "Git, GitHub & GitHub Actions",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 25th January 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Polars: Fast DataFrames in Python\nPresenter: Raoul Schram\nFast DataFrames in Python\nIn this edition of the Programming Cafe, Raoul Schram introduced us to Polars. Polars is a library for dataframes that has been described as blazingly fast 💨 and lightning-fast ⚡.\nWe learnt about how Polars can be used in Python, plus how it stacks up against other popular dataframe libraries."
+    "text": "Note\n\n\n\n\nDate: Wednesday, 28th September 2022\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nPresentation: Getting Started With Git, GitHub & GitHub Actions\nPresenters: Neha Moopen & Jelle Treep\nLet’s Git Started!\nOn 28th September 2022, we had our first Programming Cafe! The Programming Cafe is a ‘relaunch’ of the popular R Cafe, from the pre-corona days.\nWe discussed the use of Git, GitHub & GitHub Actions during this edition of the Programming Cafe. Beginners were shown how to get started with GitHub without any coding, while intermediate/advanced users were introduced to the Git workflow and GitHub Actions."
   },
   {
-    "objectID": "posts/2023-01-25_polars/index.html#slides",
-    "href": "posts/2023-01-25_polars/index.html#slides",
-    "title": "Polars",
+    "objectID": "posts/2022-09-28_git-and-github/index.html#slides",
+    "href": "posts/2022-09-28_git-and-github/index.html#slides",
+    "title": "Git, GitHub & GitHub Actions",
+    "section": "Slides",
+    "text": "Slides\nCheck out the slides below:"
+  },
+  {
+    "objectID": "posts/2022-09-28_git-and-github/index.html#exercises",
+    "href": "posts/2022-09-28_git-and-github/index.html#exercises",
+    "title": "Git, GitHub & GitHub Actions",
+    "section": "Exercises",
+    "text": "Exercises\nThe exercises are a selection from https://skills.github.com/.\n\nBeginner: Getting started With GitHub\n\nIntroduction to GitHub\nCommunicate Using Markdown\nGitHub Pages\n\n\n\nIntermediate: Working with GitHub\n\nReview Pull Requests\nResolve Merge Conflicts\n\n\n\nAdvanced: GitHub Actions\n\nQuickstart\nHello GitHub Actions\nContinuous Integration\n\n\n\nFurther Reading\n\nBuild & Test Python\nRender RMarkdown Using GitHub Actions"
+  },
+  {
+    "objectID": "posts/2022-09-28_git-and-github/index.html#utrecht-universitys-github-organization",
+    "href": "posts/2022-09-28_git-and-github/index.html#utrecht-universitys-github-organization",
+    "title": "Git, GitHub & GitHub Actions",
+    "section": "Utrecht University’s GitHub Organization",
+    "text": "Utrecht University’s GitHub Organization\nWe greatly encourage the use of Git & GitHub in research projects. Utrecht University maintains a GitHub organization for staff and students: https://github.com/UtrechtUniversity.\nHere is a video about Utrecht University’s GitHub organization:"
+  },
+  {
+    "objectID": "posts/2023-03-29_yoda-irods-workflows/index.html",
+    "href": "posts/2023-03-29_yoda-irods-workflows/index.html",
+    "title": "YODA & iRODS Workflows",
+    "section": "",
+    "text": "Note\n\n\n\n\nDate: Wednesday, 29th March 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Programming Data Workflows in Yoda/iRODS\nPresenter: Christine Staiger\nMaster the chaos of data management in Yoda & iRODS!\nIn this edition of the Programming Cafe, Christine Staiger presented about the use of annotated data objects and annotating data objects in Yoda & iRODS workflows."
+  },
+  {
+    "objectID": "posts/2023-03-29_yoda-irods-workflows/index.html#slides",
+    "href": "posts/2023-03-29_yoda-irods-workflows/index.html#slides",
+    "title": "YODA & iRODS Workflows",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "posts/2023-01-25_polars/index.html#exercises",
-    "href": "posts/2023-01-25_polars/index.html#exercises",
-    "title": "Polars",
+    "objectID": "posts/2023-03-29_yoda-irods-workflows/index.html#exercises",
+    "href": "posts/2023-03-29_yoda-irods-workflows/index.html#exercises",
+    "title": "YODA & iRODS Workflows",
     "section": "Exercises",
-    "text": "Exercises\nThere were no exercises, a demo of Polars was provided instead."
+    "text": "Exercises\nThere were no exercises, attendees worked on their own projects."
   },
   {
-    "objectID": "posts/2023-09-07_literate-programming/index.html",
-    "href": "posts/2023-09-07_literate-programming/index.html",
-    "title": "Literate Programming",
+    "objectID": "posts/2024-03-07_packaging/index.html",
+    "href": "posts/2024-03-07_packaging/index.html",
+    "title": "Packaging in Python & R",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Thursday, 7th September 2023\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nPresentation: Literate Programming\nPresenter: Johan Hidding\nLiterate Programming in Markdown.\nLiterate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer (source).\nJohan Hidding (eScienceCenter) is passionate about literate programming and in this edition of the Programming Cafe, he presented a package that he developed to write Literate Programs in Markdown."
+    "text": "Note\n\n\n\n\nDate: Thursday, 7th March 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Creating Your Own Python & R Packages\nPresenters: Raoul Schram & Jelle Treep\nEver wanted to build your own R/Python package?\nIf you work with Python and R, you will have undoubtedly used packages (e.g. numpy, pandas, ggplot2, tidyr). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this edition of the Programming Cafe, we discuss:\nWe will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the Programming Cafe, with experts in the room to help you!"
   },
   {
-    "objectID": "posts/2023-09-07_literate-programming/index.html#slides",
-    "href": "posts/2023-09-07_literate-programming/index.html#slides",
-    "title": "Literate Programming",
+    "objectID": "posts/2024-03-07_packaging/index.html#slides",
+    "href": "posts/2024-03-07_packaging/index.html#slides",
+    "title": "Packaging in Python & R",
     "section": "Slides",
-    "text": "Slides\ncoming soon"
+    "text": "Slides"
   },
   {
-    "objectID": "posts/2023-09-07_literate-programming/index.html#reference",
-    "href": "posts/2023-09-07_literate-programming/index.html#reference",
-    "title": "Literate Programming",
-    "section": "Reference",
-    "text": "Reference\n\nhttps://www-cs-faculty.stanford.edu/~knuth/lp.html"
-  },
-  {
-    "objectID": "posts/2024-05-02_pluto/index.html",
-    "href": "posts/2024-05-02_pluto/index.html",
-    "title": "Pluto.jl",
-    "section": "",
-    "text": "Note\n\n\n\n\nDate: Thursday, 2nd May 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Pluto.jl, Interactive Notebooks for Julia\nPresenter: Lukas van de Wiel\nInteractive Notebooks for Julia and More.\nAre you curious about how scientific computing can be more accessible and fun? Pluto is a programming environment for Julia designed to be just that. In a simple, intuitive environment, you can create lightweight, reproducible notebooks that react instantly to your ideas. In this edition of the Programming Cafe, Luka van der Plas (Developer at the Research Software Lab) will tell you what Pluto is, and how it can benefit researchers and educators."
-  },
-  {
-    "objectID": "posts/2024-05-02_pluto/index.html#slides",
-    "href": "posts/2024-05-02_pluto/index.html#slides",
-    "title": "Pluto.jl",
-    "section": "Slides",
-    "text": "Slides\ncoming soon"
-  },
-  {
-    "objectID": "posts/2024-05-02_pluto/index.html#exercises",
-    "href": "posts/2024-05-02_pluto/index.html#exercises",
-    "title": "Pluto.jl",
+    "objectID": "posts/2024-03-07_packaging/index.html#exercises",
+    "href": "posts/2024-03-07_packaging/index.html#exercises",
+    "title": "Packaging in Python & R",
     "section": "Exercises",
-    "text": "Exercises\ncoming soon"
+    "text": "Exercises\n\nR tutorial: https://edu.nl/prn4j\nPython Poetry tutorial: https://edu.nl/wuewu\nPython Setuptools tutorial: https://edu.nl/vytqk"
   },
   {
-    "objectID": "posts/2022-11-30_software-licenses/index.html",
-    "href": "posts/2022-11-30_software-licenses/index.html",
-    "title": "Software Licenses",
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html",
+    "title": "Scheduling Scripts",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 30th November 2022\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Software Licenses\nPresenter: Jonathan de Bruin\nA deep dive into software licenses.\nIn this edition of the Programming Cafe, Jonathan de Bruin led a hands-on discussion about software licenses. There weren’t any slides, but we remembered to take some photos!"
+    "text": "Note\n\n\n\n\nDate: Wednesday, 2nd November 2023\nTime: 15:00-17:00\nLocation: Bestuursgebouw Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Scheduling Scripts\nPresenter: Neha Mooopen & Jelle Treep\nAutomate the boring things using the schedulers on your computers!\nIn this edition of the Programming Cafe, we familiarized ourselves with the schedulers available on our operating systems. Windows Task Scheduler & cron. We learnt how we could use these schedulers to automate the execution of scripts. We also touched upon scheduling cron jobs with GitHub Actions."
   },
   {
-    "objectID": "posts/2022-11-30_software-licenses/index.html#photos",
-    "href": "posts/2022-11-30_software-licenses/index.html#photos",
-    "title": "Software Licenses",
-    "section": "Photos",
-    "text": "Photos\n\n\n\nwho has published, which was license was used\n\n\n\n\n\nterms and conditions under licenses\n\n\n\n\n\ncopyright vs. copyleft\n\n\n\n\n\ncookies"
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#slides",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html#slides",
+    "title": "Scheduling Scripts",
+    "section": "Slides",
+    "text": "Slides"
   },
   {
-    "objectID": "posts/2022-11-30_software-licenses/index.html#exercise",
-    "href": "posts/2022-11-30_software-licenses/index.html#exercise",
-    "title": "Software Licenses",
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
+    "title": "Scheduling Scripts",
     "section": "Exercise",
-    "text": "Exercise\nCheck out Choose an open source license | Choose a License and explore which licenses may be suitable for your project."
+    "text": "Exercise\nAfter the presentation, we invite you to try out the scheduler on your operating system yourself!\nWe have prepared some R & Python scripts that you can utilize for this. You can download the materials here: exercises.zip.\nDon’t forget to unzip the folder to an accessible location on your system.\n\nWindows\n\nRPython\n\n\n\nGo to windows/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it using Windows Task Scheduler.\n\n\n\n\nGo to windows/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it using Windows Task Scheduler.\n\n\n\n\n\n\nMacOS\n\nRPython\n\n\n\nGo to macos/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it using cron.\n\n\n\n\nGo to macos/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it using cron.\n\n\n\n\n\n\nLinux\n\nRPython\n\n\n\nGo to linux/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it using cron.\n\n\n\n\nGo to linux/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it using cron."
   },
   {
-    "objectID": "posts/2023-01-25_github-copilot/index.html",
-    "href": "posts/2023-01-25_github-copilot/index.html",
-    "title": "GitHub Copilot",
+    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#references",
+    "href": "posts/2023-11-02_scheduling-scripts/index.html#references",
+    "title": "Scheduling Scripts",
+    "section": "References",
+    "text": "References\n\nhttps://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows\nhttps://itsfoss.com/cron-job/"
+  },
+  {
+    "objectID": "posts/2023-05-31_projectlog/index.html",
+    "href": "posts/2023-05-31_projectlog/index.html",
+    "title": "projectlog",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 25th January 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: GitHub Copilot\nPresenter: Jelle Treep\nYour AI pair programmer!\nIn this edition of the Programming Cafe, Jelle Treep introduced us to GitHub Copilot."
+    "text": "Note\n\n\n\n\nDate: Wednesday, 31st May 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: projectlog: An R package for improving project management and documentation\nPresenter: Stefan Vermeent\nAn R package for improving project management and documentation.\nIn this edition of the Programming Cafe, Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences) presented projectlog - the R package he developed to help researchers manage and document their project from start to finish."
   },
   {
-    "objectID": "posts/2023-01-25_github-copilot/index.html#slides",
-    "href": "posts/2023-01-25_github-copilot/index.html#slides",
-    "title": "GitHub Copilot",
+    "objectID": "posts/2023-05-31_projectlog/index.html#slides",
+    "href": "posts/2023-05-31_projectlog/index.html#slides",
+    "title": "projectlog",
     "section": "Slides",
-    "text": "Slides"
+    "text": "Slides\ncoming soon"
   },
   {
-    "objectID": "posts/2023-01-25_github-copilot/index.html#exercises",
-    "href": "posts/2023-01-25_github-copilot/index.html#exercises",
-    "title": "GitHub Copilot",
+    "objectID": "posts/2023-05-31_projectlog/index.html#exercises",
+    "href": "posts/2023-05-31_projectlog/index.html#exercises",
+    "title": "projectlog",
     "section": "Exercises",
-    "text": "Exercises\nThere were no exercises, a demo of GitHub Copilot was provided instead."
+    "text": "Exercises\nThere were no exercises. Attendees followed/coded along with the demo on projectlog or worked on their own projects."
   },
   {
-    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html",
-    "href": "posts/2023-04-26_quickstart-to-quarto/index.html",
-    "title": "Quickstart to Quarto",
-    "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 26th April 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Quickstart to Quarto\nPresenter: Neha Moopen\nAn introduction to Quarto.\nQuarto is an open-source scientific and technical publishing system built on Pandoc. It allows you create dynamic documents which weave text and code together to produce documents, web pages, blog posts, books and more. Developed by Posit (formerly RStudio), it is considered the ‘next-generation’ of R Markdown.\nIn this edition of the Programming Cafe, Neha Moopen introduced Quarto and provided a demo on how to build websites with it."
-  },
-  {
-    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html#slides",
-    "href": "posts/2023-04-26_quickstart-to-quarto/index.html#slides",
-    "title": "Quickstart to Quarto",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html#exercises",
-    "href": "posts/2023-04-26_quickstart-to-quarto/index.html#exercises",
-    "title": "Quickstart to Quarto",
-    "section": "Exercises",
-    "text": "Exercises\nThere were no exercises prepared in advance. Attendees followed/coded along with the demo on building websites or worked on their own projects."
-  },
-  {
-    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html#reference",
-    "href": "posts/2023-04-26_quickstart-to-quarto/index.html#reference",
-    "title": "Quickstart to Quarto",
+    "objectID": "posts/2023-05-31_projectlog/index.html#reference",
+    "href": "posts/2023-05-31_projectlog/index.html#reference",
+    "title": "projectlog",
     "section": "Reference",
-    "text": "Reference\n\nhttps://quarto.org/docs/websites/"
+    "text": "Reference\n\nVermeent S (2023). projectlog: Tools for documenting your project workflow. R package version 0.1.0, https://stefanvermeent.github.io/projectlog/.\nhttps://github.com/StefanVermeent/projectlog"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programming Cafe",
+    "objectID": "posts/2024-02-08_julia/index.html",
+    "href": "posts/2024-02-08_julia/index.html",
+    "title": "Introduction to Julia",
     "section": "",
-    "text": "Welcome to the website of the Programming Cafe @Utrecht University!\nThe Programming Cafe is a community event open to everyone interested in code and software for scientific research. It is held on the first Thursday of every month, usually at the University Library (Utrecht Science Park).\nYou can learn more about the Programming Cafe on our About page. Our Agenda lists upcoming and previous editions of the Programming Cafe, while the Posts contain the slides and exercises per edition. Last but not least, the Programming Cafe would not be what it is without it’s People!"
+    "text": "Note\n\n\n\n\nDate: Thursday, 8th February 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Demo of the Julia Programming Language\nPresenter: Emilia Jarochowska\nWho or What is Julia?\nJulia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran."
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Programming Cafe",
-    "section": "About",
-    "text": "About"
+    "objectID": "posts/2024-02-08_julia/index.html#slides",
+    "href": "posts/2024-02-08_julia/index.html#slides",
+    "title": "Introduction to Julia",
+    "section": "Slides",
+    "text": "Slides"
   },
   {
-    "objectID": "index.html#agenda-previous-editions",
-    "href": "index.html#agenda-previous-editions",
-    "title": "Programming Cafe",
-    "section": "Agenda & Previous Editions",
-    "text": "Agenda & Previous Editions"
+    "objectID": "posts/2024-02-08_julia/index.html#exercises",
+    "href": "posts/2024-02-08_julia/index.html#exercises",
+    "title": "Introduction to Julia",
+    "section": "Exercises",
+    "text": "Exercises\n\nInstallation\nExercises"
   },
   {
-    "objectID": "index.html#people",
-    "href": "index.html#people",
-    "title": "Programming Cafe",
-    "section": "People",
-    "text": "People"
+    "objectID": "posts/2024-04-04_parallel-programming/index.html",
+    "href": "posts/2024-04-04_parallel-programming/index.html",
+    "title": "Parallel Programming",
+    "section": "",
+    "text": "Note\n\n\n\n\nDate: Thursday, 4th April 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Parallel programming is not easy\nPresenter: Lukas van de Wiel\nSpeed up your HPC workflow!\nDo you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g. simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some hands on exercises so you can practice writing some parallel code yourself!"
   },
   {
-    "objectID": "index.html#posts",
-    "href": "index.html#posts",
-    "title": "Programming Cafe",
-    "section": "Posts",
-    "text": "Posts"
+    "objectID": "posts/2024-04-04_parallel-programming/index.html#slides",
+    "href": "posts/2024-04-04_parallel-programming/index.html#slides",
+    "title": "Parallel Programming",
+    "section": "Slides",
+    "text": "Slides"
+  },
+  {
+    "objectID": "posts/2024-04-04_parallel-programming/index.html#exercises",
+    "href": "posts/2024-04-04_parallel-programming/index.html#exercises",
+    "title": "Parallel Programming",
+    "section": "Exercises",
+    "text": "Exercises\n\nPythonR\n\n\nThere are many ways to speed up your code in Python, and also many ways to parallelize your code. The Parallel Programming in Python course that is co-developed and taught by the eScience Center is a great way to learn more about this in more detail. Below is a notebook that will introduce you to the multiprocessing library in Python, and a link to some the course materials of the above course about dask.\n\n1. multiprocessing library\nDownload the notebook from the notebooks (link missing) folder and follow the instructions in the notebook.\n\n\n2. dask and profilers\nCheckout this cool tutorial on dask and measuring performance from the Parallel Programming in Python course (by the eScience Center).\n\n\nOptional:\nBrowse the Parallel Programming in Python course to see what other topics might be interesting for you, and feel free to try out some of the code examples.\n\n\n\nThere are different approaches to parallel programming in R. One package that can be used is the doFuture package in combination with the foreach package.\ninstall.packages(\"doFuture\")\ninstall.packages('foreach')\nFollow this tutorial on how to use this package and stop at the section Writing code that runs on multiple nodes.\nTry now to use the same method for doing some computations in parallel. For example:\nestimate_pi &lt;- function(N) {\n    j &lt;- 0\n    for (i in 1:N) {\n        x &lt;- runif(1,-1,1)\n        y &lt;- runif(1,-1,1)\n        if (x^2+y^2&lt; 1)  {\n            j=j+1\n        }\n    }\nreturn(4*j/N)\n}\nTip: There are two approaches: either parallelize the function, or run the function in parallel with batched inputs. Try both, think on forehand what would be the more useful approach and why and compare the results."
+  },
+  {
+    "objectID": "posts/2024-04-04_parallel-programming/index.html#references",
+    "href": "posts/2024-04-04_parallel-programming/index.html#references",
+    "title": "Parallel Programming",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Jelle Treep\nNeha Moopen"
+  },
+  {
+    "objectID": "people.html#team",
+    "href": "people.html#team",
+    "title": "People",
+    "section": "",
+    "text": "Jelle Treep\nNeha Moopen"
+  },
+  {
+    "objectID": "people.html#presenters",
+    "href": "people.html#presenters",
+    "title": "People",
+    "section": "Presenters",
+    "text": "Presenters\n\nJelle Treep\nNeha Moopen\nJonathan de Bruin\nRaoul Schram\nChristine Staiger\nStefan Vermeent\nJohan Hidding\nDawa Ometto\nEmilia Jarochowska\nLuka van de Wiel\nLuka van der Plas"
   },
   {
     "objectID": "about.html",
@@ -287,200 +315,193 @@
     "text": "More information\nThe Programming Café will take place on a monthly basis, and it will last about two hours (usually towards the end of the workday). Registration is not required. To stay up to date on the planning and themes, check or agenda or keep an eye on the website of Research Data Management Support and the agenda on the intranet.\n\nWalk-in hours for research data and software\nFor hands-on support on all questions related to research data and/or software, we also have the Walk-In Hours for Data & Software which takes place every Monday from 15:00-17:00."
   },
   {
-    "objectID": "people.html",
-    "href": "people.html",
-    "title": "People",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Programming Cafe",
     "section": "",
-    "text": "Jelle Treep\nNeha Moopen"
+    "text": "Welcome to the website of the Programming Cafe @Utrecht University!\nThe Programming Cafe is a community event open to everyone interested in code and software for scientific research. It is held on the first Thursday of every month, usually at the University Library (Utrecht Science Park).\nYou can learn more about the Programming Cafe on our About page. Our Agenda lists upcoming and previous editions of the Programming Cafe, while the Posts contain the slides and exercises per edition. Last but not least, the Programming Cafe would not be what it is without it’s People!"
   },
   {
-    "objectID": "people.html#team",
-    "href": "people.html#team",
-    "title": "People",
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Programming Cafe",
+    "section": "About",
+    "text": "About"
+  },
+  {
+    "objectID": "index.html#agenda-previous-editions",
+    "href": "index.html#agenda-previous-editions",
+    "title": "Programming Cafe",
+    "section": "Agenda & Previous Editions",
+    "text": "Agenda & Previous Editions"
+  },
+  {
+    "objectID": "index.html#people",
+    "href": "index.html#people",
+    "title": "Programming Cafe",
+    "section": "People",
+    "text": "People"
+  },
+  {
+    "objectID": "index.html#posts",
+    "href": "index.html#posts",
+    "title": "Programming Cafe",
+    "section": "Posts",
+    "text": "Posts"
+  },
+  {
+    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html",
+    "href": "posts/2023-04-26_quickstart-to-quarto/index.html",
+    "title": "Quickstart to Quarto",
     "section": "",
-    "text": "Jelle Treep\nNeha Moopen"
+    "text": "Note\n\n\n\n\nDate: Wednesday, 26th April 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Quickstart to Quarto\nPresenter: Neha Moopen\nAn introduction to Quarto.\nQuarto is an open-source scientific and technical publishing system built on Pandoc. It allows you create dynamic documents which weave text and code together to produce documents, web pages, blog posts, books and more. Developed by Posit (formerly RStudio), it is considered the ‘next-generation’ of R Markdown.\nIn this edition of the Programming Cafe, Neha Moopen introduced Quarto and provided a demo on how to build websites with it."
   },
   {
-    "objectID": "people.html#presenters",
-    "href": "people.html#presenters",
-    "title": "People",
-    "section": "Presenters",
-    "text": "Presenters\n\nJelle Treep\nNeha Moopen\nJonathan de Bruin\nRaoul Schram\nChristine Staiger\nStefan Vermeent\nJohan Hidding\nDawa Ometto\nEmilia Jarochowska\nLuka van de Wiel\nLuka van der Plas"
-  },
-  {
-    "objectID": "posts/2024-04-04_parallel-programming/index.html",
-    "href": "posts/2024-04-04_parallel-programming/index.html",
-    "title": "Parallel Programming",
-    "section": "",
-    "text": "Note\n\n\n\n\nDate: Thursday, 4th April 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Parallel programming is not easy\nPresenter: Lukas van de Wiel\nSpeed up your HPC workflow!\nDo you want to perform many calculations or large analyses that would take very long on your own laptop? High Performance Computing (HPC) platforms provide compute power that might help to speed up your calculations or to increase your problem size (e.g. simulations at finer resolution, or exploring more parameter combinations). In this Programming Cafe Lukas van de Wiel, scientific programmer in Earth Sciences, will introduce us in the concepts of writing parallel code for HPC. As always we will prepare some hands on exercises so you can practice writing some parallel code yourself!"
-  },
-  {
-    "objectID": "posts/2024-04-04_parallel-programming/index.html#slides",
-    "href": "posts/2024-04-04_parallel-programming/index.html#slides",
-    "title": "Parallel Programming",
+    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html#slides",
+    "href": "posts/2023-04-26_quickstart-to-quarto/index.html#slides",
+    "title": "Quickstart to Quarto",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "posts/2024-04-04_parallel-programming/index.html#exercises",
-    "href": "posts/2024-04-04_parallel-programming/index.html#exercises",
-    "title": "Parallel Programming",
+    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html#exercises",
+    "href": "posts/2023-04-26_quickstart-to-quarto/index.html#exercises",
+    "title": "Quickstart to Quarto",
     "section": "Exercises",
-    "text": "Exercises\n\nPythonR\n\n\nThere are many ways to speed up your code in Python, and also many ways to parallelize your code. The Parallel Programming in Python course that is co-developed and taught by the eScience Center is a great way to learn more about this in more detail. Below is a notebook that will introduce you to the multiprocessing library in Python, and a link to some the course materials of the above course about dask.\n\n1. multiprocessing library\nDownload the notebook from the notebooks (link missing) folder and follow the instructions in the notebook.\n\n\n2. dask and profilers\nCheckout this cool tutorial on dask and measuring performance from the Parallel Programming in Python course (by the eScience Center).\n\n\nOptional:\nBrowse the Parallel Programming in Python course to see what other topics might be interesting for you, and feel free to try out some of the code examples.\n\n\n\nThere are different approaches to parallel programming in R. One package that can be used is the doFuture package in combination with the foreach package.\ninstall.packages(\"doFuture\")\ninstall.packages('foreach')\nFollow this tutorial on how to use this package and stop at the section Writing code that runs on multiple nodes.\nTry now to use the same method for doing some computations in parallel. For example:\nestimate_pi &lt;- function(N) {\n    j &lt;- 0\n    for (i in 1:N) {\n        x &lt;- runif(1,-1,1)\n        y &lt;- runif(1,-1,1)\n        if (x^2+y^2&lt; 1)  {\n            j=j+1\n        }\n    }\nreturn(4*j/N)\n}\nTip: There are two approaches: either parallelize the function, or run the function in parallel with batched inputs. Try both, think on forehand what would be the more useful approach and why and compare the results."
+    "text": "Exercises\nThere were no exercises prepared in advance. Attendees followed/coded along with the demo on building websites or worked on their own projects."
   },
   {
-    "objectID": "posts/2024-04-04_parallel-programming/index.html#references",
-    "href": "posts/2024-04-04_parallel-programming/index.html#references",
-    "title": "Parallel Programming",
-    "section": "References",
-    "text": "References"
+    "objectID": "posts/2023-04-26_quickstart-to-quarto/index.html#reference",
+    "href": "posts/2023-04-26_quickstart-to-quarto/index.html#reference",
+    "title": "Quickstart to Quarto",
+    "section": "Reference",
+    "text": "Reference\n\nhttps://quarto.org/docs/websites/"
   },
   {
-    "objectID": "posts/2024-02-08_julia/index.html",
-    "href": "posts/2024-02-08_julia/index.html",
-    "title": "Introduction to Julia",
+    "objectID": "posts/2023-01-25_github-copilot/index.html",
+    "href": "posts/2023-01-25_github-copilot/index.html",
+    "title": "GitHub Copilot",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Thursday, 8th February 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Demo of the Julia Programming Language\nPresenter: Emilia Jarochowska\nWho or What is Julia?\nJulia is a programming language designed for scientific applications. It’s an attractive free alternative to Matlab and for users trained in STEM (Science, technology, engineering, and mathematics) rather than software development: the syntax is close to mathematical notation and the development of libraries for high-performance scientific computation is very active. Compared to Python, Julia’s reproducible environments system is designed to be moved between platforms more smoothly and reduce compatibility issues. But the main focus of Julia is high performance; although it can be used interactively (as scripts), it can be as fast - occasionally faster - than compiled languages such as Fortran."
+    "text": "Note\n\n\n\n\nDate: Wednesday, 25th January 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: GitHub Copilot\nPresenter: Jelle Treep\nYour AI pair programmer!\nIn this edition of the Programming Cafe, Jelle Treep introduced us to GitHub Copilot."
   },
   {
-    "objectID": "posts/2024-02-08_julia/index.html#slides",
-    "href": "posts/2024-02-08_julia/index.html#slides",
-    "title": "Introduction to Julia",
+    "objectID": "posts/2023-01-25_github-copilot/index.html#slides",
+    "href": "posts/2023-01-25_github-copilot/index.html#slides",
+    "title": "GitHub Copilot",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "posts/2024-02-08_julia/index.html#exercises",
-    "href": "posts/2024-02-08_julia/index.html#exercises",
-    "title": "Introduction to Julia",
+    "objectID": "posts/2023-01-25_github-copilot/index.html#exercises",
+    "href": "posts/2023-01-25_github-copilot/index.html#exercises",
+    "title": "GitHub Copilot",
     "section": "Exercises",
-    "text": "Exercises\n\nInstallation\nExercises"
+    "text": "Exercises\nThere were no exercises, a demo of GitHub Copilot was provided instead."
   },
   {
-    "objectID": "posts/2023-05-31_projectlog/index.html",
-    "href": "posts/2023-05-31_projectlog/index.html",
-    "title": "projectlog",
+    "objectID": "posts/2022-11-30_software-licenses/index.html",
+    "href": "posts/2022-11-30_software-licenses/index.html",
+    "title": "Software Licenses",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 31st May 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: projectlog: An R package for improving project management and documentation\nPresenter: Stefan Vermeent\nAn R package for improving project management and documentation.\nIn this edition of the Programming Cafe, Stefan Vermeent (PhD Candidate, Faculty of Social & Behavioral Sciences) presented projectlog - the R package he developed to help researchers manage and document their project from start to finish."
+    "text": "Note\n\n\n\n\nDate: Wednesday, 30th November 2022\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Software Licenses\nPresenter: Jonathan de Bruin\nA deep dive into software licenses.\nIn this edition of the Programming Cafe, Jonathan de Bruin led a hands-on discussion about software licenses. There weren’t any slides, but we remembered to take some photos!"
   },
   {
-    "objectID": "posts/2023-05-31_projectlog/index.html#slides",
-    "href": "posts/2023-05-31_projectlog/index.html#slides",
-    "title": "projectlog",
+    "objectID": "posts/2022-11-30_software-licenses/index.html#photos",
+    "href": "posts/2022-11-30_software-licenses/index.html#photos",
+    "title": "Software Licenses",
+    "section": "Photos",
+    "text": "Photos\n\n\n\nwho has published, which was license was used\n\n\n\n\n\nterms and conditions under licenses\n\n\n\n\n\ncopyright vs. copyleft\n\n\n\n\n\ncookies"
+  },
+  {
+    "objectID": "posts/2022-11-30_software-licenses/index.html#exercise",
+    "href": "posts/2022-11-30_software-licenses/index.html#exercise",
+    "title": "Software Licenses",
+    "section": "Exercise",
+    "text": "Exercise\nCheck out Choose an open source license | Choose a License and explore which licenses may be suitable for your project."
+  },
+  {
+    "objectID": "posts/2024-05-02_pluto/index.html",
+    "href": "posts/2024-05-02_pluto/index.html",
+    "title": "Pluto.jl",
+    "section": "",
+    "text": "Note\n\n\n\n\nDate: Thursday, 2nd May 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Pluto.jl, Interactive Notebooks for Julia\nPresenter: Lukas van de Wiel\nInteractive Notebooks for Julia and More.\nAre you curious about how scientific computing can be more accessible and fun? Pluto is a programming environment for Julia designed to be just that. In a simple, intuitive environment, you can create lightweight, reproducible notebooks that react instantly to your ideas. In this edition of the Programming Cafe, Luka van der Plas (Developer at the Research Software Lab) will tell you what Pluto is, and how it can benefit researchers and educators."
+  },
+  {
+    "objectID": "posts/2024-05-02_pluto/index.html#slides",
+    "href": "posts/2024-05-02_pluto/index.html#slides",
+    "title": "Pluto.jl",
     "section": "Slides",
     "text": "Slides\ncoming soon"
   },
   {
-    "objectID": "posts/2023-05-31_projectlog/index.html#exercises",
-    "href": "posts/2023-05-31_projectlog/index.html#exercises",
-    "title": "projectlog",
+    "objectID": "posts/2024-05-02_pluto/index.html#exercises",
+    "href": "posts/2024-05-02_pluto/index.html#exercises",
+    "title": "Pluto.jl",
     "section": "Exercises",
-    "text": "Exercises\nThere were no exercises. Attendees followed/coded along with the demo on projectlog or worked on their own projects."
+    "text": "Exercises\ncoming soon"
   },
   {
-    "objectID": "posts/2023-05-31_projectlog/index.html#reference",
-    "href": "posts/2023-05-31_projectlog/index.html#reference",
-    "title": "projectlog",
+    "objectID": "posts/2023-09-07_literate-programming/index.html",
+    "href": "posts/2023-09-07_literate-programming/index.html",
+    "title": "Literate Programming",
+    "section": "",
+    "text": "Note\n\n\n\n\nDate: Thursday, 7th September 2023\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nPresentation: Literate Programming\nPresenter: Johan Hidding\nLiterate Programming in Markdown.\nLiterate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer (source).\nJohan Hidding (eScienceCenter) is passionate about literate programming and in this edition of the Programming Cafe, he presented a package that he developed to write Literate Programs in Markdown."
+  },
+  {
+    "objectID": "posts/2023-09-07_literate-programming/index.html#slides",
+    "href": "posts/2023-09-07_literate-programming/index.html#slides",
+    "title": "Literate Programming",
+    "section": "Slides",
+    "text": "Slides\ncoming soon"
+  },
+  {
+    "objectID": "posts/2023-09-07_literate-programming/index.html#reference",
+    "href": "posts/2023-09-07_literate-programming/index.html#reference",
+    "title": "Literate Programming",
     "section": "Reference",
-    "text": "Reference\n\nVermeent S (2023). projectlog: Tools for documenting your project workflow. R package version 0.1.0, https://stefanvermeent.github.io/projectlog/.\nhttps://github.com/StefanVermeent/projectlog"
+    "text": "Reference\n\nhttps://www-cs-faculty.stanford.edu/~knuth/lp.html"
   },
   {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html",
-    "title": "Scheduling Scripts",
+    "objectID": "posts/2023-01-25_polars/index.html",
+    "href": "posts/2023-01-25_polars/index.html",
+    "title": "Polars",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 2nd November 2023\nTime: 15:00-17:00\nLocation: Bestuursgebouw Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Scheduling Scripts\nPresenter: Neha Mooopen & Jelle Treep\nAutomate the boring things using the schedulers on your computers!\nIn this edition of the Programming Cafe, we familiarized ourselves with the schedulers available on our operating systems. Windows Task Scheduler & cron. We learnt how we could use these schedulers to automate the execution of scripts. We also touched upon scheduling cron jobs with GitHub Actions."
+    "text": "Note\n\n\n\n\nDate: Wednesday, 25th January 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Polars: Fast DataFrames in Python\nPresenter: Raoul Schram\nFast DataFrames in Python\nIn this edition of the Programming Cafe, Raoul Schram introduced us to Polars. Polars is a library for dataframes that has been described as blazingly fast 💨 and lightning-fast ⚡.\nWe learnt about how Polars can be used in Python, plus how it stacks up against other popular dataframe libraries."
   },
   {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#slides",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html#slides",
-    "title": "Scheduling Scripts",
+    "objectID": "posts/2023-01-25_polars/index.html#slides",
+    "href": "posts/2023-01-25_polars/index.html#slides",
+    "title": "Polars",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html#exercise",
-    "title": "Scheduling Scripts",
-    "section": "Exercise",
-    "text": "Exercise\nAfter the presentation, we invite you to try out the scheduler on your operating system yourself!\nWe have prepared some R & Python scripts that you can utilize for this. You can download the materials here: exercises.zip.\nDon’t forget to unzip the folder to an accessible location on your system.\n\nWindows\n\nRPython\n\n\n\nGo to windows/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it using Windows Task Scheduler.\n\n\n\n\nGo to windows/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it using Windows Task Scheduler.\n\n\n\n\n\n\nMacOS\n\nRPython\n\n\n\nGo to macos/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it using cron.\n\n\n\n\nGo to macos/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it using cron.\n\n\n\n\n\n\nLinux\n\nRPython\n\n\n\nGo to linux/r and double-click on scheduling-scripts.Rproj to open RStudio.\nOpen the countdown.R script from your Files pane and run the script once to make sure it works.\nIf the script works fine, you can try scheduling it using cron.\n\n\n\n\nGo to linux/python and double-click on countdown.py to open it.\nRun the script to make sure it works.\nIf the script works fine, you can try scheduling it using cron."
+    "objectID": "posts/2023-01-25_polars/index.html#exercises",
+    "href": "posts/2023-01-25_polars/index.html#exercises",
+    "title": "Polars",
+    "section": "Exercises",
+    "text": "Exercises\nThere were no exercises, a demo of Polars was provided instead."
   },
   {
-    "objectID": "posts/2023-11-02_scheduling-scripts/index.html#references",
-    "href": "posts/2023-11-02_scheduling-scripts/index.html#references",
-    "title": "Scheduling Scripts",
-    "section": "References",
-    "text": "References\n\nhttps://www.tomsguide.com/how-to/how-to-use-task-scheduler-on-windows\nhttps://itsfoss.com/cron-job/"
-  },
-  {
-    "objectID": "posts/2024-03-07_packaging/index.html",
-    "href": "posts/2024-03-07_packaging/index.html",
-    "title": "Packaging in Python & R",
+    "objectID": "posts/2024-06-06_managing-environments/index.html",
+    "href": "posts/2024-06-06_managing-environments/index.html",
+    "title": "Managing Environments",
     "section": "",
-    "text": "Note\n\n\n\n\nDate: Thursday, 7th March 2024\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Creating Your Own Python & R Packages\nPresenters: Raoul Schram & Jelle Treep\nEver wanted to build your own R/Python package?\nIf you work with Python and R, you will have undoubtedly used packages (e.g. numpy, pandas, ggplot2, tidyr). But did you know you can create your own packages? And did you know that this is not so difficult and often a good idea? In this edition of the Programming Cafe, we discuss:\nWe will also have small tutorials for creating a simple package in R and Python yourself in the second hour of the Programming Cafe, with experts in the room to help you!"
+    "text": "Note\n\n\n\n\nDate: Thursday, 6th June 2024\nTime: 15:00-17:00\nLocation: Buys Ballotgebouw 1.69 (Utrecht Science Park)\nPresenter: Libio Goncalves Braz\nDo you often get stuck in programming when working on different projects because of incompatible libraries/packages on your system? Or do you want to learn more on good practices to make your code fully reproducible? Dive in package management best practices to improve your development workflow and reusability of your code. In this session, we will talk about virtual environments such as venv or Anaconda, and container systems such as Docker or Podman, to tackle libraries management for any programming languages (Python, R, Haskell, C, etc). This special edition of the Programming cafe is hosted at the Faculty of Science, but open for everyone! Libio Goncalves Braz, developer at Information and Computing Sciences, will provide a short presentation and demo on this topic. As always, there will be exercises on this topic for the ones that want to practice with managing coding environments."
   },
   {
-    "objectID": "posts/2024-03-07_packaging/index.html#slides",
-    "href": "posts/2024-03-07_packaging/index.html#slides",
-    "title": "Packaging in Python & R",
+    "objectID": "posts/2024-06-06_managing-environments/index.html#slides",
+    "href": "posts/2024-06-06_managing-environments/index.html#slides",
+    "title": "Managing Environments",
     "section": "Slides",
     "text": "Slides"
   },
   {
-    "objectID": "posts/2024-03-07_packaging/index.html#exercises",
-    "href": "posts/2024-03-07_packaging/index.html#exercises",
-    "title": "Packaging in Python & R",
+    "objectID": "posts/2024-06-06_managing-environments/index.html#exercises",
+    "href": "posts/2024-06-06_managing-environments/index.html#exercises",
+    "title": "Managing Environments",
     "section": "Exercises",
-    "text": "Exercises\n\nR tutorial: https://edu.nl/prn4j\nPython Poetry tutorial: https://edu.nl/wuewu\nPython Setuptools tutorial: https://edu.nl/vytqk"
-  },
-  {
-    "objectID": "posts/2023-03-29_yoda-irods-workflows/index.html",
-    "href": "posts/2023-03-29_yoda-irods-workflows/index.html",
-    "title": "YODA & iRODS Workflows",
-    "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 29th March 2023\nTime: 15:00-17:00\nLocation: Bucheliuszaal 6.18, University Library (Utrecht Science Park)\nPresentation: Programming Data Workflows in Yoda/iRODS\nPresenter: Christine Staiger\nMaster the chaos of data management in Yoda & iRODS!\nIn this edition of the Programming Cafe, Christine Staiger presented about the use of annotated data objects and annotating data objects in Yoda & iRODS workflows."
-  },
-  {
-    "objectID": "posts/2023-03-29_yoda-irods-workflows/index.html#slides",
-    "href": "posts/2023-03-29_yoda-irods-workflows/index.html#slides",
-    "title": "YODA & iRODS Workflows",
-    "section": "Slides",
-    "text": "Slides"
-  },
-  {
-    "objectID": "posts/2023-03-29_yoda-irods-workflows/index.html#exercises",
-    "href": "posts/2023-03-29_yoda-irods-workflows/index.html#exercises",
-    "title": "YODA & iRODS Workflows",
-    "section": "Exercises",
-    "text": "Exercises\nThere were no exercises, attendees worked on their own projects."
-  },
-  {
-    "objectID": "posts/2022-09-28_git-and-github/index.html",
-    "href": "posts/2022-09-28_git-and-github/index.html",
-    "title": "Git, GitHub & GitHub Actions",
-    "section": "",
-    "text": "Note\n\n\n\n\nDate: Wednesday, 28th September 2022\nTime: 15:00-17:00\nLocation: Living Lab, University Library (Utrecht Science Park)\nPresentation: Getting Started With Git, GitHub & GitHub Actions\nPresenters: Neha Moopen & Jelle Treep\nLet’s Git Started!\nOn 28th September 2022, we had our first Programming Cafe! The Programming Cafe is a ‘relaunch’ of the popular R Cafe, from the pre-corona days.\nWe discussed the use of Git, GitHub & GitHub Actions during this edition of the Programming Cafe. Beginners were shown how to get started with GitHub without any coding, while intermediate/advanced users were introduced to the Git workflow and GitHub Actions."
-  },
-  {
-    "objectID": "posts/2022-09-28_git-and-github/index.html#slides",
-    "href": "posts/2022-09-28_git-and-github/index.html#slides",
-    "title": "Git, GitHub & GitHub Actions",
-    "section": "Slides",
-    "text": "Slides\nCheck out the slides below:"
-  },
-  {
-    "objectID": "posts/2022-09-28_git-and-github/index.html#exercises",
-    "href": "posts/2022-09-28_git-and-github/index.html#exercises",
-    "title": "Git, GitHub & GitHub Actions",
-    "section": "Exercises",
-    "text": "Exercises\nThe exercises are a selection from https://skills.github.com/.\n\nBeginner: Getting started With GitHub\n\nIntroduction to GitHub\nCommunicate Using Markdown\nGitHub Pages\n\n\n\nIntermediate: Working with GitHub\n\nReview Pull Requests\nResolve Merge Conflicts\n\n\n\nAdvanced: GitHub Actions\n\nQuickstart\nHello GitHub Actions\nContinuous Integration\n\n\n\nFurther Reading\n\nBuild & Test Python\nRender RMarkdown Using GitHub Actions"
-  },
-  {
-    "objectID": "posts/2022-09-28_git-and-github/index.html#utrecht-universitys-github-organization",
-    "href": "posts/2022-09-28_git-and-github/index.html#utrecht-universitys-github-organization",
-    "title": "Git, GitHub & GitHub Actions",
-    "section": "Utrecht University’s GitHub Organization",
-    "text": "Utrecht University’s GitHub Organization\nWe greatly encourage the use of Git & GitHub in research projects. Utrecht University maintains a GitHub organization for staff and students: https://github.com/UtrechtUniversity.\nHere is a video about Utrecht University’s GitHub organization:"
+    "text": "Exercises\nGo to exercises"
   },
   {
     "objectID": "posts/2024-01-11_advanced-git/index.html",
@@ -536,6 +557,6 @@
     "href": "agenda.html#previous-editions",
     "title": "Agenda",
     "section": "Previous Editions",
-    "text": "Previous Editions\n\n2024\n\nJuly\nManaging Coding Environments With Conda & Docker / Environment Management in R & Python\nPluto.jl, Interactive Notebooks for Julia\nParallel Programming Is Not Easy\nCreating Your Own Python & R Packages\nDemo of the Julia Programming Language\nAdvanced Git\n\n\n\n2023\n\nScheduling Scripts\nData Visualization\nLiterate Programming\nGitHub Actions for Absolute Beginners & Advanced GitHub Users\nprojectlog: An R Package for Improving Project Management & Documentation\nQuickstart to Quarto\nProgramming Data Workflows in Yoda/iRODS\nProject Management: Good Practices in Managing Your Code & Data Workflows\nPolars: Fast DataFrames in Python & GitHub Copilot\n\n\n\n2022\n\nSoftware Licenses\nCode Readability: Linters & Formatters in R & Python\nGetting Started With Git, GitHub & GitHub Actions"
+    "text": "Previous Editions\n\n2024\n\nJuly\nManaging Coding Environments With Conda & Docker\nPluto.jl, Interactive Notebooks for Julia\nParallel Programming Is Not Easy\nCreating Your Own Python & R Packages\nDemo of the Julia Programming Language\nAdvanced Git\n\n\n\n2023\n\nScheduling Scripts\nData Visualization\nLiterate Programming\nGitHub Actions for Absolute Beginners & Advanced GitHub Users\nprojectlog: An R Package for Improving Project Management & Documentation\nQuickstart to Quarto\nProgramming Data Workflows in Yoda/iRODS\nProject Management: Good Practices in Managing Your Code & Data Workflows\nPolars: Fast DataFrames in Python & GitHub Copilot\n\n\n\n2022\n\nSoftware Licenses\nCode Readability: Linters & Formatters in R & Python\nGetting Started With Git, GitHub & GitHub Actions"
   }
 ]

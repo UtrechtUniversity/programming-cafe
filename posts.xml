@@ -10,7 +10,50 @@
 <atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website for the Programming Cafe @UtrechtUniversity.</description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Thu, 02 May 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 06 Jun 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Managing Environments</title>
+  <dc:creator>Libio Goncalves Braz</dc:creator>
+  <link>https://utrechtuniversity.github.io/programming-cafe/posts/2024-06-06_managing-environments/</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Date:</strong> Thursday, 6th June 2024</li>
+<li><strong>Time:</strong> 15:00-17:00</li>
+<li><strong>Location:</strong> Buys Ballotgebouw 1.69 (Utrecht Science Park)</li>
+<li><strong>Presenter:</strong> Libio Goncalves Braz</li>
+</ul>
+</div>
+</div>
+<p>Do you often get stuck in programming when working on different projects because of incompatible libraries/packages on your system? Or do you want to learn more on good practices to make your code fully reproducible? Dive in package management best practices to improve your development workflow and reusability of your code. In this session, we will talk about virtual environments such as venv or Anaconda, and container systems such as Docker or Podman, to tackle libraries management for any programming languages (Python, R, Haskell, C, etc). This special edition of the Programming cafe is hosted at the Faculty of Science, but open for everyone! Libio Goncalves Braz, developer at Information and Computing Sciences, will provide a short presentation and demo on this topic. As always, there will be exercises on this topic for the ones that want to practice with managing coding environments.</p>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">Slides</h2>
+<iframe width="1050" height="700" src="../../presentations/24-06-06_managing-environments/slides/24-06-06_managing-environments/slides.html"></iframe>
+</section>
+<section id="exercises" class="level2">
+<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
+<p><a href="https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/presentations/2024-06-06_managing-environments/exercises/README.md">Go to exercises</a></p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://utrechtuniversity.github.io/programming-cafe/posts/2024-06-06_managing-environments/</guid>
+  <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Pluto.jl</title>
   <dc:creator>Luka van der Plas</dc:creator>
