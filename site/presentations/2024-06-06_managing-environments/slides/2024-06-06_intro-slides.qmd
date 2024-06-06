@@ -25,6 +25,8 @@ format:
 
 : {.striped}
 
+URL for exercises: https://edu.nl/mc87k
+
 :::
 
 ## Programming Cafe
