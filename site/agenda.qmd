@@ -39,7 +39,7 @@ format: "html"
 ### 2024
 
 - _July_
-- _Managing Coding Environments With Conda & Docker / Environment Management in R & Python_
+- [Managing Coding Environments With Conda & Docker](posts/2024-06-06_managing-environments/index.qmd)
 - [Pluto.jl, Interactive Notebooks for Julia](posts/2024-05-02_pluto/index.qmd)
 - [Parallel Programming Is ~~Not~~ Easy](posts/2024-04-04_parallel-programming/index.qmd)
 - [Creating Your Own Python & R Packages](posts/2024-03-07_packaging/index.qmd)

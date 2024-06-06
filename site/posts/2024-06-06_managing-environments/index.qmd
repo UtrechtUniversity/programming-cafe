@@ -1,0 +1,27 @@
+---
+title: "Managing Environments"
+date: "2024-06-06"
+author: "Libio Goncalves Braz"
+format: "html"
+---
+
+::: {.callout-note icon=false}
+
+- **Date:** Thursday, 6th June 2024
+- **Time:** 15:00-17:00
+- **Location:** Buys Ballotgebouw 1.69 (Utrecht Science Park)
+- **Presenter:** Libio Goncalves Braz
+
+:::
+
+Do you often get stuck in programming when working on different projects because of incompatible libraries/packages on your system? Or do you want to learn more on good practices to make your code fully reproducible? Dive in package management best practices to improve your development workflow and reusability of your code. In this session, we will talk about virtual environments such as venv or Anaconda, and container systems such as Docker or Podman, to tackle libraries management for any programming languages (Python, R, Haskell, C, etc). This special edition of the Programming cafe is hosted at the Faculty of Science, but open for everyone! Libio Goncalves Braz, developer at Information and Computing Sciences, will provide a short presentation and demo on this topic. As always, there will be exercises on this topic for the ones that want to practice with managing coding environments.
+
+## Slides
+
+```{=html}
+<iframe width="1050" height="700" src="../../presentations/2024-06-06_managing-environments/slides/2024-06-06_intro-slides.html"></iframe>
+```
+
+## Exercises
+
+[Go to exercises](https://github.com/UtrechtUniversity/programming-cafe/blob/main/site/presentations/2024-06-06_managing-environments/exercises/README.md)
