@@ -28,6 +28,10 @@ We will also have small tutorials for creating a simple package in R and Python 
 ## Slides
 
 ```{=html}
+<embed src="../../presentations/2024-03-07_packaging/slides/packaging.pdf" width="800px" height="2100px" />
+```
+
+```{=html}
 <iframe width="1050" height="700" src="../../presentations/2024-03-07_packaging/slides/2024-03-07_packaging.html"></iframe>
 ```
 
