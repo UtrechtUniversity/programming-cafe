@@ -41,7 +41,7 @@ Note
 <p>Do you often get stuck in programming when working on different projects because of incompatible libraries/packages on your system? Or do you want to learn more on good practices to make your code fully reproducible? Dive in package management best practices to improve your development workflow and reusability of your code. In this session, we will talk about virtual environments such as venv or Anaconda, and container systems such as Docker or Podman, to tackle libraries management for any programming languages (Python, R, Haskell, C, etc). This special edition of the Programming cafe is hosted at the Faculty of Science, but open for everyone! Libio Goncalves Braz, developer at Information and Computing Sciences, will provide a short presentation and demo on this topic. As always, there will be exercises on this topic for the ones that want to practice with managing coding environments.</p>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<iframe width="1050" height="700" src="../../presentations/24-06-06_managing-environments/slides/24-06-06_managing-environments/slides.html"></iframe>
+<iframe width="1050" height="700" src="../../presentations/24-06-06_managing-environments/slides/24-06-06_intro-slides.html"></iframe>
 </section>
 <section id="exercises" class="level2">
 <h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
