@@ -22,6 +22,11 @@ Do you want to perform many calculations or large analyses that would take very 
 ## Slides
 
 ```{=html}
+<embed src="parallelProgramming.pdf" width="800px" height="2100px" />
+```
+
+
+```{=html}
 <iframe width="1050" height="700" src="../../presentations/2024-04-04_parallel-programming/slides/2024-04-04_parallel-programming.html"></iframe>
 ```
 
