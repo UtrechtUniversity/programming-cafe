@@ -1,0 +1,67 @@
+--- 
+format: 
+  revealjs:
+    theme: ../../styles/uu.scss
+    logo: ../../styles/UU_logo_2021_EN_RGB.png
+    footer: "Programming Cafe"
+    embed-resources: true
+---
+
+# Welcome to the Programming Café! {data-background-color="#FFCD00"}
+
+## Welcome to the Programming Cafe!
+
+::: {style="text-align: left; margin-top: 2em; font-size: 1.8em"}
+
+<br>
+<br>
+
+|    |    |
+|------------------------------|-------------|
+| Walk-in | 15:00 |
+| Presentation | 15:15 |
+| Tutorials or work on your own project | ~15:45 |
+| Wrap up | 16:45 |
+
+: {.striped}
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em; font-size: 1.5em"}
+
+-    R-Cafe
+-    Presentation, demo, exercises
+-    Community event
+-    Local event
+-    Researchers, students, support staff
+-    It is OK to work on your own code
+
+:::
+
+## Programming Cafe
+
+::: {style="text-align: left; margin-top: 2em; font-size: 1.5em"}
+
+-    Organized by RDM support (uu.nl/rdm)
+-    Ideas for topics? Let us know!
+-    Wanted: Core team members
+-    Feedback welcome! 
+
+:::
+
+## RDM Support
+
+::: {style="text-align: left; margin-top: 2em; font-size: 1.5em"}
+-    (software) engineers and data managers/consultants
+-    Programming workshops (Python, R, best practices, etc.)
+-    Programming Cafe & Walk-in hours
+-    HPC & Cloud consultancy and access
+-    Data management consultancy and support
+-    UU/UMCU Programming community on Teams
+:::
+
+# {data-background-color="#FFCD00"}
+
+![](../../styles/UU_logo_2021_EN_RGB_payoff.png)
