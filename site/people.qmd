@@ -19,5 +19,6 @@ format: "html"
 - Johan Hidding
 - Dawa Ometto
 - Emilia Jarochowska
-- Luka van de Wiel
+- Lukas van de Wiel
 - Luka van der Plas
+- Libio Goncalves Braz
