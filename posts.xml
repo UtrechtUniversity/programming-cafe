@@ -9,7 +9,7 @@
 <link>https://utrechtuniversity.github.io/programming-cafe/posts.html</link>
 <atom:link href="https://utrechtuniversity.github.io/programming-cafe/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Website for the Programming Cafe @UtrechtUniversity.</description>
-<generator>quarto-1.4.555</generator>
+<generator>quarto-1.5.53</generator>
 <lastBuildDate>Thu, 06 Jun 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Managing Environments</title>
@@ -1492,6 +1492,7 @@ Note
 background-color: null;
 font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">function</span>(one) {</span>
 <span id="cb1-2">  one.plus.one <span class="ot" style="color: #003B4F;
 background-color: null;
@@ -1534,6 +1535,7 @@ background-color: null;
 font-style: inherit;">1</span></span>
 <span id="cb1-7">  <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> (txt <span class="sc" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span> <span class="st" style="color: #20794D;
@@ -1566,6 +1568,7 @@ background-color: null;
 font-style: inherit;">1</span></span>
 <span id="cb2-3"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> MYFUNCTION (X ,y <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
@@ -1586,6 +1589,7 @@ background-color: null;
 font-style: inherit;">1</span></span>
 <span id="cb2-5"> <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">return</span> (</span>
 <span id="cb2-6">        X<span class="op" style="color: #5E5E5E;
 background-color: null;
